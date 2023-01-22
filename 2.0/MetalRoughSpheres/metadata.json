@@ -1,0 +1,26 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Copyright 2017 Analytical Graphics, Inc.",
+        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+        "Model and textures by Ed Mackey."
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.png",
+    "name": "Metal-Rough Spheres",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MetalRoughSpheres",
+    "createReadme": true,
+    "screenshotType": "png",
+    "key": "MetalRoughSpheres",
+    "pathShot": ".\/2.0\/MetalRoughSpheres\/screenshot\/screenshot.png",
+    "UriShot": ".%2F2.0%2FMetalRoughSpheres%2Fscreenshot%2Fscreenshot.png",
+    "shotHeight": "screenshot\/screenshot-x150.png",
+    "pathHeight": ".\/2.0\/MetalRoughSpheres\/screenshot\/screenshot-x150.png",
+    "UriHeight": ".%2F2.0%2FMetalRoughSpheres%2Fscreenshot%2Fscreenshot-x150.png",
+    "UriReadme": ".%2F2.0%2FMetalRoughSpheres%2FREADME.md",
+    "summary": "... no description ..."
+}

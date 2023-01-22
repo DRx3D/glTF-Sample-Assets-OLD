@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))"
+    ],
+    "tags": [],
+    "description": [
+        "This asset tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. The test passes when two spheres are rendered with nearly the same color.",
+        "* The first (leftmost) sphere uses only JSON-stored emissive factor of `0.5` green.",
+        "* The second sphere samples its color as an interpolated value from a `2x1` texture. When interpolation happens after sRGB decoding, the final emissive value should also be about `0.5` green. An example of incorrect interpolation is shown below.",
+        "  ![incorrect](screenshot\/incorrect.png)",
+        "  ",
+        "> \u26a0\ufe0f _**WARNING**: For technical and historical reasons, some engines \u2014 particularly those using WebGL 1.0 \u2014\u00a0apply sRGB decoding in the fragment shader. Such engines will \"fail\" this test, which is designed specifically to highlight a difference that is generally quite subtle. Modern APIs like WebGL 2.0 and WebGPU provide effective ways to avoid this issue._"
+    ],
+    "screenshot": "screenshot\/screenshot.png",
+    "name": "Texture Linear Interpolation Test",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureLinearInterpolationTest",
+    "createReadme": true,
+    "screenshotType": "png",
+    "key": "TextureLinearInterpolationTest",
+    "pathShot": ".\/2.0\/TextureLinearInterpolationTest\/screenshot\/screenshot.png",
+    "UriShot": ".%2F2.0%2FTextureLinearInterpolationTest%2Fscreenshot%2Fscreenshot.png",
+    "shotHeight": "screenshot\/screenshot-x150.png",
+    "pathHeight": ".\/2.0\/TextureLinearInterpolationTest\/screenshot\/screenshot-x150.png",
+    "UriHeight": ".%2F2.0%2FTextureLinearInterpolationTest%2Fscreenshot%2Fscreenshot-x150.png",
+    "UriReadme": ".%2F2.0%2FTextureLinearInterpolationTest%2FREADME.md",
+    "summary": "This asset tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. The test passes when two spheres are rendered with nearly the same color."
+}

@@ -1,0 +1,33 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Copyright 2021 Analytical Graphics, Inc.  ",
+        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/  ",
+        "Model and textures by Ed Mackey."
+    ],
+    "tags": [],
+    "description": [
+        "This model tests the [`KHR_materials_specular`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_specular) extension, which replaces the older `KHR_materials_pbrSpecularGlossiness` extension.  The latter was a separate PBR workflow, an alternate to the core glTF metallic\/roughness workflow.  This newer `KHR_materials_specular` extension enables control over dielectric specular values from within the metal\/rough workflow.  The two extensions are mutually exclusive per material.",
+        "The first row tests the `specularFactor` parameter.  This parameter influences the specular response at both normal incidence (`f0`) and at grazing incidence (`f90`).  The leftmost sphere on this row should appear perfectly black.",
+        "The second row `specularTexture` controls the same parameter as the first row, using a texture.  It should be identical to the first row.",
+        "The third and fourth rows use a factor and a texture, respectively, to control the specular color (via `specularColorFactor` and `specularColorTexture`).  These rows provide a range of grayscale values, and should influence only the normal incidence (`f0`), not grazing incidence (`f90`).  The centers of the spheres should darken on the left side of the row, but not the edges.",
+        "The fifth and sixth rows repeat the experiment from the third and fourth, using a yellow color at a range of brightnesses in place of the grayscale ramp.  The specular response at the edges of the spheres should remain white throughout.",
+        "The final row tests what happens when `specularColorFactor` is allowed to be greater than 1.0.  The specification allows this such that the material's IOR setting does not clamp the specular response, however energy conservation is still observed and the implementation notes indicate where to properly clamp the resulting value.  The last sphere on this row should look like a mirror ball."
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Specular Test",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SpecularTest",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "SpecularTest",
+    "pathShot": ".\/2.0\/SpecularTest\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FSpecularTest%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/SpecularTest\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FSpecularTest%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FSpecularTest%2FREADME.md",
+    "summary": "This model tests the [`KHR_materials_specular`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_specular) extension, which replaces the older `KHR_materials_pbrSpecularGlossiness` extension.  The latter was a separate PBR workflow, an alternate to the core glTF metallic\/roughness workflow.  This newer `KHR_materials_specular` extension enables control over dielectric specular values from within the metal\/rough workflow.  The two extensions are mutually exclusive per material."
+}

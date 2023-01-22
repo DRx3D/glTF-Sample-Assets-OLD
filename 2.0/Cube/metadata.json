@@ -1,0 +1,24 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Donated by Norbert Nopper for glTF testing."
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Cube",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Cube",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "Cube",
+    "pathShot": ".\/2.0\/Cube\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FCube%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/Cube\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FCube%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FCube%2FREADME.md",
+    "summary": "... no description ..."
+}

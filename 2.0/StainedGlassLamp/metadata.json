@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "(C) 2021, Wayfair LLC. CC-BY 4.0 International https:\/\/creativecommons.org\/licenses\/by\/4.0\/. "
+    ],
+    "tags": [],
+    "description": [
+        "This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https:\/\/www.wayfair.com\/). ",
+        "The model is made of eight parts, each with their own materials and using PNG textures, mostly 2048x2048. All UVs are arranged between 0 and 1, except for a few overlapping parts which have been offset 1 UV unit to avoid texture baking errors. The model uses 55,428 triangles and 51,174 vertices.",
+        "The model demonstrates the following extensions: ",
+        "* [KHR_materials_clearcoat](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_clearcoat\/README.md)",
+        "* [KHR_materials_ior](https:\/\/github.com\/KhronosGroup\/glTF\/pull\/1718)",
+        "* [KHR_materials_transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md)",
+        "* [KHR_materials_variants](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_variants\/README.md)",
+        "* [KHR_materials_volume](https:\/\/github.com\/KhronosGroup\/glTF\/pull\/1726)",
+        "* [KHR_texture_basisu](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_texture_basisu\/)"
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "StainedGlassLamp",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/StainedGlassLamp",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "StainedGlassLamp",
+    "pathShot": ".\/2.0\/StainedGlassLamp\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FStainedGlassLamp%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/StainedGlassLamp\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FStainedGlassLamp%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FStainedGlassLamp%2FREADME.md",
+    "summary": "This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https:\/\/www.wayfair.com\/). "
+}

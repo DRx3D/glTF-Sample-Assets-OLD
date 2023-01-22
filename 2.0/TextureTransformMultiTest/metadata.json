@@ -1,0 +1,30 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Copyright 2020 Analytical Graphics, Inc.",
+        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+        "Model and textures by Ed Mackey."
+    ],
+    "tags": [],
+    "description": [
+        "This model tests if KHR_texture_transform is supported across a variety of different texture inputs, and whether `TEXCOORD_1` works and is also transformed.",
+        "> NOTE: When implementing KHR_texture_transform, it is recommended to test [TextureTransformTest](..\/TextureTransformTest) prior to testing this model.",
+        "To pass every test this model offers, an implementation should render rows of checkmarks, where each of the three tiles in a row look virtually identical.  Note that some of the rows may be very low-contrast, depending on the camera angle and lighting conditions.  A very bright, detailed reflection environment is recommended for optimal testing conditions."
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Texture Transform Multi Test",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureTransformMultiTest",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "TextureTransformMultiTest",
+    "pathShot": ".\/2.0\/TextureTransformMultiTest\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FTextureTransformMultiTest%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/TextureTransformMultiTest\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FTextureTransformMultiTest%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FTextureTransformMultiTest%2FREADME.md",
+    "summary": "This model tests if KHR_texture_transform is supported across a variety of different texture inputs, and whether `TEXCOORD_1` works and is also transformed."
+}

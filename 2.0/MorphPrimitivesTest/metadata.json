@@ -1,0 +1,28 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Model by [@ft-lab](https:\/\/github.com\/ft-lab).",
+        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/"
+    ],
+    "tags": [],
+    "description": [
+        "This model contains a simple mesh with two primitives:  A larger red primitive displays a grid covering 3 of the 4 quadrants of the model's area, followed by a smaller green primitive covering the last quadrant.",
+        "Each primitive has a morph target that creates an elevated area within these quadrants.  The model's only mesh contains a `weights: [0.5]` instruction that should cause these morph targets to be applied at half strength, raising the center of the model as shown in the screenshot above."
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Morph-Primitives Test",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MorphPrimitivesTest",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "MorphPrimitivesTest",
+    "pathShot": ".\/2.0\/MorphPrimitivesTest\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FMorphPrimitivesTest%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/MorphPrimitivesTest\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FMorphPrimitivesTest%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FMorphPrimitivesTest%2FREADME.md",
+    "summary": "This model contains a simple mesh with two primitives:  A larger red primitive displays a grid covering 3 of the 4 quadrants of the model's area, followed by a smaller green primitive covering the last quadrant."
+}

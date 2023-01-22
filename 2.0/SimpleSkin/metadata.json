@@ -1,0 +1,30 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))",
+        "## Data layout",
+        "The following images show the data layout of this sample:",
+        "![skinGeometry](screenshot\/skinGeometry.png)",
+        "![skinAnimation](screenshot\/skinAnimation.png)",
+        "![inverseBindMatrices](screenshot\/inverseBindMatrices.png)",
+        "![skinningData](screenshot\/skinningData.png)"
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.gif",
+    "name": "SimpleSkin",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SimpleSkin",
+    "createReadme": true,
+    "screenshotType": "gif",
+    "key": "SimpleSkin",
+    "pathShot": ".\/2.0\/SimpleSkin\/screenshot\/screenshot.gif",
+    "UriShot": ".%2F2.0%2FSimpleSkin%2Fscreenshot%2Fscreenshot.gif",
+    "shotHeight": "screenshot\/screenshot.gif",
+    "pathHeight": ".\/2.0\/SimpleSkin\/screenshot\/screenshot.gif",
+    "UriHeight": ".%2F2.0%2FSimpleSkin%2Fscreenshot%2Fscreenshot.gif",
+    "UriReadme": ".%2F2.0%2FSimpleSkin%2FREADME.md",
+    "summary": "... no description ..."
+}

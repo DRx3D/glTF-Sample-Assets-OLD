@@ -1,0 +1,33 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "(C) 2021, Wayfair LLC. CC-BY 4.0 International https:\/\/creativecommons.org\/licenses\/by\/4.0\/. "
+    ],
+    "tags": [],
+    "description": [
+        "This model represents a real product, a velvet sofa bed being sold [on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html). ",
+        "The model is made of three parts, each with their own materials. Two 1024x1024 PNG textures are used for the whole model, an ambient occlusion map and a normal bump map. All UVs are arranged between 0 and 1, and `KHR_texture_transform` is used to repeat the normal map for the fabric. The model uses 4319 triangles and 3204 vertices.",
+        "The model uses several extensions: ",
+        "* [KHR_lights_punctual](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_lights_punctual) to provide a key light for better velvet illumination. Sheen seems to respond better to punctual lights than with image-based lighting alone.",
+        "* [KHR_materials_sheen](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_sheen) for velvet sheen.",
+        "* [KHR_materials_specular](https:\/\/github.com\/KhronosGroup\/glTF\/pull\/1719) to colorize facing-angle reflections, which occurs with some fabrics (satins, silks, velvets, etc.).",
+        "* [KHR_materials_variants](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_variants\/README.md) to represent the five fabric color options on this product.",
+        "* [KHR_texture_transform](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_texture_transform\/README.md) to scale the normal bump texture separately from the ambient occlusion texture."
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "GlamVelvetSofa",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/GlamVelvetSofa",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "GlamVelvetSofa",
+    "pathShot": ".\/2.0\/GlamVelvetSofa\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FGlamVelvetSofa%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/GlamVelvetSofa\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FGlamVelvetSofa%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FGlamVelvetSofa%2FREADME.md",
+    "summary": "This model represents a real product, a velvet sofa bed being sold [on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html). "
+}

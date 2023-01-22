@@ -1,0 +1,28 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Copyright 2019 Analytical Graphics, Inc.",
+        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+        "Model by Ed Mackey."
+    ],
+    "tags": [],
+    "description": [
+        "This model tests the [`KHR_materials_unlit`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_unlit) extension.  There are two objects, one orange-ish (`#FF7F00` in sRGB space) and one blue-ish (`#007FFF` in sRGB space).  The visible surface of these two objects should appear as a uniform color, so much so that the 3D effect is intentionally lost."
+    ],
+    "screenshot": "screenshot\/screenshot.png",
+    "name": "Unlit Test",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/UnlitTest",
+    "createReadme": true,
+    "screenshotType": "png",
+    "key": "UnlitTest",
+    "pathShot": ".\/2.0\/UnlitTest\/screenshot\/screenshot.png",
+    "UriShot": ".%2F2.0%2FUnlitTest%2Fscreenshot%2Fscreenshot.png",
+    "shotHeight": "screenshot\/screenshot-x150.png",
+    "pathHeight": ".\/2.0\/UnlitTest\/screenshot\/screenshot-x150.png",
+    "UriHeight": ".%2F2.0%2FUnlitTest%2Fscreenshot%2Fscreenshot-x150.png",
+    "UriReadme": ".%2F2.0%2FUnlitTest%2FREADME.md",
+    "summary": "This model tests the [`KHR_materials_unlit`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_unlit) extension.  There are two objects, one orange-ish (`#FF7F00` in sRGB space) and one blue-ish (`#007FFF` in sRGB space).  The visible surface of these two objects should appear as a uniform color, so much so that the 3D effect is intentionally lost."
+}

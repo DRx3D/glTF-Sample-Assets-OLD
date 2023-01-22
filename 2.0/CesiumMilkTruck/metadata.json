@@ -1,0 +1,25 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Donated by Cesium for glTF testing.  Please follow the [Cesium Trademark Terms and Conditions](https:\/\/github.com\/AnalyticalGraphicsInc\/cesium\/wiki\/CesiumTrademark.pdf).",
+        "This model is licensed under a [Creative Commons Attribution 4.0 International License](http:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.gif",
+    "name": "Cesium Milk Truck",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/CesiumMilkTruck",
+    "createReadme": true,
+    "screenshotType": "gif",
+    "key": "CesiumMilkTruck",
+    "pathShot": ".\/2.0\/CesiumMilkTruck\/screenshot\/screenshot.gif",
+    "UriShot": ".%2F2.0%2FCesiumMilkTruck%2Fscreenshot%2Fscreenshot.gif",
+    "shotHeight": "screenshot\/screenshot.gif",
+    "pathHeight": ".\/2.0\/CesiumMilkTruck\/screenshot\/screenshot.gif",
+    "UriHeight": ".%2F2.0%2FCesiumMilkTruck%2Fscreenshot%2Fscreenshot.gif",
+    "UriReadme": ".%2F2.0%2FCesiumMilkTruck%2FREADME.md",
+    "summary": "... no description ..."
+}

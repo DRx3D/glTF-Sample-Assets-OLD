@@ -1,0 +1,29 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Donated by [Cesium](http:\/\/cesiumjs.org\/) for glTF testing.",
+        "This model is licensed under a [Creative Commons Attribution 4.0 International License](http:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
+    ],
+    "tags": [],
+    "description": [
+        "This model demonstrates a two-channel animation, one for rotation and the other",
+        "translation.  A smaller box rises up out of a larger hollow one, flips over, and",
+        "sinks back down."
+    ],
+    "screenshot": "screenshot\/screenshot.gif",
+    "name": "Box Animated",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoxAnimated",
+    "createReadme": true,
+    "screenshotType": "gif",
+    "key": "BoxAnimated",
+    "pathShot": ".\/2.0\/BoxAnimated\/screenshot\/screenshot.gif",
+    "UriShot": ".%2F2.0%2FBoxAnimated%2Fscreenshot%2Fscreenshot.gif",
+    "shotHeight": "screenshot\/screenshot.gif",
+    "pathHeight": ".\/2.0\/BoxAnimated\/screenshot\/screenshot.gif",
+    "UriHeight": ".%2F2.0%2FBoxAnimated%2Fscreenshot%2Fscreenshot.gif",
+    "UriReadme": ".%2F2.0%2FBoxAnimated%2FREADME.md",
+    "summary": "This model demonstrates a two-channel animation, one for rotation and the other"
+}

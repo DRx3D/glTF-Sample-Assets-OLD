@@ -1,0 +1,29 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))"
+    ],
+    "tags": [],
+    "description": [
+        "Scene to show the parametrization of the `KHR_materials_iridescence` extension with a dielectric base material. The three dimensions of the scene are:",
+        "* Material IOR: index of refraction of the dielectric base material",
+        "* Thin Film Thickness: the thickness of the thin-film layer in nm",
+        "* Thin Film IOR: index of refraction of the thin-film layer"
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Iridescence Dielectric Spheres",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescenceDielectricSpheres",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "IridescenceDielectricSpheres",
+    "pathShot": ".\/2.0\/IridescenceDielectricSpheres\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FIridescenceDielectricSpheres%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/IridescenceDielectricSpheres\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FIridescenceDielectricSpheres%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FIridescenceDielectricSpheres%2FREADME.md",
+    "summary": "Scene to show the parametrization of the `KHR_materials_iridescence` extension with a dielectric base material. The three dimensions of the scene are:"
+}

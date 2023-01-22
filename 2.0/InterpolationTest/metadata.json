@@ -1,0 +1,24 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))"
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.gif",
+    "name": "Interpolation Test",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/InterpolationTest",
+    "createReadme": true,
+    "screenshotType": "gif",
+    "key": "InterpolationTest",
+    "pathShot": ".\/2.0\/InterpolationTest\/screenshot\/screenshot.gif",
+    "UriShot": ".%2F2.0%2FInterpolationTest%2Fscreenshot%2Fscreenshot.gif",
+    "shotHeight": "screenshot\/screenshot.gif",
+    "pathHeight": ".\/2.0\/InterpolationTest\/screenshot\/screenshot.gif",
+    "UriHeight": ".%2F2.0%2FInterpolationTest%2Fscreenshot%2Fscreenshot.gif",
+    "UriReadme": ".%2F2.0%2FInterpolationTest%2FREADME.md",
+    "summary": "... no description ..."
+}

@@ -1,0 +1,39 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "The two meshes in this model (the dragon, and the cloth backdrop) are from different sources and have different licenses applied.",
+        "### Dragon",
+        "The dragon model based on the one from [Morgan McGuire's Computer Graphics Archive](https:\/\/casual-effects.com\/data).  ",
+        "Original dragon mesh data based on a [Stanford Scan](http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/)",
+        "&copy; 1996 Stanford University.",
+        "### Cloth Backdrop",
+        "[![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
+        "To the extent possible under law, Adobe has waived all copyright and related or neighboring rights to this asset [the cloth backdrop]."
+    ],
+    "tags": [],
+    "description": [
+        "This model demonstrates the use of the `KHR_materials_transmission` and `KHR_materials_volume` extensions to specify an object that appears to be made from colored glass.",
+        "The \"Attenuation\" material on the dragon uses full transmission with a perfectly smooth, clear surface color.  The yellow and orange tones are produced by `KHR_material_volume`'s `attenuationColor` and `attenuationDistance`.",
+        "### Thick Volume vs. Thin-Walled",
+        "By default, glTF 2.0 and `KHR_materials_transmission` specify \"thin-walled\" materials, where the mesh's polygons are immeasurably thin.  Any ray of light hitting such a polygon would enter and immediately exit the material.  There is no refraction present on such a material, except for some possible blurriness introduced by rough microfacets on its surface.",
+        "However, `KHR_materials_volume` introduces the new parameters `thicknessFactor` and `thicknessTexture`.  When `thicknessFactor` is non-zero, the material definition changes from thin-walled to a thick volume.  The mesh's polygons are then considered to represent a manifold surface surrounding a solid three-dimensional volume of material.  This material produces refraction, as shown in the screenshot above where the view through the dragon distorts the checkerboard grid of the cloth behind it.",
+        "For rasterizers that do not use ray tracing or path tracing, the product of `thicknessFactor` and `thicknessTexture` offer an average mesh thickness per texel along the surface.  This allows for example the dragon's thin claws to absorb less light and appear lighter yellow, while the dragon's thicker body appears a deeper orange.",
+        "Because the `KHR_materials_ior` extension is not present, glTF's default IOR of 1.5 is used for the material."
+    ],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Dragon Attenuation",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/DragonAttenuation",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "DragonAttenuation",
+    "pathShot": ".\/2.0\/DragonAttenuation\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FDragonAttenuation%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/DragonAttenuation\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FDragonAttenuation%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FDragonAttenuation%2FREADME.md",
+    "summary": "This model demonstrates the use of the `KHR_materials_transmission` and `KHR_materials_volume` extensions to specify an object that appears to be made from colored glass."
+}

@@ -1,0 +1,25 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "[![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
+        "To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset."
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.jpg",
+    "name": "Boom Box with Axes",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoomBoxWithAxes",
+    "createReadme": true,
+    "screenshotType": "jpg",
+    "key": "BoomBoxWithAxes",
+    "pathShot": ".\/2.0\/BoomBoxWithAxes\/screenshot\/screenshot.jpg",
+    "UriShot": ".%2F2.0%2FBoomBoxWithAxes%2Fscreenshot%2Fscreenshot.jpg",
+    "shotHeight": "screenshot\/screenshot-x150.jpg",
+    "pathHeight": ".\/2.0\/BoomBoxWithAxes\/screenshot\/screenshot-x150.jpg",
+    "UriHeight": ".%2F2.0%2FBoomBoxWithAxes%2Fscreenshot%2Fscreenshot-x150.jpg",
+    "UriReadme": ".%2F2.0%2FBoomBoxWithAxes%2FREADME.md",
+    "summary": "... no description ..."
+}

@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "[![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
+        "To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset."
+    ],
+    "tags": [],
+    "description": [
+        "The sphere contains two morph targets in it:",
+        "  * **`blob`** : moves the vertices so that it becomes a somewhat amorphous fat, blob shape.",
+        "  * **`ship`** : moves the vertices so that it looks a bit like a spaceship, the goal being",
+        "    to just make it a much more complicated morph example than the [cube](..\/AnimatedMorphCube\/README.md).",
+        "The animation loops, morphing between these two states."
+    ],
+    "screenshot": "screenshot\/screenshot.gif",
+    "name": "Animated Morph Sphere",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedMorphSphere",
+    "createReadme": true,
+    "screenshotType": "gif",
+    "key": "AnimatedMorphSphere",
+    "pathShot": ".\/2.0\/AnimatedMorphSphere\/screenshot\/screenshot.gif",
+    "UriShot": ".%2F2.0%2FAnimatedMorphSphere%2Fscreenshot%2Fscreenshot.gif",
+    "shotHeight": "screenshot\/screenshot.gif",
+    "pathHeight": ".\/2.0\/AnimatedMorphSphere\/screenshot\/screenshot.gif",
+    "UriHeight": ".%2F2.0%2FAnimatedMorphSphere%2Fscreenshot%2Fscreenshot.gif",
+    "UriReadme": ".%2F2.0%2FAnimatedMorphSphere%2FREADME.md",
+    "summary": "The sphere contains two morph targets in it:"
+}

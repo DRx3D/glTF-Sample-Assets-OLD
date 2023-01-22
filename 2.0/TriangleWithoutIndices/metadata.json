@@ -1,0 +1,27 @@
+{
+    "version": 0,
+    "author": "",
+    "owner": "",
+    "year": 0,
+    "license": [
+        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))",
+        "## Data layout",
+        "The following image shows the data layout of this sample:",
+        "![triangleWithoutIndices](screenshot\/triangleWithoutIndices.png)"
+    ],
+    "tags": [],
+    "description": [],
+    "screenshot": "screenshot\/screenshot.png",
+    "name": "TriangleWithoutIndices",
+    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TriangleWithoutIndices",
+    "createReadme": true,
+    "screenshotType": "png",
+    "key": "TriangleWithoutIndices",
+    "pathShot": ".\/2.0\/TriangleWithoutIndices\/screenshot\/screenshot.png",
+    "UriShot": ".%2F2.0%2FTriangleWithoutIndices%2Fscreenshot%2Fscreenshot.png",
+    "shotHeight": "screenshot\/screenshot-x150.png",
+    "pathHeight": ".\/2.0\/TriangleWithoutIndices\/screenshot\/screenshot-x150.png",
+    "UriHeight": ".%2F2.0%2FTriangleWithoutIndices%2Fscreenshot%2Fscreenshot-x150.png",
+    "UriReadme": ".%2F2.0%2FTriangleWithoutIndices%2FREADME.md",
+    "summary": "... no description ..."
+}
