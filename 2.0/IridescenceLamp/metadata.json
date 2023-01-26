@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model represents the real Wayfair product [Bonsell 19\" Table Lamp](https:\/\/www.wayfair.com\/lighting\/pdp\/wrought-studio-bonsell-19-table-lamp-w002337865.html) which has iridescent finishes. ",
         "The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products. Additional photo reference is available on the Wayfair website.",

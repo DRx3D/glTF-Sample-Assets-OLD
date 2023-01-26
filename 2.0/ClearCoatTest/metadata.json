@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests various settings and textures from the [`KHR_materials_clearcoat`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_clearcoat) glTF extension.",
         "### Columns",

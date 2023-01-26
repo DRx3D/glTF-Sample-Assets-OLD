@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model compares normal maps of various orientations to actual geometry, to test if the model's supplied tangent vectors are being imported and used correctly.  Note that this model (`NormalTangentMirrorTest`) supplies tangent vectors, and specifically tests a rendering engine's ability to use the supplied vectors as opposed to generating them automatically.  To test automatic generation of tangent vectors, see [`NormalTangentTest`](..\/NormalTangentTest\/README.md).",
         "This test is best performed with an environment map that contains a clear horizon line, so it is easy to spot if the reflection of the horizon is level.  The screenshot above shows a successful render of this model from the front.  All of the test blocks show similar reflections."

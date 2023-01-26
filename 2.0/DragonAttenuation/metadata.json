@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "SCEA Shared Source License, Version 1.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model demonstrates the use of the `KHR_materials_transmission` and `KHR_materials_volume` extensions to specify an object that appears to be made from colored glass.",
         "The \"Attenuation\" material on the dragon uses full transmission with a perfectly smooth, clear surface color.  The yellow and orange tones are produced by `KHR_material_volume`'s `attenuationColor` and `attenuationDistance`.",

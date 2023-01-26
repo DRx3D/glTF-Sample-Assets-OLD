@@ -4,7 +4,10 @@
     "owner": "",
     "year": 0,
     "license": "",
-    "tags": [],
+    "tags": [
+        "no-license",
+        "issues"
+    ],
     "description": [
         "The binary file is called `Box With Spaces.bin`, testing runtime support for the presence of spaces in a URI.  Three textures",
         "also have spaces in their URIs, but each space character is URI-encoded as `%20`.",

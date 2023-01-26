@@ -4,7 +4,10 @@
     "owner": "",
     "year": 0,
     "license": "",
-    "tags": [],
+    "tags": [
+        "no-license",
+        "issues"
+    ],
     "description": [
         "This is a modification of the WaterBottle sample model, to compare the metal\/rough PBR workflow side-by-side with the spec\/gloss PBR workflow.",
         "No fallback to metal\/rough is provided for the spec\/gloss side, so unlike most other samples, `KHR_materials_pbrSpecularGlossiness` extension support is explicitly required by this model.  The model is expected to fail to load on viewers that do not support the extension, as such support is not required by the core glTF specification.  This model marks the extension under `extensionsRequired`, meaning any viewer that doesn't support the extension should reject the model completely.  So, a complete failure to load the model, possibly with a message about lack of support for the extension, is not considered a test failure for core glTF 2.0.",

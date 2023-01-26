@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model has a base mesh, plus eight morph targets.  The base and each of the morph targets has",
         "both a POSITION and a NORMAL accessor, resulting in no less than 18 vertex attributes being requested",

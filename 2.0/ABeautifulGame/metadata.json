@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "The original model was crafted for",
         "[a SideFX tutorial for Karma](https:\/\/www.sidefx.com\/tutorials\/karma-a-beautiful-game\/)",

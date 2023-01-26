@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests the interaction between IOR (Index of Refraction) and the perceived roughness of transmission.",
         "In glTF's physically-based material model, a surface has \"[microfacets](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/specification\/2.0\/README.md#microfacet-surfaces)\" which are a statistical distribution of sub-pixel, sub-texel perturbations in the surface normal.  The strength of these normal perturbations are controlled by the surface's [roughness](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/specification\/2.0\/README.md#metallic-roughness-material) parameter.  When these surface normal perturbations become strong, they may cause a specular reflection to become blurry.",

@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model contains a simple mesh with two primitives:  A larger red primitive displays a grid covering 3 of the 4 quadrants of the model's area, followed by a smaller green primitive covering the last quadrant.",
         "Each primitive has a morph target that creates an elevated area within these quadrants.  The model's only mesh contains a `weights: [0.5]` instruction that should cause these morph targets to be applied at half strength, raising the center of the model as shown in the screenshot above."

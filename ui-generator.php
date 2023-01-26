@@ -99,18 +99,25 @@ function CreateUI ($modelFolder, $Templates, $ModelData) {
 	//print "Processed all models\n";
 	//print_r($Templates);
 	
-	createReadme ('Image', 'README-image.md', $metaAll, array());
-	createReadme ('List', 'README-all.md', $metaAll, array());
+	createReadme ('Image', 'README-image.md', $metaAll);
+	createReadme ('List', 'README-all.md', $metaAll);
+	createReadme ('List', 'README-issues.md', $metaAll, array('issues'));
+	createReadme ('List', 'README-sharable.md', $metaAll, array('sharable'));
+	createReadme ('List', 'README-noLicense.md', $metaAll, array('no-license'));
 	
 	return;
 }
 
 // Function for creating READMEs
-function createReadme ($type, $fname, $metaAll, $tags) {
+function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 	$F = fopen ($fname, 'w');
 	$section = 'Tagged...';
-	if (count($tags) == 0) {
+	if (count($tags) == 0 || $tags[0] == '') {
 		$section = 'All models';
+		$singleTag = '';
+	} else {
+		$section = 'Models tagged with **' . join(', ', $tags) . '**';
+		$singleTag = $tags[0];
 	}
 	
 	fwrite ($F, "# glTF 2.0 Sample Models\n\n");
@@ -132,6 +139,7 @@ function createReadme ($type, $fname, $metaAll, $tags) {
 		$fmtString = "| [%s](%s) | ![](%s) | %s<br>License: %s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
+			if ($singleTag == '' || in_array($singleTag, $metaAll[$ii]->{'tags'})) {
 			$license = ((is_array($metaAll[$ii]->{'license'})) ? 
 							join(' ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
 			$license = ($license == '') ? '**NO LICENSE**' : $license;
@@ -144,6 +152,7 @@ function createReadme ($type, $fname, $metaAll, $tags) {
 						$summary,
 						$license,
 						));
+			}
 		}
 	}
 	fclose ($F);
@@ -241,7 +250,7 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 			$metadata->{'license'} = $ModelData[$modelName]['License'];
 			$metadata->{'summary'} = $ModelData[$modelName]['Summary'];
 		} else {
-			$metadata->{'license'} = $license;
+			$metadata->{'license'} = join (' AND ', $license);
 			$metadata->{'summary'} = $shortDescription;
 		}
 	}
@@ -260,7 +269,19 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 	} else {
 		$shotHeight = $screenshot;
 	}
-
+	
+	$tags = array();
+	//print_r (array('Name'=>$modelName, 'License'=>$metadata->{'license'}));
+	if (trim($metadata->{'license'}) == '') {
+		$tags[] = 'no-license';
+		$tags[] = 'issues';
+	} else {
+		$tags[] = 'sharable';
+	}
+	if ($metadata->{'summary'} == '') {
+		$tags[] = 'issues';
+	}
+	
 	$metadata->{'version'} = 0;
 	$metadata->{'name'} = $modelName;
 	$metadata->{'key'} = $Defaults['name'];
@@ -276,6 +297,7 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 	//$metadata->{'summary'} = $shortDescription;
 	//$metadata->{'license'} = $license;
 	$metadata->{'createReadme'} = true;
+	$metadata->{'tags'} = $tags;
 
 	return $metadata;
 }

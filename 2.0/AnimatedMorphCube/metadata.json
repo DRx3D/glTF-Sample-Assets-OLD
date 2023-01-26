@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "The cube contains two morph targets in it:",
         "  * **`thin`** : moves the vertices so that it becomes super-thin ",

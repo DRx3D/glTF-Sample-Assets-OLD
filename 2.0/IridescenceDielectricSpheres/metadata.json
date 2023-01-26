@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "Scene to show the parametrization of the `KHR_materials_iridescence` extension with a dielectric base material. The three dimensions of the scene are:",
         "* Material IOR: index of refraction of the dielectric base material",

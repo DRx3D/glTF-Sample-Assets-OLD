@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY-NC",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Cube",

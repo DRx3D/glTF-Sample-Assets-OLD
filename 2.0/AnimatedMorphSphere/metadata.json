@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "The sphere contains two morph targets in it:",
         "  * **`blob`** : moves the vertices so that it becomes a somewhat amorphous fat, blob shape.",

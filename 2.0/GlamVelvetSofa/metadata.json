@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model represents a real product, a velvet sofa bed being sold [on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html). ",
         "The model is made of three parts, each with their own materials. Two 1024x1024 PNG textures are used for the whole model, an ambient occlusion map and a normal bump map. All UVs are arranged between 0 and 1, and `KHR_texture_transform` is used to repeat the normal map for the fabric. The model uses 4319 triangles and 3204 vertices.",

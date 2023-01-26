@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "See: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Damaged Helmet",

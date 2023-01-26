@@ -4,7 +4,11 @@
     "owner": "",
     "year": 0,
     "license": "",
-    "tags": [],
+    "tags": [
+        "no-license",
+        "issues",
+        "issues"
+    ],
     "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Water Bottle",

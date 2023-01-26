@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests if the `KHR_materials_emissive_strength` extension is available in a",
         "given implementation.  If it is not, the cubes will all emit the same shade of",

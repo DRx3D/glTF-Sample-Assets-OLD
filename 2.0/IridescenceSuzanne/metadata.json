@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "A scene with three copies of Suzanne to showcase how the `KHR_materials_iridescence` extension interacts with different base materials.",
         "* Left: Dielectric base material with thin-film layer of constant thickness.",

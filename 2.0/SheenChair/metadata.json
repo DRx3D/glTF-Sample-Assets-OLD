@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model is a wood-framed chair with a fabric seat, tufted with fabric buttons and metal hardware. It uses three extensions: `KHR_materials_sheen` for velvet fabrics, `KHR_texture_transform` to tile the textures for fabric and  wood, and `KHR_materials_variants` to create two versions of the chair: \"Mango Velvet\", and \"Peacock Velvet\". ",
         "The model is made of four parts using subdivision surface modeling, with four materials for fabric, wood, metal, and the label. The ambient occlusion texture is shared by all materials and uses a 2nd UV with all UVs arranged between 0 and 1. All the other textures use the 1st UV which is not so constrained; it has overlaps and the UVs extend outside the 0-1 UV space.",

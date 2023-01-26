@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests the `doubleSided` flag for materials, and tests `REPEAT`, `CLAMP_TO_EDGE`, and `MIRRORED_REPEAT` modes for texture samplers.  When an engine loads this glTF file correctly, all of the boxes in the \"Test\" column should look very similar to the corresponding box in the \"Sample pass\" column.  In other words, they should all be green checkmarks, except the two \"clamp\" tests, which should be solid green boxes.",
         "The single\/double-sided tests are done by placing a polygon facing the \"wrong way\" in front of another test polygon.  The visibility of the front polygon is governed by the `doubleSided` flag, and the green checkmarks are placed such that they will be visible so long as the flag is respected, else some red \"X\" marks will be visible instead.",

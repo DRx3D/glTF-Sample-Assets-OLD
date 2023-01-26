@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests if KHR_texture_transform is supported across a variety of different texture inputs, and whether `TEXCOORD_1` works and is also transformed.",
         "> NOTE: When implementing KHR_texture_transform, it is recommended to test [TextureTransformTest](..\/TextureTransformTest) prior to testing this model.",

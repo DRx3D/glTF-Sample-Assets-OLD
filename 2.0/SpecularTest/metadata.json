@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests the [`KHR_materials_specular`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_specular) extension, which replaces the older `KHR_materials_pbrSpecularGlossiness` extension.  The latter was a separate PBR workflow, an alternate to the core glTF metallic\/roughness workflow.  This newer `KHR_materials_specular` extension enables control over dielectric specular values from within the metal\/rough workflow.  The two extensions are mutually exclusive per material.",
         "The first row tests the `specularFactor` parameter.  This parameter influences the specular response at both normal incidence (`f0`) and at grazing incidence (`f90`).  The leftmost sphere on this row should appear perfectly black.",

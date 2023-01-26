@@ -4,7 +4,10 @@
     "owner": "",
     "year": 0,
     "license": "",
-    "tags": [],
+    "tags": [
+        "no-license",
+        "issues"
+    ],
     "description": [
         "Sample glTF model where everything contains Unicode characters:",
         "- Main file name.",

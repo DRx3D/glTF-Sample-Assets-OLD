@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model tests interactions between attenuation color, attenuation distance, and thickness in the `KHR_materials_volume` extension.  The material on display here is intended to represent a tinted blue glass, where thinner or smaller chunks of the material are lighter blue, and larger or thicker chunks are deeper blue.  The test should be viewed face-on, not at an angle, as the assigned thicknesses match the lengths of the cube edges, not the cubes' inner diagonals.",
         "Generally, an implementation can pass the test offered by this model if it displays a uniform shade of blue in each vertical column.  If any row is a different shade from neighbor rows, it likely indicates a problem.",

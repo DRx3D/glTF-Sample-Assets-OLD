@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This model demonstrates a two-channel animation, one for rotation and the other",
         "translation.  A smaller box rises up out of a larger hollow one, flips over, and",

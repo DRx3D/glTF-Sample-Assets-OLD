@@ -4,7 +4,10 @@
     "owner": "",
     "year": 0,
     "license": "",
-    "tags": [],
+    "tags": [
+        "no-license",
+        "issues"
+    ],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "2 Cylinder Engine",

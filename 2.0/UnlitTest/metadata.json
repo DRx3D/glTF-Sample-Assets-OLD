@@ -4,7 +4,10 @@
     "owner": "",
     "year": 0,
     "license": "",
-    "tags": [],
+    "tags": [
+        "no-license",
+        "issues"
+    ],
     "description": [
         "This model tests the [`KHR_materials_unlit`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_unlit) extension.  There are two objects, one orange-ish (`#FF7F00` in sRGB space) and one blue-ish (`#007FFF` in sRGB space).  The visible surface of these two objects should appear as a uniform color, so much so that the 3D effect is intentionally lost."
     ],

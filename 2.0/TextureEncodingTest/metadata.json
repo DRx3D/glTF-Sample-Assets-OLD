@@ -4,7 +4,9 @@
     "owner": "",
     "year": 0,
     "license": "CC-BY 4.0",
-    "tags": [],
+    "tags": [
+        "sharable"
+    ],
     "description": [
         "This asset tests that textures are sampled with correct transfer functions: base color and emissive must be decoded from sRGB while metallic-roughness values must be passed as-is.",
         "Additionally, this asset tests that gamma values and\/or ICC profiles embedded with image files are ignored as the glTF spec requires.",
