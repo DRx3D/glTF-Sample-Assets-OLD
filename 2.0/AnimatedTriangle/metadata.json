@@ -3,19 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))",
-        "## Data layout",
-        "The following images show the data layout of this sample:",
-        "![simpleTriangle](screenshot\/simpleTriangle.png)",
-        "![animation](screenshot\/animation.png)"
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "AnimatedTriangle",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedTriangle",
     "createReadme": true,
+    "summary": "This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation",
     "screenshotType": "gif",
     "key": "AnimatedTriangle",
     "pathShot": ".\/2.0\/AnimatedTriangle\/screenshot\/screenshot.gif",
@@ -23,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/AnimatedTriangle\/screenshot\/screenshot.gif",
     "UriHeight": ".%2F2.0%2FAnimatedTriangle%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FAnimatedTriangle%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FAnimatedTriangle%2FREADME.md"
 }

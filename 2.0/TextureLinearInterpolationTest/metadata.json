@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))"
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This asset tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. The test passes when two spheres are rendered with nearly the same color.",
@@ -19,6 +17,7 @@
     "name": "Texture Linear Interpolation Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureLinearInterpolationTest",
     "createReadme": true,
+    "summary": "Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding.",
     "screenshotType": "png",
     "key": "TextureLinearInterpolationTest",
     "pathShot": ".\/2.0\/TextureLinearInterpolationTest\/screenshot\/screenshot.png",
@@ -26,6 +25,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/TextureLinearInterpolationTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FTextureLinearInterpolationTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTextureLinearInterpolationTest%2FREADME.md",
-    "summary": "This asset tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. The test passes when two spheres are rendered with nearly the same color."
+    "UriReadme": ".%2F2.0%2FTextureLinearInterpolationTest%2FREADME.md"
 }

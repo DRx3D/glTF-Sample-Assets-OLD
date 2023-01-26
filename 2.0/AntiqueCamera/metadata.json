@@ -15,6 +15,7 @@
     "name": "Antique Camera ",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AntiqueCamera",
     "createReadme": true,
+    "summary": "... no description ...",
     "screenshotType": "png",
     "key": "AntiqueCamera",
     "pathShot": ".\/2.0\/AntiqueCamera\/screenshot\/screenshot.png",
@@ -22,6 +23,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/AntiqueCamera\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FAntiqueCamera%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FAntiqueCamera%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FAntiqueCamera%2FREADME.md"
 }

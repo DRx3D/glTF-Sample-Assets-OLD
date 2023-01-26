@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Based on the [Water Bottle](..\/WaterBottle\/) sample model.",
-        "[![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
-        "To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset."
-    ],
+    "license": "",
     "tags": [],
     "description": [
         "This is a modification of the WaterBottle sample model, to compare the metal\/rough PBR workflow side-by-side with the spec\/gloss PBR workflow.",
@@ -19,6 +15,7 @@
     "name": "SpecGlossVsMetalRough",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SpecGlossVsMetalRough",
     "createReadme": true,
+    "summary": "Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly.",
     "screenshotType": "jpg",
     "key": "SpecGlossVsMetalRough",
     "pathShot": ".\/2.0\/SpecGlossVsMetalRough\/screenshot\/screenshot.jpg",
@@ -26,6 +23,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/SpecGlossVsMetalRough\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FSpecGlossVsMetalRough%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FSpecGlossVsMetalRough%2FREADME.md",
-    "summary": "This is a modification of the WaterBottle sample model, to compare the metal\/rough PBR workflow side-by-side with the spec\/gloss PBR workflow."
+    "UriReadme": ".%2F2.0%2FSpecGlossVsMetalRough%2FREADME.md"
 }

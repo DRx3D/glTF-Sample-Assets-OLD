@@ -3,16 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Donated by [Cesium](http:\/\/cesiumjs.org\/) for glTF testing.",
-        "This model is licensed under a [Creative Commons Attribution 4.0 International License](http:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Rigged Simple",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/RiggedSimple",
     "createReadme": true,
+    "summary": "Animations. Skins. Start with this to test skinning.",
     "screenshotType": "gif",
     "key": "RiggedSimple",
     "pathShot": ".\/2.0\/RiggedSimple\/screenshot\/screenshot.gif",
@@ -20,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/RiggedSimple\/screenshot\/screenshot.gif",
     "UriHeight": ".%2F2.0%2FRiggedSimple%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FRiggedSimple%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FRiggedSimple%2FREADME.md"
 }

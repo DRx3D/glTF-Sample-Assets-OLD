@@ -3,10 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Donated by [Cesium](http:\/\/cesiumjs.org\/) for glTF testing.",
-        "This model is licensed under a [Creative Commons Attribution 4.0 International License](http:\/\/creativecommons.org\/licenses\/by\/4.0\/)."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model demonstrates a two-channel animation, one for rotation and the other",
@@ -17,6 +14,7 @@
     "name": "Box Animated",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoxAnimated",
     "createReadme": true,
+    "summary": "Rotation and Translation Animations. Start with this to test animations.",
     "screenshotType": "gif",
     "key": "BoxAnimated",
     "pathShot": ".\/2.0\/BoxAnimated\/screenshot\/screenshot.gif",
@@ -24,6 +22,5 @@
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/BoxAnimated\/screenshot\/screenshot.gif",
     "UriHeight": ".%2F2.0%2FBoxAnimated%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FBoxAnimated%2FREADME.md",
-    "summary": "This model demonstrates a two-channel animation, one for rotation and the other"
+    "UriReadme": ".%2F2.0%2FBoxAnimated%2FREADME.md"
 }

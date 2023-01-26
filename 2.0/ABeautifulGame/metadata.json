@@ -3,12 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Academy Software Foundation, MaterialX Project",
-        "([ref](https:\/\/twitter.com\/SheriffStone\/status\/1560286061854482434))  ",
-        "with additional conversion by Ed Mackey, AGI."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "The original model was crafted for",
@@ -37,6 +32,7 @@
     "name": "A Beautiful Game",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/ABeautifulGame",
     "createReadme": true,
+    "summary": "Chess set using transmission and volume.",
     "screenshotType": "jpg",
     "key": "ABeautifulGame",
     "pathShot": ".\/2.0\/ABeautifulGame\/screenshot\/screenshot.jpg",
@@ -44,6 +40,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/ABeautifulGame\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FABeautifulGame%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FABeautifulGame%2FREADME.md",
-    "summary": "The original model was crafted for"
+    "UriReadme": ".%2F2.0%2FABeautifulGame%2FREADME.md"
 }

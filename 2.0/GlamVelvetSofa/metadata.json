@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "(C) 2021, Wayfair LLC. CC-BY 4.0 International https:\/\/creativecommons.org\/licenses\/by\/4.0\/. "
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model represents a real product, a velvet sofa bed being sold [on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html). ",
@@ -21,6 +19,7 @@
     "name": "GlamVelvetSofa",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/GlamVelvetSofa",
     "createReadme": true,
+    "summary": "Sofa using material variants, sheen, and specular.",
     "screenshotType": "jpg",
     "key": "GlamVelvetSofa",
     "pathShot": ".\/2.0\/GlamVelvetSofa\/screenshot\/screenshot.jpg",
@@ -28,6 +27,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/GlamVelvetSofa\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FGlamVelvetSofa%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FGlamVelvetSofa%2FREADME.md",
-    "summary": "This model represents a real product, a velvet sofa bed being sold [on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html). "
+    "UriReadme": ".%2F2.0%2FGlamVelvetSofa%2FREADME.md"
 }

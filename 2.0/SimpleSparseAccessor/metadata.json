@@ -3,15 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))"
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "SimpleSparseAccessor",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SimpleSparseAccessor",
     "createReadme": true,
+    "summary": "A simple mesh that uses sparse accessors",
     "screenshotType": "png",
     "key": "SimpleSparseAccessor",
     "pathShot": ".\/2.0\/SimpleSparseAccessor\/screenshot\/screenshot.png",
@@ -19,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/SimpleSparseAccessor\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FSimpleSparseAccessor%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FSimpleSparseAccessor%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FSimpleSparseAccessor%2FREADME.md"
 }

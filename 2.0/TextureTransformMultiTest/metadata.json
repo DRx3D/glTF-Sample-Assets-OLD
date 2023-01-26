@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2020 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model tests if KHR_texture_transform is supported across a variety of different texture inputs, and whether `TEXCOORD_1` works and is also transformed.",
@@ -18,6 +14,7 @@
     "name": "Texture Transform Multi Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureTransformMultiTest",
     "createReadme": true,
+    "summary": "Tests if the KHR_texture_transform extension is supported for several inputs.",
     "screenshotType": "jpg",
     "key": "TextureTransformMultiTest",
     "pathShot": ".\/2.0\/TextureTransformMultiTest\/screenshot\/screenshot.jpg",
@@ -25,6 +22,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/TextureTransformMultiTest\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FTextureTransformMultiTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FTextureTransformMultiTest%2FREADME.md",
-    "summary": "This model tests if KHR_texture_transform is supported across a variety of different texture inputs, and whether `TEXCOORD_1` works and is also transformed."
+    "UriReadme": ".%2F2.0%2FTextureTransformMultiTest%2FREADME.md"
 }

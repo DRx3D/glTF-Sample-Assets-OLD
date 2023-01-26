@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2018 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model by Ed Mackey."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model tests the orientation supplied by nodes in the hierarchy.  The red, green, and blue arrows test X, Y, and Z rotations respectively expressed as quaternions in the nodes.  The cyan, magenta, and yellow arrows test X, Y, and Z rotations respectively expressed with rotation matrices in the nodes.",
@@ -18,6 +14,7 @@
     "name": "Orientation Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/OrientationTest",
     "createReadme": true,
+    "summary": "Tests node translations and rotations.",
     "screenshotType": "png",
     "key": "OrientationTest",
     "pathShot": ".\/2.0\/OrientationTest\/screenshot\/screenshot.png",
@@ -25,6 +22,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/OrientationTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FOrientationTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FOrientationTest%2FREADME.md",
-    "summary": "This model tests the orientation supplied by nodes in the hierarchy.  The red, green, and blue arrows test X, Y, and Z rotations respectively expressed as quaternions in the nodes.  The cyan, magenta, and yellow arrows test X, Y, and Z rotations respectively expressed with rotation matrices in the nodes."
+    "UriReadme": ".%2F2.0%2FOrientationTest%2FREADME.md"
 }

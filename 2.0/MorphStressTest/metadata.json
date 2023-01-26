@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2021 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model has a base mesh, plus eight morph targets.  The base and each of the morph targets has",
@@ -22,6 +18,7 @@
     "name": "Morph Stress Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MorphStressTest",
     "createReadme": true,
+    "summary": "Tests up to 8 morph targets.",
     "screenshotType": "jpg",
     "key": "MorphStressTest",
     "pathShot": ".\/2.0\/MorphStressTest\/screenshot\/screenshot.jpg",
@@ -29,6 +26,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/MorphStressTest\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FMorphStressTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FMorphStressTest%2FREADME.md",
-    "summary": "This model has a base mesh, plus eight morph targets.  The base and each of the morph targets has"
+    "UriReadme": ".%2F2.0%2FMorphStressTest%2FREADME.md"
 }

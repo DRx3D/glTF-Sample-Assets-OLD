@@ -3,18 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))",
-        "## Data layout",
-        "The following image shows the data layout of this sample:",
-        "![triangle](screenshot\/triangle.png)"
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "SimpleMeshes",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SimpleMeshes",
     "createReadme": true,
+    "summary": "A simple scene with two nodes, both containing the same mesh, namely a mesh with a single mesh.primitive with a single indexed triangle with multiple attributes (positions, normals and texture coordinates), but without a material",
     "screenshotType": "png",
     "key": "SimpleMeshes",
     "pathShot": ".\/2.0\/SimpleMeshes\/screenshot\/screenshot.png",
@@ -22,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/SimpleMeshes\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FSimpleMeshes%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FSimpleMeshes%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FSimpleMeshes%2FREADME.md"
 }

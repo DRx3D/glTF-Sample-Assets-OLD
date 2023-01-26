@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2017-2018 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model compares normal maps of various orientations to actual geometry, to test if the model's supplied tangent vectors are being imported and used correctly.  Note that this model (`NormalTangentMirrorTest`) supplies tangent vectors, and specifically tests a rendering engine's ability to use the supplied vectors as opposed to generating them automatically.  To test automatic generation of tangent vectors, see [`NormalTangentTest`](..\/NormalTangentTest\/README.md).",
@@ -17,6 +13,7 @@
     "name": "Normal-Tangent Mirror Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/NormalTangentMirrorTest",
     "createReadme": true,
+    "summary": "Tests an engine's ability to load supplied tangent vectors for a normal map.",
     "screenshotType": "png",
     "key": "NormalTangentMirrorTest",
     "pathShot": ".\/2.0\/NormalTangentMirrorTest\/screenshot\/screenshot.png",
@@ -24,6 +21,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/NormalTangentMirrorTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FNormalTangentMirrorTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FNormalTangentMirrorTest%2FREADME.md",
-    "summary": "This model compares normal maps of various orientations to actual geometry, to test if the model's supplied tangent vectors are being imported and used correctly.  Note that this model (`NormalTangentMirrorTest`) supplies tangent vectors, and specifically tests a rendering engine's ability to use the supplied vectors as opposed to generating them automatically.  To test automatic generation of tangent vectors, see [`NormalTangentTest`](..\/NormalTangentTest\/README.md)."
+    "UriReadme": ".%2F2.0%2FNormalTangentMirrorTest%2FREADME.md"
 }

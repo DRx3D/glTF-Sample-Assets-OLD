@@ -3,15 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Data conversion from original JT to COLLADA has been kindly performed by Okino Computer Graphics, using [Okino Polytrans Software](http:\/\/www.okino.com\/conv\/conv.htm)."
-    ],
+    "license": "",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "2 Cylinder Engine",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/2CylinderEngine",
     "createReadme": true,
+    "summary": "Small CAD data set, including hierarchy.",
     "screenshotType": "png",
     "key": "2CylinderEngine",
     "pathShot": ".\/2.0\/2CylinderEngine\/screenshot\/screenshot.png",
@@ -19,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/2CylinderEngine\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2F2CylinderEngine%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2F2CylinderEngine%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2F2CylinderEngine%2FREADME.md"
 }

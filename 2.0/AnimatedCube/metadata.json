@@ -3,15 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Donated by Norbert Nopper for glTF testing."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Animated Cube",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedCube",
     "createReadme": true,
+    "summary": "Same as previous cube having a linear rotation animation.",
     "screenshotType": "gif",
     "key": "AnimatedCube",
     "pathShot": ".\/2.0\/AnimatedCube\/screenshot\/screenshot.gif",
@@ -19,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/AnimatedCube\/screenshot\/screenshot.gif",
     "UriHeight": ".%2F2.0%2FAnimatedCube%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FAnimatedCube%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FAnimatedCube%2FREADME.md"
 }

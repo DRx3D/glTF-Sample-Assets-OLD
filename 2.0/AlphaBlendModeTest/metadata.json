@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2018 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model tests the various alpha modes available in glTF 2.0.  There are three settings for `alphaMode`: `\"OPAQUE\"` (the default), `\"BLEND\"`, and `\"MASK\"`.  Of these, `\"MASK\"` takes an additional `alphaCutoff` value that modifies it."
@@ -16,6 +12,7 @@
     "name": "Alpha Blend Mode Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AlphaBlendModeTest",
     "createReadme": true,
+    "summary": "Tests alpha modes and settings.",
     "screenshotType": "png",
     "key": "AlphaBlendModeTest",
     "pathShot": ".\/2.0\/AlphaBlendModeTest\/screenshot\/screenshot.png",
@@ -23,6 +20,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/AlphaBlendModeTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FAlphaBlendModeTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FAlphaBlendModeTest%2FREADME.md",
-    "summary": "This model tests the various alpha modes available in glTF 2.0.  There are three settings for `alphaMode`: `\"OPAQUE\"` (the default), `\"BLEND\"`, and `\"MASK\"`.  Of these, `\"MASK\"` takes an additional `alphaCutoff` value that modifies it."
+    "UriReadme": ".%2F2.0%2FAlphaBlendModeTest%2FREADME.md"
 }

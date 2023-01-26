@@ -3,15 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Donated by Norbert Nopper for glTF testing."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Suzanne",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Suzanne",
     "createReadme": true,
+    "summary": " ",
     "screenshotType": "jpg",
     "key": "Suzanne",
     "pathShot": ".\/2.0\/Suzanne\/screenshot\/screenshot.jpg",
@@ -19,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/Suzanne\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FSuzanne%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FSuzanne%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FSuzanne%2FREADME.md"
 }

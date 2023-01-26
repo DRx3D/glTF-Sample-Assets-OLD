@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "(C) 2021, Wayfair LLC. CC-BY 4.0 International https:\/\/creativecommons.org\/licenses\/by\/4.0\/. "
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https:\/\/www.wayfair.com\/). ",
@@ -22,6 +20,7 @@
     "name": "StainedGlassLamp",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/StainedGlassLamp",
     "createReadme": true,
+    "summary": " ",
     "screenshotType": "jpg",
     "key": "StainedGlassLamp",
     "pathShot": ".\/2.0\/StainedGlassLamp\/screenshot\/screenshot.jpg",
@@ -29,6 +28,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/StainedGlassLamp\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FStainedGlassLamp%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FStainedGlassLamp%2FREADME.md",
-    "summary": "This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https:\/\/www.wayfair.com\/). "
+    "UriReadme": ".%2F2.0%2FStainedGlassLamp%2FREADME.md"
 }

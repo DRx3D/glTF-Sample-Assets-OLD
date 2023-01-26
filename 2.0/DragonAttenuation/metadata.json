@@ -3,16 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "The two meshes in this model (the dragon, and the cloth backdrop) are from different sources and have different licenses applied.",
-        "### Dragon",
-        "The dragon model based on the one from [Morgan McGuire's Computer Graphics Archive](https:\/\/casual-effects.com\/data).  ",
-        "Original dragon mesh data based on a [Stanford Scan](http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/)",
-        "&copy; 1996 Stanford University.",
-        "### Cloth Backdrop",
-        "[![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
-        "To the extent possible under law, Adobe has waived all copyright and related or neighboring rights to this asset [the cloth backdrop]."
-    ],
+    "license": "SCEA Shared Source License, Version 1.0",
     "tags": [],
     "description": [
         "This model demonstrates the use of the `KHR_materials_transmission` and `KHR_materials_volume` extensions to specify an object that appears to be made from colored glass.",
@@ -27,6 +18,7 @@
     "name": "Dragon Attenuation",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/DragonAttenuation",
     "createReadme": true,
+    "summary": "Dragon with background, using material variants, transmission, and volume.",
     "screenshotType": "jpg",
     "key": "DragonAttenuation",
     "pathShot": ".\/2.0\/DragonAttenuation\/screenshot\/screenshot.jpg",
@@ -34,6 +26,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/DragonAttenuation\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FDragonAttenuation%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FDragonAttenuation%2FREADME.md",
-    "summary": "This model demonstrates the use of the `KHR_materials_transmission` and `KHR_materials_volume` extensions to specify an object that appears to be made from colored glass."
+    "UriReadme": ".%2F2.0%2FDragonAttenuation%2FREADME.md"
 }

@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Toy car model created by Guido Odendahl. Public domain ([CC0](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model demonstrates the usage of [KHR_materials_sheen](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_sheen\/README.md), [KHR_materials_transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md) and [KHR_materials_clearcoat](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_clearcoat\/README.md).",
@@ -15,6 +13,7 @@
     "name": "Toy Car",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/ToyCar",
     "createReadme": true,
+    "summary": "Toy car example using transmission, clearcoat, and sheen.",
     "screenshotType": "jpg",
     "key": "ToyCar",
     "pathShot": ".\/2.0\/ToyCar\/screenshot\/screenshot.jpg",
@@ -22,6 +21,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/ToyCar\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FToyCar%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FToyCar%2FREADME.md",
-    "summary": "This model demonstrates the usage of [KHR_materials_sheen](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_sheen\/README.md), [KHR_materials_transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md) and [KHR_materials_clearcoat](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_clearcoat\/README.md)."
+    "UriReadme": ".%2F2.0%2FToyCar%2FREADME.md"
 }

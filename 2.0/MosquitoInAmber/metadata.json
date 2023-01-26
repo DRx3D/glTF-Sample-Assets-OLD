@@ -3,14 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Model by Lo\u00efc Norgeot and mosquito scan by Geoffrey Marchal for Sketchfab licensed under CC BY 4.0",
-        "- Title: \"Real-time Refraction Demo: Mosquito in Amber\"",
-        "- Author: [Sketchfab](https:\/\/sketchfab.com\/Sketchfab)",
-        "- License: [CC-BY-4.0](http:\/\/creativecommons.org\/licenses\/by\/4.0\/)",
-        "- Source: [real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1](https:\/\/sketchfab.com\/3d-models\/real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1)",
-        "- Generator: \"Sketchfab-7.51.0, hand-edited to add additional PBR glTF extensions.\""
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "glTF 3D model of a \"Mosquito In Amber\" using the IOR, [KHR-materials-transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md) and Volume PBR extensions to add reflection and refraction to translucent materials.",
@@ -20,6 +13,7 @@
     "name": "Mosquito In Amber",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MosquitoInAmber",
     "createReadme": true,
+    "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
     "screenshotType": "jpg",
     "key": "MosquitoInAmber",
     "pathShot": ".\/2.0\/MosquitoInAmber\/screenshot\/screenshot.jpg",
@@ -27,6 +21,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/MosquitoInAmber\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FMosquitoInAmber%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FMosquitoInAmber%2FREADME.md",
-    "summary": "glTF 3D model of a \"Mosquito In Amber\" using the IOR, [KHR-materials-transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md) and Volume PBR extensions to add reflection and refraction to translucent materials."
+    "UriReadme": ".%2F2.0%2FMosquitoInAmber%2FREADME.md"
 }

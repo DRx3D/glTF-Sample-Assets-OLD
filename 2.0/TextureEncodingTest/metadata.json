@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Public domain ([CC0](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/))"
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This asset tests that textures are sampled with correct transfer functions: base color and emissive must be decoded from sRGB while metallic-roughness values must be passed as-is.",
@@ -20,6 +18,7 @@
     "name": "Texture Encoding Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureEncodingTest",
     "createReadme": true,
+    "summary": " ",
     "screenshotType": "png",
     "key": "TextureEncodingTest",
     "pathShot": ".\/2.0\/TextureEncodingTest\/screenshot\/screenshot.png",
@@ -27,6 +26,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/TextureEncodingTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FTextureEncodingTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTextureEncodingTest%2FREADME.md",
-    "summary": "This asset tests that textures are sampled with correct transfer functions: base color and emissive must be decoded from sRGB while metallic-roughness values must be passed as-is."
+    "UriReadme": ".%2F2.0%2FTextureEncodingTest%2FREADME.md"
 }

@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2021 Analytical Graphics, Inc.  ",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/  ",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model tests the interaction between IOR (Index of Refraction) and the perceived roughness of transmission.",
@@ -21,6 +17,7 @@
     "name": "Transmission Roughness Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TransmissionRoughnessTest",
     "createReadme": true,
+    "summary": "Tests the interaction between roughness and IOR.",
     "screenshotType": "jpg",
     "key": "TransmissionRoughnessTest",
     "pathShot": ".\/2.0\/TransmissionRoughnessTest\/screenshot\/screenshot.jpg",
@@ -28,6 +25,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/TransmissionRoughnessTest\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FTransmissionRoughnessTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FTransmissionRoughnessTest%2FREADME.md",
-    "summary": "This model tests the interaction between IOR (Index of Refraction) and the perceived roughness of transmission."
+    "UriReadme": ".%2F2.0%2FTransmissionRoughnessTest%2FREADME.md"
 }

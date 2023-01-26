@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2017-2018 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model compares normal maps of various orientations to actual geometry, to test if tangent vectors are being calculated and handled correctly.  Note that this model (`NormalTangentTest`) does not supply tangent vectors, and specifically tests a rendering engine's ability to generate the tangent vectors at runtime.  To test supplied tangent vectors, see [`NormalTangentMirrorTest`](..\/NormalTangentMirrorTest\/README.md).",
@@ -17,6 +13,7 @@
     "name": "Normal-Tangent Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/NormalTangentTest",
     "createReadme": true,
+    "summary": "Tests an engine's ability to automatically generate tangent vectors for a normal map.",
     "screenshotType": "png",
     "key": "NormalTangentTest",
     "pathShot": ".\/2.0\/NormalTangentTest\/screenshot\/screenshot.png",
@@ -24,6 +21,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/NormalTangentTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FNormalTangentTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FNormalTangentTest%2FREADME.md",
-    "summary": "This model compares normal maps of various orientations to actual geometry, to test if tangent vectors are being calculated and handled correctly.  Note that this model (`NormalTangentTest`) does not supply tangent vectors, and specifically tests a rendering engine's ability to generate the tangent vectors at runtime.  To test supplied tangent vectors, see [`NormalTangentMirrorTest`](..\/NormalTangentMirrorTest\/README.md)."
+    "UriReadme": ".%2F2.0%2FNormalTangentTest%2FREADME.md"
 }

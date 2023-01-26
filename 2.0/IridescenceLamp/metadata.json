@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2022 Wayfair LLC. CC BY 4.0 International https:\/\/creativecommons.org\/licenses\/by\/4.0\/"
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model represents the real Wayfair product [Bonsell 19\" Table Lamp](https:\/\/www.wayfair.com\/lighting\/pdp\/wrought-studio-bonsell-19-table-lamp-w002337865.html) which has iridescent finishes. ",
@@ -17,6 +15,7 @@
     "name": "Iridescence Lamp",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescenceLamp",
     "createReadme": true,
+    "summary": "Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence.",
     "screenshotType": "jpg",
     "key": "IridescenceLamp",
     "pathShot": ".\/2.0\/IridescenceLamp\/screenshot\/screenshot.jpg",
@@ -24,6 +23,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/IridescenceLamp\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FIridescenceLamp%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FIridescenceLamp%2FREADME.md",
-    "summary": "This model represents the real Wayfair product [Bonsell 19\" Table Lamp](https:\/\/www.wayfair.com\/lighting\/pdp\/wrought-studio-bonsell-19-table-lamp-w002337865.html) which has iridescent finishes. "
+    "UriReadme": ".%2F2.0%2FIridescenceLamp%2FREADME.md"
 }

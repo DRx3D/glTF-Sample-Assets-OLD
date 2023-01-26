@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2021 DGG. CC BY 4.0 International https:\/\/creativecommons.org\/licenses\/by\/4.0\/"
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This originally designed model is inspired by the elegant Maitland Smith lamps. Recycled materials were chosen for the design in order to make the lamp sustainable and appropriate for the current times. The glTF model contains 5 meshes and 6 materials, which make use of the extensions [KHR_materials_transmission](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/main\/extensions\/2.0\/Khronos\/KHR_materials_transmission) and [KHR_lights_punctual](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/main\/extensions\/2.0\/Khronos\/KHR_lights_punctual).",
@@ -18,6 +16,7 @@
     "name": "Lamp using KHR_lights_punctual Extension",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/LightsPunctualLamp",
     "createReadme": true,
+    "summary": "Lamp using punctual lights.",
     "screenshotType": "png",
     "key": "LightsPunctualLamp",
     "pathShot": ".\/2.0\/LightsPunctualLamp\/screenshot\/screenshot.png",
@@ -25,6 +24,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/LightsPunctualLamp\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FLightsPunctualLamp%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FLightsPunctualLamp%2FREADME.md",
-    "summary": "This originally designed model is inspired by the elegant Maitland Smith lamps. Recycled materials were chosen for the design in order to make the lamp sustainable and appropriate for the current times. The glTF model contains 5 meshes and 6 materials, which make use of the extensions [KHR_materials_transmission](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/main\/extensions\/2.0\/Khronos\/KHR_materials_transmission) and [KHR_lights_punctual](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/main\/extensions\/2.0\/Khronos\/KHR_lights_punctual)."
+    "UriReadme": ".%2F2.0%2FLightsPunctualLamp%2FREADME.md"
 }

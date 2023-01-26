@@ -3,10 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "[![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
-        "To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "The cube contains two morph targets in it:",
@@ -18,6 +15,7 @@
     "name": "Animated Morph Cube",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedMorphCube",
     "createReadme": true,
+    "summary": "Demonstrates a simple cube with two simple morph targets and an animation that transitions between them both.",
     "screenshotType": "gif",
     "key": "AnimatedMorphCube",
     "pathShot": ".\/2.0\/AnimatedMorphCube\/screenshot\/screenshot.gif",
@@ -25,6 +23,5 @@
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/AnimatedMorphCube\/screenshot\/screenshot.gif",
     "UriHeight": ".%2F2.0%2FAnimatedMorphCube%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FAnimatedMorphCube%2FREADME.md",
-    "summary": "The cube contains two morph targets in it:"
+    "UriReadme": ".%2F2.0%2FAnimatedMorphCube%2FREADME.md"
 }

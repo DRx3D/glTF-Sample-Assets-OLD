@@ -3,17 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "https:\/\/stock.adobe.com\/license-terms?prev_url=detail&comparison-full#enhanced-license-terms",
-        "## Original Asset",
-        "https:\/\/stock.adobe.com\/search\/3d-assets?filters%5Bcontent_type%3A3d%5D=1&filters%5B3d_type_id%5D%5B%5D=2&order=relevance&safe_search=1&search_page=1&limit=100&acp=&aco=canyon&price%5B%24%5D=1&get_facets=1&asset_id=122687900"
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Environment Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/EnvironmentTest",
     "createReadme": true,
+    "summary": "A simple scene with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting.",
     "screenshotType": "jpg",
     "key": "EnvironmentTest",
     "pathShot": ".\/2.0\/EnvironmentTest\/screenshot\/screenshot.jpg",
@@ -21,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/EnvironmentTest\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FEnvironmentTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FEnvironmentTest%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FEnvironmentTest%2FREADME.md"
 }

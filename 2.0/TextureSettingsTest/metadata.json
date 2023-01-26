@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2017 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model tests the `doubleSided` flag for materials, and tests `REPEAT`, `CLAMP_TO_EDGE`, and `MIRRORED_REPEAT` modes for texture samplers.  When an engine loads this glTF file correctly, all of the boxes in the \"Test\" column should look very similar to the corresponding box in the \"Sample pass\" column.  In other words, they should all be green checkmarks, except the two \"clamp\" tests, which should be solid green boxes.",
@@ -21,6 +17,7 @@
     "name": "Texture Settings Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureSettingsTest",
     "createReadme": true,
+    "summary": "Tests single\/double-sided and various texturing modes.",
     "screenshotType": "png",
     "key": "TextureSettingsTest",
     "pathShot": ".\/2.0\/TextureSettingsTest\/screenshot\/screenshot.png",
@@ -28,6 +25,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/TextureSettingsTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FTextureSettingsTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTextureSettingsTest%2FREADME.md",
-    "summary": "This model tests the `doubleSided` flag for materials, and tests `REPEAT`, `CLAMP_TO_EDGE`, and `MIRRORED_REPEAT` modes for texture samplers.  When an engine loads this glTF file correctly, all of the boxes in the \"Test\" column should look very similar to the corresponding box in the \"Sample pass\" column.  In other words, they should all be green checkmarks, except the two \"clamp\" tests, which should be solid green boxes."
+    "UriReadme": ".%2F2.0%2FTextureSettingsTest%2FREADME.md"
 }

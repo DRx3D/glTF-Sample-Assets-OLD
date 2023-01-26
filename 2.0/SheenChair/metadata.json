@@ -3,9 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2020 Wayfair LLC, CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/, model and textures created by Eric Chadwick."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model is a wood-framed chair with a fabric seat, tufted with fabric buttons and metal hardware. It uses three extensions: `KHR_materials_sheen` for velvet fabrics, `KHR_texture_transform` to tile the textures for fabric and  wood, and `KHR_materials_variants` to create two versions of the chair: \"Mango Velvet\", and \"Peacock Velvet\". ",
@@ -16,6 +14,7 @@
     "name": "SheenChair",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SheenChair",
     "createReadme": true,
+    "summary": "Chair using material variants and sheen.",
     "screenshotType": "jpg",
     "key": "SheenChair",
     "pathShot": ".\/2.0\/SheenChair\/screenshot\/screenshot.jpg",
@@ -23,6 +22,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/SheenChair\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FSheenChair%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FSheenChair%2FREADME.md",
-    "summary": "This model is a wood-framed chair with a fabric seat, tufted with fabric buttons and metal hardware. It uses three extensions: `KHR_materials_sheen` for velvet fabrics, `KHR_texture_transform` to tile the textures for fabric and  wood, and `KHR_materials_variants` to create two versions of the chair: \"Mango Velvet\", and \"Peacock Velvet\". "
+    "UriReadme": ".%2F2.0%2FSheenChair%2FREADME.md"
 }

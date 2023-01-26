@@ -23,12 +23,34 @@ $Templates['Metadata']= ['file'=>'./metadata.template.json', 'type'=>'JSON', 've
 // README template file
 $Templates['Readme'] = ['file'=>'./README.template.md', 'type'=>'MD', 'outputName'=>'README1.md'];
 
+// Get Existing Model data for pre-populating model JSON files
+$ModelData = getModelData();
+
 // Process Model directory
-CreateUI ('./2.0', $Templates);
+CreateUI ('./2.0', $Templates, $ModelData);
 exit;
 
+// Get all model data, stored in CSV file
+function getModelData() {
+	$dataFile = 'ModelRepoData.csv';
+	$FH = fopen ($dataFile, "r");
+	$ModelData = array();
+	$keys = fgetcsv($FH, 5000);
+	while (($row = fgetcsv($FH, 5000)) !== false) { 
+		$new = array();
+		for ($ii=0; $ii<count($row); $ii++) {
+			$new[$keys[$ii]] = $row[$ii];
+		}
+		$ModelData[$new['Key']] = $new;
+	}
+	fclose ($FH);
+	return $ModelData;
+}
+
+
+
 // Function for processing an entire folder of model directories
-function CreateUI ($modelFolder, $Templates) {
+function CreateUI ($modelFolder, $Templates, $ModelData) {
 
 // Get Metadata template structure
 	$Templates['Metadata']['Structure'] = getFileStructure ($Templates['Metadata']);
@@ -59,8 +81,16 @@ function CreateUI ($modelFolder, $Templates) {
 		$modelDir = $folder->path . '/' . $model;
 		$metaFilename = $Templates['Metadata']['model'];
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
-			$metadata = getMetadata ($modelDir, $metaFilename, ['name'=>$model], $Templates['Metadata']);
-			fwrite ($F, sprintf ('%s,%s,%s,%s,%s,%04d,"%s"'."\n", $metadata->{'key'}, $metadata->{'name'}, $metadata->{'path'}, $metadata->{'author'}, $metadata->{'owner'}, $metadata->{'year'}, join(' ', $metadata->{'license'})));
+			$metadata = getMetadata ($modelDir, $metaFilename, ['name'=>$model], $Templates['Metadata'], $ModelData);
+			fwrite ($F, sprintf ('%s,%s,%s,%s,%s,%04d,"%s"'."\n", 
+							$metadata->{'key'}, 
+							$metadata->{'name'}, 
+							$metadata->{'path'}, 
+							$metadata->{'author'}, 
+							$metadata->{'owner'}, 
+							$metadata->{'year'}, 
+							((is_array($metadata->{'license'})) ? join(' ', $metadata->{'license'}) : $metadata->{'license'}) 
+							));
 			$metaAll[] = $metadata;
 		}
 	}
@@ -69,8 +99,8 @@ function CreateUI ($modelFolder, $Templates) {
 	//print "Processed all models\n";
 	//print_r($Templates);
 	
-	createReadme ('Image', 'README.image.md', $metaAll, array());
-	createReadme ('List', 'README.all.md', $metaAll, array());
+	createReadme ('Image', 'README-image.md', $metaAll, array());
+	createReadme ('List', 'README-all.md', $metaAll, array());
 	
 	return;
 }
@@ -99,16 +129,20 @@ function createReadme ($type, $fname, $metaAll, $tags) {
 	} else if ($type == 'List') {
 		fwrite ($F, "| Model   | Screenshot  | Description |\n");
 		fwrite ($F, "|---------|-------------|-------------|\n");
-		$fmtString = "| [%s](%s) | ![](%s) | %s |\n";
+		$fmtString = "| [%s](%s) | ![](%s) | %s<br>License: %s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
-//| [Metal Rough Spheres](MetalRoughSpheres)              | ![](MetalRoughSpheres/screenshot/screenshot.png)              | Tests various metal and roughness values (texture mapped). |
-//| [%s](%s) | ![]($s) | %s |
+			$license = ((is_array($metaAll[$ii]->{'license'})) ? 
+							join(' ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
+			$license = ($license == '') ? '**NO LICENSE**' : $license;
+			$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
+
 			fwrite ($F, sprintf ($fmtString, 
 						$metaAll[$ii]->{'name'}, 
 						$metaAll[$ii]->{'UriReadme'},
 						$metaAll[$ii]->{'UriShot'},
-						$metaAll[$ii]->{'summary'},
+						$summary,
+						$license,
 						));
 		}
 	}
@@ -118,7 +152,7 @@ function createReadme ($type, $fname, $metaAll, $tags) {
 
 // Function to return the model's metadata
 // This may need to create the file
-function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata) {
+function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata, $ModelData) {
 	$filename = $modelDir . '/' . $metaFilename;
 	if (file_exists($filename)) {
 		$string = file_get_contents ($filename);
@@ -131,7 +165,7 @@ function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata) {
 	}
 	
 	if (!isset($metadata->{'version'}) || $metadata->{'version'} != $Metadata['version']) {
-		$metadata = updateMetadata ($metadata, $modelDir, $Defaults, $Metadata['Structure']);
+		$metadata = updateMetadata ($metadata, $modelDir, $Defaults, $Metadata['Structure'], $ModelData);
 		$needsWriting = true;
 	}
 	
@@ -154,9 +188,10 @@ function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata) {
  *
  *	V0 needs information loaded from existing README
  **/
-function updateMetadata ($metadata, $dir, $Defaults, $Structure) {
+function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 	if (!isset($metadata->{'version'}) || $metadata->{'version'} == 0) {
-		//print "Updating metadata with info from $dir/README.md\n";
+		//print "Updating metadata with info from $dir/README.md and |".$metadata->{'name'}."|\n";
+		
 		$string = file_get_contents ($dir . '/README.md');
 		$readme = explode (PHP_EOL, $string);
 		$modelName = $metadata->{'name'};
@@ -200,14 +235,25 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure) {
 				//print " ... Updating license\n";
 			}
 		}
+
+// Update all fields from V1
+		if (isset($ModelData[$modelName])) {
+			$metadata->{'license'} = $ModelData[$modelName]['License'];
+			$metadata->{'summary'} = $ModelData[$modelName]['Summary'];
+		} else {
+			$metadata->{'license'} = $license;
+			$metadata->{'summary'} = $shortDescription;
+		}
 	}
 
 	foreach ($Structure as $key => $value) {
 		if (!isset($metadata->{$key})) {$metadata->{$key} = $value;}
 	}
+
 	
 	$screenshot = 'screenshot/screenshot';
 	$metadata->{'screenshotType'} = (file_exists($dir.'/'.$screenshot.'.jpg')) ? 'jpg' : ((file_exists($dir.'/'.$screenshot.'.png')) ? 'png' : 'gif');
+
 // Create standard-height image
 	if ($metadata->{'screenshotType'} == 'jpg' || $metadata->{'screenshotType'} == 'png') {
 		$shotHeight = createScreenShot ($dir, $screenshot, $metadata->{'screenshotType'}, 150);
@@ -227,8 +273,8 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure) {
 	$metadata->{'UriHeight'} = rawurlencode($metadata->{'pathHeight'});
 	$metadata->{'UriReadme'} = rawurlencode($dir . '/README.md');
 	$metadata->{'description'} = $description;
-	$metadata->{'summary'} = $shortDescription;
-	$metadata->{'license'} = $license;
+	//$metadata->{'summary'} = $shortDescription;
+	//$metadata->{'license'} = $license;
 	$metadata->{'createReadme'} = true;
 
 	return $metadata;
@@ -237,7 +283,7 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure) {
 // Function to create standard size screenshots
 function createScreenShot ($path, $shotOriginal, $shotType, $imageHeight) {
 	$shotOut = sprintf ('%s-x%d', $shotOriginal, $imageHeight);
-	$cmd = sprintf ('magick %s/%s.%s -background white -resize %d %s/%s.%s',
+	$cmd = sprintf ('magick "%s/%s.%s" -background white -resize %d "%s/%s.%s"',
 						$path, $shotOriginal, $shotType,
 						$imageHeight,
 						$path, $shotOut, $shotType);

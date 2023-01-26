@@ -3,15 +3,14 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Donated by Michael Feldstein for glTF testing."
-    ],
+    "license": "",
     "tags": [],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Box Vertex Colors",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoxVertexColors",
     "createReadme": true,
+    "summary": "Box with vertex colors applied.",
     "screenshotType": "png",
     "key": "BoxVertexColors",
     "pathShot": ".\/2.0\/BoxVertexColors\/screenshot\/screenshot.png",
@@ -19,6 +18,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/BoxVertexColors\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FBoxVertexColors%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FBoxVertexColors%2FREADME.md",
-    "summary": "... no description ..."
+    "UriReadme": ".%2F2.0%2FBoxVertexColors%2FREADME.md"
 }

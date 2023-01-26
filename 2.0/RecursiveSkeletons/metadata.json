@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2021 SharpGLTF",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model by Vicente Penades."
-    ],
+    "license": "CC-BY 4.0",
     "tags": [],
     "description": [
         "This model demonstrates tow things:",
@@ -29,6 +25,7 @@
     "name": "Recursive Skeletons",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/RecursiveSkeletons",
     "createReadme": true,
+    "summary": "Tests unusual skinning cases with reused meshes and recursive skeletons.",
     "screenshotType": "jpg",
     "key": "RecursiveSkeletons",
     "pathShot": ".\/2.0\/RecursiveSkeletons\/screenshot\/screenshot.jpg",
@@ -36,6 +33,5 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/RecursiveSkeletons\/screenshot\/screenshot-x150.jpg",
     "UriHeight": ".%2F2.0%2FRecursiveSkeletons%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FRecursiveSkeletons%2FREADME.md",
-    "summary": "This model demonstrates tow things:"
+    "UriReadme": ".%2F2.0%2FRecursiveSkeletons%2FREADME.md"
 }

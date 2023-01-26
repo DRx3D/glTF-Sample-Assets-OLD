@@ -3,11 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "Copyright 2017-2018 Analytical Graphics, Inc.",
-        "CC-BY 4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/",
-        "Model and textures by Ed Mackey."
-    ],
+    "license": "CC0",
     "tags": [],
     "description": [
         "This model demonstrates the orientation of texture coordinates.  The materials and accessors have all been named according to function.  In particular, the accessor named `TopLeft_TEXCOORD_0` shows that the upper-left portion of the texture image is represented by texture coordinates ranging from roughly `0.0` to roughly `0.4`.",
@@ -33,6 +29,7 @@
     "name": "Texture Coordinate Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureCoordinateTest",
     "createReadme": true,
+    "summary": "Shows how XYZ and UV positions relate to displayed geometry.",
     "screenshotType": "png",
     "key": "TextureCoordinateTest",
     "pathShot": ".\/2.0\/TextureCoordinateTest\/screenshot\/screenshot.png",
@@ -40,6 +37,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/TextureCoordinateTest\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FTextureCoordinateTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTextureCoordinateTest%2FREADME.md",
-    "summary": "This model demonstrates the orientation of texture coordinates.  The materials and accessors have all been named according to function.  In particular, the accessor named `TopLeft_TEXCOORD_0` shows that the upper-left portion of the texture image is represented by texture coordinates ranging from roughly `0.0` to roughly `0.4`."
+    "UriReadme": ".%2F2.0%2FTextureCoordinateTest%2FREADME.md"
 }

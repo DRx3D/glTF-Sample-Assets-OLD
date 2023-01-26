@@ -3,12 +3,7 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": [
-        "glTF\u2122 is a trademark of the Khronos Group Inc.  Follow the [Khronos Logo Usage Guidelines](https:\/\/www.khronos.org\/legal\/trademarks\/)",
-        "when reproducing the glTF\u2122 logo.",
-        "The cube model is [![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)  ",
-        "To the extent possible under law, Analytical Graphics has waived all copyright and related or neighboring rights to this asset."
-    ],
+    "license": "",
     "tags": [],
     "description": [
         "The binary file is called `Box With Spaces.bin`, testing runtime support for the presence of spaces in a URI.  Three textures",
@@ -20,6 +15,7 @@
     "name": "Box With Spaces",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Box With Spaces",
     "createReadme": true,
+    "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
     "screenshotType": "png",
     "key": "Box With Spaces",
     "pathShot": ".\/2.0\/Box With Spaces\/screenshot\/screenshot.png",
@@ -27,6 +23,5 @@
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/Box With Spaces\/screenshot\/screenshot-x150.png",
     "UriHeight": ".%2F2.0%2FBox%20With%20Spaces%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FBox%20With%20Spaces%2FREADME.md",
-    "summary": "The binary file is called `Box With Spaces.bin`, testing runtime support for the presence of spaces in a URI.  Three textures"
+    "UriReadme": ".%2F2.0%2FBox%20With%20Spaces%2FREADME.md"
 }
