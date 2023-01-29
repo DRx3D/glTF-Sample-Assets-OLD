@@ -137,32 +137,34 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 		}
 
 	} else if ($type == 'Detailed') {
-		fwrite ($F, "| Model   | Screenshot  | Author | Owner | Year | License | Description |\n");
-		fwrite ($F, "|---------|-------------|--------|-------|------|---------|-------------|\n");
-		$fmtString = "| [%s](%s) | ![](%s) | %s | %s | %s | %s | %s |\n";
+		fwrite ($F, "| Model   | Screenshot  | Legal | Description |\n");
+		fwrite ($F, "|---------|-------------|-------|-------------|\n");
+		$fmtString = "| [%s](%s) | ![](%s) | %s | %s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
 			$license = ((is_array($metaAll[$ii]->{'license'})) ? 
-							join(' ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
+							join(', ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
 			$license = ($license == '') ? '**NO LICENSE**' : $license;
 			$author  = ((is_array($metaAll[$ii]->{'author'})) ? 
 							join('<br>', $metaAll[$ii]->{'author'}) : $metaAll[$ii]->{'author'});
 			$author  = str_replace ("\n", '<br>', $author);
 			$author  = ($metaAll[$ii]->{'author'}  == '') ? '**NO AUTHOR**' : $author;
 			$owner   = ((is_array($metaAll[$ii]->{'owner'})) ? 
-							join('<br>', $metaAll[$ii]->{'owner'}) : $metaAll[$ii]->{'owner'});
-			$owner   = str_replace ("\n", '<br>', $owner);
+							join(', ', $metaAll[$ii]->{'owner'}) : $metaAll[$ii]->{'owner'});
+			$owner   = str_replace ("\n", ', ', $owner);
 			$owner   = ($metaAll[$ii]->{'owner'}   == '') ? '**NO OWNER**' : $owner;
 			$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
+			
+			if (!($license == 'PD' || $license == 'CC0')) {
+				$notice = "(c)" . $metaAll[$ii]->{'year'} . ", $owner<br>";
+			}
+			$notice .= $license . '<br>' . $author;
 
 			fwrite ($F, sprintf ($fmtString, 
 						$metaAll[$ii]->{'name'}, 
 						$metaAll[$ii]->{'UriReadme'},
 						$metaAll[$ii]->{'UriShot'},
-						$author,
-						$owner,
-						$metaAll[$ii]->{'year'},
-						$license,
+						$notice,
 						$summary,
 						));
 		}
