@@ -155,16 +155,18 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 			$owner   = ($metaAll[$ii]->{'owner'}   == '') ? '**NO OWNER**' : $owner;
 			$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
 			
+			$notice = array();
+			$notice[] = $license;
 			if (!($license == 'PD' || $license == 'CC0')) {
-				$notice = "(c)" . $metaAll[$ii]->{'year'} . ", $owner<br>";
+				$notice[] = "&copy; " . $metaAll[$ii]->{'year'} . ", $owner.";;
 			}
-			$notice .= $license . '<br>' . $author;
+			$notice[] = $author;
 
 			fwrite ($F, sprintf ($fmtString, 
 						$metaAll[$ii]->{'name'}, 
 						$metaAll[$ii]->{'UriReadme'},
 						$metaAll[$ii]->{'UriShot'},
-						$notice,
+						join("<br>", $notice),
 						$summary,
 						));
 		}
