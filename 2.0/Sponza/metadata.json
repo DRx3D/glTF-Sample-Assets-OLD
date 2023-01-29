@@ -3,9 +3,13 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": "CC0",
+    "license": "",
     "tags": [
-        "sharable"
+        "no-license",
+        "no-author",
+        "no-owner",
+        "no-year",
+        "issues"
     ],
     "description": [],
     "screenshot": "screenshot\/screenshot.jpg",

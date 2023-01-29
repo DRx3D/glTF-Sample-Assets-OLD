@@ -1,11 +1,13 @@
 {
     "version": 0,
-    "author": "",
+    "author": "Mathias Kanzler",
     "owner": "",
-    "year": 0,
+    "year": "2021",
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-owner",
+        "issues"
     ],
     "description": [
         "A scene with three copies of Suzanne to showcase how the `KHR_materials_iridescence` extension interacts with different base materials.",

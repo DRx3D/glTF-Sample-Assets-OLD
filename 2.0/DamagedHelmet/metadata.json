@@ -2,10 +2,14 @@
     "version": 0,
     "author": "",
     "owner": "",
-    "year": 0,
-    "license": "See: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
+    "year": "0",
+    "license": "CC-BY-NC\nSee: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "no-owner",
+        "no-year",
+        "issues"
     ],
     "description": [],
     "screenshot": "screenshot\/screenshot.png",

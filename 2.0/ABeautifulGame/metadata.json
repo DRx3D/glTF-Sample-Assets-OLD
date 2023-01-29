@@ -1,11 +1,13 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
+    "author": "MaterialX Project, Ed Mackey",
+    "owner": "ASWF, original model\nEd Mackey, conversion",
+    "year": "0",
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-year",
+        "issues"
     ],
     "description": [
         "The original model was crafted for",

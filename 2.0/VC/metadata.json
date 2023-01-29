@@ -1,11 +1,13 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
-    "license": "CC0",
+    "author": "3DRT",
+    "owner": "3DRT",
+    "year": "0",
+    "license": "",
     "tags": [
-        "sharable"
+        "no-license",
+        "no-year",
+        "issues"
     ],
     "description": [],
     "screenshot": "screenshot\/screenshot.gif",

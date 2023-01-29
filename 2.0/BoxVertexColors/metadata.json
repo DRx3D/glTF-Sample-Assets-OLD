@@ -1,11 +1,13 @@
 {
     "version": 0,
-    "author": "",
+    "author": "Michael Feldstein",
     "owner": "",
-    "year": 0,
+    "year": "0",
     "license": "",
     "tags": [
         "no-license",
+        "no-owner",
+        "no-year",
         "issues"
     ],
     "description": [],

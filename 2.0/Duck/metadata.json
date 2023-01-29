@@ -1,9 +1,9 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
-    "license": "CC-BY 4.0",
+    "author": "Sony",
+    "owner": "Sony",
+    "year": "2006",
+    "license": "SCEA Shared Source License, Version 1.0",
     "tags": [
         "sharable"
     ],

@@ -1,11 +1,13 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
+    "author": "Cesium",
+    "owner": "Cesium",
+    "year": "0",
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-year",
+        "issues"
     ],
     "description": [
         "This model demonstrates tow things:",

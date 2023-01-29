@@ -1,11 +1,14 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "Wayfair, LLC",
     "year": 0,
-    "license": "CC0",
+    "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "no-year",
+        "issues"
     ],
     "description": [
         "This model represents a real Wayfair product, an [Olive 21 fl oz. Covered Dish](https:\/\/www.wayfair.com\/kitchen-tabletop\/pdp\/bloomsbury-market-olive-21-fl-oz-covered-dish-w001802862.html?piid=1661795386), which has a glass cover with an iridescent glaze, and a glass dish with the same glaze and gold leaf applied to the underside. ",

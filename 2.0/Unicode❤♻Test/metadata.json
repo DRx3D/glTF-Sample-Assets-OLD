@@ -1,12 +1,11 @@
 {
     "version": 0,
-    "author": "",
+    "author": "Viktor Kov\u00e1cs",
     "owner": "",
-    "year": 0,
-    "license": "",
+    "year": "0",
+    "license": "CC0",
     "tags": [
-        "no-license",
-        "issues"
+        "sharable"
     ],
     "description": [
         "Sample glTF model where everything contains Unicode characters:",

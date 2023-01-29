@@ -2,10 +2,13 @@
     "version": 0,
     "author": "",
     "owner": "",
-    "year": 0,
+    "year": "0",
     "license": "",
     "tags": [
         "no-license",
+        "no-author",
+        "no-owner",
+        "no-year",
         "issues"
     ],
     "description": [],

@@ -2,40 +2,18 @@
 <img src="2.0/glTF_RGB_June16.svg" height="100">
 </p>
 
-# glTF V2.0 Sample Models
+# glTF Sample Models
 
 [![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
 
-- Obsolete references
-  - [glTF 1.0](1.0)
-  - [glTF 2.0](2.0) - See [the full list](2.0).
+- [glTF 1.0](1.0)
+- [glTF 2.0](2.0) - See [the full list](2.0).
 
 Sample glTF 2.0 models are provided in one or more of the following forms of glTF:
 
 * glTF (`.gltf`) with separate resources: `.bin` (geometry, animation, skins) and `.jpg` or `.png` image files.  The supporting files are easily examined when separated like this, but must be kept together with the parent glTF file for the model to work.
 * glTF (`.gltf`) with embedded resources (as Data URIs).  This form tends to be larger than the others, but Data URIs do have their uses.
 * Binary glTF (`.glb`) using the [binary container format](https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification).  These are easily shared due to the bundling of all the textures and mesh data into a single file.
-
-There are multiple lists provided for simplifying your access and review of the models.
-
-There are three lists that include all modules
-* [Image display](./README-image.md) of all models with no text
-* [Brief listing](./README-all.md) of all models. This is most similar to the old listing
-* [Listing](./README-detailed.md) of all models with details
-
-Lists based on some characteristic(s) of the model
-* List of all [sharable models](./README-sharable.md). These have a PD, CC0, CC-BY, CC-BY-NC, or CC-BY-ND license
-
-
-There are also several lists to assit in repository verification
-* List of models with [Issues](./README-issues.md) (anything identified below or other incomplete fields)
-* List of models without a [License](./README-noLicense.md)
-* List of models without an [Author](./README-noAuthor.md)
-* List of models without an [Owner](./README-noOwner.md)
-* List of models without a [Copyright Year](./README-noYear.md)
-
-
-
 
 See the `README.md` in each model's directory for license information.
 
@@ -61,7 +39,7 @@ For addition glTF models, see:
 
 We appreciate sample model contributions; they help ensure a consistent glTF ecosystem.
 
-To contribute a model, open a pull request with: (**Needs to be updated**)
+To contribute a model, open a pull request with:
 * A new subdirectory containing
    * The model in as many glTF variations as reasonable (using the same directory structure as the others ([example](2.0/Box))). Tools for converting to glTF are [here](https://github.com/KhronosGroup/glTF#converters).
    * A screenshot of the model, stored in a subdirectory called `/screenshot`

@@ -1,11 +1,12 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
+    "author": "Keith Hunter",
+    "owner": "Smith Micro Software, Inc.",
+    "year": "0",
     "license": "",
     "tags": [
         "no-license",
+        "no-year",
         "issues"
     ],
     "description": [],

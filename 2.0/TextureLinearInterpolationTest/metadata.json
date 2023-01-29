@@ -3,9 +3,11 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": "CC-BY 4.0",
+    "license": "CC0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "issues"
     ],
     "description": [
         "This asset tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. The test passes when two spheres are rendered with nearly the same color.",

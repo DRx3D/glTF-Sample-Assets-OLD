@@ -1,11 +1,13 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
-    "year": 0,
+    "owner": "Wayfair",
+    "year": "2021",
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "issues"
     ],
     "description": [
         "This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https:\/\/www.wayfair.com\/). ",

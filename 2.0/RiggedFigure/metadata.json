@@ -1,11 +1,12 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
-    "license": "",
+    "author": "Cesium",
+    "owner": "Cesium",
+    "year": "0",
+    "license": "CC-BY 4.0",
     "tags": [
-        "no-license",
+        "sharable",
+        "no-year",
         "issues"
     ],
     "description": [],

@@ -1,11 +1,13 @@
 {
     "version": 0,
-    "author": "",
+    "author": "Model: PixelMannen\nRigging & Animation: tomkranis",
     "owner": "",
-    "year": 0,
-    "license": "",
+    "year": "0",
+    "license": "CC-BY 4.0",
     "tags": [
-        "no-license",
+        "sharable",
+        "no-owner",
+        "no-year",
         "issues"
     ],
     "description": [

@@ -5,7 +5,11 @@
     "year": 0,
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "no-owner",
+        "no-year",
+        "issues"
     ],
     "description": [
         "This model tests the orientation supplied by nodes in the hierarchy.  The red, green, and blue arrows test X, Y, and Z rotations respectively expressed as quaternions in the nodes.  The cyan, magenta, and yellow arrows test X, Y, and Z rotations respectively expressed with rotation matrices in the nodes.",

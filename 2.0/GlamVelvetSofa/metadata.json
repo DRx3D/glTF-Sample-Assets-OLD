@@ -1,11 +1,13 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
-    "year": 0,
-    "license": "CC0",
+    "owner": "Wayfair, LLC",
+    "year": "2021",
+    "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "issues"
     ],
     "description": [
         "This model represents a real product, a velvet sofa bed being sold [on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html). ",

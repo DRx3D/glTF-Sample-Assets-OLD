@@ -3,9 +3,13 @@
     "author": "",
     "owner": "",
     "year": 0,
-    "license": "SCEA Shared Source License, Version 1.0",
+    "license": "",
     "tags": [
-        "sharable"
+        "no-license",
+        "no-author",
+        "no-owner",
+        "no-year",
+        "issues"
     ],
     "description": [
         "This model demonstrates the use of the `KHR_materials_transmission` and `KHR_materials_volume` extensions to specify an object that appears to be made from colored glass.",

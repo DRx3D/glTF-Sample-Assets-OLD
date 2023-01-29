@@ -99,13 +99,15 @@ function CreateUI ($modelFolder, $Templates, $ModelData) {
 	//print "Processed all models\n";
 	//print_r($Templates);
 	
+	createReadme ('Detailed', 'README-detailed.md', $metaAll);
 	createReadme ('Image', 'README-image.md', $metaAll);
 	createReadme ('List', 'README-all.md', $metaAll);
 	createReadme ('List', 'README-issues.md', $metaAll, array('issues'));
 	createReadme ('List', 'README-sharable.md', $metaAll, array('sharable'));
 	createReadme ('List', 'README-noLicense.md', $metaAll, array('no-license'));
-	
-	return;
+	createReadme ('List', 'README-noAuthor.md', $metaAll, array('no-author'));
+	createReadme ('List', 'README-noOwner.md', $metaAll, array('no-owner'));
+	createReadme ('List', 'README-noYear.md', $metaAll, array('no-year'));
 }
 
 // Function for creating READMEs
@@ -119,6 +121,7 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 		$section = 'Models tagged with **' . join(', ', $tags) . '**';
 		$singleTag = $tags[0];
 	}
+	print "Generating $type for $section\n";
 	
 	fwrite ($F, "# glTF 2.0 Sample Models\n\n");
 	fwrite ($F, "## $section\n\n");
@@ -132,7 +135,37 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 						$metaAll[$ii]->{'UriReadme'}
 						));
 		}
-		
+
+	} else if ($type == 'Detailed') {
+		fwrite ($F, "| Model   | Screenshot  | Author | Owner | Year | License | Description |\n");
+		fwrite ($F, "|---------|-------------|--------|-------|------|---------|-------------|\n");
+		$fmtString = "| [%s](%s) | ![](%s) | %s | %s | %s | %s | %s |\n";
+
+		for ($ii=0; $ii<count($metaAll); $ii++) {
+			$license = ((is_array($metaAll[$ii]->{'license'})) ? 
+							join(' ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
+			$license = ($license == '') ? '**NO LICENSE**' : $license;
+			$author  = ((is_array($metaAll[$ii]->{'author'})) ? 
+							join('<br>', $metaAll[$ii]->{'author'}) : $metaAll[$ii]->{'author'});
+			$author  = str_replace ("\n", '<br>', $author);
+			$author  = ($metaAll[$ii]->{'author'}  == '') ? '**NO AUTHOR**' : $author;
+			$owner   = ((is_array($metaAll[$ii]->{'owner'})) ? 
+							join('<br>', $metaAll[$ii]->{'owner'}) : $metaAll[$ii]->{'owner'});
+			$owner   = str_replace ("\n", '<br>', $owner);
+			$owner   = ($metaAll[$ii]->{'owner'}   == '') ? '**NO OWNER**' : $owner;
+			$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
+
+			fwrite ($F, sprintf ($fmtString, 
+						$metaAll[$ii]->{'name'}, 
+						$metaAll[$ii]->{'UriReadme'},
+						$metaAll[$ii]->{'UriShot'},
+						$author,
+						$owner,
+						$metaAll[$ii]->{'year'},
+						$license,
+						$summary,
+						));
+		}
 	} else if ($type == 'List') {
 		fwrite ($F, "| Model   | Screenshot  | Description |\n");
 		fwrite ($F, "|---------|-------------|-------------|\n");
@@ -249,17 +282,24 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 		if (isset($ModelData[$modelName])) {
 			$metadata->{'license'} = $ModelData[$modelName]['License'];
 			$metadata->{'summary'} = $ModelData[$modelName]['Summary'];
+			$metadata->{'author'} = $ModelData[$modelName]['Author'];
+			$metadata->{'owner'} = $ModelData[$modelName]['Owner'];
+			$metadata->{'year'} = $ModelData[$modelName]['Year'];
 		} else {
 			$metadata->{'license'} = join (' AND ', $license);
 			$metadata->{'summary'} = $shortDescription;
+			$metadata->{'author'} = '';
+			$metadata->{'owner'} = '';
+			$metadata->{'year'} = 0;
 		}
+		$metadata->{'year'} = ($metadata->{'year'} == '') ? 0 : $metadata->{'year'};
+
 	}
 
 	foreach ($Structure as $key => $value) {
 		if (!isset($metadata->{$key})) {$metadata->{$key} = $value;}
 	}
 
-	
 	$screenshot = 'screenshot/screenshot';
 	$metadata->{'screenshotType'} = (file_exists($dir.'/'.$screenshot.'.jpg')) ? 'jpg' : ((file_exists($dir.'/'.$screenshot.'.png')) ? 'png' : 'gif');
 
@@ -268,18 +308,6 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 		$shotHeight = createScreenShot ($dir, $screenshot, $metadata->{'screenshotType'}, 150);
 	} else {
 		$shotHeight = $screenshot;
-	}
-	
-	$tags = array();
-	//print_r (array('Name'=>$modelName, 'License'=>$metadata->{'license'}));
-	if (trim($metadata->{'license'}) == '') {
-		$tags[] = 'no-license';
-		$tags[] = 'issues';
-	} else {
-		$tags[] = 'sharable';
-	}
-	if ($metadata->{'summary'} == '') {
-		$tags[] = 'issues';
 	}
 	
 	$metadata->{'version'} = 0;
@@ -293,24 +321,66 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 	$metadata->{'pathHeight'} = $dir . '/' . $metadata->{'shotHeight'};
 	$metadata->{'UriHeight'} = rawurlencode($metadata->{'pathHeight'});
 	$metadata->{'UriReadme'} = rawurlencode($dir . '/README.md');
+	$metadata->{'author'} = $metadata->{'author'};
+	$metadata->{'owner'} = $metadata->{'owner'};
+	$metadata->{'year'} = $metadata->{'year'};
 	$metadata->{'description'} = $description;
 	//$metadata->{'summary'} = $shortDescription;
 	//$metadata->{'license'} = $license;
 	$metadata->{'createReadme'} = true;
+
+	$tags = array();
+	$tags = getTags ($metadata);
 	$metadata->{'tags'} = $tags;
 
 	return $metadata;
 }
 
+// Return the tags appropriate to this model
+function getTags ($metadata) {
+	$issues = false;
+	$license = (is_array($metadata->{'license'})) ? 
+					trim(join('<br>', $metadata->{'license'})) : 
+					trim($metadata->{'license'});
+
+	if ($license == '') {
+		$tags[] = 'no-license';
+		$issues = true;
+	} else {
+		$tags[] = 'sharable';
+	}
+	if ($metadata->{'summary'} == '') {
+		$issues = true;
+	}
+	if (trim($metadata->{'author'}) == '') {
+		$tags[] = 'no-author';
+		$issues = true;
+	}
+	if ($license != 'CC0' && trim($metadata->{'owner'}) == '') {
+		$tags[] = 'no-owner';
+		$issues = true;
+	}
+	if ($license != 'CC0' && trim($metadata->{'year'}) == 0) {
+		$tags[] = 'no-year';
+		$issues = true;
+	}
+
+	if ($issues) {
+		$tags[] = 'issues';
+	}
+	return $tags;
+}
+
 // Function to create standard size screenshots
 function createScreenShot ($path, $shotOriginal, $shotType, $imageHeight) {
 	$shotOut = sprintf ('%s-x%d', $shotOriginal, $imageHeight);
-	$cmd = sprintf ('magick "%s/%s.%s" -background white -resize %d "%s/%s.%s"',
-						$path, $shotOriginal, $shotType,
-						$imageHeight,
-						$path, $shotOut, $shotType);
-	//print "$cmd\n";
-	system ($cmd);
+	if (!file_exists("$path/$shotOut.$shotType")) {
+		$cmd = sprintf ('magick "%s/%s.%s" -background white -resize %d "%s/%s.%s"',
+							$path, $shotOriginal, $shotType,
+							$imageHeight,
+							$path, $shotOut, $shotType);
+		system ($cmd);
+	}
 	return $shotOut;
 }
 

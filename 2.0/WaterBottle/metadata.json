@@ -1,12 +1,11 @@
 {
     "version": 0,
-    "author": "",
+    "author": "Microsoft",
     "owner": "",
     "year": 0,
-    "license": "",
+    "license": "CC0",
     "tags": [
-        "no-license",
-        "issues",
+        "sharable",
         "issues"
     ],
     "description": [],

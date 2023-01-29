@@ -2,10 +2,14 @@
     "version": 0,
     "author": "",
     "owner": "",
-    "year": 0,
+    "year": "0",
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "no-owner",
+        "no-year",
+        "issues"
     ],
     "description": [
         "glTF 3D model of a \"Mosquito In Amber\" using the IOR, [KHR-materials-transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md) and Volume PBR extensions to add reflection and refraction to translucent materials.",

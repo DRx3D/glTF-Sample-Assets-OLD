@@ -1,11 +1,13 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
-    "year": 0,
-    "license": "CC0",
+    "owner": "Wayfair, LLC",
+    "year": "2022",
+    "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "issues"
     ],
     "description": [
         "This model represents the real Wayfair product [Bonsell 19\" Table Lamp](https:\/\/www.wayfair.com\/lighting\/pdp\/wrought-studio-bonsell-19-table-lamp-w002337865.html) which has iridescent finishes. ",

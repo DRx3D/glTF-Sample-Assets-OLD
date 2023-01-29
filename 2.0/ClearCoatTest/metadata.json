@@ -1,9 +1,9 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
-    "year": 0,
-    "license": "CC0",
+    "author": "Ed Mackey",
+    "owner": "Analytical Graphics, Inc.",
+    "year": "2020",
+    "license": "CC-BY 4.0",
     "tags": [
         "sharable"
     ],

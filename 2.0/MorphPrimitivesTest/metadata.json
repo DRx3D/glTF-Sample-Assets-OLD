@@ -1,11 +1,13 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
-    "year": 0,
+    "owner": "Analytical Graphics, Inc.",
+    "year": "2021",
     "license": "CC-BY 4.0",
     "tags": [
-        "sharable"
+        "sharable",
+        "no-author",
+        "issues"
     ],
     "description": [
         "This model contains a simple mesh with two primitives:  A larger red primitive displays a grid covering 3 of the 4 quadrants of the model's area, followed by a smaller green primitive covering the last quadrant.",

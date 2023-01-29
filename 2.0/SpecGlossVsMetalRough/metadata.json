@@ -1,11 +1,12 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "",
+    "author": "Microsoft",
+    "owner": "Microsoft",
     "year": 0,
-    "license": "",
+    "license": "CC-BY 4.0",
     "tags": [
-        "no-license",
+        "sharable",
+        "no-year",
         "issues"
     ],
     "description": [
