@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "CC-BY 4.0",
     "tags": [
@@ -15,14 +15,22 @@
     "screenshot": "screenshot\/screenshot.png",
     "name": "SimpleSparseAccessor",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SimpleSparseAccessor",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "A simple mesh that uses sparse accessors",
+    "AutoGenerateREADME": false,
     "screenshotType": "png",
     "key": "SimpleSparseAccessor",
     "pathShot": ".\/2.0\/SimpleSparseAccessor\/screenshot\/screenshot.png",
     "UriShot": ".%2F2.0%2FSimpleSparseAccessor%2Fscreenshot%2Fscreenshot.png",
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/SimpleSparseAccessor\/screenshot\/screenshot-x150.png",
+    "pathReadme": ".\/2.0\/SimpleSparseAccessor\/README.md",
     "UriHeight": ".%2F2.0%2FSimpleSparseAccessor%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FSimpleSparseAccessor%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FSimpleSparseAccessor%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
+    "licenseText": "Attribution 4.0 International",
+    "artist": "_No Artist_",
+    "credit": "**&copy;** _No Owner_. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
 }

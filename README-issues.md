@@ -9,17 +9,17 @@
 | [AnimatedTriangle](.%2F2.0%2FAnimatedTriangle%2FREADME.md) | ![](.%2F2.0%2FAnimatedTriangle%2Fscreenshot%2Fscreenshot.gif) | This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation<br>License: CC0 |
 | [Antique Camera ](.%2F2.0%2FAntiqueCamera%2FREADME.md) | ![](.%2F2.0%2FAntiqueCamera%2Fscreenshot%2Fscreenshot.png) | ... no description ...<br>License: Old camera model by Maximilian Kamps.   AND Dontated by UX3D for glTF testing. AND [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)   AND To the extent possible under law, UX3D has waived all copyright and related or neighboring rights to this asset. |
 | [Box](.%2F2.0%2FBox%2FREADME.md) | ![](.%2F2.0%2FBox%2Fscreenshot%2Fscreenshot.png) | One mesh and one material. Start with this.<br>License: CC-BY 4.0 |
-| [Box With Spaces](.%2F2.0%2FBox%20With%20Spaces%2FREADME.md) | ![](.%2F2.0%2FBox%20With%20Spaces%2Fscreenshot%2Fscreenshot.png) | Box with URI-encoded spaces in the texture names used by a simple PBR material.<br>License: **NO LICENSE** |
+| [Box With Spaces](.%2F2.0%2FBox%20With%20Spaces%2FREADME.md) | ![](.%2F2.0%2FBox%20With%20Spaces%2Fscreenshot%2Fscreenshot.png) | Box with URI-encoded spaces in the texture names used by a simple PBR material.<br>License: CC0 |
 | [Box Animated](.%2F2.0%2FBoxAnimated%2FREADME.md) | ![](.%2F2.0%2FBoxAnimated%2Fscreenshot%2Fscreenshot.gif) | Rotation and Translation Animations. Start with this to test animations.<br>License: CC-BY 4.0 |
 | [Box with interleaved position and normal attributes](.%2F2.0%2FBoxInterleaved%2FREADME.md) | ![](.%2F2.0%2FBoxInterleaved%2Fscreenshot%2Fscreenshot.png) | Box example with interleaved position and normal attributes.<br>License: CC-BY 4.0 |
-| [Box Textured](.%2F2.0%2FBoxTextured%2FREADME.md) | ![](.%2F2.0%2FBoxTextured%2Fscreenshot%2Fscreenshot.png) | Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.<br>License: CC-BY 4.0 |
-| [Box Textured](.%2F2.0%2FBoxTexturedNonPowerOfTwo%2FREADME.md) | ![](.%2F2.0%2FBoxTexturedNonPowerOfTwo%2Fscreenshot%2Fscreenshot.png) | Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.<br>License: CC-BY 4.0 |
+| [Box Textured](.%2F2.0%2FBoxTextured%2FREADME.md) | ![](.%2F2.0%2FBoxTextured%2Fscreenshot%2Fscreenshot.png) | Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.<br>License: CC-BY 4.0 and TM |
+| [Box Textured](.%2F2.0%2FBoxTexturedNonPowerOfTwo%2FREADME.md) | ![](.%2F2.0%2FBoxTexturedNonPowerOfTwo%2Fscreenshot%2Fscreenshot.png) | Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.<br>License: CC-BY 4.0 and TM |
 | [Box Vertex Colors](.%2F2.0%2FBoxVertexColors%2FREADME.md) | ![](.%2F2.0%2FBoxVertexColors%2Fscreenshot%2Fscreenshot.png) | Box with vertex colors applied.<br>License: **NO LICENSE** |
 | [BrainStem](.%2F2.0%2FBrainStem%2FREADME.md) | ![](.%2F2.0%2FBrainStem%2Fscreenshot%2Fscreenshot.gif) | Animations. Skins.<br>License: **NO LICENSE** |
 | [Buggy](.%2F2.0%2FBuggy%2FREADME.md) | ![](.%2F2.0%2FBuggy%2Fscreenshot%2Fscreenshot.png) | Medium-sized CAD data set, including hierarchy<br>License: **NO LICENSE** |
 | [Cameras](.%2F2.0%2FCameras%2FREADME.md) | ![](.%2F2.0%2FCameras%2Fscreenshot%2Fscreenshot.png) | A sample with two different camera objects<br>License: CC0 |
-| [Cesium Man](.%2F2.0%2FCesiumMan%2FREADME.md) | ![](.%2F2.0%2FCesiumMan%2Fscreenshot%2Fscreenshot.gif) | Textured. Animations. Skins.<br>License: CC-BY 4.0 |
-| [Cesium Milk Truck](.%2F2.0%2FCesiumMilkTruck%2FREADME.md) | ![](.%2F2.0%2FCesiumMilkTruck%2Fscreenshot%2Fscreenshot.gif) | Textured. Multiple nodes/meshes. Animations.<br>License: CC-BY 4.0 |
+| [Cesium Man](.%2F2.0%2FCesiumMan%2FREADME.md) | ![](.%2F2.0%2FCesiumMan%2Fscreenshot%2Fscreenshot.gif) | Textured. Animations. Skins.<br>License: CC-BY 4.0 and TM |
+| [Cesium Milk Truck](.%2F2.0%2FCesiumMilkTruck%2FREADME.md) | ![](.%2F2.0%2FCesiumMilkTruck%2Fscreenshot%2Fscreenshot.gif) | Textured. Multiple nodes/meshes. Animations.<br>License: CC-BY 4.0 and TM |
 | [Cube](.%2F2.0%2FCube%2FREADME.md) | ![](.%2F2.0%2FCube%2Fscreenshot%2Fscreenshot.jpg) | A cube with non-smoothed faces.<br>License: **NO LICENSE** |
 | [Damaged Helmet](.%2F2.0%2FDamagedHelmet%2FREADME.md) | ![](.%2F2.0%2FDamagedHelmet%2Fscreenshot%2Fscreenshot.png) |  <br>License: CC-BY-NC
 See: http://www.graphics.stanford.edu/data/3Dscanrep/#acknowledge |
@@ -52,4 +52,4 @@ See: http://www.graphics.stanford.edu/data/3Dscanrep/#acknowledge |
 | [TriangleWithoutIndices](.%2F2.0%2FTriangleWithoutIndices%2FREADME.md) | ![](.%2F2.0%2FTriangleWithoutIndices%2Fscreenshot%2Fscreenshot.png) | The simplest possible glTF asset: A single scene with a single node and a single mesh with a single mesh.primitive with a single triangle with a single attribute, without indices and without a material<br>License: CC0 |
 | [Virtual City](.%2F2.0%2FVC%2FREADME.md) | ![](.%2F2.0%2FVC%2Fscreenshot%2Fscreenshot.gif) | Textured. Animations.<br>License: **NO LICENSE** |
 | [Vertex Color Test](.%2F2.0%2FVertexColorTest%2FREADME.md) | ![](.%2F2.0%2FVertexColorTest%2Fscreenshot%2Fscreenshot.png) | Tests if vertex colors are supported.<br>License: **NO LICENSE** |
-| [Water Bottle](.%2F2.0%2FWaterBottle%2FREADME.md) | ![](.%2F2.0%2FWaterBottle%2Fscreenshot%2Fscreenshot.jpg) | **NO DESCRIPTION**<br>License: CC0 |
+| [Water Bottle](.%2F2.0%2FWaterBottle%2FREADME.md) | ![](.%2F2.0%2FWaterBottle%2Fscreenshot%2Fscreenshot.jpg) | _No Summary_<br>License: CC0 |

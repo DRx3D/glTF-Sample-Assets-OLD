@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "",
     "tags": [
@@ -23,14 +23,22 @@
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Dragon Attenuation",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/DragonAttenuation",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Dragon with background, using material variants, transmission, and volume.",
+    "AutoGenerateREADME": false,
     "screenshotType": "jpg",
     "key": "DragonAttenuation",
     "pathShot": ".\/2.0\/DragonAttenuation\/screenshot\/screenshot.jpg",
     "UriShot": ".%2F2.0%2FDragonAttenuation%2Fscreenshot%2Fscreenshot.jpg",
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/DragonAttenuation\/screenshot\/screenshot-x150.jpg",
+    "pathReadme": ".\/2.0\/DragonAttenuation\/README.md",
     "UriHeight": ".%2F2.0%2FDragonAttenuation%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FDragonAttenuation%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FDragonAttenuation%2FREADME.md",
+    "licenseDetails": false,
+    "licenseIcon": "",
+    "licenseLink": "",
+    "licenseText": "_No License_",
+    "artist": "_No Artist_",
+    "credit": "**&copy;** _No Owner_. **License:** _No License_"
 }

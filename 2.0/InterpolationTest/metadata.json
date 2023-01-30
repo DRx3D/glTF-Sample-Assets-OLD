@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "CC0",
     "tags": [
@@ -13,14 +13,22 @@
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Interpolation Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/InterpolationTest",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "A sample with three different animation interpolations",
+    "AutoGenerateREADME": true,
     "screenshotType": "gif",
     "key": "InterpolationTest",
     "pathShot": ".\/2.0\/InterpolationTest\/screenshot\/screenshot.gif",
     "UriShot": ".%2F2.0%2FInterpolationTest%2Fscreenshot%2Fscreenshot.gif",
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/InterpolationTest\/screenshot\/screenshot.gif",
+    "pathReadme": ".\/2.0\/InterpolationTest\/README.md",
     "UriHeight": ".%2F2.0%2FInterpolationTest%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FInterpolationTest%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FInterpolationTest%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
+    "licenseText": "CC0 1.0 Universal",
+    "artist": "_No Artist_",
+    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
 }

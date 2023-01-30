@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "Microsoft",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "CC0",
     "tags": [
@@ -11,14 +11,22 @@
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Boom Box with Axes",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoomBoxWithAxes",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Shows X, Y, and Z axis default orientations.",
+    "AutoGenerateREADME": true,
     "screenshotType": "jpg",
     "key": "BoomBoxWithAxes",
     "pathShot": ".\/2.0\/BoomBoxWithAxes\/screenshot\/screenshot.jpg",
     "UriShot": ".%2F2.0%2FBoomBoxWithAxes%2Fscreenshot%2Fscreenshot.jpg",
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/BoomBoxWithAxes\/screenshot\/screenshot-x150.jpg",
+    "pathReadme": ".\/2.0\/BoomBoxWithAxes\/README.md",
     "UriHeight": ".%2F2.0%2FBoomBoxWithAxes%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FBoomBoxWithAxes%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FBoomBoxWithAxes%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
+    "licenseText": "CC0 1.0 Universal",
+    "artist": "Microsoft",
+    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
 }

@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": "0",
     "license": "",
     "tags": [
@@ -15,14 +15,22 @@
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Environment Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/EnvironmentTest",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "A simple scene with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting.",
+    "AutoGenerateREADME": false,
     "screenshotType": "jpg",
     "key": "EnvironmentTest",
     "pathShot": ".\/2.0\/EnvironmentTest\/screenshot\/screenshot.jpg",
     "UriShot": ".%2F2.0%2FEnvironmentTest%2Fscreenshot%2Fscreenshot.jpg",
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/EnvironmentTest\/screenshot\/screenshot-x150.jpg",
+    "pathReadme": ".\/2.0\/EnvironmentTest\/README.md",
     "UriHeight": ".%2F2.0%2FEnvironmentTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FEnvironmentTest%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FEnvironmentTest%2FREADME.md",
+    "licenseDetails": false,
+    "licenseIcon": "",
+    "licenseLink": "",
+    "licenseText": "_No License_",
+    "artist": "_No Artist_",
+    "credit": "**&copy;** _No Owner_. **License:** _No License_"
 }

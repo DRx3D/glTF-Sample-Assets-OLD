@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "",
     "tags": [
@@ -15,14 +15,22 @@
     "screenshot": "screenshot\/screenshot.png",
     "name": "Gearbox Assy",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/GearboxAssy",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Medium-sized CAD data set, including hierarchy.",
+    "AutoGenerateREADME": true,
     "screenshotType": "png",
     "key": "GearboxAssy",
     "pathShot": ".\/2.0\/GearboxAssy\/screenshot\/screenshot.png",
     "UriShot": ".%2F2.0%2FGearboxAssy%2Fscreenshot%2Fscreenshot.png",
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/GearboxAssy\/screenshot\/screenshot-x150.png",
+    "pathReadme": ".\/2.0\/GearboxAssy\/README.md",
     "UriHeight": ".%2F2.0%2FGearboxAssy%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FGearboxAssy%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FGearboxAssy%2FREADME.md",
+    "licenseDetails": false,
+    "licenseIcon": "",
+    "licenseLink": "",
+    "licenseText": "_No License_",
+    "artist": "_No Artist_",
+    "credit": "**&copy;** _No Owner_. **License:** _No License_"
 }

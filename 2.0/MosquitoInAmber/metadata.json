@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": "0",
     "license": "CC-BY 4.0",
     "tags": [
@@ -18,14 +18,22 @@
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Mosquito In Amber",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MosquitoInAmber",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
+    "AutoGenerateREADME": false,
     "screenshotType": "jpg",
     "key": "MosquitoInAmber",
     "pathShot": ".\/2.0\/MosquitoInAmber\/screenshot\/screenshot.jpg",
     "UriShot": ".%2F2.0%2FMosquitoInAmber%2Fscreenshot%2Fscreenshot.jpg",
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/MosquitoInAmber\/screenshot\/screenshot-x150.jpg",
+    "pathReadme": ".\/2.0\/MosquitoInAmber\/README.md",
     "UriHeight": ".%2F2.0%2FMosquitoInAmber%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FMosquitoInAmber%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FMosquitoInAmber%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
+    "licenseText": "Attribution 4.0 International",
+    "artist": "_No Artist_",
+    "credit": "**&copy;** _No Owner_. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
 }

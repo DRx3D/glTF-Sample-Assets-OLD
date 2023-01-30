@@ -17,17 +17,42 @@
  *	<end-for>
  *
  **/
+$VERSION = 'V0.7.5';
+print "Start of $VERSION\n";
+ 
+// Global Data
  // Metadata JSON template file
 $Templates['Metadata']= ['file'=>'./metadata.template.json', 'type'=>'JSON', 'version'=>1, 'model'=>'metadata.json'];
 
 // README template file
 $Templates['Readme'] = ['file'=>'./README.template.md', 'type'=>'MD', 'outputName'=>'README1.md'];
 
+// Conversion arrays
+$TF = array ('TRUE'=>true, 'FALSE'=>false, true=>true, false=>false, 1=>true, 0=>false);
+$LICENSE = array (
+			'CC0'		=> array (
+							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png', 
+							'link'=>'https://creativecommons.org/publicdomain/zero/1.0/legalcode',
+							'text'=>'CC0 1.0 Universal',
+							),
+			'CC-BY'		=> array (
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'link'=>'https://creativecommons.org/licenses/by-nd/4.0/legalcode',
+							'text'=>'Attribution 4.0 International',
+							),
+			'CC-BY 4.0'	=> array (
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'link'=>'https://creativecommons.org/licenses/by-nd/4.0/legalcode',
+							'text'=>'Attribution 4.0 International',
+							),
+			);
+
 // Get Existing Model data for pre-populating model JSON files
 $ModelData = getModelData();
 
 // Process Model directory
 CreateUI ('./2.0', $Templates, $ModelData);
+print "\n\nEnd of $VERSION\n";
 exit;
 
 // Get all model data, stored in CSV file
@@ -73,7 +98,6 @@ function CreateUI ($modelFolder, $Templates, $ModelData) {
 
 // Loop through all matching directories
 	$folder = dir ($modelFolder);
-	//print "Path: ".$folder->path."; Handle: ".$folder->handle.";\n";
 	$folderDotDirs = array ($modelFolder.'/.', $modelFolder.'/..');
 
 	$F = fopen ('modelMetadata.csv', 'w');
@@ -96,9 +120,8 @@ function CreateUI ($modelFolder, $Templates, $ModelData) {
 	}
 	fclose ($F);
 	$folder->close();
-	//print "Processed all models\n";
-	//print_r($Templates);
 	
+	print "\n";
 	createReadme ('Detailed', 'README-detailed.md', $metaAll);
 	createReadme ('Image', 'README-image.md', $metaAll);
 	createReadme ('List', 'README-all.md', $metaAll);
@@ -214,6 +237,7 @@ function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata, $ModelData
 		$metadata = updateMetadata ($metadata, $modelDir, $Defaults, $Metadata['Structure'], $ModelData);
 		$needsWriting = true;
 	}
+	$metadata = cleanupMetadata ($metadata);
 	
 	if ($needsWriting) {
 		$string = json_encode($metadata, JSON_PRETTY_PRINT);
@@ -221,8 +245,82 @@ function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata, $ModelData
 		fwrite ($FH, $string);
 		fclose ($FH);
 	}
+	//print_r($metadata);
+	createModelReadme ($metadata);
 
 	return $metadata;
+}
+
+
+/*
+ * Create the model's readme.
+ * The actual work is determined by the field $metadata->{'AutoGenerateREADME'}
+ * Uses data from the Summary, License, Author, Owner, Year
+ */
+function cleanupMetadata ($metadata) {
+	global $TF, $LICENSE;
+
+	$summary = ($metadata->{'summary'} == '') ? '_No Summary_' : $metadata->{'summary'};
+	$artist  = ($metadata->{'author'} == '') ? '_No Artist_' : $metadata->{'author'};
+	$owner  = ($metadata->{'owner'} == '') ? '_No Owner_' : $metadata->{'owner'};
+	$license = ($metadata->{'license'} == '') ? '_No License_' : $metadata->{'licenseText'};
+	$screenshot = $metadata->{'screenshot'};
+	$credit = '';
+	if ($metadata->{'license'} == 'PD' || $metadata->{'license'} == 'CC0') {
+		$credit = ($metadata->{'licenseDetails'}) ? 
+			sprintf ("**License:** [![%s](%s) %s](%s)", $license, $metadata->{'licenseIcon'}, $license, $metadata->{'licenseLink'})
+			:
+			$credit = 'None required';
+	} else {
+		// Format: (c) <year>, <owner>. <license>
+		$copyright = ($metadata->{'year'} > 100) ? sprintf ("**&copy;** %4d,", $metadata->{'year'}) : "**&copy;**";
+		$credit = ($metadata->{'licenseDetails'}) ? 
+			sprintf ("%s %s. **License:** [![%s](%s) %s](%s)", $copyright, $owner, $license, $metadata->{'licenseIcon'}, $license, $metadata->{'licenseLink'})
+			:
+			sprintf ("%s %s. **License:** %s", $copyright, $owner, $license);
+	}
+
+	$metadata->{'summary'}		= $summary;
+	$metadata->{'artist'}		= $artist;
+	$metadata->{'owner'}		= $owner;
+	$metadata->{'licenseText'}	= $license;
+	$metadata->{'credit'}		= $credit;
+
+	return $metadata;
+}
+
+/*
+ * Create the model's readme.
+ * The actual work is determined by the field $metadata->{'AutoGenerateREADME'}
+ * Uses data from the Summary, License, Author, Owner, Year
+ */
+function createModelReadme ($metadata) {
+	global $TF, $LICENSE, $VERSION;
+
+	if (!$metadata->{'AutoGenerateREADME'}) {
+		return;
+	}
+
+	$screenshot = $metadata->{'screenshot'};
+
+	$readme = array();
+	$readme[] = '# ' . $metadata->{'name'};
+	$readme[] = "## Summary";
+	$readme[] = $metadata->{'summary'};
+	$readme[] = '## Screenshot';
+	$readme[] = "![screenshot](".$metadata->{'screenshot'}.")";
+	$readme[] = '## Legal';
+	$readme[] = $metadata->{'credit'} . '<br>**Artist:** ' . $metadata->{'artist'};
+	$readme[] = "#### Generated by ui-generator.php $VERSION";
+	$output = join ("\n\n", $readme);
+	//print_r($readme);
+	//print "$output\n";
+	//print "  Writing to ".$metadata->{'pathReadme'}." Legal: $credit\n";
+	$FO = fopen ($metadata->{'pathReadme'}, 'w');
+	fwrite ($FO, $output);
+	fclose ($FO);
+
+	return;
 }
 
 /* 
@@ -235,11 +333,13 @@ function getMetadata ($modelDir, $metaFilename, $Defaults, $Metadata, $ModelData
  *	V0 needs information loaded from existing README
  **/
 function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
+	global $TF, $LICENSE;
 	if (!isset($metadata->{'version'}) || $metadata->{'version'} == 0) {
 		//print "Updating metadata with info from $dir/README.md and |".$metadata->{'name'}."|\n";
 		
 		$string = file_get_contents ($dir . '/README.md');
 		$readme = explode (PHP_EOL, $string);
+		if (count($readme) == 1) {$readme = explode ("\n", $string); }
 		$modelName = $metadata->{'name'};
 		$metadata = clone $Structure;
 		$license = (isset($metadata->{'license'})) ? $metadata->{'license'} : [];
@@ -278,7 +378,6 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 						$license[] = $readme[$jj];
 					}
 				}
-				//print " ... Updating license\n";
 			}
 		}
 
@@ -289,12 +388,17 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 			$metadata->{'author'} = $ModelData[$modelName]['Author'];
 			$metadata->{'owner'} = $ModelData[$modelName]['Owner'];
 			$metadata->{'year'} = $ModelData[$modelName]['Year'];
+			$metadata->{'AutoGenerateREADME'} = $TF[$ModelData[$modelName]['AutoGenerateREADME']];
+			//print "  AutoGenerate '$modelName': |".$ModelData[$modelName]['AutoGenerateREADME']."|\n";
 		} else {
 			$metadata->{'license'} = join (' AND ', $license);
 			$metadata->{'summary'} = $shortDescription;
 			$metadata->{'author'} = '';
 			$metadata->{'owner'} = '';
 			$metadata->{'year'} = 0;
+			$metadata->{'AutoGenerateREADME'} = false;
+			//print "  -- No model data for '$modelName' -- Check for characters past end\n";
+			//print "  -- |".rawurlencode($modelName)."|\n";
 		}
 		$metadata->{'year'} = ($metadata->{'year'} == '') ? 0 : $metadata->{'year'};
 
@@ -323,15 +427,18 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 	$metadata->{'UriShot'} = rawurlencode($metadata->{'pathShot'});
 	$metadata->{'shotHeight'} = $shotHeight . '.' . $metadata->{'screenshotType'};
 	$metadata->{'pathHeight'} = $dir . '/' . $metadata->{'shotHeight'};
+	$metadata->{'pathReadme'} = $dir . '/README.md';
 	$metadata->{'UriHeight'} = rawurlencode($metadata->{'pathHeight'});
 	$metadata->{'UriReadme'} = rawurlencode($dir . '/README.md');
 	$metadata->{'author'} = $metadata->{'author'};
 	$metadata->{'owner'} = $metadata->{'owner'};
 	$metadata->{'year'} = $metadata->{'year'};
 	$metadata->{'description'} = $description;
-	//$metadata->{'summary'} = $shortDescription;
-	//$metadata->{'license'} = $license;
-	$metadata->{'createReadme'} = true;
+
+	$metadata->{'licenseDetails'} = (isset($LICENSE[$metadata->{'license'}])) ? true : false;
+	$metadata->{'licenseIcon'} = ($metadata->{'licenseDetails'}) ? $LICENSE[$metadata->{'license'}]['icon'] : '';
+	$metadata->{'licenseLink'} = ($metadata->{'licenseDetails'}) ? $LICENSE[$metadata->{'license'}]['link'] : '';
+	$metadata->{'licenseText'} = ($metadata->{'licenseDetails'}) ? $LICENSE[$metadata->{'license'}]['text'] : $metadata->{'license'};
 
 	$tags = array();
 	$tags = getTags ($metadata);

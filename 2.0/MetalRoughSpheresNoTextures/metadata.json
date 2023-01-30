@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "Krill Gavrilov",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "CC0",
     "tags": [
@@ -11,14 +11,22 @@
     "screenshot": "screenshot\/screenshot.png",
     "name": "Metal-Rough Spheres (textureless)",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MetalRoughSpheresNoTextures",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Tests various metal and roughness values (textureless).",
+    "AutoGenerateREADME": false,
     "screenshotType": "png",
     "key": "MetalRoughSpheresNoTextures",
     "pathShot": ".\/2.0\/MetalRoughSpheresNoTextures\/screenshot\/screenshot.png",
     "UriShot": ".%2F2.0%2FMetalRoughSpheresNoTextures%2Fscreenshot%2Fscreenshot.png",
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/MetalRoughSpheresNoTextures\/screenshot\/screenshot-x150.png",
+    "pathReadme": ".\/2.0\/MetalRoughSpheresNoTextures\/README.md",
     "UriHeight": ".%2F2.0%2FMetalRoughSpheresNoTextures%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FMetalRoughSpheresNoTextures%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FMetalRoughSpheresNoTextures%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
+    "licenseText": "CC0 1.0 Universal",
+    "artist": "Krill Gavrilov",
+    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
 }

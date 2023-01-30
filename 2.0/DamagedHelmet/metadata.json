@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": "0",
     "license": "CC-BY-NC\nSee: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
     "tags": [
@@ -15,14 +15,22 @@
     "screenshot": "screenshot\/screenshot.png",
     "name": "Damaged Helmet",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/DamagedHelmet",
-    "createReadme": true,
+    "createReadme": false,
     "summary": " ",
+    "AutoGenerateREADME": false,
     "screenshotType": "png",
     "key": "DamagedHelmet",
     "pathShot": ".\/2.0\/DamagedHelmet\/screenshot\/screenshot.png",
     "UriShot": ".%2F2.0%2FDamagedHelmet%2Fscreenshot%2Fscreenshot.png",
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/DamagedHelmet\/screenshot\/screenshot-x150.png",
+    "pathReadme": ".\/2.0\/DamagedHelmet\/README.md",
     "UriHeight": ".%2F2.0%2FDamagedHelmet%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FDamagedHelmet%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FDamagedHelmet%2FREADME.md",
+    "licenseDetails": false,
+    "licenseIcon": "",
+    "licenseLink": "",
+    "licenseText": "CC-BY-NC\nSee: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
+    "artist": "_No Artist_",
+    "credit": "**&copy;** _No Owner_. **License:** CC-BY-NC\nSee: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge"
 }

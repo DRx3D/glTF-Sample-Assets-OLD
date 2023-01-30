@@ -1,14 +1,12 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
-    "year": "0",
-    "license": "",
+    "owner": "Analytical Graphics, Inc.",
+    "year": 0,
+    "license": "CC0",
     "tags": [
-        "no-license",
+        "sharable",
         "no-author",
-        "no-owner",
-        "no-year",
         "issues"
     ],
     "description": [
@@ -20,14 +18,22 @@
     "screenshot": "screenshot\/screenshot.png",
     "name": "Box With Spaces",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Box With Spaces",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
+    "AutoGenerateREADME": false,
     "screenshotType": "png",
     "key": "Box With Spaces",
     "pathShot": ".\/2.0\/Box With Spaces\/screenshot\/screenshot.png",
     "UriShot": ".%2F2.0%2FBox%20With%20Spaces%2Fscreenshot%2Fscreenshot.png",
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/Box With Spaces\/screenshot\/screenshot-x150.png",
+    "pathReadme": ".\/2.0\/Box With Spaces\/README.md",
     "UriHeight": ".%2F2.0%2FBox%20With%20Spaces%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FBox%20With%20Spaces%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FBox%20With%20Spaces%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
+    "licenseText": "CC0 1.0 Universal",
+    "artist": "_No Artist_",
+    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
 }

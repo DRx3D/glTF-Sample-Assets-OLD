@@ -6,7 +6,6 @@
 |---------|-------------|-------------|
 | [2 Cylinder Engine](.%2F2.0%2F2CylinderEngine%2FREADME.md) | ![](.%2F2.0%2F2CylinderEngine%2Fscreenshot%2Fscreenshot.png) | Small CAD data set, including hierarchy.<br>License: **NO LICENSE** |
 | [Antique Camera ](.%2F2.0%2FAntiqueCamera%2FREADME.md) | ![](.%2F2.0%2FAntiqueCamera%2Fscreenshot%2Fscreenshot.png) | ... no description ...<br>License: Old camera model by Maximilian Kamps.   AND Dontated by UX3D for glTF testing. AND [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)   AND To the extent possible under law, UX3D has waived all copyright and related or neighboring rights to this asset. |
-| [Box With Spaces](.%2F2.0%2FBox%20With%20Spaces%2FREADME.md) | ![](.%2F2.0%2FBox%20With%20Spaces%2Fscreenshot%2Fscreenshot.png) | Box with URI-encoded spaces in the texture names used by a simple PBR material.<br>License: **NO LICENSE** |
 | [Box Vertex Colors](.%2F2.0%2FBoxVertexColors%2FREADME.md) | ![](.%2F2.0%2FBoxVertexColors%2Fscreenshot%2Fscreenshot.png) | Box with vertex colors applied.<br>License: **NO LICENSE** |
 | [Buggy](.%2F2.0%2FBuggy%2FREADME.md) | ![](.%2F2.0%2FBuggy%2Fscreenshot%2Fscreenshot.png) | Medium-sized CAD data set, including hierarchy<br>License: **NO LICENSE** |
 | [Cube](.%2F2.0%2FCube%2FREADME.md) | ![](.%2F2.0%2FCube%2Fscreenshot%2Fscreenshot.jpg) | A cube with non-smoothed faces.<br>License: **NO LICENSE** |

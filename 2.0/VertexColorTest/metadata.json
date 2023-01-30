@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "Microsoft",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": "0",
     "license": "",
     "tags": [
@@ -17,14 +17,22 @@
     "screenshot": "screenshot\/screenshot.png",
     "name": "Vertex Color Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/VertexColorTest",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Tests if vertex colors are supported.",
+    "AutoGenerateREADME": false,
     "screenshotType": "png",
     "key": "VertexColorTest",
     "pathShot": ".\/2.0\/VertexColorTest\/screenshot\/screenshot.png",
     "UriShot": ".%2F2.0%2FVertexColorTest%2Fscreenshot%2Fscreenshot.png",
     "shotHeight": "screenshot\/screenshot-x150.png",
     "pathHeight": ".\/2.0\/VertexColorTest\/screenshot\/screenshot-x150.png",
+    "pathReadme": ".\/2.0\/VertexColorTest\/README.md",
     "UriHeight": ".%2F2.0%2FVertexColorTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FVertexColorTest%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FVertexColorTest%2FREADME.md",
+    "licenseDetails": false,
+    "licenseIcon": "",
+    "licenseLink": "",
+    "licenseText": "_No License_",
+    "artist": "Microsoft",
+    "credit": "**&copy;** _No Owner_. **License:** _No License_"
 }

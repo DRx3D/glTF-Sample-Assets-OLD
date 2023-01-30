@@ -3,7 +3,7 @@
     "author": "Cesium",
     "owner": "Cesium",
     "year": 0,
-    "license": "CC-BY 4.0",
+    "license": "CC-BY 4.0 and TM",
     "tags": [
         "sharable",
         "no-year",
@@ -13,14 +13,22 @@
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Cesium Man",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/CesiumMan",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Textured. Animations. Skins.",
+    "AutoGenerateREADME": false,
     "screenshotType": "gif",
     "key": "CesiumMan",
     "pathShot": ".\/2.0\/CesiumMan\/screenshot\/screenshot.gif",
     "UriShot": ".%2F2.0%2FCesiumMan%2Fscreenshot%2Fscreenshot.gif",
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/CesiumMan\/screenshot\/screenshot.gif",
+    "pathReadme": ".\/2.0\/CesiumMan\/README.md",
     "UriHeight": ".%2F2.0%2FCesiumMan%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FCesiumMan%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FCesiumMan%2FREADME.md",
+    "licenseDetails": false,
+    "licenseIcon": "",
+    "licenseLink": "",
+    "licenseText": "CC-BY 4.0 and TM",
+    "artist": "Cesium",
+    "credit": "**&copy;** Cesium. **License:** CC-BY 4.0 and TM"
 }

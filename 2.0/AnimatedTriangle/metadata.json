@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": 0,
     "license": "CC0",
     "tags": [
@@ -13,14 +13,22 @@
     "screenshot": "screenshot\/screenshot.gif",
     "name": "AnimatedTriangle",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedTriangle",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation",
+    "AutoGenerateREADME": false,
     "screenshotType": "gif",
     "key": "AnimatedTriangle",
     "pathShot": ".\/2.0\/AnimatedTriangle\/screenshot\/screenshot.gif",
     "UriShot": ".%2F2.0%2FAnimatedTriangle%2Fscreenshot%2Fscreenshot.gif",
     "shotHeight": "screenshot\/screenshot.gif",
     "pathHeight": ".\/2.0\/AnimatedTriangle\/screenshot\/screenshot.gif",
+    "pathReadme": ".\/2.0\/AnimatedTriangle\/README.md",
     "UriHeight": ".%2F2.0%2FAnimatedTriangle%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FAnimatedTriangle%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FAnimatedTriangle%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
+    "licenseText": "CC0 1.0 Universal",
+    "artist": "_No Artist_",
+    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
 }

@@ -1,7 +1,7 @@
 {
     "version": 0,
     "author": "Model: PixelMannen\nRigging & Animation: tomkranis",
-    "owner": "",
+    "owner": "_No Owner_",
     "year": "0",
     "license": "CC-BY 4.0",
     "tags": [
@@ -16,14 +16,22 @@
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Fox",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Fox",
-    "createReadme": true,
+    "createReadme": false,
     "summary": "Multiple animations cycles: Survey, Walk, Run.",
+    "AutoGenerateREADME": false,
     "screenshotType": "jpg",
     "key": "Fox",
     "pathShot": ".\/2.0\/Fox\/screenshot\/screenshot.jpg",
     "UriShot": ".%2F2.0%2FFox%2Fscreenshot%2Fscreenshot.jpg",
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/Fox\/screenshot\/screenshot-x150.jpg",
+    "pathReadme": ".\/2.0\/Fox\/README.md",
     "UriHeight": ".%2F2.0%2FFox%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FFox%2FREADME.md"
+    "UriReadme": ".%2F2.0%2FFox%2FREADME.md",
+    "licenseDetails": true,
+    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
+    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
+    "licenseText": "Attribution 4.0 International",
+    "artist": "Model: PixelMannen\nRigging & Animation: tomkranis",
+    "credit": "**&copy;** _No Owner_. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
 }
