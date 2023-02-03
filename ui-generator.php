@@ -369,7 +369,8 @@ function cleanupMetadata ($metadata, $modelKey, $dir) {
 	}
 	*/
 	for ($ii=0; $ii<count($legal); $ii++) {
-		$credit[] = sprintf ("&copy; %04d, %s. %s\n - %s for %s", $legal[$ii]['year'], $legal[$ii]['owner'], $legal[$ii]['license'], $legal[$ii]['artist'], $legal[$ii]['what']);
+		$credit[] = sprintf ("&copy; %04d, %s. %s", $legal[$ii]['year'], $legal[$ii]['owner'], $legal[$ii]['license']);
+		$credit[] = sprintf (" - %s for %s", $legal[$ii]['year'], $legal[$ii]['artist'], $legal[$ii]['what']);
 	}
 
 	$metadata->{'summary'}		= $summary;
