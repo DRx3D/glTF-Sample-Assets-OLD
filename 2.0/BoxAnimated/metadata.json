@@ -1,38 +1,22 @@
 {
     "version": 0,
-    "author": "Cesium",
-    "owner": "Cesium",
-    "year": "0",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Cesium",
+            "license": "Attribution 4.0 International",
+            "artist": "Cesium",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-year",
         "issues"
     ],
-    "description": [
-        "This model demonstrates a two-channel animation, one for rotation and the other",
-        "translation.  A smaller box rises up out of a larger hollow one, flips over, and",
-        "sinks back down."
-    ],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Box Animated",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoxAnimated",
-    "createReadme": false,
     "summary": "Rotation and Translation Animations. Start with this to test animations.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "gif",
-    "key": "BoxAnimated",
-    "pathShot": ".\/2.0\/BoxAnimated\/screenshot\/screenshot.gif",
-    "UriShot": ".%2F2.0%2FBoxAnimated%2Fscreenshot%2Fscreenshot.gif",
-    "shotHeight": "screenshot\/screenshot.gif",
-    "pathHeight": ".\/2.0\/BoxAnimated\/screenshot\/screenshot.gif",
-    "pathReadme": ".\/2.0\/BoxAnimated\/README.md",
-    "UriHeight": ".%2F2.0%2FBoxAnimated%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FBoxAnimated%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Cesium",
-    "credit": "**&copy;** Cesium. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

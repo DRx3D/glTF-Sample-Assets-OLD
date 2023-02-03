@@ -1,13 +1,16 @@
 {
-	"version"		: 0,
-	"author"		: "",
-	"owner"			: "",
-	"year"			: 0,
-	"license"		: [],
+	"version"		: 2,
+	"Legal"			: [{
+						"author"		: "",
+						"owner"			: "",
+						"year"			: 0,
+						"license"		: "",
+						"what"			: ""
+						}],
 	"tags"			: [],
-	"description"	: [],
 	"screenshot"	: "",
 	"name"			: "",
 	"path"			: "",
+	"summary"		: "",
 	"createReadme"	: false
 }

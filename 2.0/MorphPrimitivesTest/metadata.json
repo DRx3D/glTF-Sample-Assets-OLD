@@ -1,37 +1,22 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2021",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2021",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "Attribution 4.0 International",
+            "artist": "_No Artist_",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-author",
         "issues"
     ],
-    "description": [
-        "This model contains a simple mesh with two primitives:  A larger red primitive displays a grid covering 3 of the 4 quadrants of the model's area, followed by a smaller green primitive covering the last quadrant.",
-        "Each primitive has a morph target that creates an elevated area within these quadrants.  The model's only mesh contains a `weights: [0.5]` instruction that should cause these morph targets to be applied at half strength, raising the center of the model as shown in the screenshot above."
-    ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Morph-Primitives Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MorphPrimitivesTest",
-    "createReadme": false,
     "summary": "Tests a morph target on multiple primitives.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "MorphPrimitivesTest",
-    "pathShot": ".\/2.0\/MorphPrimitivesTest\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FMorphPrimitivesTest%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/MorphPrimitivesTest\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/MorphPrimitivesTest\/README.md",
-    "UriHeight": ".%2F2.0%2FMorphPrimitivesTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FMorphPrimitivesTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "_No Artist_",
-    "credit": "**&copy;** 2021, Analytical Graphics, Inc.. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

@@ -1,9 +1,14 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "_No Owner_",
-    "year": "0",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "Attribution 4.0 International",
+            "artist": "_No Artist_",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-author",
@@ -11,29 +16,9 @@
         "no-year",
         "issues"
     ],
-    "description": [
-        "glTF 3D model of a \"Mosquito In Amber\" using the IOR, [KHR-materials-transmission](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/extensions\/2.0\/Khronos\/KHR_materials_transmission\/README.md) and Volume PBR extensions to add reflection and refraction to translucent materials.",
-        "Press Announcement: [https:\/\/www.khronos.org\/news\/press\/new-gltf-extensions-raise-the-bar-on-3d-asset-visual-realism](https:\/\/www.khronos.org\/news\/press\/new-gltf-extensions-raise-the-bar-on-3d-asset-visual-realism)"
-    ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Mosquito In Amber",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MosquitoInAmber",
-    "createReadme": false,
     "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "MosquitoInAmber",
-    "pathShot": ".\/2.0\/MosquitoInAmber\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FMosquitoInAmber%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/MosquitoInAmber\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/MosquitoInAmber\/README.md",
-    "UriHeight": ".%2F2.0%2FMosquitoInAmber%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FMosquitoInAmber%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "_No Artist_",
-    "credit": "**&copy;** _No Owner_. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

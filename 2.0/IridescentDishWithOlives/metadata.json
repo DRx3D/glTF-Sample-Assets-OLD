@@ -1,40 +1,23 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "Wayfair, LLC",
-    "year": 0,
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Wayfair, LLC",
+            "license": "Attribution 4.0 International",
+            "artist": "_No Artist_",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-author",
         "no-year",
         "issues"
     ],
-    "description": [
-        "This model represents a real Wayfair product, an [Olive 21 fl oz. Covered Dish](https:\/\/www.wayfair.com\/kitchen-tabletop\/pdp\/bloomsbury-market-olive-21-fl-oz-covered-dish-w001802862.html?piid=1661795386), which has a glass cover with an iridescent glaze, and a glass dish with the same glaze and gold leaf applied to the underside. ",
-        "The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products. Additional photo reference is available [on the Wayfair website](https:\/\/www.wayfair.com\/kitchen-tabletop\/pdp\/bloomsbury-market-olive-21-fl-oz-covered-dish-w001802862.html?piid=1661795386).",
-        "![screenshot Babylon.js](screenshot\/ReferencePhotos.jpg)",
-        "(above) Photos of the real product."
-    ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Iridescent Dish with Olives",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescentDishWithOlives",
-    "createReadme": false,
     "summary": "Dish using transmission, volume, IOR, and specular.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "IridescentDishWithOlives",
-    "pathShot": ".\/2.0\/IridescentDishWithOlives\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FIridescentDishWithOlives%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/IridescentDishWithOlives\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/IridescentDishWithOlives\/README.md",
-    "UriHeight": ".%2F2.0%2FIridescentDishWithOlives%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FIridescentDishWithOlives%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "_No Artist_",
-    "credit": "**&copy;** Wayfair, LLC. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

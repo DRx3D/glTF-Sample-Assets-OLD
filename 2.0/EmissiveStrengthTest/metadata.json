@@ -1,37 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "AGI",
-    "year": "2022",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2022",
+            "owner": "AGI",
+            "license": "Attribution 4.0 International",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model tests if the `KHR_materials_emissive_strength` extension is available in a",
-        "given implementation.  If it is not, the cubes will all emit the same shade of",
-        "light blue.  For implementations that support this extension, the cubes will be",
-        "progressively brighter to the right."
     ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Emissive Strength Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/EmissiveStrengthTest",
-    "createReadme": false,
     "summary": "Tests if the KHR_materials_emissive_strength extension is supported properly.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "EmissiveStrengthTest",
-    "pathShot": ".\/2.0\/EmissiveStrengthTest\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FEmissiveStrengthTest%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/EmissiveStrengthTest\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/EmissiveStrengthTest\/README.md",
-    "UriHeight": ".%2F2.0%2FEmissiveStrengthTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FEmissiveStrengthTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Ed Mackey",
-    "credit": "**&copy;** 2022, AGI. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

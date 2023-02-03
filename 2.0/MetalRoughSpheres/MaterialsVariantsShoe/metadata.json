@@ -24,6 +24,7 @@
     "shotHeight": "screenshot\/screenshot-x150.jpg",
     "pathHeight": ".\/2.0\/MaterialsVariantsShoe\/screenshot\/screenshot-x150.jpg",
     "pathReadme": ".\/2.0\/MaterialsVariantsShoe\/README.md",
+    "pathLicense": ".\/2.0\/MaterialsVariantsShoe\/LICENSE.md",
     "UriHeight": ".%2F2.0%2FMaterialsVariantsShoe%2Fscreenshot%2Fscreenshot-x150.jpg",
     "UriReadme": ".%2F2.0%2FMaterialsVariantsShoe%2FREADME.md",
     "licenseDetails": true,

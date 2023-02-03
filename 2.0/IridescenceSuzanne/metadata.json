@@ -1,39 +1,22 @@
 {
     "version": 0,
-    "author": "Mathias Kanzler",
-    "owner": "_No Owner_",
-    "year": "2021",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2021",
+            "owner": "_No Owner_",
+            "license": "Attribution 4.0 International",
+            "artist": "Mathias Kanzler",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-owner",
         "issues"
     ],
-    "description": [
-        "A scene with three copies of Suzanne to showcase how the `KHR_materials_iridescence` extension interacts with different base materials.",
-        "* Left: Dielectric base material with thin-film layer of constant thickness.",
-        "* Center: Metallic base material with thin-film layer of constant thickness.",
-        "* Right: Transmissive base material with thin-film layer of varying thickness."
-    ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Iridescence Suzanne",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescenceSuzanne",
-    "createReadme": false,
     "summary": "Further tests KHR_materials_iridescence.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "IridescenceSuzanne",
-    "pathShot": ".\/2.0\/IridescenceSuzanne\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FIridescenceSuzanne%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/IridescenceSuzanne\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/IridescenceSuzanne\/README.md",
-    "UriHeight": ".%2F2.0%2FIridescenceSuzanne%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FIridescenceSuzanne%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Mathias Kanzler",
-    "credit": "**&copy;** 2021, _No Owner_. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

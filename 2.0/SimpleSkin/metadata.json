@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "_No Owner_",
-    "year": 0,
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "CC0 1.0 Universal",
+            "artist": "_No Artist_",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-author",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "SimpleSkin",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SimpleSkin",
-    "createReadme": false,
     "summary": "A simple example of vertex skinning in glTF",
-    "AutoGenerateREADME": false,
-    "screenshotType": "gif",
-    "key": "SimpleSkin",
-    "pathShot": ".\/2.0\/SimpleSkin\/screenshot\/screenshot.gif",
-    "UriShot": ".%2F2.0%2FSimpleSkin%2Fscreenshot%2Fscreenshot.gif",
-    "shotHeight": "screenshot\/screenshot.gif",
-    "pathHeight": ".\/2.0\/SimpleSkin\/screenshot\/screenshot.gif",
-    "pathReadme": ".\/2.0\/SimpleSkin\/README.md",
-    "UriHeight": ".%2F2.0%2FSimpleSkin%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FSimpleSkin%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "_No Artist_",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

@@ -1,32 +1,20 @@
 {
     "version": 0,
-    "author": "Norbert Nopper",
-    "owner": "UX3D",
-    "year": "2017",
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": "2017",
+            "owner": "UX3D",
+            "license": "CC0 1.0 Universal",
+            "artist": "Norbert Nopper",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Two Sided Plane",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TwoSidedPlane",
-    "createReadme": false,
     "summary": "A plane having the two sided material parameter enabled.",
-    "AutoGenerateREADME": true,
-    "screenshotType": "jpg",
-    "key": "TwoSidedPlane",
-    "pathShot": ".\/2.0\/TwoSidedPlane\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FTwoSidedPlane%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/TwoSidedPlane\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/TwoSidedPlane\/README.md",
-    "UriHeight": ".%2F2.0%2FTwoSidedPlane%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FTwoSidedPlane%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "Norbert Nopper",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

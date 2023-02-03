@@ -1,34 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2019",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2019",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "Attribution 4.0 International",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model tests the [`KHR_materials_unlit`](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/master\/extensions\/2.0\/Khronos\/KHR_materials_unlit) extension.  There are two objects, one orange-ish (`#FF7F00` in sRGB space) and one blue-ish (`#007FFF` in sRGB space).  The visible surface of these two objects should appear as a uniform color, so much so that the 3D effect is intentionally lost."
     ],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Unlit Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/UnlitTest",
-    "createReadme": false,
     "summary": "Tests if the KHR_materials_unlit extension is supported properly.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "UnlitTest",
-    "pathShot": ".\/2.0\/UnlitTest\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FUnlitTest%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/UnlitTest\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/UnlitTest\/README.md",
-    "UriHeight": ".%2F2.0%2FUnlitTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FUnlitTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Ed Mackey",
-    "credit": "**&copy;** 2019, Analytical Graphics, Inc.. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

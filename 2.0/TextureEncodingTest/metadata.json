@@ -1,42 +1,22 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "_No Owner_",
-    "year": 0,
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "CC0 1.0 Universal",
+            "artist": "_No Artist_",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-author",
         "issues"
     ],
-    "description": [
-        "This asset tests that textures are sampled with correct transfer functions: base color and emissive must be decoded from sRGB while metallic-roughness values must be passed as-is.",
-        "Additionally, this asset tests that gamma values and\/or ICC profiles embedded with image files are ignored as the glTF spec requires.",
-        "For each of three material slots, four sample models are provided that use different representations of the same effective material properties.",
-        "* Models from the first (leftmost) column use only JSON-stored factors to define their materials.",
-        "* Models from the second column represent the same materials using 1x1 textures with no color space metadata.",
-        "* Models from the third and fourth columns represent the same materials using 1x1 textures with custom gamma values and custom ICC profiles respectively. Stored 8-bit pixel values are the same as for the second column. An example of incorrect handling of these cases is presented on the following screenshot.",
-        "  ![non-ignored_metadata](screenshot\/non-ignored_metadata.png)"
-    ],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Texture Encoding Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureEncodingTest",
-    "createReadme": false,
     "summary": " ",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "TextureEncodingTest",
-    "pathShot": ".\/2.0\/TextureEncodingTest\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FTextureEncodingTest%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/TextureEncodingTest\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/TextureEncodingTest\/README.md",
-    "UriHeight": ".%2F2.0%2FTextureEncodingTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTextureEncodingTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "_No Artist_",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

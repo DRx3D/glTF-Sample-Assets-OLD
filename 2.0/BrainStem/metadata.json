@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "Keith Hunter",
-    "owner": "Smith Micro Software, Inc.",
-    "year": "0",
-    "license": "",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Smith Micro Software, Inc.",
+            "license": "_No License_",
+            "artist": "Keith Hunter",
+            "what": ""
+        }
+    ],
     "tags": [
         "no-license",
         "no-year",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "BrainStem",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BrainStem",
-    "createReadme": false,
     "summary": "Animations. Skins.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "gif",
-    "key": "BrainStem",
-    "pathShot": ".\/2.0\/BrainStem\/screenshot\/screenshot.gif",
-    "UriShot": ".%2F2.0%2FBrainStem%2Fscreenshot%2Fscreenshot.gif",
-    "shotHeight": "screenshot\/screenshot.gif",
-    "pathHeight": ".\/2.0\/BrainStem\/screenshot\/screenshot.gif",
-    "pathReadme": ".\/2.0\/BrainStem\/README.md",
-    "UriHeight": ".%2F2.0%2FBrainStem%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FBrainStem%2FREADME.md",
-    "licenseDetails": false,
-    "licenseIcon": "",
-    "licenseLink": "",
-    "licenseText": "_No License_",
-    "artist": "Keith Hunter",
-    "credit": "**&copy;** Smith Micro Software, Inc.. **License:** _No License_"
+    "createReadme": false
 }

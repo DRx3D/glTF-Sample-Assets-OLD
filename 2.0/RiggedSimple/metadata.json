@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "Cesium",
-    "owner": "Cesium",
-    "year": "0",
-    "license": "",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Cesium",
+            "license": "_No License_",
+            "artist": "Cesium",
+            "what": ""
+        }
+    ],
     "tags": [
         "no-license",
         "no-year",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Rigged Simple",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/RiggedSimple",
-    "createReadme": false,
     "summary": "Animations. Skins. Start with this to test skinning.",
-    "AutoGenerateREADME": true,
-    "screenshotType": "gif",
-    "key": "RiggedSimple",
-    "pathShot": ".\/2.0\/RiggedSimple\/screenshot\/screenshot.gif",
-    "UriShot": ".%2F2.0%2FRiggedSimple%2Fscreenshot%2Fscreenshot.gif",
-    "shotHeight": "screenshot\/screenshot.gif",
-    "pathHeight": ".\/2.0\/RiggedSimple\/screenshot\/screenshot.gif",
-    "pathReadme": ".\/2.0\/RiggedSimple\/README.md",
-    "UriHeight": ".%2F2.0%2FRiggedSimple%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FRiggedSimple%2FREADME.md",
-    "licenseDetails": false,
-    "licenseIcon": "",
-    "licenseLink": "",
-    "licenseText": "_No License_",
-    "artist": "Cesium",
-    "credit": "**&copy;** Cesium. **License:** _No License_"
+    "createReadme": false
 }

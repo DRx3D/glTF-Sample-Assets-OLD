@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "",
-    "owner": "_No Owner_",
-    "year": 0,
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "CC0 1.0 Universal",
+            "artist": "_No Artist_",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-author",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "TriangleWithoutIndices",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TriangleWithoutIndices",
-    "createReadme": false,
     "summary": "The simplest possible glTF asset: A single scene with a single node and a single mesh with a single mesh.primitive with a single triangle with a single attribute, without indices and without a material",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "TriangleWithoutIndices",
-    "pathShot": ".\/2.0\/TriangleWithoutIndices\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FTriangleWithoutIndices%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/TriangleWithoutIndices\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/TriangleWithoutIndices\/README.md",
-    "UriHeight": ".%2F2.0%2FTriangleWithoutIndices%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTriangleWithoutIndices%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "_No Artist_",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

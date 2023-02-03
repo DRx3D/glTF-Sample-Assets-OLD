@@ -1,49 +1,22 @@
 {
     "version": 0,
-    "author": "Cesium",
-    "owner": "Cesium",
-    "year": "0",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Cesium",
+            "license": "Attribution 4.0 International",
+            "artist": "Cesium",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-year",
         "issues"
     ],
-    "description": [
-        "This model demonstrates tow things:",
-        "- Reusing the same mesh multiple times by multiple skins.",
-        "- Binding multiple skins to a single skeleton.",
-        "The model has:",
-        "- 1 scene",
-        "- 1 mesh",
-        "- 4 large skeleton armatures",
-        "- 84 skin bindings.",
-        "![Bones and Skins rigging](screenshot\/screenshot-skin-rigging.jpg)",
-        "Each skin attaches *the same mesh* to different lengths of the skeletons, so we have 21 skins",
-        "bound to multiple lengths of each skeleton.",
-        "Using skinning in this way might be seen by some as _abusing_ the glTF format, but it's",
-        "actually very useful in some circumstances, and can be used by game engines as a stress",
-        "test on how to handle uncommon, -but valid- skinned meshes."
-    ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Recursive Skeletons",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/RecursiveSkeletons",
-    "createReadme": false,
     "summary": "Tests unusual skinning cases with reused meshes and recursive skeletons.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "RecursiveSkeletons",
-    "pathShot": ".\/2.0\/RecursiveSkeletons\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FRecursiveSkeletons%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/RecursiveSkeletons\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/RecursiveSkeletons\/README.md",
-    "UriHeight": ".%2F2.0%2FRecursiveSkeletons%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FRecursiveSkeletons%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Cesium",
-    "credit": "**&copy;** Cesium. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

@@ -1,38 +1,20 @@
 {
     "version": 0,
-    "author": "DGG",
-    "owner": "DGG",
-    "year": "2021",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2021",
+            "owner": "DGG",
+            "license": "Attribution 4.0 International",
+            "artist": "DGG",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This originally designed model is inspired by the elegant Maitland Smith lamps. Recycled materials were chosen for the design in order to make the lamp sustainable and appropriate for the current times. The glTF model contains 5 meshes and 6 materials, which make use of the extensions [KHR_materials_transmission](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/main\/extensions\/2.0\/Khronos\/KHR_materials_transmission) and [KHR_lights_punctual](https:\/\/github.com\/KhronosGroup\/glTF\/tree\/main\/extensions\/2.0\/Khronos\/KHR_lights_punctual).",
-        "The lamp\u2019s shade uses several textures in order to get the \u201cpaper-like\u201d look. Besides the printed text texture, a base color grunge noise has been implemented in order to make the paper look old by faking microsurface refractions. The paper material logically uses the KHR_materials_transmission extension.",
-        "![screenshot02](screenshot\/shade_details.gif)",
-        "The addition of lights into the scene through the KHR_lights_punctual extension is especially meaningful, in that being a light source is the main characteristic of lamps. The use of lights also enhances the use of KHR_materials_transmission in the shade.",
-        "![screenshot03](screenshot\/lights_on_off.gif)"
     ],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Lamp using KHR_lights_punctual Extension",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/LightsPunctualLamp",
-    "createReadme": false,
     "summary": "Lamp using punctual lights.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "LightsPunctualLamp",
-    "pathShot": ".\/2.0\/LightsPunctualLamp\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FLightsPunctualLamp%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/LightsPunctualLamp\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/LightsPunctualLamp\/README.md",
-    "UriHeight": ".%2F2.0%2FLightsPunctualLamp%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FLightsPunctualLamp%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "DGG",
-    "credit": "**&copy;** 2021, DGG. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

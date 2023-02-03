@@ -1,34 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2018",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2018",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "Attribution 4.0 International",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model tests the various alpha modes available in glTF 2.0.  There are three settings for `alphaMode`: `\"OPAQUE\"` (the default), `\"BLEND\"`, and `\"MASK\"`.  Of these, `\"MASK\"` takes an additional `alphaCutoff` value that modifies it."
     ],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Alpha Blend Mode Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AlphaBlendModeTest",
-    "createReadme": false,
     "summary": "Tests alpha modes and settings.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "AlphaBlendModeTest",
-    "pathShot": ".\/2.0\/AlphaBlendModeTest\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FAlphaBlendModeTest%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/AlphaBlendModeTest\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/AlphaBlendModeTest\/README.md",
-    "UriHeight": ".%2F2.0%2FAlphaBlendModeTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FAlphaBlendModeTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Ed Mackey",
-    "credit": "**&copy;** 2018, Analytical Graphics, Inc.. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

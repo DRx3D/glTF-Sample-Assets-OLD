@@ -1,36 +1,20 @@
 {
     "version": 0,
-    "author": "Eric Chadwick",
-    "owner": "Wayfair, LLC",
-    "year": "2020",
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": "2020",
+            "owner": "Wayfair, LLC",
+            "license": "CC0 1.0 Universal",
+            "artist": "Eric Chadwick",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model is a wood-framed chair with a fabric seat, tufted with fabric buttons and metal hardware. It uses three extensions: `KHR_materials_sheen` for velvet fabrics, `KHR_texture_transform` to tile the textures for fabric and  wood, and `KHR_materials_variants` to create two versions of the chair: \"Mango Velvet\", and \"Peacock Velvet\". ",
-        "The model is made of four parts using subdivision surface modeling, with four materials for fabric, wood, metal, and the label. The ambient occlusion texture is shared by all materials and uses a 2nd UV with all UVs arranged between 0 and 1. All the other textures use the 1st UV which is not so constrained; it has overlaps and the UVs extend outside the 0-1 UV space.",
-        "The textures were created uniquely, edited from public domain imagery (https:\/\/www.publicdomainpictures.net\/), or edited from personal photos. This model does not represent a real product, however the fabrics were modeled to match real fabrics, represented [here on the Wayfair website](https:\/\/www.wayfair.com\/furniture\/pdp\/bungalow-rose-griner-slipper-chair-bgrs8778.html). The use of real-world reference is meant to help glTF developers with calibrating material features and renderer handling, so we can more accurately represent e-commerce products. "
     ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "SheenChair",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SheenChair",
-    "createReadme": false,
     "summary": "Chair using material variants and sheen.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "SheenChair",
-    "pathShot": ".\/2.0\/SheenChair\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FSheenChair%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/SheenChair\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/SheenChair\/README.md",
-    "UriHeight": ".%2F2.0%2FSheenChair%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FSheenChair%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "Eric Chadwick",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

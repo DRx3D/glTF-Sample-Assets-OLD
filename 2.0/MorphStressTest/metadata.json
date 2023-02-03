@@ -1,40 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2021",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2021",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "Attribution 4.0 International",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model has a base mesh, plus eight morph targets.  The base and each of the morph targets has",
-        "both a POSITION and a NORMAL accessor, resulting in no less than 18 vertex attributes being requested",
-        "by a typical implementation.  This number can be too high for many realtime graphics systems, and",
-        "the client runtime may take steps to limit the overall number of morph targets and\/or limit the",
-        "number of active morph targets.",
-        "As such, this model is not expected to render correctly everywhere.  Instead, it pushes the limits",
-        "to see how many morph targets can move at once before problems become apparent."
     ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Morph Stress Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MorphStressTest",
-    "createReadme": false,
     "summary": "Tests up to 8 morph targets.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "MorphStressTest",
-    "pathShot": ".\/2.0\/MorphStressTest\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FMorphStressTest%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/MorphStressTest\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/MorphStressTest\/README.md",
-    "UriHeight": ".%2F2.0%2FMorphStressTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FMorphStressTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Ed Mackey",
-    "credit": "**&copy;** 2021, Analytical Graphics, Inc.. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

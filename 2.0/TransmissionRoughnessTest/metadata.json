@@ -1,39 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2021",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": "2021",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "Attribution 4.0 International",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model tests the interaction between IOR (Index of Refraction) and the perceived roughness of transmission.",
-        "In glTF's physically-based material model, a surface has \"[microfacets](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/specification\/2.0\/README.md#microfacet-surfaces)\" which are a statistical distribution of sub-pixel, sub-texel perturbations in the surface normal.  The strength of these normal perturbations are controlled by the surface's [roughness](https:\/\/github.com\/KhronosGroup\/glTF\/blob\/master\/specification\/2.0\/README.md#metallic-roughness-material) parameter.  When these surface normal perturbations become strong, they may cause a specular reflection to become blurry.",
-        "A similar effect can take place with transmission.  When light passes through microfacets with an IOR greater than 1.0, different rays at a sub-pixel level may be refracted in different directions, blurring the transmitted image.  But the same is not true when the IOR is equal to exactly 1.0.  With IOR = 1.0, light vectors do not change regardless of how strong the microfacet angles become.  When this happens, transmission will be sharp and non-blurred, regardless of the material's roughness, because the microfacets cannot alter the direction of transmitted light.",
-        "Progressively higher values for IOR will result in the apparent blurriness of transmission becoming stronger, even while the blurriness of reflected light remains constant.  This is because when IOR changes, the microfacets aren't changing the steepness of their angles, only changing the amount of distortion applied to transmitted light.",
-        "This effect applies to both thick volumes and thin-walled materials.  In the case of thin-walled materials, the material is said to be \"infinitely thin\" meaning the front and back surface normals will be equal.  The effects of IOR on each side cancel each other out, resulting in no overall refraction of light passing through the thin material.  However, the microfacets on the front and back sides of the material are believed to be uncorrelated.  On a rough, thin-walled material, any given microfacet on the front surface need not use the same perturbation as the corresponding microfacet on the back surface.  So, with the front and back microfacet normals not being equal, any IOR > 1.0 can perturb the transmitted light at the sub-pixel level, producing blurriness.",
-        "The higher the IOR, the more blurriness these microfacets will produce in the transmission."
     ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Transmission Roughness Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TransmissionRoughnessTest",
-    "createReadme": false,
     "summary": "Tests the interaction between roughness and IOR.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "TransmissionRoughnessTest",
-    "pathShot": ".\/2.0\/TransmissionRoughnessTest\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FTransmissionRoughnessTest%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/TransmissionRoughnessTest\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/TransmissionRoughnessTest\/README.md",
-    "UriHeight": ".%2F2.0%2FTransmissionRoughnessTest%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FTransmissionRoughnessTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Ed Mackey",
-    "credit": "**&copy;** 2021, Analytical Graphics, Inc.. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }

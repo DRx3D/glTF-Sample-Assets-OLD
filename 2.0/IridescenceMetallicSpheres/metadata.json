@@ -1,37 +1,20 @@
 {
     "version": 0,
-    "author": "UX3D",
-    "owner": "UX3D",
-    "year": "2022",
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": "2022",
+            "owner": "UX3D",
+            "license": "CC0 1.0 Universal",
+            "artist": "UX3D",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "Scene to show the parametrization of the `KHR_materials_iridescence` extension with a metallic base material. The three dimensions of the scene are:",
-        "* Material Color: base color of the metallic base material",
-        "* Thin Film Thickness: the thickness of the thin-film layer in nm",
-        "* Thin Film IOR: index of refraction of the thin-film layer"
     ],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Iridescence Metallic Spheres",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescenceMetallicSpheres",
-    "createReadme": false,
     "summary": "Tests KHR_materials_iridescence on a metallic material.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "jpg",
-    "key": "IridescenceMetallicSpheres",
-    "pathShot": ".\/2.0\/IridescenceMetallicSpheres\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FIridescenceMetallicSpheres%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/IridescenceMetallicSpheres\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/IridescenceMetallicSpheres\/README.md",
-    "UriHeight": ".%2F2.0%2FIridescenceMetallicSpheres%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FIridescenceMetallicSpheres%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "UX3D",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "Cesium",
-    "owner": "Cesium",
-    "year": 0,
-    "license": "CC-BY 4.0 and TM",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Cesium",
+            "license": "CC-BY 4.0 and TM",
+            "artist": "Cesium",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-year",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Cesium Milk Truck",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/CesiumMilkTruck",
-    "createReadme": false,
     "summary": "Textured. Multiple nodes\/meshes. Animations.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "gif",
-    "key": "CesiumMilkTruck",
-    "pathShot": ".\/2.0\/CesiumMilkTruck\/screenshot\/screenshot.gif",
-    "UriShot": ".%2F2.0%2FCesiumMilkTruck%2Fscreenshot%2Fscreenshot.gif",
-    "shotHeight": "screenshot\/screenshot.gif",
-    "pathHeight": ".\/2.0\/CesiumMilkTruck\/screenshot\/screenshot.gif",
-    "pathReadme": ".\/2.0\/CesiumMilkTruck\/README.md",
-    "UriHeight": ".%2F2.0%2FCesiumMilkTruck%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FCesiumMilkTruck%2FREADME.md",
-    "licenseDetails": false,
-    "licenseIcon": "",
-    "licenseLink": "",
-    "licenseText": "CC-BY 4.0 and TM",
-    "artist": "Cesium",
-    "credit": "**&copy;** Cesium. **License:** CC-BY 4.0 and TM"
+    "createReadme": false
 }

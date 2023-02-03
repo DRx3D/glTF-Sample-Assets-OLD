@@ -1,35 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2018",
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": "2018",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "CC0 1.0 Universal",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model compares normal maps of various orientations to actual geometry, to test if tangent vectors are being calculated and handled correctly.  Note that this model (`NormalTangentTest`) does not supply tangent vectors, and specifically tests a rendering engine's ability to generate the tangent vectors at runtime.  To test supplied tangent vectors, see [`NormalTangentMirrorTest`](..\/NormalTangentMirrorTest\/README.md).",
-        "This test is best performed with an environment map that contains a clear horizon line, so it is easy to spot if the reflection of the horizon is level.  The screenshot above shows a successful render of this model from the front.  All of the test blocks show similar reflections."
     ],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Normal-Tangent Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/NormalTangentTest",
-    "createReadme": false,
     "summary": "Tests an engine's ability to automatically generate tangent vectors for a normal map.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "NormalTangentTest",
-    "pathShot": ".\/2.0\/NormalTangentTest\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FNormalTangentTest%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/NormalTangentTest\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/NormalTangentTest\/README.md",
-    "UriHeight": ".%2F2.0%2FNormalTangentTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FNormalTangentTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "Ed Mackey",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "3DRT",
-    "owner": "3DRT",
-    "year": "0",
-    "license": "",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "3DRT",
+            "license": "_No License_",
+            "artist": "3DRT",
+            "what": ""
+        }
+    ],
     "tags": [
         "no-license",
         "no-year",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.gif",
     "name": "Virtual City",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/VC",
-    "createReadme": false,
     "summary": "Textured. Animations.",
-    "AutoGenerateREADME": true,
-    "screenshotType": "gif",
-    "key": "VC",
-    "pathShot": ".\/2.0\/VC\/screenshot\/screenshot.gif",
-    "UriShot": ".%2F2.0%2FVC%2Fscreenshot%2Fscreenshot.gif",
-    "shotHeight": "screenshot\/screenshot.gif",
-    "pathHeight": ".\/2.0\/VC\/screenshot\/screenshot.gif",
-    "pathReadme": ".\/2.0\/VC\/README.md",
-    "UriHeight": ".%2F2.0%2FVC%2Fscreenshot%2Fscreenshot.gif",
-    "UriReadme": ".%2F2.0%2FVC%2FREADME.md",
-    "licenseDetails": false,
-    "licenseIcon": "",
-    "licenseLink": "",
-    "licenseText": "_No License_",
-    "artist": "3DRT",
-    "credit": "**&copy;** 3DRT. **License:** _No License_"
+    "createReadme": false
 }

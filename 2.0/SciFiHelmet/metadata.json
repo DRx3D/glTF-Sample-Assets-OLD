@@ -1,32 +1,20 @@
 {
     "version": 0,
-    "author": "Michael Pavlovic",
-    "owner": "_No Owner_",
-    "year": 0,
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "CC0 1.0 Universal",
+            "artist": "Michael Pavlovic",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Sci Fi Helmet",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SciFiHelmet",
-    "createReadme": false,
     "summary": " ",
-    "AutoGenerateREADME": true,
-    "screenshotType": "jpg",
-    "key": "SciFiHelmet",
-    "pathShot": ".\/2.0\/SciFiHelmet\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FSciFiHelmet%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/SciFiHelmet\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/SciFiHelmet\/README.md",
-    "UriHeight": ".%2F2.0%2FSciFiHelmet%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FSciFiHelmet%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "Michael Pavlovic",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

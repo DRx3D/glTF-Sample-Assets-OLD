@@ -1,35 +1,23 @@
 {
     "version": 0,
-    "author": "Norbert Nopper",
-    "owner": "_No Owner_",
-    "year": "0",
-    "license": "",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "_No License_",
+            "artist": "Norbert Nopper",
+            "what": ""
+        }
+    ],
     "tags": [
         "no-license",
         "no-owner",
         "no-year",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.jpg",
     "name": "Cube",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Cube",
-    "createReadme": false,
     "summary": "A cube with non-smoothed faces.",
-    "AutoGenerateREADME": true,
-    "screenshotType": "jpg",
-    "key": "Cube",
-    "pathShot": ".\/2.0\/Cube\/screenshot\/screenshot.jpg",
-    "UriShot": ".%2F2.0%2FCube%2Fscreenshot%2Fscreenshot.jpg",
-    "shotHeight": "screenshot\/screenshot-x150.jpg",
-    "pathHeight": ".\/2.0\/Cube\/screenshot\/screenshot-x150.jpg",
-    "pathReadme": ".\/2.0\/Cube\/README.md",
-    "UriHeight": ".%2F2.0%2FCube%2Fscreenshot%2Fscreenshot-x150.jpg",
-    "UriReadme": ".%2F2.0%2FCube%2FREADME.md",
-    "licenseDetails": false,
-    "licenseIcon": "",
-    "licenseLink": "",
-    "licenseText": "_No License_",
-    "artist": "Norbert Nopper",
-    "credit": "**&copy;** _No Owner_. **License:** _No License_"
+    "createReadme": false
 }

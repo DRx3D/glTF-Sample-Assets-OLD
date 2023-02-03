@@ -1,51 +1,20 @@
 {
     "version": 0,
-    "author": "Ed Mackey",
-    "owner": "Analytical Graphics, Inc.",
-    "year": "2017",
-    "license": "CC0",
+    "Legal": [
+        {
+            "year": "2017",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "CC0 1.0 Universal",
+            "artist": "Ed Mackey",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable"
-    ],
-    "description": [
-        "This model demonstrates the orientation of texture coordinates.  The materials and accessors have all been named according to function.  In particular, the accessor named `TopLeft_TEXCOORD_0` shows that the upper-left portion of the texture image is represented by texture coordinates ranging from roughly `0.0` to roughly `0.4`.",
-        "```",
-        "{",
-        "    \"name\": \"TopLeft_TEXCOORD_0\",",
-        "    \"bufferView\" : 7,",
-        "    \"componentType\" : 5126,",
-        "    \"count\" : 4,",
-        "    \"max\" : [",
-        "        0.3999999463558197,",
-        "        0.3999999761581421",
-        "    ],",
-        "    \"min\" : [",
-        "        7.915305388905836e-08,",
-        "        0.0",
-        "    ],",
-        "    \"type\" : \"VEC2\"",
-        "},",
-        "```"
     ],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Texture Coordinate Test",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureCoordinateTest",
-    "createReadme": false,
     "summary": "Shows how XYZ and UV positions relate to displayed geometry.",
-    "AutoGenerateREADME": false,
-    "screenshotType": "png",
-    "key": "TextureCoordinateTest",
-    "pathShot": ".\/2.0\/TextureCoordinateTest\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FTextureCoordinateTest%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/TextureCoordinateTest\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/TextureCoordinateTest\/README.md",
-    "UriHeight": ".%2F2.0%2FTextureCoordinateTest%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FTextureCoordinateTest%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode",
-    "licenseText": "CC0 1.0 Universal",
-    "artist": "Ed Mackey",
-    "credit": "**License:** [![CC0 1.0 Universal](https:\/\/licensebuttons.net\/p\/zero\/1.0\/88x31.png) CC0 1.0 Universal](https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/legalcode)"
+    "createReadme": false
 }

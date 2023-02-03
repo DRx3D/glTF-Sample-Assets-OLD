@@ -1,34 +1,22 @@
 {
     "version": 0,
-    "author": "Cesium",
-    "owner": "Cesium",
-    "year": "0",
-    "license": "CC-BY 4.0",
+    "Legal": [
+        {
+            "year": 0,
+            "owner": "Cesium",
+            "license": "Attribution 4.0 International",
+            "artist": "Cesium",
+            "what": ""
+        }
+    ],
     "tags": [
         "sharable",
         "no-year",
         "issues"
     ],
-    "description": [],
     "screenshot": "screenshot\/screenshot.png",
     "name": "Box",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Box",
-    "createReadme": false,
     "summary": "One mesh and one material. Start with this.",
-    "AutoGenerateREADME": true,
-    "screenshotType": "png",
-    "key": "Box",
-    "pathShot": ".\/2.0\/Box\/screenshot\/screenshot.png",
-    "UriShot": ".%2F2.0%2FBox%2Fscreenshot%2Fscreenshot.png",
-    "shotHeight": "screenshot\/screenshot-x150.png",
-    "pathHeight": ".\/2.0\/Box\/screenshot\/screenshot-x150.png",
-    "pathReadme": ".\/2.0\/Box\/README.md",
-    "UriHeight": ".%2F2.0%2FBox%2Fscreenshot%2Fscreenshot-x150.png",
-    "UriReadme": ".%2F2.0%2FBox%2FREADME.md",
-    "licenseDetails": true,
-    "licenseIcon": "https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png",
-    "licenseLink": "https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode",
-    "licenseText": "Attribution 4.0 International",
-    "artist": "Cesium",
-    "credit": "**&copy;** Cesium. **License:** [![Attribution 4.0 International](https:\/\/licensebuttons.net\/l\/by\/3.0\/88x31.png) Attribution 4.0 International](https:\/\/creativecommons.org\/licenses\/by-nd\/4.0\/legalcode)"
+    "createReadme": false
 }
