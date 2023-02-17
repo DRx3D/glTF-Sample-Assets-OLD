@@ -10,7 +10,7 @@ Small CAD data set, including hierarchy.
 
 ## Legal
 
-&copy; 2021, SharpGLTF. Attribution 4.0 International
+&copy; 2021, SharpGLTF. [Attribution 4.0 International]()
 
  - 2021 for SharpGLTF
 

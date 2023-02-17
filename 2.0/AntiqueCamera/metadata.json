@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "_No Owner_",
             "license": "Old camera model by Maximilian Kamps.   AND Dontated by UX3D for glTF testing. AND [![CC0](http:\/\/i.creativecommons.org\/p\/zero\/1.0\/88x31.png)](http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/)   AND To the extent possible under law, UX3D has waived all copyright and related or neighboring rights to this asset.",
+            "licenseUrl": "",
             "artist": "_No Artist_",
             "what": ""
         }
@@ -17,7 +18,7 @@
         "issues"
     ],
     "screenshot": "screenshot\/screenshot.png",
-    "name": "Antique Camera ",
+    "name": "Antique Camera",
     "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AntiqueCamera",
     "summary": "... no description ...",
     "createReadme": false

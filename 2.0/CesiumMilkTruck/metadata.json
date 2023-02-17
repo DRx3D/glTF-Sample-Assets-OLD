@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "Cesium",
             "license": "CC-BY 4.0 and TM",
+            "licenseUrl": "",
             "artist": "Cesium",
             "what": ""
         }

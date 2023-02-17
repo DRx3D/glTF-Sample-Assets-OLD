@@ -10,7 +10,7 @@ Animations. Skins. Start with this to test skinning.
 
 ## Legal
 
-&copy; 0000, Cesium. _No License_
+&copy; 0000, Cesium. [_No License_]()
 
  - 0 for Cesium
 

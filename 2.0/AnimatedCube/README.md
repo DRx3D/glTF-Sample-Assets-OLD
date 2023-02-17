@@ -10,7 +10,7 @@ Same as previous cube having a linear rotation animation.
 
 ## Legal
 
-&copy; 2017, UX3D. CC0 1.0 Universal
+&copy; 2017, UX3D. [CC0 1.0 Universal]()
 
  - 2017 for Norbert Nopper
 

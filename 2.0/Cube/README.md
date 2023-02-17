@@ -10,7 +10,7 @@ A cube with non-smoothed faces.
 
 ## Legal
 
-&copy; 0000, _No Owner_. _No License_
+&copy; 0000, _No Owner_. [_No License_]()
 
  - 0 for Norbert Nopper
 

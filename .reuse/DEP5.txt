@@ -17,10 +17,10 @@ License: _No License_
 
 Files:
 ./2.0/ABeautifulGame/*/*
-Copyright 2020 ASWF
-License: CC-BY 4.0
-Copyright 2022 AGI
-License: CC-BY 4.0
+Copyright  
+License: 
+Copyright  
+License: 
 
 Files:
 ./2.0/AlphaBlendModeTest/*/*

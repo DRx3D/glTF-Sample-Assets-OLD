@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "_No Owner_",
             "license": "CC-BY-NC\nSee: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
+            "licenseUrl": "",
             "artist": "_No Artist_",
             "what": ""
         }

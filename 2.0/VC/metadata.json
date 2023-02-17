@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "3DRT",
             "license": "_No License_",
+            "licenseUrl": "",
             "artist": "3DRT",
             "what": ""
         }

@@ -78,9 +78,11 @@ function CreateReuse ($rootPath, $MetadataAll) {
 		//$license = getLicenseDep5($MetadataAll[$ii]);
 		$contents[] = "Files:";
 		$contents[] = $MetadataAll[$ii]->{'pathModel'} . '/*/*';
-		for ($jj=0; $jj<count($MetadataAll[$ii]->{'Legal'}); $jj++) {
-			$contents[] = "Copyright " . $MetadataAll[$ii]->{'Legal'}[$jj]['year'] . " " . $MetadataAll[$ii]->{'Legal'}[$jj]['owner'];
-			$contents[] = "License: " . $MetadataAll[$ii]->{'Legal'}[$jj]['license'];
+		//print_r ($MetadataAll[$ii]);
+		for ($jj=0; $jj<count($MetadataAll[$ii]->{'legal'}); $jj++) {
+			//print "$ii/$jj: \n";
+			$contents[] = "Copyright " . $MetadataAll[$ii]->{'legal'}[$jj]['year'] . " " . $MetadataAll[$ii]->{'legal'}[$jj]['owner'];
+			$contents[] = "License: " . $MetadataAll[$ii]->{'legal'}[$jj]['license'];
 		}
 		$contents[] = '';
 	}
@@ -204,26 +206,6 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 		$fmtString = "| [%s](%s) | ![](%s) | %s | %s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
-/*
-			$license = ((is_array($metaAll[$ii]->{'license'})) ? 
-							join(', ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
-			$license = ($license == '') ? '**NO LICENSE**' : $license;
-			$author  = ((is_array($metaAll[$ii]->{'author'})) ? 
-							join('<br>', $metaAll[$ii]->{'author'}) : $metaAll[$ii]->{'author'});
-			$author  = str_replace ("\n", '<br>', $author);
-			$author  = ($metaAll[$ii]->{'author'}  == '') ? '**NO AUTHOR**' : $author;
-			$owner   = ((is_array($metaAll[$ii]->{'owner'})) ? 
-							join(', ', $metaAll[$ii]->{'owner'}) : $metaAll[$ii]->{'owner'});
-			$owner   = str_replace ("\n", ', ', $owner);
-			$owner   = ($metaAll[$ii]->{'owner'}   == '') ? '**NO OWNER**' : $owner;
-			
-			$notice = array();
-			$notice[] = $license;
-			if (!($license == 'PD' || $license == 'CC0')) {
-				$notice[] = "&copy; " . $metaAll[$ii]->{'year'} . ", $owner.";;
-			}
-			$notice[] = $author;
-*/
 			$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
 
 			fwrite ($F, sprintf ($fmtString, 
@@ -241,11 +223,6 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
 			if ($singleTag == '' || in_array($singleTag, $metaAll[$ii]->{'tags'})) {
-/*
-				$license = ((is_array($metaAll[$ii]->{'license'})) ? 
-								join(' ', $metaAll[$ii]->{'license'}) : $metaAll[$ii]->{'license'});
-				$license = ($license == '') ? '**NO LICENSE**' : $license;
-*/
 				$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
 
 				fwrite ($F, sprintf ($fmtString, 
@@ -328,11 +305,12 @@ function cleanupMetadata ($metadata, $modelKey, $dir) {
 		$license = ($metadata->{'license'} == '') ? '_No License_' : $metadata->{'licenseText'};
 		$year = ($metadata->{'year'} < 100) ? 0 : $metadata->{'year'};
 		$legal[0] = array(
-						'year'		=> $year,
-						'owner'		=> $owner,
-						'license'	=> $license,
-						'artist'	=> $artist,
-						'what'		=> ''
+						'year'			=> $year,
+						'owner'			=> $owner,
+						'license'		=> $license,
+						'licenseUrl'	=> '',
+						'artist'		=> $artist,
+						'what'			=> ''
 						);
 	} else {
 		for ($ii=0; $ii<count($metadata->{'Legal'}); $ii++) {
@@ -343,33 +321,19 @@ function cleanupMetadata ($metadata, $modelKey, $dir) {
 			$year = ($metadata->{'year'} < 100) ? 0 : $metadata->{'year'};
 			*/
 			$legal[] = array(
-						'year'		=> $metadata->{'Legal'}[$ii]->{'year'},
-						'owner'		=> $metadata->{'Legal'}[$ii]->{'owner'},
-						'license'	=> $metadata->{'Legal'}[$ii]->{'license'},
-						'artist'	=> $metadata->{'Legal'}[$ii]->{'artist'},
-						'what'		=> $metadata->{'Legal'}[$ii]->{'what'}
+						'year'			=> $metadata->{'legal'}[$ii]->{'year'},
+						'owner'			=> $metadata->{'legal'}[$ii]->{'owner'},
+						'license'		=> $metadata->{'legal'}[$ii]->{'license'},
+						'licenseUrl'	=> $metadata->{'legal'}[$ii]->{'link'},
+						'artist'		=> $metadata->{'legal'}[$ii]->{'artist'},
+						'what'			=> $metadata->{'legal'}[$ii]->{'what'}
 						);
 		}
 	}
 
 	$summary = ($metadata->{'summary'} == '') ? '_No Summary_' : $metadata->{'summary'};
-	/*
-	if ($metadata->{'license'} == 'PD' || $metadata->{'license'} == 'CC0') {
-		$credit = ($metadata->{'licenseDetails'}) ? 
-			sprintf ("**License:** [![%s](%s) %s](%s)", $license, $metadata->{'licenseIcon'}, $license, $metadata->{'licenseLink'})
-			:
-			$credit = 'None required';
-	} else {
-		// Format: (c) <year>, <owner>. <license>
-		$copyright = ($metadata->{'year'} > 100) ? sprintf ("**&copy;** %4d,", $metadata->{'year'}) : "**&copy;**";
-		$credit = ($metadata->{'licenseDetails'}) ? 
-			sprintf ("%s %s. **License:** [![%s](%s) %s](%s)", $copyright, $owner, $license, $metadata->{'licenseIcon'}, $license, $metadata->{'licenseLink'})
-			:
-			sprintf ("%s %s. **License:** %s", $copyright, $owner, $license);
-	}
-	*/
 	for ($ii=0; $ii<count($legal); $ii++) {
-		$credit[] = sprintf ("&copy; %04d, %s. %s", $legal[$ii]['year'], $legal[$ii]['owner'], $legal[$ii]['license']);
+		$credit[] = sprintf ("&copy; %04d, %s. [%s](%s)", $legal[$ii]['year'], $legal[$ii]['owner'], $legal[$ii]['license'], $legal[$ii]['licenseUrl']);
 		$credit[] = sprintf (" - %s for %s", $legal[$ii]['year'], $legal[$ii]['artist'], $legal[$ii]['what']);
 	}
 
@@ -377,7 +341,7 @@ function cleanupMetadata ($metadata, $modelKey, $dir) {
 	//$metadata->{'artist'}		= $artist;
 	//$metadata->{'owner'}		= $owner;
 	//$metadata->{'licenseText'}	= $license;
-	$metadata->{'Legal'}		= $legal;
+	$metadata->{'legal'}		= $legal;
 	$metadata->{'license'}		= $legal[0]['license'];
 	$metadata->{'credit'}		= $credit;
 	
@@ -575,12 +539,13 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 	$metadata->{'licenseLink'} = ($metadata->{'licenseDetails'}) ? $LICENSE[$metadata->{'license'}]['link'] : '';
 	$metadata->{'licenseText'} = ($metadata->{'licenseDetails'}) ? $LICENSE[$metadata->{'license'}]['text'] : $metadata->{'license'};
 
-	$metadata->{'Legal'}[0] = array (
-								"author"	=> $metadata->{'author'},
-								"owner"		=> $metadata->{'owner'},
-								"year"		=> $metadata->{'year'},
-								"license"	=> $license,
-								"what"		=> "tbd",
+	$metadata->{'legal'}[0] = array (
+								"author"		=> $metadata->{'author'},
+								"owner"			=> $metadata->{'owner'},
+								"year"			=> $metadata->{'year'},
+								"license"		=> $license,
+								"licenseUrl"	=> "",
+								"what"			=> "tbd",
 							);
 
 	$tags = array();

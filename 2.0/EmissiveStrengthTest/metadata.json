@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": "2022",
             "owner": "AGI",
             "license": "Attribution 4.0 International",
+            "licenseUrl": "",
             "artist": "Ed Mackey",
             "what": ""
         }

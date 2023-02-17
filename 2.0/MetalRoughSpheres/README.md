@@ -10,7 +10,7 @@ Tests various metal and roughness values (texture mapped).
 
 ## Legal
 
-&copy; 2017, Analytical Graphics, Inc.. Attribution 4.0 International
+&copy; 2017, Analytical Graphics, Inc.. [Attribution 4.0 International]()
 
  - 2017 for Ed Mackey
 

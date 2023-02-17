@@ -10,7 +10,7 @@ Textured. Animations.
 
 ## Legal
 
-&copy; 0000, 3DRT. _No License_
+&copy; 0000, 3DRT. [_No License_]()
 
  - 0 for 3DRT
 

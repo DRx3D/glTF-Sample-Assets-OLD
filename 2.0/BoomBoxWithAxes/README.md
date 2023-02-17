@@ -10,7 +10,7 @@ Shows X, Y, and Z axis default orientations.
 
 ## Legal
 
-&copy; 0000, _No Owner_. CC0 1.0 Universal
+&copy; 0000, _No Owner_. [CC0 1.0 Universal]()
 
  - 0 for Microsoft
 

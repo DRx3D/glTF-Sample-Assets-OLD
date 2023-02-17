@@ -10,7 +10,7 @@ Building interior, often used to test lighting.
 
 ## Legal
 
-&copy; 0000, _No Owner_. _No License_
+&copy; 0000, _No Owner_. [_No License_]()
 
  - 0 for _No Artist_
 

@@ -2,13 +2,13 @@
     "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
+            "license": "Khronos-Archive",
             "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": "",
-            "text": "_No License_",
+            "artist": "Khronos",
+            "year": "2017",
+            "owner": "Khronos",
+            "what": "Everything",
+            "text": "Khronos-Archive",
             "spdx": "",
             "icon": ""
         }
@@ -21,9 +21,10 @@
         "issues",
         "cad"
     ],
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot\/screenshot.png",
     "name": "2 Cylinder Engine",
-    "path": "2.0/2CylinderEngine",
+    "path": "2.0\/2CylinderEngine",
     "summary": "Small CAD data set, including hierarchy.",
-    "createReadme": false
+    "AutoGenerateREADME": true,
+    "createReadme": true
 }

@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "Cesium",
             "license": "_No License_",
+            "licenseUrl": "",
             "artist": "Cesium",
             "what": ""
         }

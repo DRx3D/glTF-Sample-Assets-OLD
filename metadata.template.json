@@ -1,10 +1,11 @@
 {
 	"version"		: 2,
-	"Legal"			: [{
-						"author"		: "",
+	"legal"			: [{
+						"artist"		: "",
 						"owner"			: "",
 						"year"			: 0,
 						"license"		: "",
+						"licenseUrl"	: "",
 						"what"			: ""
 						}],
 	"tags"			: [],

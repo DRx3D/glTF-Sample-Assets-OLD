@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "Smith Micro Software, Inc.",
             "license": "_No License_",
+            "licenseUrl": "",
             "artist": "Keith Hunter",
             "what": ""
         }

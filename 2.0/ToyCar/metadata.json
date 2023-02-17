@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": 0,
             "owner": "Guido Odendahl",
             "license": "CC0 1.0 Universal",
+            "licenseUrl": "",
             "artist": "Guido Odendahl",
             "what": ""
         }

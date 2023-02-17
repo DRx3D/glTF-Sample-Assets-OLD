@@ -10,7 +10,7 @@ Medium-sized CAD data set, including hierarchy.
 
 ## Legal
 
-&copy; 0000, _No Owner_. _No License_
+&copy; 0000, _No Owner_. [_No License_]()
 
  - 0 for _No Artist_
 

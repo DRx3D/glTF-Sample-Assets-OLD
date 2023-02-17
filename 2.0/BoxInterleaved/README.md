@@ -10,7 +10,7 @@ Box example with interleaved position and normal attributes.
 
 ## Legal
 
-&copy; 0000, Cesium. Attribution 4.0 International
+&copy; 0000, Cesium. [Attribution 4.0 International]()
 
  - 0 for Cesium
 

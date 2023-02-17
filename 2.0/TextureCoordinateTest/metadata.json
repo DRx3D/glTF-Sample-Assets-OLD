@@ -1,10 +1,11 @@
 {
     "version": 0,
-    "Legal": [
+    "legal": [
         {
             "year": "2017",
             "owner": "Analytical Graphics, Inc.",
             "license": "CC0 1.0 Universal",
+            "licenseUrl": "",
             "artist": "Ed Mackey",
             "what": ""
         }
