@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Loic Norgeot",
+            "year": "2020",
+            "owner": "Sketchfab",
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -17,9 +20,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Mosquito In Amber",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MosquitoInAmber",
+    "path": "./2.0/MosquitoInAmber",
     "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "3DRT",
-            "license": "_No License_",
+            "license": "",
             "licenseUrl": "",
             "artist": "3DRT",
-            "what": ""
+            "year": "0",
+            "owner": "3DRT",
+            "what": "Everything",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.gif",
+    "screenshot": "screenshot/screenshot.gif",
     "name": "Virtual City",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/VC",
+    "path": "./2.0/VC",
     "summary": "Textured. Animations.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

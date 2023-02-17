@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "CC-BY-NC\nSee: http:\/\/www.graphics.stanford.edu\/data\/3Dscanrep\/#acknowledge",
+            "license": "CC-BY-NC\nSee: http://www.graphics.stanford.edu/data/3Dscanrep/#acknowledge",
             "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "artist": "Khronos",
+            "year": "2019",
+            "owner": "Sketchfab",
+            "what": "Everything",
+            "text": "CC-BY-NC\nSee: http://www.graphics.stanford.edu/data/3Dscanrep/#acknowledge",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -17,9 +20,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Damaged Helmet",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/DamagedHelmet",
+    "path": "./2.0/DamagedHelmet",
     "summary": " ",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

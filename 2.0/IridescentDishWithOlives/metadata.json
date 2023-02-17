@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Eric Chadwick",
+            "year": "2020",
             "owner": "Wayfair, LLC",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -16,9 +19,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescent Dish with Olives",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescentDishWithOlives",
+    "path": "./2.0/IridescentDishWithOlives",
     "summary": "Dish using transmission, volume, IOR, and specular.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

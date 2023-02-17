@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
-            "licenseUrl": "",
-            "artist": "Microsoft",
-            "what": ""
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "2018",
+            "owner": "Analytical Graphics, Inc.",
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -16,9 +19,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Vertex Color Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/VertexColorTest",
+    "path": "./2.0/VertexColorTest",
     "summary": "Tests if vertex colors are supported.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

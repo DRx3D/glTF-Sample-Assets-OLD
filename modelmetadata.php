@@ -134,8 +134,6 @@ class ModelMetadata
 			$tmp[$key] = $this->metadata[$key];
 		}
 		$tmp['version'] = $this->jsonVERSION;
-		print "   Screenshot: |".$tmp['screenshot']."|\n";
-		print "   Path: |".$tmp['path']."|\n";
 		unset ($tmp['AutoGenerateREADME']);
 		$string = json_encode($tmp, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
 		
@@ -472,10 +470,10 @@ $modelMetadata = getModelData();
  *
 **/
 
-$mm = new ModelMetadata('2.0\2CylinderEngine', 'metadata');
+//$mm = new ModelMetadata('2.0\2CylinderEngine', 'metadata');
 //print_r ($modelMetadata[$mm->modelKey]);
 //print_r ($mm->getMetadata());
-print_r ($modelMetadata[$mm->modelName]);
+//print_r ($modelMetadata[$mm->modelName]);
 /*
 $mm = $mm
 		->addTags(['no-license','cad', 'no-author'])
@@ -489,11 +487,11 @@ $mm = $mm
 					true)
 		->setSummary ($modelMetadata[$mm->modelName]['Summary'])
 		->setWriteReadme (true);
-*/
 $mm = $mm->writeMetadata()->writeReadme()->writeLicense();
-print_r ($mm->getMetadata());
+//print_r ($mm->getMetadata());
 //print_r($mm);
-exit;
+*/
+
 
 /*
  * TODO:
@@ -502,39 +500,134 @@ exit;
  *	- Verify that the output is correct for METADATA for all models
  *	- Run with real METADATA output
  *	- Run with real LICENSE and README output
- *	- Create site-wide license infoHi Eoin
+ *	- Create site-wide license info
 **/
-$modelFolder= './2.0';
-$folder = dir ($modelFolder);
-$folderDotDirs = array ($modelFolder.'/.', $modelFolder.'/..');
-while (false !== ($model = $folder->read())) {
-	$modelDir = $folder->path . '/' . $model;
-	if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
-		print "\nProcessing $modelDir\n";
-		$mm = new ModelMetadata($modelDir, 'metadata');
-		if ($modelMetadata[$mm->modelName]['UpdateLicense'] != 'FALSE') {
-			$mm = $mm
-					->addLicense ( array(
-									'license'=>$modelMetadata[$mm->modelName]['License'],
-									'licenseUrl'=>'', 
-									'artist'=>$modelMetadata[$mm->modelName]['Author'],
-									'owner'=>$modelMetadata[$mm->modelName]['Owner'],
-									'year'=>$modelMetadata[$mm->modelName]['Year'],
-									'what'=>'Everything'),
-								true)
-					->setWriteReadme ($modelMetadata[$mm->modelName]['AutoGenerateREADME']);
-		}
-		$mm = $mm
-				->setSummary ($modelMetadata[$mm->modelName]['Summary'])
-				->writeMetadata()
-				->writeReadme()
-				->writeLicense();
-	}
-}
-$folder->close();
+$allModels = updateAllModels ($modelMetadata, './2.0', false);
 
+print "===============================\n";
+
+// Now create various Repo files
+createReadme ('Detailed', 'README-detailed.md', $allModels);
+/*
+	createReadme ('Image', 'README-image.md', $metaAll);
+	createReadme ('List', 'README-all.md', $metaAll);
+	createReadme ('List', 'README-issues.md', $metaAll, array('issues'));
+	createReadme ('List', 'README-sharable.md', $metaAll, array('sharable'));
+	createReadme ('List', 'README-noLicense.md', $metaAll, array('no-license'));
+	createReadme ('List', 'README-noAuthor.md', $metaAll, array('no-author'));
+	createReadme ('List', 'README-noOwner.md', $metaAll, array('no-owner'));
+	createReadme ('List', 'README-noYear.md', $metaAll, array('no-year'));
+*/
 
 exit;
+
+
+
+// Function for creating READMEs
+function createReadme ($type, $fname, $metaAll, $tags=array('')) {
+	$F = fopen ($fname, 'w');
+	$section = 'Tagged...';
+	if (count($tags) == 0 || $tags[0] == '') {
+		$section = 'All models';
+		$singleTag = '';
+	} else {
+		$section = 'Models tagged with **' . join(', ', $tags) . '**';
+		$singleTag = $tags[0];
+	}
+	print "Generating $type for $section\n";
+	
+	fwrite ($F, "# glTF 2.0 Sample Models\n\n");
+	fwrite ($F, "## $section\n\n");
+	
+	if ($type == 'Image') {
+		$fmtString = "[![%s](%s)](%s)\n";
+		for ($ii=0; $ii<count($metaAll); $ii++) {
+			fwrite ($F, sprintf ($fmtString, 
+						$metaAll[$ii]->{'name'}, 
+						$metaAll[$ii]->{'UriHeight'},
+						$metaAll[$ii]->{'UriReadme'}
+						));
+		}
+
+	} else if ($type == 'Detailed') {
+		fwrite ($F, "| Model   | Screenshot  | Legal | Description |\n");
+		fwrite ($F, "|---------|-------------|-------|-------------|\n");
+		$fmtString = "| [%s](%s) | ![](%s) | %s | %s |\n";
+		//$modelMeta = $metaAll[0]->getMetadata();
+		//print_r ($modelMeta);
+
+		for ($ii=0; $ii<count($metaAll); $ii++) {
+			$modelMeta = $metaAll[$ii]->getMetadata();
+			$summary = ($modelMeta['summary'] == '') ? '**NO DESCRIPTION**' : $modelMeta['summary'];
+
+			fwrite ($F, sprintf ($fmtString, 
+						$modelMeta['name'], 
+						$modelMeta['path'].'/README.md',
+						$modelMeta['basePathShot'],
+						join("<br>", $modelMeta['credit']),
+						$summary,
+						));
+		}
+	} else if ($type == 'List') {
+		fwrite ($F, "| Model   | Screenshot  | Description |\n");
+		fwrite ($F, "|---------|-------------|-------------|\n");
+		$fmtString = "| [%s](%s) | ![](%s) | %s<br>Credit:<br>%s |\n";
+
+		for ($ii=0; $ii<count($metaAll); $ii++) {
+			if ($singleTag == '' || in_array($singleTag, $metaAll[$ii]->{'tags'})) {
+				$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
+
+				fwrite ($F, sprintf ($fmtString, 
+							$metaAll[$ii]->{'name'}, 
+							$metaAll[$ii]->{'UriReadme'},
+							$metaAll[$ii]->{'UriShot'},
+							$summary,
+							join("<br>", $metaAll[$ii]->{'credit'}),
+							));
+			}
+		}
+	}
+	fclose ($F);
+	return;
+}
+
+// Update models
+function updateAllModels ($modelMetadata, $modelFolder='', $update=false) {
+	if ($modelFolder == '') {return null;}
+
+	$folder = dir ($modelFolder);
+	$folderDotDirs = array ($modelFolder.'/.', $modelFolder.'/..');
+	while (false !== ($model = $folder->read())) {
+		$modelDir = $folder->path . '/' . $model;
+		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
+			print "\nProcessing $modelDir\n";
+			$mm = new ModelMetadata($modelDir, 'metadata');
+			$modelName = $mm->modelName;
+			if ($modelMetadata[$modelName]['UpdateLegal'] != 'FALSE') {
+				$mm = $mm
+						->addLicense ( array(
+										'license'=>$modelMetadata[$modelName]['License'],
+										'licenseUrl'=>'', 
+										'artist'=>$modelMetadata[$modelName]['Author'],
+										'owner'=>$modelMetadata[$modelName]['Owner'],
+										'year'=>$modelMetadata[$modelName]['Year'],
+										'what'=>'Everything'),
+									true)
+						->setWriteReadme ($modelMetadata[$modelName]['AutoGenerateREADME']);
+			}
+			$mm = $mm->setSummary ($modelMetadata[$modelName]['Summary']);
+			if ($update) {
+				$mm = $mm
+					->writeMetadata()
+					->writeReadme()
+					->writeLicense();
+			}
+			$allModels[] = $mm;
+		}
+	}
+	$folder->close();
+	return $allModels;
+}
 
 /*
  * Returns a hash of a hash of the CSV containing the updated model data

@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "Cesium",
-            "license": "_No License_",
-            "licenseUrl": "",
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
             "artist": "Cesium",
-            "what": ""
+            "year": "2017",
+            "owner": "Cesium",
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.gif",
+    "screenshot": "screenshot/screenshot.gif",
     "name": "Rigged Simple",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/RiggedSimple",
+    "path": "./2.0/RiggedSimple",
     "summary": "Animations. Skins. Start with this to test skinning.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

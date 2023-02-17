@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
+            "license": "Unknown",
             "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "artist": "Unknown",
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Everything",
+            "text": "Unknown",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -17,9 +20,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Sponza",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Sponza",
+    "path": "./2.0/Sponza",
     "summary": "Building interior, often used to test lighting.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

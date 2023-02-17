@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Ed Mackey",
             "year": "2018",
             "owner": "Analytical Graphics, Inc.",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "Ed Mackey",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Normal-Tangent Mirror Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/NormalTangentMirrorTest",
+    "path": "./2.0/NormalTangentMirrorTest",
     "summary": "Tests an engine's ability to load supplied tangent vectors for a normal map.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

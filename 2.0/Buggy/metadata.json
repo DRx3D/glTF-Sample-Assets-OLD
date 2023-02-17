@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
+            "license": "Khronos-Archive",
             "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "artist": "Khronos",
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Everything",
+            "text": "Khronos-Archive",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -17,9 +20,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Buggy",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Buggy",
+    "path": "./2.0/Buggy",
     "summary": "Medium-sized CAD data set, including hierarchy",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

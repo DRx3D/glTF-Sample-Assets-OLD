@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "",
             "owner": "Analytical Graphics, Inc.",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-author",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Box With Spaces",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Box With Spaces",
+    "path": "./2.0/Box With Spaces",
     "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

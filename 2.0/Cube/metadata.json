@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
-            "licenseUrl": "",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Norbert Nopper",
-            "what": ""
+            "year": "2017",
+            "owner": "UX3D",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
@@ -16,9 +19,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Cube",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Cube",
+    "path": "./2.0/Cube",
     "summary": "A cube with non-smoothed faces.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

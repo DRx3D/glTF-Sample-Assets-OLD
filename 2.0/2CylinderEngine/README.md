@@ -14,7 +14,7 @@ Small CAD data set, including hierarchy.
 
 ## Legal
 
-&copy; 2017, Khronos. [Khronos-Archive]()
+&copy; 2017, Unknown. [Khronos-Archive]()
 
  - Khronos for Everything
 

@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": "2006",
-            "owner": "Sony",
             "license": "SCEA Shared Source License, Version 1.0",
             "licenseUrl": "",
             "artist": "Sony",
-            "what": ""
+            "year": "2006",
+            "owner": "Sony",
+            "what": "Everything",
+            "text": "SCEA Shared Source License, Version 1.0",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Duck",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Duck",
+    "path": "./2.0/Duck",
     "summary": "The COLLADA duck. One texture.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

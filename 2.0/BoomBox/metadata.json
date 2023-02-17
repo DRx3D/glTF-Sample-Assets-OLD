@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Microsoft",
-            "what": ""
+            "year": "",
+            "owner": "",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Boom Box",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoomBox",
+    "path": "./2.0/BoomBox",
     "summary": " ",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

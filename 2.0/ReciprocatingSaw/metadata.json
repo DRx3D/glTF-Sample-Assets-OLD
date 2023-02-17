@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "SharpGLTF",
             "year": "2021",
             "owner": "SharpGLTF",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "SharpGLTF",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Reciprocating Saw",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/ReciprocatingSaw",
+    "path": "./2.0/ReciprocatingSaw",
     "summary": "Small CAD data set, including hierarchy.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

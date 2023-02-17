@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "Microsoft",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
             "artist": "Microsoft",
-            "what": ""
+            "year": "",
+            "owner": "Microsoft",
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "SpecGlossVsMetalRough",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/SpecGlossVsMetalRough",
+    "path": "./2.0/SpecGlossVsMetalRough",
     "summary": "Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

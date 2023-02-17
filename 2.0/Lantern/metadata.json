@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Microsoft",
             "year": "2021",
             "owner": "Microsoft",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "Microsoft",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Lantern",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Lantern",
+    "path": "./2.0/Lantern",
     "summary": " ",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

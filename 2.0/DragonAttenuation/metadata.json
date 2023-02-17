@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
+            "license": "Multiple",
             "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "artist": "Khronos",
+            "year": "2021",
+            "owner": "Khronos",
+            "what": "Everything",
+            "text": "Multiple",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -17,9 +20,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Dragon Attenuation",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/DragonAttenuation",
+    "path": "./2.0/DragonAttenuation",
     "summary": "Dragon with background, using material variants, transmission, and volume.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

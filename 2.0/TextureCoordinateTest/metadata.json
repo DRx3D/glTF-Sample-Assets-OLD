@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Ed Mackey",
             "year": "2017",
             "owner": "Analytical Graphics, Inc.",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
-            "artist": "Ed Mackey",
-            "what": ""
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Texture Coordinate Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureCoordinateTest",
+    "path": "./2.0/TextureCoordinateTest",
     "summary": "Shows how XYZ and UV positions relate to displayed geometry.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

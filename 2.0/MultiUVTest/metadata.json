@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Hilo 3D",
             "year": "2017",
             "owner": "Hilo 3D",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "Hilo 3D",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "MultiUV Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MultiUVTest",
+    "path": "./2.0/MultiUVTest",
     "summary": "Tests a second set of texture coordinates.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

@@ -459,7 +459,7 @@ function updateMetadata ($metadata, $dir, $Defaults, $Structure, $ModelData) {
 		$modelName = $metadata->{'name'};
 		$metadata = clone $Structure;
 		$license = (isset($metadata->{'license'})) ? $metadata->{'license'} : [];
-		$description = (isset($metadata->{'description'})) ? $metadata->{'description'} : [];
+		$31 = (isset($metadata->{'description'})) ? $metadata->{'description'} : [];
 		
 		if (substr($readme[0], 0, 2) == '# ') {
 			$modelName = substr($readme[0], 2);

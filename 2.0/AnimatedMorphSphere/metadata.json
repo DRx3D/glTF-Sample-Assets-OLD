@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "Microsoft",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Microsoft",
-            "what": ""
+            "year": "",
+            "owner": "Microsoft",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.gif",
+    "screenshot": "screenshot/screenshot.gif",
     "name": "Animated Morph Sphere",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedMorphSphere",
+    "path": "./2.0/AnimatedMorphSphere",
     "summary": "This sample is similar to the Animated Morph Cube, but the two morph targets move many more vertices and are more extreme than with the cube.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

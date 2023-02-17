@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Adobe",
-            "what": ""
+            "year": "2020",
+            "owner": "Public",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Transmission Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TransmissionTest",
+    "path": "./2.0/TransmissionTest",
     "summary": "Tests if the KHR_materials_transmission extension is supported properly.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Krill Gavrilov",
-            "what": ""
+            "year": "2017",
+            "owner": "Public",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Metal-Rough Spheres (textureless)",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MetalRoughSpheresNoTextures",
+    "path": "./2.0/MetalRoughSpheresNoTextures",
     "summary": "Tests various metal and roughness values (textureless).",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

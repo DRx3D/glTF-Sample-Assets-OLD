@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
+            "license": "Unknown",
             "licenseUrl": "",
             "artist": "Michael Feldstein",
-            "what": ""
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Everything",
+            "text": "Unknown",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -16,9 +19,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Box Vertex Colors",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/BoxVertexColors",
+    "path": "./2.0/BoxVertexColors",
     "summary": "Box with vertex colors applied.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

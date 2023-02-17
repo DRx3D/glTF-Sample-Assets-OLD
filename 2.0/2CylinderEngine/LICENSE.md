@@ -4,7 +4,7 @@ All files in this directory tree are licensed as indicated below.
 
 * All files directly associated with the model including all text, image and binary files:
 
-  * [_No License_]("") [SPDX license identifier: ""]
+  * [Khronos-Archive]("") [SPDX license identifier: ""]
 
 * This file and all other metadocumentation files including "metadata.json":
 

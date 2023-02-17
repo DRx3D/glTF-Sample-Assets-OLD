@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
+            "license": "Unknown",
             "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "artist": "Khronos",
+            "year": "2017",
+            "owner": "Adobe",
+            "what": "Everything",
+            "text": "Unknown",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -17,9 +20,9 @@
         "no-year",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Environment Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/EnvironmentTest",
+    "path": "./2.0/EnvironmentTest",
     "summary": "A simple scene with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

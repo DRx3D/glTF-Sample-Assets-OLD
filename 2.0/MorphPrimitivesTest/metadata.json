@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Ed Mackey",
             "year": "2021",
             "owner": "Analytical Graphics, Inc.",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-author",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Morph-Primitives Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MorphPrimitivesTest",
+    "path": "./2.0/MorphPrimitivesTest",
     "summary": "Tests a morph target on multiple primitives.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

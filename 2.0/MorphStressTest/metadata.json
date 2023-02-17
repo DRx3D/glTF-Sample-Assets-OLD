@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Ed Mackey",
             "year": "2021",
             "owner": "Analytical Graphics, Inc.",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "Ed Mackey",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Morph Stress Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/MorphStressTest",
+    "path": "./2.0/MorphStressTest",
     "summary": "Tests up to 8 morph targets.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

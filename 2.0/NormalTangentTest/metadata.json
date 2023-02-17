@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Ed Mackey",
             "year": "2018",
             "owner": "Analytical Graphics, Inc.",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
-            "artist": "Ed Mackey",
-            "what": ""
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Normal-Tangent Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/NormalTangentTest",
+    "path": "./2.0/NormalTangentTest",
     "summary": "Tests an engine's ability to automatically generate tangent vectors for a normal map.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

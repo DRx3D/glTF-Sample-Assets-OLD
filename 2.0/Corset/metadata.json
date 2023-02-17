@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Microsoft",
             "year": "2017",
             "owner": "UX3D",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
-            "artist": "Microsoft",
-            "what": ""
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Corset",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Corset",
+    "path": "./2.0/Corset",
     "summary": " ",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

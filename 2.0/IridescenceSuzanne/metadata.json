@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": "2021",
-            "owner": "_No Owner_",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
             "artist": "Mathias Kanzler",
-            "what": ""
+            "year": "2021",
+            "owner": "",
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-owner",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Suzanne",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescenceSuzanne",
+    "path": "./2.0/IridescenceSuzanne",
     "summary": "Further tests KHR_materials_iridescence.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

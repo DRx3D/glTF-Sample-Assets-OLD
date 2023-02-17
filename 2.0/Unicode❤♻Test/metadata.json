@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "CC0 1.0 Universal",
+            "license": "CC0 + ?",
             "licenseUrl": "",
             "artist": "Viktor Kov\u00e1cs",
-            "what": ""
+            "year": "0",
+            "owner": "Public",
+            "what": "Everything",
+            "text": "CC0 + ?",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Unicode\u2764\u267bTest",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/Unicode\u2764\u267bTest",
+    "path": "./2.0/Unicode\u2764\u267bTest",
     "summary": "A sample with Unicode characters in file, material, and mesh names",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

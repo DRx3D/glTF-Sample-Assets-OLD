@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Norbert Nopper",
             "year": "2017",
             "owner": "UX3D",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
-            "artist": "Norbert Nopper",
-            "what": ""
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.gif",
+    "screenshot": "screenshot/screenshot.gif",
     "name": "Animated Cube",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AnimatedCube",
+    "path": "./2.0/AnimatedCube",
     "summary": "Same as previous cube having a linear rotation animation.",
-    "createReadme": false
+    "createReadme": "TRUE"
 }

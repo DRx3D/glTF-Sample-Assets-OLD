@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "Microsoft",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Microsoft",
-            "what": ""
+            "year": "2018",
+            "owner": "Microsoft",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Texture Transform Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/TextureTransformTest",
+    "path": "./2.0/TextureTransformTest",
     "summary": "Tests if the KHR_texture_transform extension is supported for BaseColor.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

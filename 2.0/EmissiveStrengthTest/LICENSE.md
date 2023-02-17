@@ -4,7 +4,7 @@ All files in this directory tree are licensed as indicated below.
 
 * All files directly associated with the model including all text, image and binary files:
 
-  * [_No License_]("") [SPDX license identifier: ""]
+  * [Creative Commons Attribution 4.0 International]("https://creativecommons.org/licenses/by-nd/4.0/legalcode") [SPDX license identifier: "CC-BY-4.0"]
 
 * This file and all other metadocumentation files including "metadata.json":
 

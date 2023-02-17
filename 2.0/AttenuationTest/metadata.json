@@ -1,21 +1,24 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Ed Mackey",
             "year": "2021",
             "owner": "Analytical Graphics, Inc.",
-            "license": "Attribution 4.0 International",
-            "licenseUrl": "",
-            "artist": "Ed Mackey",
-            "what": ""
+            "what": "Everything",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "sharable"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Attenuation Test",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/AttenuationTest",
+    "path": "./2.0/AttenuationTest",
     "summary": "Tests the interactions between attenuation, thickness, and scale.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }

@@ -1,13 +1,16 @@
 {
-    "version": 0,
+    "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "CC0 1.0 Universal",
-            "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": ""
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Khronos",
+            "year": "2019",
+            "owner": "Public",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
@@ -15,9 +18,9 @@
         "no-author",
         "issues"
     ],
-    "screenshot": "screenshot\/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Dielectric Spheres",
-    "path": "https:\/\/github.com\/KhronosGroup\/glTF-Sample-Models\/tree\/master\/.\/2.0\/IridescenceDielectricSpheres",
+    "path": "./2.0/IridescenceDielectricSpheres",
     "summary": "Tests KHR_materials_iridescence on a non-metallic material.",
-    "createReadme": false
+    "createReadme": "FALSE"
 }
