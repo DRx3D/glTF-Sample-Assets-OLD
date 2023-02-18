@@ -2,25 +2,23 @@
     "version": 2,
     "legal": [
         {
-            "license": "Khronos-Archive",
+            "license": "Poser Pro EULA",
             "licenseUrl": "",
             "artist": "Keith Hunter",
             "year": "2017",
             "owner": "Smith Micro Software, Inc.",
             "what": "Everything",
-            "text": "Khronos-Archive",
+            "text": "Poser Pro EULA, “Legitimate Uses”, clause (g)",
             "spdx": "",
             "icon": ""
         }
     ],
     "tags": [
-        "no-license",
-        "no-year",
         "issues"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "BrainStem",
     "path": "./2.0/BrainStem",
     "summary": "Animations. Skins.",
-    "createReadme": "FALSE"
+    "createReadme": "TRUE"
 }

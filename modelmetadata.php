@@ -4,7 +4,7 @@ class ModelMetadata
 {
 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.10.0';
+	public $swVERSION = '0.11.';
 	public $jsonVERSION = 2;
 	public $isCurrent = false;
 	public $hasError = false;
@@ -51,6 +51,22 @@ class ModelMetadata
     "createReadme" : false
 }';
 	private $metaPhp = 0;
+	public $TF = array (
+						'FALSE'	=> false,
+						'0'		=> false,
+						'F'		=> false,
+						'false'	=> false,
+						'no'	=> false,
+						'NO'	=> false,
+						false	=> false,
+						'TRUE'	=> true,
+						'1'		=> true,
+						'T'		=> true,
+						'true'	=> true,
+						'yes'	=> true,
+						'YES'	=> true,
+						true	=> true
+						);
 	public $LICENSE = array (
 			'CC0'		=> array (
 							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png', 
@@ -162,7 +178,7 @@ class ModelMetadata
 		$screenshot = $this->metadata['screenshot'];
 		$tagList = array();
 		for ($ii=0; $ii<count($this->metadata['tags']); $ii++) {
-			$tagList[] = sprintf ('![%s](./README-%s.md)', $this->metadata['tags'][$ii], $this->metadata['tags'][$ii]);
+			$tagList[] = sprintf ('![%s](../../README-%s.md)', $this->metadata['tags'][$ii], $this->metadata['tags'][$ii]);
 		}
 		$tagString = join (', ', $tagList);
 
@@ -228,7 +244,7 @@ class ModelMetadata
  *	After the new license is in place, the system will do a cleanup, then regenerate the credits
 **/
 	public function setWriteReadme ($write=false) {
-		$this->metadata['createReadme'] = $write;
+		$this->metadata['createReadme'] = (isset($this->TF[$write])) ? $this->TF[$write] : false;
 		$this->metadata['AutoGenerateREADME'] = $this->metadata['createReadme'];
 		$this->hasError = false;
 		$this->errorMessage = "";
@@ -317,6 +333,7 @@ class ModelMetadata
 		$this->metadata['legalGood'] = ($this->metadata['legal'][0]['owner'] == '_No Owner_' || $this->metadata['legal'][0]['year'] == 0) ? false : true;
 
 		$this->metadata['createReadme']	= (isset($this->metadata['AutoGenerateREADME'])) ? $this->metadata['AutoGenerateREADME'] && $this->metadata['createReadme'] : $this->metadata['createReadme'];
+		$this->metadata['createReadme'] = $this->TF[$this->metadata['createReadme']];
 		$this->metadata['AutoGenerateREADME']	= $this->metadata['createReadme'];
 		$this->metadata['credit']		= $this->_generateCredits();
 		$this->metadata['summary'] = ($this->metadata['summary'] == '') ? '_No Summary_' : $this->metadata['summary'];
@@ -508,10 +525,11 @@ print "===============================\n";
 
 // Now create various Repo files
 createReadme ('Detailed', 'README-detailed.md', $allModels);
+createReadme ('List', 'README-all.md', $allModels);
+createReadme ('List', 'README-issues.md', $allModels, array('issues'));
+createReadme ('List', 'README-tutorial.md', $allModels, array('tutorial-model'));
 /*
 	createReadme ('Image', 'README-image.md', $metaAll);
-	createReadme ('List', 'README-all.md', $metaAll);
-	createReadme ('List', 'README-issues.md', $metaAll, array('issues'));
 	createReadme ('List', 'README-sharable.md', $metaAll, array('sharable'));
 	createReadme ('List', 'README-noLicense.md', $metaAll, array('no-license'));
 	createReadme ('List', 'README-noAuthor.md', $metaAll, array('no-author'));
@@ -574,15 +592,16 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 		$fmtString = "| [%s](%s) | ![](%s) | %s<br>Credit:<br>%s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
-			if ($singleTag == '' || in_array($singleTag, $metaAll[$ii]->{'tags'})) {
-				$summary = ($metaAll[$ii]->{'summary'} == '') ? '**NO DESCRIPTION**' : $metaAll[$ii]->{'summary'};
+			$modelMeta = $metaAll[$ii]->getMetadata();
+			if ($singleTag == '' || in_array($singleTag, $modelMeta['tags'])) {
+				$summary = ($modelMeta['summary'] == '') ? '**NO DESCRIPTION**' : $modelMeta['summary'];
 
 				fwrite ($F, sprintf ($fmtString, 
-							$metaAll[$ii]->{'name'}, 
-							$metaAll[$ii]->{'UriReadme'},
-							$metaAll[$ii]->{'UriShot'},
+							$modelMeta['name'], 
+							$modelMeta['path'].'/README.md',
+							$modelMeta['basePathShot'],
 							$summary,
-							join("<br>", $metaAll[$ii]->{'credit'}),
+							join("<br>", $modelMeta['credit']),
 							));
 			}
 		}
@@ -603,25 +622,26 @@ function updateAllModels ($modelMetadata, $modelFolder='', $update=false) {
 			print "\nProcessing $modelDir\n";
 			$mm = new ModelMetadata($modelDir, 'metadata');
 			$modelName = $mm->modelName;
-			if ($modelMetadata[$modelName]['UpdateLegal'] != 'FALSE') {
-				$mm = $mm
-						->addLicense ( array(
-										'license'=>$modelMetadata[$modelName]['License'],
-										'licenseUrl'=>'', 
-										'artist'=>$modelMetadata[$modelName]['Author'],
-										'owner'=>$modelMetadata[$modelName]['Owner'],
-										'year'=>$modelMetadata[$modelName]['Year'],
-										'what'=>'Everything'),
-									true)
-						->setWriteReadme ($modelMetadata[$modelName]['AutoGenerateREADME']);
-			}
-			$mm = $mm->setSummary ($modelMetadata[$modelName]['Summary']);
 			if ($update) {
-				$mm = $mm
+				if ($modelMetadata[$modelName]['UpdateLegal'] != 'FALSE') {
+					$mm = $mm
+							->addLicense ( array(
+											'license'=>$modelMetadata[$modelName]['License'],
+											'licenseUrl'=>'', 
+											'artist'=>$modelMetadata[$modelName]['Author'],
+											'owner'=>$modelMetadata[$modelName]['Owner'],
+											'year'=>$modelMetadata[$modelName]['Year'],
+											'what'=>'Everything'),
+										true)
+							->setWriteReadme ($modelMetadata[$modelName]['AutoGenerateREADME']);
+				}
+				$mm = $mm->setSummary ($modelMetadata[$modelName]['Summary']);
+			}
+			print "... Should I write README? " . ($mm->getMetadata())['createReadme'] . "|\n";
+			$mm = $mm
 					->writeMetadata()
 					->writeReadme()
 					->writeLicense();
-			}
 			$allModels[] = $mm;
 		}
 	}

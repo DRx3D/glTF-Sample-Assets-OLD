@@ -11,6 +11,17 @@
             "text": "Khronos-Archive",
             "spdx": "",
             "icon": ""
+        },
+        {
+            "license": "Khronos-Archive",
+            "licenseUrl": "",
+            "artist": "Okino",
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Conversion to glTF",
+            "text": "Khronos-Archive",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -25,5 +36,5 @@
     "name": "2 Cylinder Engine",
     "path": "./2.0/2CylinderEngine",
     "summary": "Small CAD data set, including hierarchy.",
-    "createReadme": "FALSE"
+    "createReadme": "TRUE"
 }

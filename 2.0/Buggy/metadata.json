@@ -11,6 +11,17 @@
             "text": "Khronos-Archive",
             "spdx": "",
             "icon": ""
+        },
+        {
+            "license": "Khronos-Archive",
+            "licenseUrl": "",
+            "artist": "Okino",
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Conversion to glTF",
+            "text": "Khronos-Archive",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -18,7 +29,8 @@
         "no-author",
         "no-owner",
         "no-year",
-        "issues"
+        "issues",
+        "tutorial-model"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Buggy",

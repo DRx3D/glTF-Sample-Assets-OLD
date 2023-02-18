@@ -21,6 +21,6 @@
     "screenshot": "screenshot/screenshot.png",
     "name": "Box Textured",
     "path": "./2.0/BoxTextured",
-    "summary": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.",
-    "createReadme": "FALSE"
+    "summary": "Box with a power-of-2 texture.",
+    "createReadme": "TRUE"
 }

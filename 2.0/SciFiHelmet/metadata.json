@@ -5,9 +5,20 @@
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Michael Pavlovic",
-            "year": "2019",
+            "year": "2017",
             "owner": "Public",
             "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Norbert Nopper",
+            "year": "2017",
+            "owner": "Public",
+            "what": "Conversion to glTF",
             "text": "CC0 1.0 Universal",
             "spdx": "CC0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
@@ -19,6 +30,6 @@
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Sci Fi Helmet",
     "path": "./2.0/SciFiHelmet",
-    "summary": " ",
+    "summary": "Futuristic helmet",
     "createReadme": "TRUE"
 }

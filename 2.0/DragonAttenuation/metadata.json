@@ -2,13 +2,35 @@
     "version": 2,
     "legal": [
         {
-            "license": "Multiple",
-            "licenseUrl": "",
-            "artist": "Khronos",
-            "year": "2021",
-            "owner": "Khronos",
-            "what": "Everything",
+            "license": "Stanford Scan",
+            "licenseUrl": "http://www.graphics.stanford.edu/data/3Dscanrep/",
+            "artist": "Stanford",
+            "year": "1996",
+            "owner": "Stanford",
+            "what": "Original dragon model",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        },
+        {
+            "license": "Stanford Scan",
+            "licenseUrl": "http://www.graphics.stanford.edu/data/3Dscanrep/",
+            "artist": "Morgan McGuire's Computer Graphics Archive",
+            "year": "2017",
+            "owner": "Morgan McGuire",
+            "what": "Conversion and clean up",
             "text": "Multiple",
+            "spdx": "",
+            "icon": ""
+        },
+        {
+            "license": "CC0",
+            "licenseUrl": "",
+            "artist": "Adobe",
+            "year": "2021",
+            "owner": "Public",
+            "what": "Cloth backdrop",
+            "text": "",
             "spdx": "",
             "icon": ""
         }

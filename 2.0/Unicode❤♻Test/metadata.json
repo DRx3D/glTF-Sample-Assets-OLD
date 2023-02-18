@@ -2,13 +2,13 @@
     "version": 2,
     "legal": [
         {
-            "license": "CC0 + ?",
+            "license": "CC0",
             "licenseUrl": "",
             "artist": "Viktor Kov\u00e1cs",
-            "year": "0",
+            "year": "2017",
             "owner": "Public",
             "what": "Everything",
-            "text": "CC0 + ?",
+            "text": "",
             "spdx": "",
             "icon": ""
         }

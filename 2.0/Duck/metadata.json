@@ -3,7 +3,7 @@
     "legal": [
         {
             "license": "SCEA Shared Source License, Version 1.0",
-            "licenseUrl": "",
+            "licenseUrl": "https://web.archive.org/web/20160320123355/http://research.scea.com/scea_shared_source_license.html",
             "artist": "Sony",
             "year": "2006",
             "owner": "Sony",
@@ -14,7 +14,8 @@
         }
     ],
     "tags": [
-        "sharable"
+        "sharable",
+        "issues"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Duck",

@@ -5,7 +5,7 @@
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Ed Mackey",
-            "year": "",
+            "year": "2017",
             "owner": "Analytical Graphics, Inc.",
             "what": "Everything",
             "text": "CC0 1.0 Universal",
@@ -14,13 +14,11 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-author",
-        "issues"
+        "sharable"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box With Spaces",
-    "path": "./2.0/Box With Spaces",
+    "path": "./2.0/Box%20With%20Spaces",
     "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
     "createReadme": "FALSE"
 }

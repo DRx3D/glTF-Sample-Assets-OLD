@@ -11,6 +11,17 @@
             "text": "Unknown",
             "spdx": "",
             "icon": ""
+        },
+        {
+            "license": "Khronos-Archive",
+            "licenseUrl": "",
+            "artist": "Okino",
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Conversion to glTF",
+            "text": "Khronos-Archive",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [

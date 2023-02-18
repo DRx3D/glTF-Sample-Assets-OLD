@@ -22,5 +22,5 @@
     "name": "Cesium Man",
     "path": "./2.0/CesiumMan",
     "summary": "Textured. Animations. Skins.",
-    "createReadme": "FALSE"
+    "createReadme": "TRUE"
 }

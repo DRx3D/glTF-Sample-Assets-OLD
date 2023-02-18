@@ -11,6 +11,17 @@
             "text": "Creative Commons Attribution 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "Khronos-Archive",
+            "licenseUrl": "",
+            "artist": "Okino",
+            "year": "2017",
+            "owner": "Unknown",
+            "what": "Conversion to glTF",
+            "text": "Khronos-Archive",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [

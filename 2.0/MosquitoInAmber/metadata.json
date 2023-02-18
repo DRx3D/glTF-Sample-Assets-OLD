@@ -5,20 +5,27 @@
             "license": "CC-BY 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
             "artist": "Loic Norgeot",
-            "year": "2020",
+            "year": "2018",
             "owner": "Sketchfab",
-            "what": "Everything",
+            "what": "Model",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Sketchfab",
+            "year": "2019",
+            "owner": "Sketchfab",
+            "what": "Real-time refraction",
             "text": "Creative Commons Attribution 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
-        "sharable",
-        "no-author",
-        "no-owner",
-        "no-year",
-        "issues"
+        "sharable"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Mosquito In Amber",

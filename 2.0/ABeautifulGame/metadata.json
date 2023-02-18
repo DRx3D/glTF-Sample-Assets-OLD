@@ -4,10 +4,21 @@
         {
             "license": "CC-BY 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
-            "artist": "MaterialX Project, Ed Mackey",
-            "year": "0",
-            "owner": "ASWF, original model\nEd Mackey, conversion",
-            "what": "Everything",
+            "artist": "MaterialX Project",
+            "year": "2020",
+            "owner": "ASWF",
+            "what": "Original model",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "2022",
+            "owner": "Ed Mackey",
+            "what": "Conversion to glTF",
             "text": "Creative Commons Attribution 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
@@ -15,8 +26,7 @@
     ],
     "tags": [
         "sharable",
-        "no-year",
-        "issues"
+        "showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "A Beautiful Game",

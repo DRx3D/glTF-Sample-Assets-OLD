@@ -2,25 +2,21 @@
     "version": 2,
     "legal": [
         {
-            "license": "",
+            "year": 0,
+            "owner": "_No Owner_",
+            "license": "_No License_",
             "licenseUrl": "",
-            "artist": "3DRT",
-            "year": "0",
-            "owner": "3DRT",
-            "what": "Everything",
-            "text": "",
+            "artist": "_No Artist_",
+            "what": "",
+            "text": "_No License_",
             "spdx": "",
             "icon": ""
         }
     ],
-    "tags": [
-        "no-license",
-        "no-year",
-        "issues"
-    ],
-    "screenshot": "screenshot/screenshot.gif",
-    "name": "Virtual City",
+    "tags": ["testing"],
+    "screenshot": null,
+    "name": null,
     "path": "./2.0/VC",
-    "summary": "Textured. Animations.",
-    "createReadme": "TRUE"
+    "summary": "_No Summary_",
+    "createReadme": null
 }

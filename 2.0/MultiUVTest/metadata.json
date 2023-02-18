@@ -19,6 +19,6 @@
     "screenshot": "screenshot/screenshot.jpg",
     "name": "MultiUV Test",
     "path": "./2.0/MultiUVTest",
-    "summary": "Tests a second set of texture coordinates.",
-    "createReadme": "FALSE"
+    "summary": "This model has two uv texture coordinates and tests a second set of texture coordinates.",
+    "createReadme": "TRUE"
 }

@@ -22,5 +22,5 @@
     "name": "Cesium Milk Truck",
     "path": "./2.0/CesiumMilkTruck",
     "summary": "Textured. Multiple nodes/meshes. Animations.",
-    "createReadme": "FALSE"
+    "createReadme": "TRUE"
 }
