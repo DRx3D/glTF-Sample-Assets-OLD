@@ -3,7 +3,7 @@
     "legal": [
         {
             "license": "CC-BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
             "artist": "Eric Chadwick",
             "year": "2020",
             "owner": "Wayfair, LLC",
@@ -15,9 +15,7 @@
     ],
     "tags": [
         "sharable",
-        "no-author",
-        "no-year",
-        "issues"
+		"showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescent Dish with Olives",

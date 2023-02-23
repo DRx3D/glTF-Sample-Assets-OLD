@@ -25,7 +25,8 @@
         }
     ],
     "tags": [
-        "sharable"
+        "sharable",
+		"showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Mosquito In Amber",

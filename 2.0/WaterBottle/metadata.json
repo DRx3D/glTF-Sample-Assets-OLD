@@ -5,7 +5,7 @@
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Microsoft",
-            "year": "2018",
+            "year": "2017",
             "owner": "Public",
             "what": "Everything",
             "text": "CC0 1.0 Universal",
@@ -13,13 +13,10 @@
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
-    "tags": [
-        "sharable",
-        "issues"
-    ],
+    "tags": ["sharable"],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Water Bottle",
     "path": "./2.0/WaterBottle",
-    "summary": "",
-    "createReadme": "TRUE"
+    "summary": "_No Summary_",
+    "createReadme": "FALSE"
 }

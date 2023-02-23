@@ -14,10 +14,7 @@
         }
     ],
     "tags": [
-        "no-license",
-        "no-owner",
-        "no-year",
-        "issues"
+        "sharable"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Cube",

@@ -3,7 +3,7 @@
     "legal": [
         {
             "license": "CC-BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
             "artist": "Mathias Kanzler",
             "year": "2021",
             "owner": "",
@@ -14,9 +14,7 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-owner",
-        "issues"
+        "sharable"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Suzanne",

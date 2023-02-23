@@ -2,23 +2,18 @@
     "version": 2,
     "legal": [
         {
-            "license": "Unknown",
-            "licenseUrl": "",
+            "license": "Adobe Enhanced",
+            "licenseUrl": "https://stock.adobe.com/license-terms?prev_url=detail&comparison-full#enhanced-license-terms",
             "artist": "Khronos",
             "year": "2017",
             "owner": "Adobe",
             "what": "Everything",
-            "text": "Unknown",
+            "text": "Adobe Enhanced",
             "spdx": "",
             "icon": ""
         }
     ],
     "tags": [
-        "no-license",
-        "no-author",
-        "no-owner",
-        "no-year",
-        "issues"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Environment Test",

@@ -14,9 +14,7 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-author",
-        "issues"
+        "sharable"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "SimpleMorph",

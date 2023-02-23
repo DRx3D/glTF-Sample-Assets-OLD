@@ -2,21 +2,21 @@
     "version": 2,
     "legal": [
         {
-            "year": 0,
-            "owner": "_No Owner_",
-            "license": "_No License_",
-            "licenseUrl": "",
-            "artist": "_No Artist_",
-            "what": "",
-            "text": "_No License_",
+            "year": 2017,
+            "owner": "3DRT",
+            "license": "glTF tool testing only",
+            "licenseUrl": "https://3drt.com/store/terms-of-use-license.html",
+            "artist": "3DRT",
+            "what": "Everything",
+            "text": "glTF tool testing only",
             "spdx": "",
             "icon": ""
         }
     ],
     "tags": ["testing"],
-    "screenshot": null,
-    "name": null,
+    "screenshot": "screenshot/screenshot.gif",
+    "name": "Virtual City",
     "path": "./2.0/VC",
-    "summary": "_No Summary_",
-    "createReadme": null
+    "summary": "The 'Virtual City' model was graciously contributed by the folks at 3DRT.",
+    "createReadme": "TRUE"
 }

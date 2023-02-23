@@ -26,7 +26,8 @@
     ],
     "tags": [
         "sharable",
-        "tutorial--model"
+        "tutorial-model",
+		"showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Toy Car",
