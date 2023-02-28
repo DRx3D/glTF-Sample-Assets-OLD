@@ -23,7 +23,7 @@ The available lists are:
 * [Full](./Models.md) for all models.
 * [Testing](./Models-testing.md) for models intended to be used for testing of viewers, converts, and other software systems.
 * [Core Only](./Models-core.md) for models that only use glTF Core V2.0 features and capabilities.
-* [Video Tutorials](./Models-videos.md) for models used in any glTF Tutorial video.
+* [Video Tutorials](./Models-video.md) for models used in any glTF Tutorial video.
 * [Written Tutorials](./Models-written.md) for models used in a written glTF Tutorial.
 
 A summary of the model license is shown in each display, but see the `README.md` in each model's directory for detailed license information.
