@@ -29,7 +29,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.13.1';
+	public $swVERSION = '0.14.4';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -188,16 +188,20 @@ class ModelMetadata
  *	README, LICENSE, etc
  *
 **/
-	public function writeReadme () {
+	public function writeReadme ($tagListings=null) {
 		$fileReadme = $this->metadata['basePath'] . 'README.md';
 		if (!$this->metadata['createReadme']) {return $this; }
-		print " .. Updateing README\n";
-		return $this;
+		print " .. Updating README\n";
 		
 		$screenshot = $this->metadata['screenshot'];
 		$tagList = array();
 		for ($ii=0; $ii<count($this->metadata['tags']); $ii++) {
-			$tagList[] = sprintf ('![%s](../../README-%s.md)', $this->metadata['tags'][$ii], $this->metadata['tags'][$ii]);
+			$path = $this->_getTagListingPath ($this->metadata['tags'][$ii], $tagListings);
+			if ($path == '') {
+				$tagList[] = sprintf ('%s', $this->metadata['tags'][$ii], $this->metadata['tags'][$ii]);
+			} else {
+				$tagList[] = sprintf ('![%s](../../%s)', $this->metadata['tags'][$ii], $path);
+			}
 		}
 		$tagString = join (', ', $tagList);
 
@@ -222,6 +226,15 @@ class ModelMetadata
 		fclose ($FO);
 
 		return $this;
+	}
+	private function _getTagListingPath ($tag, $tagListings) {
+		if (count($tagListings) < 1) {return ''; }
+		for ($ii=0; $ii<count($tagListings); $ii++) {
+			if ($tag == $tagListings[$ii]['tags'][0]) {
+				return $tagListings[$ii]['file'];
+			}
+		}
+		return '';
 	}
 
 /*
@@ -544,14 +557,14 @@ $mm = $mm->writeMetadata()->writeReadme()->writeLicense();
  *	- Create site-wide license info
 **/
 //$allModels = updateAllModels ($modelMetadata, './2.0', true, false);
-$allModels = updateAllModels ($modelTagData, './2.0', false, true);
+$allModels = updateAllModels ($modelTagData, $listings, './2.0', false, true);
 
 print "===============================\n";
 
 // Now create various Repo files
 //	createReadme ('Detailed', 'README-detailed.md', $allModels);
 for ($ii=0; $ii<count($listings); $ii++) {
-	createReadme ($listings[$ii]['type'], $listings[$ii]['file'], $allModels, $listings[$ii]['tags']);
+	createReadme ($listings[$ii]['type'], $listings[$ii]['file'], $allModels, $listings, $listings[$ii]['tags']);
 }
 
 createTagCsv ('model-metadata.csv', $allModels);
@@ -569,7 +582,7 @@ exit;
 
 
 // Function for creating READMEs
-function createReadme ($type, $fname, $metaAll, $tags=array('')) {
+function createReadme ($type, $fname, $metaAll, $listings, $tags=array('')) {
 	$urlSampleViewer = 'https://github.khronos.org/glTF-Sample-Viewer-Release/';
 	$urlModelRepoRaw = 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Models/master';
 	$F = fopen ($fname, 'w');
@@ -586,6 +599,17 @@ function createReadme ($type, $fname, $metaAll, $tags=array('')) {
 	fwrite ($F, "# glTF 2.0 Sample Models\n\n");
 	fwrite ($F, "## $section\n\n");
 	
+	for ($ii=0; $ii<count($listings); $ii++) {
+		if (count($listings[$ii]['tags']) > 0) {
+			$tagItem = '#' . join(', #', $listings[$ii]['tags']);
+		} else {
+			$tagItem = '#all';
+		}
+		$otherTags[] = sprintf ("[%s](%s)", $tagItem, $listings[$ii]['file']);
+	}
+	fwrite ($F, "## Other Tagged Listings\n\n");
+	fwrite ($F, "* " . join("\n* ", $otherTags) . "\n\n");
+
 	if ($type == 'Image') {
 		$fmtString = "[![%s](%s)](%s)\n";
 		for ($ii=0; $ii<count($metaAll); $ii++) {
@@ -665,7 +689,7 @@ function createTagCsv ($fname, $metaAll) {
 
 
 // Update models
-function updateAllModels ($modelUpData, $modelFolder='', $updateMetadata=false, $updateTagData=false) {
+function updateAllModels ($modelUpData, $tagListings, $modelFolder='', $updateMetadata=false, $updateTagData=false) {
 	if ($modelFolder == '') {return null;}
 
 	$folder = dir ($modelFolder);
@@ -697,7 +721,7 @@ function updateAllModels ($modelUpData, $modelFolder='', $updateMetadata=false, 
 			//print "... Should I write README? " . ($mm->getMetadata())['createReadme'] . "|\n";
 			$mm = $mm
 					->writeMetadata()
-					->writeReadme()
+					->writeReadme($tagListings)
 					->writeLicense();
 			$allModels[] = $mm;
 		}
