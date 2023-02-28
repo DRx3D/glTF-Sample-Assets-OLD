@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Animated Morph Sphere",
     "path": "./2.0/AnimatedMorphSphere",
     "summary": "This sample is similar to the Animated Morph Cube, but the two morph targets move many more vertices and are more extreme than with the cube.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

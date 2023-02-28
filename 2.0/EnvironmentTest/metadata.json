@@ -14,10 +14,11 @@
         }
     ],
     "tags": [
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Environment Test",
     "path": "./2.0/EnvironmentTest",
     "summary": "A simple scene with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

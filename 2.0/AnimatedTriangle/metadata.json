@@ -14,13 +14,14 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-author",
-        "issues"
+        "core",
+        "issues",
+        "testing",
+        "written"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "AnimatedTriangle",
     "path": "./2.0/AnimatedTriangle",
     "summary": "This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

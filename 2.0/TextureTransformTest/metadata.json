@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Texture Transform Test",
     "path": "./2.0/TextureTransformTest",
     "summary": "Tests if the KHR_texture_transform extension is supported for BaseColor.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

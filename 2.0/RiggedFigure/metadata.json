@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Rigged Figure",
     "path": "./2.0/RiggedFigure",
     "summary": "Animations. Skins.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

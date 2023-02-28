@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Rigged Simple",
     "path": "./2.0/RiggedSimple",
     "summary": "Animations. Skins. Start with this to test skinning.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

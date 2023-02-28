@@ -14,11 +14,13 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing",
+        "written"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "SimpleSkin",
     "path": "./2.0/SimpleSkin",
     "summary": "A simple example of vertex skinning in glTF",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

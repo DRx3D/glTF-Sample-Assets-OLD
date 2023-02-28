@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "SimpleSparseAccessor",
     "path": "./2.0/SimpleSparseAccessor",
     "summary": "A simple mesh that uses sparse accessors",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

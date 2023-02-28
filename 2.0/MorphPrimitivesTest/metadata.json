@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Morph-Primitives Test",
     "path": "./2.0/MorphPrimitivesTest",
     "summary": "Tests a morph target on multiple primitives.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

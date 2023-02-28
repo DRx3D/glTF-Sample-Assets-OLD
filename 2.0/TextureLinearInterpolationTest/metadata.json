@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Texture Linear Interpolation Test",
     "path": "./2.0/TextureLinearInterpolationTest",
     "summary": "Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Box Animated",
     "path": "./2.0/BoxAnimated",
     "summary": "Rotation and Translation Animations. Start with this to test animations.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

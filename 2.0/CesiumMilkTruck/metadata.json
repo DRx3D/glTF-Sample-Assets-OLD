@@ -14,13 +14,13 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-year",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Cesium Milk Truck",
     "path": "./2.0/CesiumMilkTruck",
     "summary": "Textured. Multiple nodes/meshes. Animations.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

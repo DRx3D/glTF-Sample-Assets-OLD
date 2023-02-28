@@ -25,16 +25,14 @@
         }
     ],
     "tags": [
-        "no-license",
-        "no-author",
-        "no-owner",
-        "no-year",
+        "core",
         "issues",
-        "tutorial-model"
+        "testing",
+        "video"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Buggy",
     "path": "./2.0/Buggy",
     "summary": "Medium-sized CAD data set, including hierarchy",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

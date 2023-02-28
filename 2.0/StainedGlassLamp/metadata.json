@@ -14,12 +14,11 @@
         }
     ],
     "tags": [
-        "sharable",
-		"showcase"
+        "showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "StainedGlassLamp",
     "path": "./2.0/StainedGlassLamp",
     "summary": " ",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box With Spaces",
     "path": "./2.0/Box%20With%20Spaces",
     "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

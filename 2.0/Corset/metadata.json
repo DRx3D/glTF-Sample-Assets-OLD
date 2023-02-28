@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Corset",
     "path": "./2.0/Corset",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

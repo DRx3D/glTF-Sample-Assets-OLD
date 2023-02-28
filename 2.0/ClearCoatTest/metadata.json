@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "KHR_materials_clearcoat Test",
     "path": "./2.0/ClearCoatTest",
     "summary": "Tests if the KHR_materials_clearcoat extension is supported properly.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

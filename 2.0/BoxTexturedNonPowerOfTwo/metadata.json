@@ -14,13 +14,13 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-year",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box Textured",
     "path": "./2.0/BoxTexturedNonPowerOfTwo",
     "summary": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

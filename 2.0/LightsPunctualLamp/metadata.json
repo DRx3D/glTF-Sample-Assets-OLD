@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Lamp using KHR_lights_punctual Extension",
     "path": "./2.0/LightsPunctualLamp",
     "summary": "Lamp using punctual lights.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

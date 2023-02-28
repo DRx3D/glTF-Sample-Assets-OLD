@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Metal-Rough Spheres",
     "path": "./2.0/MetalRoughSpheres",
     "summary": "Tests various metal and roughness values (texture mapped).",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

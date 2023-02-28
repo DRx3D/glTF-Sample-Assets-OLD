@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Emissive Strength Test",
     "path": "./2.0/EmissiveStrengthTest",
     "summary": "Tests if the KHR_materials_emissive_strength extension is supported properly.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

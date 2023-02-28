@@ -25,12 +25,11 @@
         }
     ],
     "tags": [
-        "sharable",
-		"showcase"
+        "showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Mosquito In Amber",
     "path": "./2.0/MosquitoInAmber",
     "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

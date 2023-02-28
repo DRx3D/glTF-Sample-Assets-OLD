@@ -14,13 +14,13 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-year",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Cesium Man",
     "path": "./2.0/CesiumMan",
     "summary": "Textured. Animations. Skins.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

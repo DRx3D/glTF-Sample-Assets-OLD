@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box with interleaved position and normal attributes",
     "path": "./2.0/BoxInterleaved",
     "summary": "Box example with interleaved position and normal attributes.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

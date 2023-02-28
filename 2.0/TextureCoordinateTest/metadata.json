@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Texture Coordinate Test",
     "path": "./2.0/TextureCoordinateTest",
     "summary": "Shows how XYZ and UV positions relate to displayed geometry.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

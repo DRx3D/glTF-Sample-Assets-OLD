@@ -25,15 +25,13 @@
         }
     ],
     "tags": [
-        "no-license",
-        "no-author",
-        "no-owner",
-        "no-year",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Gearbox Assy",
     "path": "./2.0/GearboxAssy",
     "summary": "Medium-sized CAD data set, including hierarchy.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

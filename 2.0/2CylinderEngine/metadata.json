@@ -25,16 +25,13 @@
         }
     ],
     "tags": [
-        "no-license",
-        "no-author",
-        "no-owner",
-        "no-year",
+        "core",
         "issues",
-        "cad"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "2 Cylinder Engine",
     "path": "./2.0/2CylinderEngine",
     "summary": "Small CAD data set, including hierarchy.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

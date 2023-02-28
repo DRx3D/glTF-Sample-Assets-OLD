@@ -25,26 +25,22 @@
         },
         {
             "license": "CC0",
-            "licenseUrl": "",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Adobe",
             "year": "2021",
             "owner": "Public",
             "what": "Cloth backdrop",
-            "text": "",
-            "spdx": "",
-            "icon": ""
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
-        "no-license",
-        "no-author",
-        "no-owner",
-        "no-year",
-        "issues"
+        "showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Dragon Attenuation",
     "path": "./2.0/DragonAttenuation",
     "summary": "Dragon with background, using material variants, transmission, and volume.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Suzanne",
     "path": "./2.0/IridescenceSuzanne",
     "summary": "Further tests KHR_materials_iridescence.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

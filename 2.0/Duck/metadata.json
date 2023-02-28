@@ -14,12 +14,13 @@
         }
     ],
     "tags": [
-        "sharable",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Duck",
     "path": "./2.0/Duck",
     "summary": "The COLLADA duck. One texture.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

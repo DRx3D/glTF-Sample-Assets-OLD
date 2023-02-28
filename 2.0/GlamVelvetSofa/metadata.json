@@ -14,12 +14,11 @@
         }
     ],
     "tags": [
-        "sharable",
-		"tutorial-model"
+        "video"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "GlamVelvetSofa",
     "path": "./2.0/GlamVelvetSofa",
     "summary": "Sofa using material variants, sheen, and specular.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

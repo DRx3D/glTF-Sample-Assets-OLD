@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Antique Camera",
     "path": "./2.0/AntiqueCamera",
     "summary": "Static model of old camera on a tripod.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

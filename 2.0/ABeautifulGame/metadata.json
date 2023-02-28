@@ -25,13 +25,12 @@
         }
     ],
     "tags": [
-        "sharable",
         "showcase",
-		"tutorial-model"
+        "video"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "A Beautiful Game",
     "path": "./2.0/ABeautifulGame",
     "summary": "Chess set using transmission and volume.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

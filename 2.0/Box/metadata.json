@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box",
     "path": "./2.0/Box",
     "summary": "One mesh and one material. Start with this.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

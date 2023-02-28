@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "showcase",
+        "video"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "SheenChair",
     "path": "./2.0/SheenChair",
     "summary": "Chair using material variants and sheen.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

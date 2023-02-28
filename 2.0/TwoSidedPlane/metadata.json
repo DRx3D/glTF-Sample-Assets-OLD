@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Two Sided Plane",
     "path": "./2.0/TwoSidedPlane",
     "summary": "A plane having the two sided material parameter enabled.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

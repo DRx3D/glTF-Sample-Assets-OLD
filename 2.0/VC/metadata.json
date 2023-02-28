@@ -13,10 +13,13 @@
             "icon": ""
         }
     ],
-    "tags": ["testing"],
+    "tags": [
+        "core",
+        "testing"
+    ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Virtual City",
     "path": "./2.0/VC",
     "summary": "The 'Virtual City' model was graciously contributed by the folks at 3DRT.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

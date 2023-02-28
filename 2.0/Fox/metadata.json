@@ -3,14 +3,14 @@
     "legal": [
         {
             "license": "CC0",
-            "licenseUrl": "",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "PixelMannen",
             "year": "2014",
             "owner": "Public",
             "what": "Model",
-            "text": "",
-            "spdx": "",
-            "icon": ""
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         },
         {
             "license": "CC-BY 4.0",
@@ -36,11 +36,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Fox",
     "path": "./2.0/Fox",
     "summary": "Multiple animations cycles: Survey, Walk, Run.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

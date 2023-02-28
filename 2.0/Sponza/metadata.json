@@ -14,10 +14,11 @@
         }
     ],
     "tags": [
+        "core"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Sponza",
     "path": "./2.0/Sponza",
     "summary": "Building interior, often used to test lighting.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

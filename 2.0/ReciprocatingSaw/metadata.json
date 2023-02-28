@@ -25,11 +25,13 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Reciprocating Saw",
     "path": "./2.0/ReciprocatingSaw",
     "summary": "Small CAD data set, including hierarchy.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

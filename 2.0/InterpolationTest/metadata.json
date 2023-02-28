@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Interpolation Test",
     "path": "./2.0/InterpolationTest",
     "summary": "A sample with three different animation interpolations",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "SimpleMorph",
     "path": "./2.0/SimpleMorph",
     "summary": "A triangle with a morph animation applied",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

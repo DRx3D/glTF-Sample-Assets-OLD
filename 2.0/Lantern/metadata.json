@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Lantern",
     "path": "./2.0/Lantern",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

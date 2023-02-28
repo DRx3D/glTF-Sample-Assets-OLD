@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Transmission Roughness Test",
     "path": "./2.0/TransmissionRoughnessTest",
     "summary": "Tests the interaction between roughness and IOR.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

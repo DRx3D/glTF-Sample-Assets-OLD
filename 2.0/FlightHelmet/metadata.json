@@ -14,11 +14,13 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "showcase",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Flight Helmet",
     "path": "./2.0/FlightHelmet",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

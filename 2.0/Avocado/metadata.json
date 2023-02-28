@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Avocado",
     "path": "./2.0/Avocado",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

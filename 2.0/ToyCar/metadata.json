@@ -25,13 +25,12 @@
         }
     ],
     "tags": [
-        "sharable",
-        "tutorial-model",
-		"showcase"
+        "showcase",
+        "video"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Toy Car",
     "path": "./2.0/ToyCar",
     "summary": "Toy car example using transmission, clearcoat, and sheen.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

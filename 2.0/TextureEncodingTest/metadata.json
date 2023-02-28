@@ -14,13 +14,13 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-author",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Texture Encoding Test",
     "path": "./2.0/TextureEncodingTest",
     "summary": " ",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

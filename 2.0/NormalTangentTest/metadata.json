@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Normal-Tangent Test",
     "path": "./2.0/NormalTangentTest",
     "summary": "Tests an engine's ability to automatically generate tangent vectors for a normal map.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

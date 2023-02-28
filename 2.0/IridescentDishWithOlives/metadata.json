@@ -14,12 +14,12 @@
         }
     ],
     "tags": [
-        "sharable",
-		"showcase"
+        "showcase",
+        "video"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescent Dish with Olives",
     "path": "./2.0/IridescentDishWithOlives",
     "summary": "Dish using transmission, volume, IOR, and specular.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

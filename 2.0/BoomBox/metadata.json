@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Boom Box",
     "path": "./2.0/BoomBox",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

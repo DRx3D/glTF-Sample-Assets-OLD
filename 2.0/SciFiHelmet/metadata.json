@@ -25,11 +25,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Sci Fi Helmet",
     "path": "./2.0/SciFiHelmet",
     "summary": "Futuristic helmet",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

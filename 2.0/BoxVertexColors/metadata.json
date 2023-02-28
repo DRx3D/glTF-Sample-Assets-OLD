@@ -14,14 +14,13 @@
         }
     ],
     "tags": [
-        "no-license",
-        "no-owner",
-        "no-year",
-        "issues"
+        "core",
+        "issues",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box Vertex Colors",
     "path": "./2.0/BoxVertexColors",
     "summary": "Box with vertex colors applied.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Texture Settings Test",
     "path": "./2.0/TextureSettingsTest",
     "summary": "Tests single/double-sided and various texturing modes.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

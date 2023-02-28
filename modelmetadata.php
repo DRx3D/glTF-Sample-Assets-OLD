@@ -191,6 +191,8 @@ class ModelMetadata
 	public function writeReadme () {
 		$fileReadme = $this->metadata['basePath'] . 'README.md';
 		if (!$this->metadata['createReadme']) {return $this; }
+		print " .. Updateing README\n";
+		return $this;
 		
 		$screenshot = $this->metadata['screenshot'];
 		$tagList = array();
@@ -490,20 +492,28 @@ class ModelMetadata
 
 }
 
+// Define model listing data structure
+$listings = array (
+					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array()),
+					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core')),
+					array('type'=>'List', 'file'=>'Models-issues.md', 'tags'=>array('issues')),
+					array('type'=>'List', 'file'=>'Models-showcase.md', 'tags'=>array('showcase')),
+					array('type'=>'List', 'file'=>'Models-testing.md', 'tags'=>array('testing')),
+					array('type'=>'List', 'file'=>'Models-video.md', 'tags'=>array('video')),
+					array('type'=>'List', 'file'=>'Models-written.md', 'tags'=>array('written'))
+					);
+
 // Load the user-input data for each model. This is used to modify the model
 // metadata after the JSON is loaded
 $modelMetadata = getModelData();
-
-// Simple tests
+$modelTagData = getModelTagData();
 
 /*
  * TODOs
  *	Update write README capabilities
- *	Add write JSON capabilities
  *	Improve handling of no license & no author
  *	Verify writeLicense
  *
- *	Add processing of entire directory
  *	Improve processing of TAGS
  *	Generate repo READMEs
  *	Generate repo LICENSE / SPDX stuff
@@ -533,16 +543,16 @@ $mm = $mm->writeMetadata()->writeReadme()->writeLicense();
  *	- Verify that the output is correct for METADATA for all models
  *	- Create site-wide license info
 **/
-$allModels = updateAllModels ($modelMetadata, './2.0', false);
+//$allModels = updateAllModels ($modelMetadata, './2.0', true, false);
+$allModels = updateAllModels ($modelTagData, './2.0', false, true);
 
 print "===============================\n";
 
 // Now create various Repo files
-createReadme ('Detailed', 'README-detailed.md', $allModels);
-createReadme ('List', 'README-all.md', $allModels);
-createReadme ('List', 'README-issues.md', $allModels, array('issues'));
-createReadme ('List', 'README-tutorial.md', $allModels, array('tutorial-model'));
-createReadme ('List', 'README-showcase.md', $allModels, array('showcase'));
+//	createReadme ('Detailed', 'README-detailed.md', $allModels);
+for ($ii=0; $ii<count($listings); $ii++) {
+	createReadme ($listings[$ii]['type'], $listings[$ii]['file'], $allModels, $listings[$ii]['tags']);
+}
 
 createTagCsv ('model-metadata.csv', $allModels);
 /*
@@ -655,7 +665,7 @@ function createTagCsv ($fname, $metaAll) {
 
 
 // Update models
-function updateAllModels ($modelMetadata, $modelFolder='', $update=false) {
+function updateAllModels ($modelUpData, $modelFolder='', $updateMetadata=false, $updateTagData=false) {
 	if ($modelFolder == '') {return null;}
 
 	$folder = dir ($modelFolder);
@@ -666,20 +676,23 @@ function updateAllModels ($modelMetadata, $modelFolder='', $update=false) {
 			print "\nProcessing $modelDir\n";
 			$mm = new ModelMetadata($modelDir, 'metadata');
 			$modelName = $mm->modelName;
-			if ($update) {
-				if ($modelMetadata[$modelName]['UpdateLegal'] != 'FALSE') {
+			if ($updateMetadata) {
+				if ($modelUpData[$modelName]['UpdateLegal'] != 'FALSE') {
 					$mm = $mm
 							->addLicense ( array(
-											'license'=>$modelMetadata[$modelName]['License'],
+											'license'=>$modelUpData[$modelName]['License'],
 											'licenseUrl'=>'', 
-											'artist'=>$modelMetadata[$modelName]['Author'],
-											'owner'=>$modelMetadata[$modelName]['Owner'],
-											'year'=>$modelMetadata[$modelName]['Year'],
+											'artist'=>$modelUpData[$modelName]['Author'],
+											'owner'=>$modelUpData[$modelName]['Owner'],
+											'year'=>$modelUpData[$modelName]['Year'],
 											'what'=>'Everything'),
 										true)
-							->setWriteReadme ($modelMetadata[$modelName]['AutoGenerateREADME']);
+							->setWriteReadme ($modelUpData[$modelName]['AutoGenerateREADME']);
 				}
-				$mm = $mm->setSummary ($modelMetadata[$modelName]['Summary']);
+				$mm = $mm->setSummary ($modelUpData[$modelName]['Summary']);
+			}
+			if ($updateTagData) {
+				$mm = $mm->setTags ($modelUpData[$modelName]);
 			}
 			//print "... Should I write README? " . ($mm->getMetadata())['createReadme'] . "|\n";
 			$mm = $mm
@@ -714,4 +727,25 @@ function getModelData() {
 	return $ModelData;
 }
 
+/*
+ * Returns a hash of a hash of the CSV containing the updated model tag data
+ *	Primary Key is model name. Each primary key contains an array of tags for that model
+**/
+function getModelTagData() {
+	$dataFile = 'ModelRepoTagData.csv';
+	$FH = fopen ($dataFile, "r");
+	$ModelData = array();
+	$keys = fgetcsv($FH, 5000);
+	while (($row = fgetcsv($FH, 5000)) !== false) { 
+		$new = array();
+		for ($ii=1; $ii<count($row); $ii++) {
+			if ($row[$ii] == 'TRUE') {
+				$new[] = $keys[$ii];
+			}
+		}
+		$ModelData[$row[0]] = $new;
+	}
+	fclose ($FH);
+	return $ModelData;
+}
 ?>

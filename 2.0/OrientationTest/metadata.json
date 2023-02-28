@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Orientation Test",
     "path": "./2.0/OrientationTest",
     "summary": "Tests node translations and rotations.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

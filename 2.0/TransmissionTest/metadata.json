@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Transmission Test",
     "path": "./2.0/TransmissionTest",
     "summary": "Tests if the KHR_materials_transmission extension is supported properly.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

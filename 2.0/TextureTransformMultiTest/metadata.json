@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Texture Transform Multi Test",
     "path": "./2.0/TextureTransformMultiTest",
     "summary": "Tests if the KHR_texture_transform extension is supported for several inputs.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Barramundi Fish",
     "path": "./2.0/BarramundiFish",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

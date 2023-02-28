@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Unlit Test",
     "path": "./2.0/UnlitTest",
     "summary": "Tests if the KHR_materials_unlit extension is supported properly.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

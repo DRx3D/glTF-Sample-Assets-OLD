@@ -14,12 +14,11 @@
         }
     ],
     "tags": [
-        "sharable",
-		"showcase"
+        "showcase"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Lamp",
     "path": "./2.0/IridescenceLamp",
     "summary": "Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

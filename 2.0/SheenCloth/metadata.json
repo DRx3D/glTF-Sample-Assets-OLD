@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "showcase",
+        "video"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Sheen Cloth",
     "path": "./2.0/SheenCloth",
     "summary": "Fabric example using sheen.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

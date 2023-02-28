@@ -14,11 +14,11 @@
         }
     ],
     "tags": [
-        "sharable"
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Metallic Spheres",
     "path": "./2.0/IridescenceMetallicSpheres",
     "summary": "Tests KHR_materials_iridescence on a metallic material.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

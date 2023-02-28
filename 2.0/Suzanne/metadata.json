@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Suzanne",
     "path": "./2.0/Suzanne",
     "summary": " ",
-    "createReadme": "TRUE"
+    "createReadme": true
 }

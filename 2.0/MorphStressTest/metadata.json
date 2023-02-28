@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Morph Stress Test",
     "path": "./2.0/MorphStressTest",
     "summary": "Tests up to 8 morph targets.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

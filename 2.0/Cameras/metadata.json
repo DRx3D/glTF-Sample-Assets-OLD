@@ -14,13 +14,12 @@
         }
     ],
     "tags": [
-        "sharable",
-        "no-author",
-        "issues"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Cameras",
     "path": "./2.0/Cameras",
     "summary": "A sample with two different camera objects",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

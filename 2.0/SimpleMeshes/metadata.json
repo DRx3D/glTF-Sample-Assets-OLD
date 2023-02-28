@@ -14,11 +14,13 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing",
+        "written"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "SimpleMeshes",
     "path": "./2.0/SimpleMeshes",
     "summary": "A simple scene with two nodes, both containing the same mesh, namely a mesh with a single mesh.primitive with a single indexed triangle with multiple attributes (positions, normals and texture coordinates), but without a material",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

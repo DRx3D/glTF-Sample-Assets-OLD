@@ -3,14 +3,14 @@
     "legal": [
         {
             "license": "CC-BY-4.0",
-            "licenseUrl": "",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
             "artist": "ctxwing",
             "year": "2019",
             "owner": "ctxwing",
             "what": "Everything",
-            "text": "",
-            "spdx": "",
-            "icon": ""
+            "text": "Creative Commons zJAttribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         },
         {
             "license": "Stanford Graphics Library",
@@ -25,13 +25,14 @@
         }
     ],
     "tags": [
-        "sharable",
-        "tutorial-model",
-        "issues"
+        "core",
+        "showcase",
+        "testing",
+        "video"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Damaged Helmet",
     "path": "./2.0/DamagedHelmet",
     "summary": "Flight helmet with damage",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

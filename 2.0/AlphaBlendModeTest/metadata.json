@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Alpha Blend Mode Test",
     "path": "./2.0/AlphaBlendModeTest",
     "summary": "Tests alpha modes and settings.",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

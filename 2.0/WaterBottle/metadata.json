@@ -13,10 +13,14 @@
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
-    "tags": ["sharable"],
+    "tags": [
+        "core",
+        "testing",
+        "written"
+    ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Water Bottle",
     "path": "./2.0/WaterBottle",
     "summary": "_No Summary_",
-    "createReadme": "FALSE"
+    "createReadme": false
 }

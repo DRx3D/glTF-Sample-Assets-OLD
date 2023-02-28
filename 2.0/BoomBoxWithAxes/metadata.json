@@ -14,11 +14,12 @@
         }
     ],
     "tags": [
-        "sharable"
+        "core",
+        "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Boom Box with Axes",
     "path": "./2.0/BoomBoxWithAxes",
     "summary": "Shows X, Y, and Z axis default orientations.",
-    "createReadme": "TRUE"
+    "createReadme": true
 }
