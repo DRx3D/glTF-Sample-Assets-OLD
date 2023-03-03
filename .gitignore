@@ -6,3 +6,6 @@ Thumbs.db
 desktop.ini
 *.report.json
 gltf_validator.exe
+*.csv
+metadata.template.json
+ui-generator.php
