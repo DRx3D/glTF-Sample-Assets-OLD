@@ -29,7 +29,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.14.4';
+	public $swVERSION = '0.14.5';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -230,7 +230,7 @@ class ModelMetadata
 	private function _getTagListingPath ($tag, $tagListings) {
 		if (count($tagListings) < 1) {return ''; }
 		for ($ii=0; $ii<count($tagListings); $ii++) {
-			if ($tag == $tagListings[$ii]['tags'][0]) {
+			if (isset($tagListings[$ii]['tags'][0]) && $tag == $tagListings[$ii]['tags'][0]) {
 				return $tagListings[$ii]['file'];
 			}
 		}
@@ -507,13 +507,13 @@ class ModelMetadata
 
 // Define model listing data structure
 $listings = array (
-					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array()),
-					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core')),
-					array('type'=>'List', 'file'=>'Models-issues.md', 'tags'=>array('issues')),
-					array('type'=>'List', 'file'=>'Models-showcase.md', 'tags'=>array('showcase')),
-					array('type'=>'List', 'file'=>'Models-testing.md', 'tags'=>array('testing')),
-					array('type'=>'List', 'file'=>'Models-video.md', 'tags'=>array('video')),
-					array('type'=>'List', 'file'=>'Models-written.md', 'tags'=>array('written'))
+					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array(), 'summary'=>'All models listed alphabetically/'),
+					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core'), 'summary'=>'Models that only use the core glTF V2.0 features and capabilities.'),
+					array('type'=>'List', 'file'=>'Models-issues.md', 'tags'=>array('issues'), 'summary'=>'Models with one or more issues with respect to ownership or license.'),
+					array('type'=>'List', 'file'=>'Models-showcase.md', 'tags'=>array('showcase'), 'summary'=>'Models that are featured in some glTF/Khronos publicity.'),
+					array('type'=>'List', 'file'=>'Models-testing.md', 'tags'=>array('testing'), 'summary'=>'Models that are used for testing various features or capabilities of importers, viewers, or converters.'),
+					array('type'=>'List', 'file'=>'Models-video.md', 'tags'=>array('video'), 'summary'=>'Models used in any glTF video tutorial.'),
+					array('type'=>'List', 'file'=>'Models-written.md', 'tags'=>array('written'), 'summary'=>'Models used in any written glTF tutorial or guide.')
 					);
 
 // Load the user-input data for each model. This is used to modify the model
@@ -556,36 +556,29 @@ $mm = $mm->writeMetadata()->writeReadme()->writeLicense();
  *	- Verify that the output is correct for METADATA for all models
  *	- Create site-wide license info
 **/
-//$allModels = updateAllModels ($modelMetadata, './2.0', true, false);
 $allModels = updateAllModels ($modelTagData, $listings, './2.0', false, true);
 
 print "===============================\n";
 
 // Now create various Repo files
-//	createReadme ('Detailed', 'README-detailed.md', $allModels);
 for ($ii=0; $ii<count($listings); $ii++) {
-	createReadme ($listings[$ii]['type'], $listings[$ii]['file'], $allModels, $listings, $listings[$ii]['tags']);
+//	createReadme ($listings[$ii]['type'], $listings[$ii]['file'], $allModels, $listings, $listings[$ii]['tags']);
+	createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags']);
 }
 
 createTagCsv ('model-metadata.csv', $allModels);
-/*
-	createReadme ('Image', 'README-image.md', $metaAll);
-	createReadme ('List', 'README-sharable.md', $metaAll, array('sharable'));
-	createReadme ('List', 'README-noLicense.md', $metaAll, array('no-license'));
-	createReadme ('List', 'README-noAuthor.md', $metaAll, array('no-author'));
-	createReadme ('List', 'README-noOwner.md', $metaAll, array('no-owner'));
-	createReadme ('List', 'README-noYear.md', $metaAll, array('no-year'));
-*/
+
 
 exit;
 
 
 
 // Function for creating READMEs
-function createReadme ($type, $fname, $metaAll, $listings, $tags=array('')) {
+function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 	$urlSampleViewer = 'https://github.khronos.org/glTF-Sample-Viewer-Release/';
 	$urlModelRepoRaw = 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Models/master';
-	$F = fopen ($fname, 'w');
+	
+	$F = fopen ($tagStrcture['file'], 'w');
 	$section = 'Tagged...';
 	if (count($tags) == 0 || $tags[0] == '') {
 		$section = 'All models';
@@ -594,10 +587,12 @@ function createReadme ($type, $fname, $metaAll, $listings, $tags=array('')) {
 		$section = 'Models tagged with **' . join(', ', $tags) . '**';
 		$singleTag = $tags[0];
 	}
+	$type = $tagStrcture['type'];
 	print "Generating $type for $section\n";
 	
 	fwrite ($F, "# glTF 2.0 Sample Models\n\n");
 	fwrite ($F, "## $section\n\n");
+	fwrite ($F, $tagStrcture['summary']."\n\n");
 	
 	for ($ii=0; $ii<count($listings); $ii++) {
 		if (count($listings[$ii]['tags']) > 0) {
@@ -662,7 +657,8 @@ function createReadme ($type, $fname, $metaAll, $listings, $tags=array('')) {
 			}
 		}
 	}
-	fwrite ($F, sprintf ("\n### Copyright\n\n&copy; %d; The Khronos Group.\n\n**License:** [Creative Commons Attribtution 4.0 International](%s)\n", 2023, $metaAll[0]->LICENSE['CC-BY 4.0']['link']));
+	fwrite ($F, "---\n");
+	fwrite ($F, sprintf ("\n### Copyright\n\n&copy; %d, The Khronos Group.\n\n**License:** [Creative Commons Attribtution 4.0 International](%s)\n", 2023, $metaAll[0]->LICENSE['CC-BY 4.0']['link']));
 	fwrite ($F, sprintf ("\n#### Generated by %s v%s\n", $metaAll[0]->swNAME, $metaAll[0]->swVERSION));
 
 	fclose ($F);
