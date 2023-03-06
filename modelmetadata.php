@@ -29,7 +29,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.14.5';
+	public $swVERSION = '0.15.6';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -191,7 +191,7 @@ class ModelMetadata
 	public function writeReadme ($tagListings=null) {
 		$fileReadme = $this->metadata['basePath'] . 'README.md';
 		if (!$this->metadata['createReadme']) {return $this; }
-		print " .. Updating README\n";
+		//print " .. Updating README\n";
 		
 		$screenshot = $this->metadata['screenshot'];
 		$tagList = array();
@@ -505,7 +505,20 @@ class ModelMetadata
 
 }
 
-// Define model listing data structure
+/*
+ * Processing control flags.
+ * These are only used when doing a mass update or conversion
+ *	$useUserModelTags - reads the model tag update file (ModelRepoTagData.csv). See getModelTagData
+ ^	$useUserModelData - reads the model metadata update file (). See getModelData
+**/
+$useUserModelTags = false;		// Update model tags
+$useUserModelData = false;		// Update model metadata 
+
+/*
+ * Define internal arrays. 
+ *	$listings is a structure for managing supported tags. All supported tags & tag combinations
+ *		need to be included here
+**/
 $listings = array (
 					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array(), 'summary'=>'All models listed alphabetically/'),
 					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core'), 'summary'=>'Models that only use the core glTF V2.0 features and capabilities.'),
@@ -515,58 +528,38 @@ $listings = array (
 					array('type'=>'List', 'file'=>'Models-video.md', 'tags'=>array('video'), 'summary'=>'Models used in any glTF video tutorial.'),
 					array('type'=>'List', 'file'=>'Models-written.md', 'tags'=>array('written'), 'summary'=>'Models used in any written glTF tutorial or guide.')
 					);
-
-// Load the user-input data for each model. This is used to modify the model
-// metadata after the JSON is loaded
-$modelMetadata = getModelData();
-$modelTagData = getModelTagData();
+					
 
 /*
  * TODOs
- *	Update write README capabilities
- *	Improve handling of no license & no author
  *	Verify writeLicense
  *
- *	Improve processing of TAGS
- *	Generate repo READMEs
  *	Generate repo LICENSE / SPDX stuff
  *
 **/
 
-// Sample code for updating various model metadata
-/*
-$mm = $mm
-		->addTags(['no-license','cad', 'no-author'])
-		->addLicense ( array(
-						'license'=>'Khronos-Archive', 
-						'licenseUrl'=>'', 
-						'artist'=>'Khronos', 
-						'owner'=>'Khronos', 
-						'year'=>'2017', 
-						'what'=>'Everything'),
-					true)
-		->setSummary ($modelMetadata[$mm->modelName]['Summary'])
-		->setWriteReadme (true);
-$mm = $mm->writeMetadata()->writeReadme()->writeLicense();
-*/
+// Load all model objects
+	$allModels = getAllModels ($listings, './2.0');
 
-
-/*
- * TODO:
- *	- Verify that the output is correct for METADATA for all models
- *	- Create site-wide license info
-**/
-$allModels = updateAllModels ($modelTagData, $listings, './2.0', false, true);
+// If requested load the user input metadata for each model. 
+if ($useUserModelData) {
+	$modelMetadata = getModelData();
+	$allModels = updateModelsMetadata ($allModels, $modelMetadata, $tagListings);
+}
+// If requested load the user tag settings for each model. 
+if ($useUserModelTags) {
+	$modelTagData = getModelTagData();
+	$allModels = updateModelsTags ($allModels, $modelTagData, $tagListings);
+}
 
 print "===============================\n";
 
 // Now create various Repo files
 for ($ii=0; $ii<count($listings); $ii++) {
-//	createReadme ($listings[$ii]['type'], $listings[$ii]['file'], $allModels, $listings, $listings[$ii]['tags']);
 	createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags']);
 }
 
-createTagCsv ('model-metadata.csv', $allModels);
+//createTagCsv ('model-metadata.csv', $allModels);
 
 
 exit;
@@ -684,8 +677,77 @@ function createTagCsv ($fname, $metaAll) {
 
 
 
-// Update models
-function updateAllModels ($modelUpData, $tagListings, $modelFolder='', $updateMetadata=false, $updateTagData=false) {
+/*
+ * Update tags of all models.
+ *	Metadata of all models is reflect in the new tag set.
+ *	These are replacement tags (existing tags are removed)
+ *	Readme file may be updated
+ *
+ *	Arguments
+ *		$allModels - array of model objects (see getAllModels)
+ *		$modelsTags	 - hash of model tags. All models need to have an entry in $modelsTags referred by modelName.
+ *		$tagListings - Data structure of supported tags. 
+ *
+ */
+
+function updateModelsMetadata ($allModels, $modelUpdateMetadata, $tagListings) {
+
+	for ($ii=0; $ii<count($allModels); $ii++) {
+		$modelName = $allModels[$ii]->modelName;
+		print "\nMetadata processing $modelName\n";
+		if ($modelUpData[$modelName]['UpdateLegal'] != 'FALSE') {
+			$allModels[$ii] = $allModels[$ii]
+								->addLicense ( array(
+										'license'=>$modelUpData[$modelName]['License'],
+										'licenseUrl'=>'', 
+										'artist'=>$modelUpData[$modelName]['Author'],
+										'owner'=>$modelUpData[$modelName]['Owner'],
+										'year'=>$modelUpData[$modelName]['Year'],
+										'what'=>'Everything'),
+									true)
+								->setWriteReadme ($modelUpData[$modelName]['AutoGenerateREADME']);
+		}
+		$allModels[$ii] = $allModels[$ii]
+								->setSummary ($modelUpData[$modelName]['Summary'])
+								->writeMetadata()
+								->writeReadme($tagListings)
+								->writeLicense();
+	}
+	return $allModels;
+}
+/*
+ * Update tags of all models.
+ *	Metadata of all models is reflect in the new tag set.
+ *	These are replacement tags (existing tags are removed)
+ *	Readme file may be updated
+ *
+ *	Arguments
+ *		$allModels - array of model objects (see getAllModels)
+ *		$modelsTags	 - hash of model tags. All models need to have an entry in $modelsTags referred by modelName.
+ *		$tagListings - Data structure of supported tags. 
+ *
+ */
+function updateModelsTags ($allModels, $modelsTags, $tagListings) {
+
+	for ($ii=0; $ii<count($allModels); $ii++) {
+		$modelName = $allModels[$ii]->modelName;
+		print "\nTag processing $modelName\n";
+		$allModels[$ii] = $allModels[$ii]
+										->setTags ($modelsTags[$modelName])
+										->writeMetadata()
+										->writeReadme($tagListings);
+	}
+	return $allModels;
+}
+
+/*
+ * Get all models into a single data structure (array of hashes of ...)
+ *	This routine processes each model and performs internal updates
+ *	License, Metadata, and Readme files may (or will) be updated
+ *
+ *	Model data array (of model objects) is returned
+**/
+function getAllModels ($tagListings, $modelFolder='') {
 	if ($modelFolder == '') {return null;}
 
 	$folder = dir ($modelFolder);
@@ -695,26 +757,6 @@ function updateAllModels ($modelUpData, $tagListings, $modelFolder='', $updateMe
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
 			print "\nProcessing $modelDir\n";
 			$mm = new ModelMetadata($modelDir, 'metadata');
-			$modelName = $mm->modelName;
-			if ($updateMetadata) {
-				if ($modelUpData[$modelName]['UpdateLegal'] != 'FALSE') {
-					$mm = $mm
-							->addLicense ( array(
-											'license'=>$modelUpData[$modelName]['License'],
-											'licenseUrl'=>'', 
-											'artist'=>$modelUpData[$modelName]['Author'],
-											'owner'=>$modelUpData[$modelName]['Owner'],
-											'year'=>$modelUpData[$modelName]['Year'],
-											'what'=>'Everything'),
-										true)
-							->setWriteReadme ($modelUpData[$modelName]['AutoGenerateREADME']);
-				}
-				$mm = $mm->setSummary ($modelUpData[$modelName]['Summary']);
-			}
-			if ($updateTagData) {
-				$mm = $mm->setTags ($modelUpData[$modelName]);
-			}
-			//print "... Should I write README? " . ($mm->getMetadata())['createReadme'] . "|\n";
 			$mm = $mm
 					->writeMetadata()
 					->writeReadme($tagListings)
