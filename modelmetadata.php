@@ -570,11 +570,18 @@ exit;
 // Create repo-wide license info.
 //	This file ALWAYS goes in <root>/.reuse/dep5
 function createDep5 ($allModels) {
-	$F = fopen ('./.reuse/dep5', 'w');
+	$F = fopen ('./.reuse/dep5.txt', 'w');
 	fwrite ($F, "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n");
-	fwrite ($F, "Upstream-Name: glTF Sample Models\n");
-	fwrite ($F, "Upstream-Contact: Jane Doe <jane@example.com>\n");
-	fwrite ($F, "Source: https://example.com/jane/project\n\n");
+	fwrite ($F, "Source: glTF V2.0 models from various sources collected into a Repo\n");
+	fwrite ($F, "Upstream-Name: glTF V2.0 Model Repo\n");
+	fwrite ($F, "Upstream-Contact: https://GitHub.com/KhronosGroup/glTF-Sample-Models/\n");
+	fwrite ($F, "Copyright 2017-2023 Khronos Group\n");
+	fwrite ($F, "License: CC-BY-4\n\n");
+
+	fwrite ($F, "Files:\n");
+	fwrite ($F, "*\n");
+	fwrite ($F, "Copyright 2017-2023 Khronos Group\n");
+	fwrite ($F, "License: CC-BY-4\n\n");
 
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
