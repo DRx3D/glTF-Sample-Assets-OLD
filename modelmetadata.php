@@ -29,7 +29,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.15.6';
+	public $swVERSION = '0.16.9';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -399,8 +399,11 @@ class ModelMetadata
 		$this->metadata['shotHeight'] = sprintf ('%s-x%d.%s', $shotPathName, $shotHeight, $shotExtension);
 		$this->metadata['basePathHeight'] = $path . '/' . $this->metadata['shotHeight'];
 		
-		$this->metadata['modelPath'] = sprintf ('%s/glTF/%s.gltf', $path, $modelDirectory);
-
+		$this->metadata['modelPath']	= sprintf ('%s/glTF/%s.gltf', $path, $modelDirectory);
+		$this->metadata['pathModel']	= $this->metadata['modelPath'];
+		$this->metadata['pathGLB']		= sprintf ('%s/glTF-Binary/%s.glb', $path, $modelDirectory);
+		$this->metadata['hasGLB']		= file_exists ($this->metadata['pathGLB']);
+		//print " .. has GLB? |" . $this->metadata['hasGLB'] . "|; path: ".$this->metadata['pathGLB']."\n";
 
 		return;
 	}
@@ -559,8 +562,6 @@ for ($ii=0; $ii<count($listings); $ii++) {
 	createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags']);
 }
 
-//createTagCsv ('model-metadata.csv', $allModels);
-
 
 exit;
 
@@ -631,19 +632,30 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 		fwrite ($F, "| Model   | Description |\n");
 		fwrite ($F, "|---------|-------------|\n");
 		$fmtString = "| [%s](%s)<br>[![%s](%s)](%s)<br>[Show in Sample Viewer](%s?model=%s/%s) | %s<br>Credit:<br>%s |\n";
+		$fmtColumn1 = "| [%s](%s)<br>[![%s](%s)](%s)<br>[Show](%s?model=%s/%s) ";
+		$fmtColumn2 = "| %s<br>Credit:<br>%s |\n";
+		$fmtDownload = "-- [Download GLB](%s/%s) ";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
 			$modelMeta = $metaAll[$ii]->getMetadata();
 			if ($singleTag == '' || (is_array($modelMeta['tags']) && in_array($singleTag, $modelMeta['tags']))) {
 				$summary = ($modelMeta['summary'] == '') ? '**NO DESCRIPTION**' : $modelMeta['summary'];
+				$pathModel = ($modelMeta['hasGLB']) ? $modelMeta['pathGLB'] : $modelMeta['pathModel'];
 
-				fwrite ($F, sprintf ($fmtString, 
+				fwrite ($F, sprintf ($fmtColumn1, 
 							$modelMeta['name'], 
 							$modelMeta['path'].'/README.md',
 							$modelMeta['name'], 
 							$modelMeta['basePathShot'],
 							$modelMeta['path'].'/README.md',
-							$urlSampleViewer, $urlModelRepoRaw, $modelMeta['modelPath'],
+							$urlSampleViewer, $urlModelRepoRaw, $pathModel
+							));
+				if ($modelMeta['hasGLB']) {
+					fwrite ($F, sprintf ($fmtDownload, 
+								$urlModelRepoRaw, $modelMeta['pathGLB']
+								));
+				}
+				fwrite ($F, sprintf ($fmtColumn2, 
 							$summary,
 							join("<br>", $modelMeta['credit']),
 							));
