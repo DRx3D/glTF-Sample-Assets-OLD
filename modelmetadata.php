@@ -29,7 +29,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.16.9';
+	public $swVERSION = '0.17.10';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -562,10 +562,32 @@ for ($ii=0; $ii<count($listings); $ii++) {
 	createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags']);
 }
 
+// Creat repo-wide license file
+createDep5 ($allModels);
 
 exit;
 
+// Create repo-wide license info.
+//	This file ALWAYS goes in <root>/.reuse/dep5
+function createDep5 ($allModels) {
+	$F = fopen ('./.reuse/dep5', 'w');
+	fwrite ($F, "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n");
+	fwrite ($F, "Upstream-Name: glTF Sample Models\n");
+	fwrite ($F, "Upstream-Contact: Jane Doe <jane@example.com>\n");
+	fwrite ($F, "Source: https://example.com/jane/project\n\n");
 
+	for ($ii=0; $ii<count($allModels); $ii++) {
+		$modelMeta = $allModels[$ii]->getMetadata();
+		fwrite ($F, sprintf ("Files: %s/*\n", $modelMeta['path']));
+		for ($jj=0; $jj<count($modelMeta['legal']); $jj++) {
+			fwrite ($F, sprintf ("Copyright: %4d %s\n", $modelMeta['legal'][$jj]['year'], $modelMeta['legal'][$jj]['owner']));
+			fwrite ($F, sprintf ("License: %s\n", $modelMeta['legal'][$jj]['spdx']));
+		}
+		fwrite ($F, "\n");
+	}
+	fclose ($F);
+	return;
+}
 
 // Function for creating READMEs
 function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
