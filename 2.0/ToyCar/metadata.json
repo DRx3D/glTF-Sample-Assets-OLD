@@ -9,7 +9,7 @@
             "owner": "Public",
             "what": "Initial car model",
             "text": "CC0 1.0 Universal",
-            "spdx": "CC0",
+            "spdx": "CC0-1.0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         },
         {
@@ -20,7 +20,7 @@
             "owner": "Public",
             "what": "Extensions and scene composition",
             "text": "CC0 1.0 Universal",
-            "spdx": "CC0",
+            "spdx": "CC0-1.0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],

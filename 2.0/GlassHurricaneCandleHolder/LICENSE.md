@@ -1,4 +1,4 @@
-# LICENSE file for the model: Vertex Color Test
+# LICENSE file for the model: Glass Hurricane Candle Holder
 
 All files in this directory tree are licensed as indicated below.
 

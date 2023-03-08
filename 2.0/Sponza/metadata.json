@@ -3,12 +3,12 @@
     "legal": [
         {
             "license": "CRYENGINE Limited License Agreement",
-            "licenseUrl": "https://www.cryengine.com/ce-terms",
+            "licenseUrl": "",
             "artist": "Crytek",
             "year": "2016",
             "owner": "Crytek",
             "what": "Everything",
-            "text": "",
+            "text": "CRYENGINE Limited License Agreement",
             "spdx": "",
             "icon": ""
         }

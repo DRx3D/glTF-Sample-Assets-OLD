@@ -9,7 +9,10 @@
  *	Marco Hutter (JSON design, tag structure, and overall design)
  *	Ed Mackey (license resolution for models in the Repo)
  *
- *	Copyright 2023, The Khronos Group.
+ *	SPDX-FileCopyrightText: 2023, The Khronos Group
+ *
+ *	SPDX-License-Identifier: Apache-2.0
+ *
  *	Licensed under the Apache License, Version 2.0 (the "License");
  *	you may not use this file except in compliance with the License.
  *	You may obtain a copy of the License at
@@ -29,7 +32,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.17.10';
+	public $swVERSION = '0.18.12';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -281,7 +284,7 @@ class ModelMetadata
 	}
 	public function setNotCurrent () {
 		$this->isCurrent = false;
-		$this->_cleanupLicense();
+		$this->_cleanupLicense(true);
 		$this->hasError = false;
 		$this->errorMessage = "";
 		return $this;
@@ -318,7 +321,7 @@ class ModelMetadata
 		$this->_addLicense ($license);
 
 		// Generate link to license if standard license and link not provided
-		$this->_cleanupLicense (false);
+		$this->_cleanupLicense (true);
 		$this->metadata['credit'] = $this->_generateCredits();
 
 		//print "Before return\n";
@@ -411,16 +414,15 @@ class ModelMetadata
 /*
  * Cleans up license information
 **/	
-	private function _cleanupLicense ($terminate=false) {
+	private function _cleanupLicense ($rebuildSpdx=false) {
 		//print "In _cleanupLicense\n";
 		//print_r($this->metadata);
 		//print_r($this->metadata['legal'][0]);
 
-		if ($terminate) {exit;}
 		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
 			$license = $this->metadata['legal'][$ii]['license'];
 			$link = (isset($this->metadata['legal'][$ii]['licenseUrl'])) ? $this->metadata['legal'][$ii]['licenseUrl'] : '';
-			if ($link == '') {
+			if ($rebuildSpdx || $link == '') {
 				if (isset($this->LICENSE[$license])) {
 					$link = $this->LICENSE[$license]['link'];
 					$text = $this->LICENSE[$license]['text'];
@@ -573,26 +575,33 @@ exit;
 // Create repo-wide license info.
 //	This file ALWAYS goes in <root>/.reuse/dep5
 function createDep5 ($allModels) {
-	$F = fopen ('./.reuse/dep5.txt', 'w');
+	$F = fopen ('./.reuse/dep5', 'w');
 	fwrite ($F, "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n");
 	fwrite ($F, "Source: glTF V2.0 models from various sources collected into a Repo\n");
 	fwrite ($F, "Upstream-Name: glTF V2.0 Model Repo\n");
 	fwrite ($F, "Upstream-Contact: https://GitHub.com/KhronosGroup/glTF-Sample-Models/\n");
-	fwrite ($F, "Copyright 2017-2023 Khronos Group\n");
+	fwrite ($F, "Copyright: 2017-2023 Khronos Group\n");
 	fwrite ($F, "License: CC-BY-4.0\n\n");
 
-	fwrite ($F, "Files:\n");
-	fwrite ($F, "*\n");
-	fwrite ($F, "Copyright 2017-2023 Khronos Group\n");
+	fwrite ($F, "Files: *\n");
+	fwrite ($F, "Copyright: 2017-2023 Khronos Group\n");
 	fwrite ($F, "License: CC-BY-4.0\n\n");
 
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
 		fwrite ($F, sprintf ("Files: %s/*\n", $modelMeta['path']));
+		$copyright = [];
+		$license = array();
+		$licenseLast = '';
 		for ($jj=0; $jj<count($modelMeta['legal']); $jj++) {
-			fwrite ($F, sprintf ("Copyright: %4d %s\n", $modelMeta['legal'][$jj]['year'], $modelMeta['legal'][$jj]['owner']));
-			fwrite ($F, sprintf ("License: %s\n", $modelMeta['legal'][$jj]['spdx']));
+			$copyright[] = sprintf ("%4d %s", $modelMeta['legal'][$jj]['year'], $modelMeta['legal'][$jj]['owner']);
+			if ($modelMeta['legal'][$jj]['spdx'] != $licenseLast) {
+				$license[] = $modelMeta['legal'][$jj]['spdx'];
+				$licenseLast = $modelMeta['legal'][$jj]['spdx'];
+			}
 		}
+		fwrite ($F, sprintf ("Copyright: \n %s\n", join("\n ", $copyright)));
+		fwrite ($F, sprintf ("License: %s\n", join(' AND ', $license)));
 		fwrite ($F, "\n");
 	}
 	fclose ($F);

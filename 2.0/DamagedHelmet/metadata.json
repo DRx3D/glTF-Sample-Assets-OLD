@@ -14,12 +14,12 @@
         },
         {
             "license": "Stanford Graphics Library",
-            "licenseUrl": "http://www.graphics.stanford.edu/data/3Dscanrep/#acknowledge",
+            "licenseUrl": "",
             "artist": "unknown",
             "year": "2016",
             "owner": "Stanford",
             "what": "Earlier version of license with unknown pedigree",
-            "text": "",
+            "text": "Stanford Graphics Library",
             "spdx": "",
             "icon": ""
         }

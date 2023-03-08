@@ -3,23 +3,23 @@
     "legal": [
         {
             "license": "Stanford Scan",
-            "licenseUrl": "http://www.graphics.stanford.edu/data/3Dscanrep/",
+            "licenseUrl": "",
             "artist": "Stanford",
             "year": "1996",
             "owner": "Stanford",
             "what": "Original dragon model",
-            "text": "",
+            "text": "Stanford Scan",
             "spdx": "",
             "icon": ""
         },
         {
             "license": "Stanford Scan",
-            "licenseUrl": "http://www.graphics.stanford.edu/data/3Dscanrep/",
+            "licenseUrl": "",
             "artist": "Morgan McGuire's Computer Graphics Archive",
             "year": "2017",
             "owner": "Morgan McGuire",
             "what": "Conversion and clean up",
-            "text": "Multiple",
+            "text": "Stanford Scan",
             "spdx": "",
             "icon": ""
         },
@@ -31,7 +31,7 @@
             "owner": "Public",
             "what": "Cloth backdrop",
             "text": "CC0 1.0 Universal",
-            "spdx": "CC0",
+            "spdx": "CC0-1.0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
