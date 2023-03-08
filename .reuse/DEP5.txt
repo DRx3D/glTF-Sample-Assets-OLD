@@ -3,12 +3,12 @@ Source: glTF V2.0 models from various sources collected into a Repo
 Upstream-Name: glTF V2.0 Model Repo
 Upstream-Contact: https://GitHub.com/KhronosGroup/glTF-Sample-Models/
 Copyright 2017-2023 Khronos Group
-License: CC-BY-4
+License: CC-BY-4.0
 
 Files:
 *
 Copyright 2017-2023 Khronos Group
-License: CC-BY-4
+License: CC-BY-4.0
 
 Files: ./2.0/2CylinderEngine/*
 Copyright: 2017 Unknown

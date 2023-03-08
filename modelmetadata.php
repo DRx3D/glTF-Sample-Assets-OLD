@@ -87,7 +87,7 @@ class ModelMetadata
 							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png', 
 							'link'=>'https://creativecommons.org/publicdomain/zero/1.0/legalcode',
 							'text'=>'CC0 1.0 Universal',
-							'spdx'=>'CC0',
+							'spdx'=>'CC0-1.0',
 							),
 			'CC-BY'		=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
@@ -576,12 +576,12 @@ function createDep5 ($allModels) {
 	fwrite ($F, "Upstream-Name: glTF V2.0 Model Repo\n");
 	fwrite ($F, "Upstream-Contact: https://GitHub.com/KhronosGroup/glTF-Sample-Models/\n");
 	fwrite ($F, "Copyright 2017-2023 Khronos Group\n");
-	fwrite ($F, "License: CC-BY-4\n\n");
+	fwrite ($F, "License: CC-BY-4.0\n\n");
 
 	fwrite ($F, "Files:\n");
 	fwrite ($F, "*\n");
 	fwrite ($F, "Copyright 2017-2023 Khronos Group\n");
-	fwrite ($F, "License: CC-BY-4\n\n");
+	fwrite ($F, "License: CC-BY-4.0\n\n");
 
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
