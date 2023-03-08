@@ -1,8 +1,8 @@
 {
     "asset": {
         "version": "2.0",
-        "copyright": "(C) 2021, Wayfair LLC. License: CC BY 4.0 International",
-        "generator": "Generated with 3ds Max, exported with babylon.js glTF exporter, hand-edited in VSCode with glTF Tools"
+        "copyright": "(C) 2023, Wayfair LLC. License: CC BY 4.0 International",
+        "generator": "Model and textures by Eric Chadwick. Modeled in 3ds Max, exported with babylon.js glTF exporter, hand-edited in VSCode with glTF Tools"
     },
     "extensionsUsed": [
         "KHR_materials_transmission",
@@ -150,21 +150,24 @@
         {
             "buffer": 0,
             "byteLength": 24756,
-            "name": "bufferViewScalar"
+            "name": "bufferViewScalar",
+            "target": 34963
         },
         {
             "buffer": 0,
             "byteOffset": 24756,
             "byteLength": 57264,
             "byteStride": 12,
-            "name": "bufferViewFloatVec3"
+            "name": "bufferViewFloatVec3",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 82020,
             "byteLength": 19088,
             "byteStride": 8,
-            "name": "bufferViewFloatVec2"
+            "name": "bufferViewFloatVec2",
+            "target": 34962
         }
     ],
     "buffers": [
@@ -190,12 +193,9 @@
         },
         {
             "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
+                "baseColorTexture": {
+                    "index": 1
+                },
                 "metallicRoughnessTexture": {
                     "index": 0
                 }
@@ -205,16 +205,16 @@
                     "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
-                    "thicknessFactor": 0.04,
+                    "thicknessFactor": 0.1,
                     "thicknessTexture": {
                         "index": 2
                     },
                     "attenuationColor": [
-                        0.792,
-                        0.910,
-                        1
+                        0.8,
+                        0.95,
+                        1.0
                     ],
-                    "attenuationDistance": 0.002
+                    "attenuationDistance": 0.001
                 }
             },
             "occlusionTexture": {
