@@ -279,9 +279,9 @@ class ModelMetadata
 		$this->errorMessage = "";
 		return $this;
 	}
-	public function setTags ($tags=null) {
-		$this->metadata['tags'] = $tags;
+	public function setNotCurrent () {
 		$this->isCurrent = false;
+		$this->_cleanupLicense();
 		$this->hasError = false;
 		$this->errorMessage = "";
 		return $this;
@@ -542,18 +542,21 @@ $listings = array (
 **/
 
 // Load all model objects
-	$allModels = getAllModels ($listings, './2.0');
+$allModels = getAllModels ($listings, './2.0');
 
 // If requested load the user input metadata for each model. 
 if ($useUserModelData) {
 	$modelMetadata = getModelData();
-	$allModels = updateModelsMetadata ($allModels, $modelMetadata, $tagListings);
+	$allModels = updateModelsMetadata ($allModels, $modelMetadata, $listings);
 }
 // If requested load the user tag settings for each model. 
 if ($useUserModelTags) {
 	$modelTagData = getModelTagData();
-	$allModels = updateModelsTags ($allModels, $modelTagData, $tagListings);
+	$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
 }
+
+//	Update all model support files
+updateAllModels ($allModels, $listings);
 
 print "===============================\n";
 
@@ -773,10 +776,7 @@ function updateModelsTags ($allModels, $modelsTags, $tagListings) {
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelName = $allModels[$ii]->modelName;
 		print "\nTag processing $modelName\n";
-		$allModels[$ii] = $allModels[$ii]
-										->setTags ($modelsTags[$modelName])
-										->writeMetadata()
-										->writeReadme($tagListings);
+		$allModels[$ii] = $allModels[$ii]->setTags ($modelsTags[$modelName]);
 	}
 	return $allModels;
 }
@@ -788,6 +788,16 @@ function updateModelsTags ($allModels, $modelsTags, $tagListings) {
  *
  *	Model data array (of model objects) is returned
 **/
+function updateAllModels ($allModels, $tagListings) {
+	for ($ii=0; $ii<count($allModels); $ii++) {
+		print "Save model " . $allModels[$ii]->modelName . "\n";
+		$allModels[$ii] = $allModels[$ii]
+								->writeMetadata()
+								->writeReadme($tagListings)
+								->writeLicense();
+	}
+}
+
 function getAllModels ($tagListings, $modelFolder='') {
 	if ($modelFolder == '') {return null;}
 
@@ -798,10 +808,7 @@ function getAllModels ($tagListings, $modelFolder='') {
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
 			print "\nProcessing $modelDir\n";
 			$mm = new ModelMetadata($modelDir, 'metadata');
-			$mm = $mm
-					->writeMetadata()
-					->writeReadme($tagListings)
-					->writeLicense();
+			$mm = $mm->setNotCurrent();
 			$allModels[] = $mm;
 		}
 	}
