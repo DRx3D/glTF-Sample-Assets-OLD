@@ -661,6 +661,7 @@ function createDep5 ($allModels) {
 function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 	$urlSampleViewer = 'https://github.khronos.org/glTF-Sample-Viewer-Release/';
 	$urlModelRepoRaw = 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Models/master';
+	$urlModelRepoRaw = 'https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main';
 	
 	$F = fopen ($tagStrcture['file'], 'w');
 	$section = 'Tagged...';
