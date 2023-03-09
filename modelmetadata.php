@@ -32,7 +32,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.19.16';
+	public $swVERSION = '0.19.20';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -95,19 +95,19 @@ class ModelMetadata
 			'CC-BY'		=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'Creative Commons Attribution 4.0 International',
+							'text'=>'CC-BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY 4.0'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'Creative Commons Attribution 4.0 International',
+							'text'=>'CC-BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY-4.0'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'Creative Commons Attribution 4.0 International',
+							'text'=>'CC-BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'SCEA'	=> array (
@@ -125,7 +125,7 @@ class ModelMetadata
 			'LicenseRef-CC-BY-TM'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'',
-							'text'=>'Creative Commons Attribution 4.0 International with Trademark Limitations',
+							'text'=>'CC-BY 4.0 International with Trademark Limitations',
 							'spdx'=>'LicenseRef-CC-BY-TM',
 							),
 			'LicenseRef-Khronos-Assumed'	=> array (
@@ -502,7 +502,7 @@ class ModelMetadata
 		$credit = array();
 		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
 			//print "Creating credit lines for license #$ii\n";
-			$credit[] = sprintf ("&copy; %04d, %s. [%s](%s)", $this->metadata['legal'][$ii]['year'], $this->metadata['legal'][$ii]['owner'], $this->metadata['legal'][$ii]['license'], $this->metadata['legal'][$ii]['licenseUrl']);
+			$credit[] = sprintf ("&copy; %04d, %s. [%s](%s)", $this->metadata['legal'][$ii]['year'], $this->metadata['legal'][$ii]['owner'], $this->metadata['legal'][$ii]['text'], $this->metadata['legal'][$ii]['licenseUrl']);
 			$credit[] = sprintf (" - %s for %s", $this->metadata['legal'][$ii]['artist'], $this->metadata['legal'][$ii]['what']);
 		}
 		//print "Generating credits\n";
