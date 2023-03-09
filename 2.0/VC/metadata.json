@@ -4,12 +4,12 @@
         {
             "year": 2017,
             "owner": "3DRT",
-            "license": "glTF tool testing only",
+            "license": "LicenseRef-3DRT-Testing",
             "licenseUrl": "",
             "artist": "3DRT",
             "what": "Everything",
-            "text": "glTF tool testing only",
-            "spdx": "",
+            "text": "3DRT license with allowances for glTF Testing",
+            "spdx": "LicenseRef-3DRT-Testing",
             "icon": ""
         }
     ],

@@ -9,456 +9,456 @@ Files: *
 Copyright: 2017-2023 Khronos Group
 License: CC-BY-4.0
 
-Files: ./2.0/2CylinderEngine/*
+Files: 2.0/2CylinderEngine/*
 Copyright: 
  2017 Unknown
- 2017 Unknown
-License: 
+ 2017 Okino
+License: LicenseRef-Khronos-Assumed
 
-Files: ./2.0/ABeautifulGame/*
+Files: 2.0/ABeautifulGame/*
 Copyright: 
  2020 ASWF
  2022 Ed Mackey
 License: CC-BY-4.0
 
-Files: ./2.0/AlphaBlendModeTest/*
+Files: 2.0/AlphaBlendModeTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/AnimatedCube/*
+Files: 2.0/AnimatedCube/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: ./2.0/AnimatedMorphCube/*
+Files: 2.0/AnimatedMorphCube/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/AnimatedMorphSphere/*
+Files: 2.0/AnimatedMorphSphere/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/AnimatedTriangle/*
+Files: 2.0/AnimatedTriangle/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/AntiqueCamera/*
+Files: 2.0/AntiqueCamera/*
 Copyright: 
  2018 UX3D
 License: CC0-1.0
 
-Files: ./2.0/AttenuationTest/*
+Files: 2.0/AttenuationTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/Avocado/*
+Files: 2.0/Avocado/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/BarramundiFish/*
+Files: 2.0/BarramundiFish/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/BoomBox/*
+Files: 2.0/BoomBox/*
 Copyright: 
-    0 
+ 2017 Public
 License: CC0-1.0
 
-Files: ./2.0/BoomBoxWithAxes/*
+Files: 2.0/BoomBoxWithAxes/*
 Copyright: 
- 2018 
+ 2018 Public
 License: CC0-1.0
 
-Files: ./2.0/Box/*
+Files: 2.0/Box/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: ./2.0/Box%20With%20Spaces/*
+Files: 2.0/Box%20With%20Spaces/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC0-1.0
 
-Files: ./2.0/BoxAnimated/*
+Files: 2.0/BoxAnimated/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: ./2.0/BoxInterleaved/*
+Files: 2.0/BoxInterleaved/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: ./2.0/BoxTextured/*
+Files: 2.0/BoxTextured/*
 Copyright: 
  2017 Cesium
-License: 
+License: LicenseRef-CC-BY-TM
 
-Files: ./2.0/BoxTexturedNonPowerOfTwo/*
+Files: 2.0/BoxTexturedNonPowerOfTwo/*
 Copyright: 
  2017 Cesium
-License: 
+License: LicenseRef-CC-BY-TM
 
-Files: ./2.0/BoxVertexColors/*
+Files: 2.0/BoxVertexColors/*
 Copyright: 
- 2017 Unknown
-License: 
+ 2017 Michael Feldstein
+License: LicenseRef-Khronos-Assumed
 
-Files: ./2.0/BrainStem/*
+Files: 2.0/BrainStem/*
 Copyright: 
  2017 Smith Micro Software, Inc.
-License: 
+License: LicenseRef-Poser-EULA
 
-Files: ./2.0/Buggy/*
+Files: 2.0/Buggy/*
 Copyright: 
  2017 Unknown
- 2017 Unknown
-License: 
+ 2017 Okino
+License: LicenseRef-Khronos-Assumed
 
-Files: ./2.0/Cameras/*
+Files: 2.0/Cameras/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/CesiumMan/*
+Files: 2.0/CesiumMan/*
 Copyright: 
     0 Cesium
-License: 
+License: LicenseRef-CC-BY-TM
 
-Files: ./2.0/CesiumMilkTruck/*
+Files: 2.0/CesiumMilkTruck/*
 Copyright: 
     0 Cesium
-License: 
+License: LicenseRef-CC-BY-TM
 
-Files: ./2.0/ClearCoatTest/*
+Files: 2.0/ClearCoatTest/*
 Copyright: 
  2020 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/Corset/*
+Files: 2.0/Corset/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: ./2.0/Cube/*
+Files: 2.0/Cube/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: ./2.0/DamagedHelmet/*
+Files: 2.0/DamagedHelmet/*
 Copyright: 
  2019 ctxwing
  2016 Stanford
-License: CC-BY-4.0 AND 
+License: CC-BY-4.0 AND LicenseRef-Stanford-Graphics
 
-Files: ./2.0/DragonAttenuation/*
+Files: 2.0/DragonAttenuation/*
 Copyright: 
  1996 Stanford
  2017 Morgan McGuire
  2021 Public
 License: CC0-1.0
 
-Files: ./2.0/Duck/*
+Files: 2.0/Duck/*
 Copyright: 
  2006 Sony
-License: 
+License: SCEA
 
-Files: ./2.0/EmissiveStrengthTest/*
+Files: 2.0/EmissiveStrengthTest/*
 Copyright: 
  2022 AGI
 License: CC-BY-4.0
 
-Files: ./2.0/EnvironmentTest/*
+Files: 2.0/EnvironmentTest/*
 Copyright: 
  2017 Adobe
-License: 
+License: LicenseRef-Adobe-Stock
 
-Files: ./2.0/FlightHelmet/*
+Files: 2.0/FlightHelmet/*
 Copyright: 
  2019 Public
 License: CC0-1.0
 
-Files: ./2.0/Fox/*
+Files: 2.0/Fox/*
 Copyright: 
  2014 Public
  2014 tomkranis
  2017 @AsoboStudio and @scurest
 License: CC0-1.0 AND CC-BY-4.0
 
-Files: ./2.0/GearboxAssy/*
+Files: 2.0/GearboxAssy/*
 Copyright: 
- 2017 Unknown
- 2017 Unknown
-License: 
+ 2017 Khronos
+ 2017 Okino
+License: LicenseRef-Khronos-Assumed
 
-Files: ./2.0/GlamVelvetSofa/*
-Copyright: 
- 2021 Wayfair, LLC
-License: CC-BY-4.0
-
-Files: ./2.0/GlassHurricaneCandleHolder/*
+Files: 2.0/GlamVelvetSofa/*
 Copyright: 
  2021 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: ./2.0/InterpolationTest/*
+Files: 2.0/GlassHurricaneCandleHolder/*
+Copyright: 
+ 2021 Wayfair, LLC
+License: CC-BY-4.0
+
+Files: 2.0/InterpolationTest/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/IridescenceDielectricSpheres/*
+Files: 2.0/IridescenceDielectricSpheres/*
 Copyright: 
  2019 Public
 License: CC0-1.0
 
-Files: ./2.0/IridescenceLamp/*
+Files: 2.0/IridescenceLamp/*
 Copyright: 
  2022 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: ./2.0/IridescenceMetallicSpheres/*
+Files: 2.0/IridescenceMetallicSpheres/*
 Copyright: 
  2022 UX3D
 License: CC0-1.0
 
-Files: ./2.0/IridescenceSuzanne/*
+Files: 2.0/IridescenceSuzanne/*
 Copyright: 
  2021 
 License: CC-BY-4.0
 
-Files: ./2.0/IridescentDishWithOlives/*
+Files: 2.0/IridescentDishWithOlives/*
 Copyright: 
  2020 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: ./2.0/Lantern/*
+Files: 2.0/Lantern/*
 Copyright: 
  2021 Microsoft
 License: CC-BY-4.0
 
-Files: ./2.0/LightsPunctualLamp/*
+Files: 2.0/LightsPunctualLamp/*
 Copyright: 
  2021 DGG
 License: CC-BY-4.0
 
-Files: ./2.0/MetalRoughSpheres/*
+Files: 2.0/MetalRoughSpheres/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/MetalRoughSpheresNoTextures/*
+Files: 2.0/MetalRoughSpheresNoTextures/*
 Copyright: 
  2019 Public
  2019 Public
 License: CC0-1.0
 
-Files: ./2.0/MorphPrimitivesTest/*
+Files: 2.0/MorphPrimitivesTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/MorphStressTest/*
+Files: 2.0/MorphStressTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/MosquitoInAmber/*
+Files: 2.0/MosquitoInAmber/*
 Copyright: 
  2018 Sketchfab
  2019 Sketchfab
 License: CC-BY-4.0
 
-Files: ./2.0/MultiUVTest/*
+Files: 2.0/MultiUVTest/*
 Copyright: 
  2017 Hilo 3D
 License: CC-BY-4.0
 
-Files: ./2.0/NormalTangentMirrorTest/*
+Files: 2.0/NormalTangentMirrorTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/NormalTangentTest/*
+Files: 2.0/NormalTangentTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC0-1.0
 
-Files: ./2.0/OrientationTest/*
+Files: 2.0/OrientationTest/*
 Copyright: 
  2017 Unknown
 License: CC-BY-4.0
 
-Files: ./2.0/ReciprocatingSaw/*
+Files: 2.0/ReciprocatingSaw/*
 Copyright: 
  2021 SharpGLTF
- 2017 Unknown
-License: CC-BY-4.0 AND 
+ 2017 Okino
+License: CC-BY-4.0
 
-Files: ./2.0/RecursiveSkeletons/*
+Files: 2.0/RecursiveSkeletons/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: ./2.0/RiggedFigure/*
+Files: 2.0/RiggedFigure/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: ./2.0/RiggedSimple/*
+Files: 2.0/RiggedSimple/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: ./2.0/SciFiHelmet/*
+Files: 2.0/SciFiHelmet/*
 Copyright: 
  2017 Public
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/SheenChair/*
+Files: 2.0/SheenChair/*
 Copyright: 
  2020 Wayfair, LLC
 License: CC0-1.0
 
-Files: ./2.0/SheenCloth/*
+Files: 2.0/SheenCloth/*
 Copyright: 
  2020 Microsoft
 License: CC0-1.0
 
-Files: ./2.0/SimpleMeshes/*
+Files: 2.0/SimpleMeshes/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/SimpleMorph/*
+Files: 2.0/SimpleMorph/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/SimpleSkin/*
+Files: 2.0/SimpleSkin/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/SimpleSparseAccessor/*
+Files: 2.0/SimpleSparseAccessor/*
 Copyright: 
  2017 Public
 License: CC-BY-4.0
 
-Files: ./2.0/SpecGlossVsMetalRough/*
+Files: 2.0/SpecGlossVsMetalRough/*
 Copyright: 
  2017 Microsoft
 License: CC-BY-4.0
 
-Files: ./2.0/SpecularTest/*
+Files: 2.0/SpecularTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/Sponza/*
+Files: 2.0/Sponza/*
 Copyright: 
  2016 Crytek
-License: 
+License: LicenseRef-CRYENGINE-Agreement
 
-Files: ./2.0/StainedGlassLamp/*
+Files: 2.0/StainedGlassLamp/*
 Copyright: 
  2021 Wayfair
 License: CC-BY-4.0
 
-Files: ./2.0/Suzanne/*
+Files: 2.0/Suzanne/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: ./2.0/TextureCoordinateTest/*
+Files: 2.0/TextureCoordinateTest/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC0-1.0
 
-Files: ./2.0/TextureEncodingTest/*
+Files: 2.0/TextureEncodingTest/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/TextureLinearInterpolationTest/*
+Files: 2.0/TextureLinearInterpolationTest/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/TextureSettingsTest/*
+Files: 2.0/TextureSettingsTest/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/TextureTransformMultiTest/*
+Files: 2.0/TextureTransformMultiTest/*
 Copyright: 
  2020 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/TextureTransformTest/*
+Files: 2.0/TextureTransformTest/*
 Copyright: 
  2018 Microsoft
 License: CC0-1.0
 
-Files: ./2.0/ToyCar/*
+Files: 2.0/ToyCar/*
 Copyright: 
  2020 Public
  2020 Public
 License: CC0-1.0
 
-Files: ./2.0/TransmissionRoughnessTest/*
+Files: 2.0/TransmissionRoughnessTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/TransmissionTest/*
+Files: 2.0/TransmissionTest/*
 Copyright: 
  2020 Public
 License: CC0-1.0
 
-Files: ./2.0/Triangle/*
+Files: 2.0/Triangle/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/TriangleWithoutIndices/*
+Files: 2.0/TriangleWithoutIndices/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/TwoSidedPlane/*
+Files: 2.0/TwoSidedPlane/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: ./2.0/Unicode❤♻Test/*
+Files: 2.0/Unicode❤♻Test/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: ./2.0/UnlitTest/*
+Files: 2.0/UnlitTest/*
 Copyright: 
  2019 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/VC/*
+Files: 2.0/VC/*
 Copyright: 
  2017 3DRT
-License: 
+License: LicenseRef-3DRT-Testing
 
-Files: ./2.0/VertexColorTest/*
+Files: 2.0/VertexColorTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: ./2.0/WaterBottle/*
+Files: 2.0/WaterBottle/*
 Copyright: 
  2017 Public
 License: CC0-1.0

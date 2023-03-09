@@ -1,19 +1,13 @@
-# UNUSED LICENSES
-
-The following licenses are not used:
-* CC0-1.0
-
-
 # SUMMARY
 
 * Bad licenses:
 * Deprecated licenses:
 * Licenses without file extension:
 * Missing licenses:
-* Unused licenses: CC0-1.0
-* Used licenses: Apache-2.0, CC-BY-4.0
+* Unused licenses:
+* Used licenses: Apache-2.0, CC-BY-4.0, CC0-1.0, LicenseRef-3DRT-Testing, LicenseRef-Adobe-Stock, LicenseRef-CC-BY-TM, LicenseRef-CRYENGINE-Agreement, LicenseRef-Khronos-Assumed, LicenseRef-Poser-EULA, LicenseRef-Stanford-Graphics, SCEA
 * Read errors: 0
-* Files with copyright information: 1285 / 1285
-* Files with license information: 1285 / 1285
+* Files with copyright information: 1281 / 1281
+* Files with license information: 1281 / 1281
 
-Unfortunately, your project is not compliant with version 3.0 of the REUSE Specification :-(
+Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)

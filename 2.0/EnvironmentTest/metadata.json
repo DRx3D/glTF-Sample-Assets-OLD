@@ -2,14 +2,14 @@
     "version": 2,
     "legal": [
         {
-            "license": "Adobe Enhanced",
-            "licenseUrl": "",
-            "artist": "Khronos",
+            "license": "LicenseRef-Adobe-Stock",
+            "licenseUrl": "https://stock.adobe.com/license-terms?prev_url=detail&comparison-full#enhanced-license-terms",
+            "artist": "Adobe",
             "year": "2017",
             "owner": "Adobe",
             "what": "Everything",
-            "text": "Adobe Enhanced",
-            "spdx": "",
+            "text": "Adobe Stock License",
+            "spdx": "LicenseRef-Adobe-Stock",
             "icon": ""
         }
     ],

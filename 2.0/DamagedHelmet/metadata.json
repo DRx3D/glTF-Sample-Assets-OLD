@@ -8,19 +8,19 @@
             "year": "2019",
             "owner": "ctxwing",
             "what": "Everything",
-            "text": "Creative Commons zJAttribution 4.0 International",
+            "text": "Creative Commons Attribution 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         },
         {
-            "license": "Stanford Graphics Library",
+            "license": "LicenseRef-Stanford-Graphics",
             "licenseUrl": "",
             "artist": "unknown",
             "year": "2016",
             "owner": "Stanford",
             "what": "Earlier version of license with unknown pedigree",
             "text": "Stanford Graphics Library",
-            "spdx": "",
+            "spdx": "LicenseRef-Stanford-Graphics",
             "icon": ""
         }
     ],

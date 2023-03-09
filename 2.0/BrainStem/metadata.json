@@ -2,20 +2,21 @@
     "version": 2,
     "legal": [
         {
-            "license": "Poser Pro EULA",
-            "licenseUrl": "",
+            "license": "LicenseRef-Poser-EULA",
+            "licenseUrl": "https://archive.org/stream/poser-pro-2014-reference-manual/Poser_Pro_2014_reference_manual_djvu.txt",
             "artist": "Keith Hunter",
             "year": "2017",
             "owner": "Smith Micro Software, Inc.",
             "what": "Everything",
-            "text": "Poser Pro EULA",
-            "spdx": "",
+            "text": "Poser EULA",
+            "spdx": "LicenseRef-Poser-EULA",
             "icon": ""
         }
     ],
     "tags": [
         "core",
-        "testing"
+        "testing",
+        "issues"
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "BrainStem",

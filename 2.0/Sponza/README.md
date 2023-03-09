@@ -31,6 +31,8 @@ I also ran the vertices and indices through a mesh optimizer.
 
 ## Licensing notes
 
+On 2023-03-08, the model was confirmed to be [available](https://www.cryengine.com/marketplace/product/crytek/sponza-sample-scene)
+
 Taken from copyright.txt in SponzaPBR\_Textures.rar
 
 ```

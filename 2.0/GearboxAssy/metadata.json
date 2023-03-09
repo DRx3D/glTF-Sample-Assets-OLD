@@ -2,25 +2,25 @@
     "version": 2,
     "legal": [
         {
-            "license": "Unknown",
+            "year": 2017,
+            "owner": "Khronos",
+            "license": "LicenseRef-Khronos-Assumed",
             "licenseUrl": "",
             "artist": "Khronos",
-            "year": "2017",
-            "owner": "Unknown",
             "what": "Everything",
-            "text": "Unknown",
-            "spdx": "",
+            "text": "Assumed Khronos license, treat as TESTING only",
+            "spdx": "LicenseRef-Khronos-Assumed",
             "icon": ""
         },
         {
-            "license": "Khronos-Archive",
+            "year": 2017,
+            "owner": "Okino",
+            "license": "LicenseRef-Khronos-Assumed",
             "licenseUrl": "",
             "artist": "Okino",
-            "year": "2017",
-            "owner": "Unknown",
-            "what": "Conversion to glTF",
-            "text": "Khronos-Archive",
-            "spdx": "",
+            "what": "Conversion from JT to glTF",
+            "text": "Assumed Khronos license, treat as TESTING only",
+            "spdx": "LicenseRef-Khronos-Assumed",
             "icon": ""
         }
     ],
@@ -30,8 +30,8 @@
         "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "Gearbox Assy",
+    "name": "Gearbox Assembly",
     "path": "./2.0/GearboxAssy",
-    "summary": "Medium-sized CAD data set, including hierarchy.",
+    "summary": "Mediumn-sized CAD data aset, including hierarchy. Data conversion from original JT to COLLADA has been kindly performed by Okino Computer Graphics, using [Okino Polytrans Software](http://www.okino.com/conv/conv.htm).",
     "createReadme": true
 }

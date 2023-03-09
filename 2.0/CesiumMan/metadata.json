@@ -2,15 +2,15 @@
     "version": 2,
     "legal": [
         {
-            "license": "CC-BY 4.0 and TM",
+            "license": "LicenseRef-CC-BY-TM",
             "licenseUrl": "",
             "artist": "Cesium",
             "year": "",
             "owner": "Cesium",
             "what": "Everything",
-            "text": "CC-BY 4.0 and TM",
-            "spdx": "",
-            "icon": ""
+            "text": "Creative Commons Attribution 4.0 International with Trademark Limitations",
+            "spdx": "LicenseRef-CC-BY-TM",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [

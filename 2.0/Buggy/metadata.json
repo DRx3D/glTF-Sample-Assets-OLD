@@ -2,25 +2,25 @@
     "version": 2,
     "legal": [
         {
-            "license": "Khronos-Archive",
+            "license": "LicenseRef-Khronos-Assumed",
             "licenseUrl": "",
             "artist": "Khronos",
             "year": "2017",
             "owner": "Unknown",
             "what": "Everything",
-            "text": "Khronos-Archive",
-            "spdx": "",
+            "text": "Assumed Khronos license, treat as TESTING only",
+            "spdx": "LicenseRef-Khronos-Assumed",
             "icon": ""
         },
         {
-            "license": "Khronos-Archive",
+            "license": "LicenseRef-Khronos-Assumed",
             "licenseUrl": "",
             "artist": "Okino",
             "year": "2017",
-            "owner": "Unknown",
+            "owner": "Okino",
             "what": "Conversion to glTF",
-            "text": "Khronos-Archive",
-            "spdx": "",
+            "text": "Assumed Khronos license, treat as TESTING only",
+            "spdx": "LicenseRef-Khronos-Assumed",
             "icon": ""
         }
     ],
@@ -33,6 +33,6 @@
     "screenshot": "screenshot/screenshot.png",
     "name": "Buggy",
     "path": "./2.0/Buggy",
-    "summary": "Medium-sized CAD data set, including hierarchy",
+    "summary": "Medium-sized CAD data set, including hierarchy. Data conversion from original JT to COLLADA has been kindly performed by Okino Computer Graphics, using [Okino Polytrans Software](http://www.okino.com/conv/conv.htm).",
     "createReadme": true
 }

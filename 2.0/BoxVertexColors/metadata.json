@@ -2,14 +2,14 @@
     "version": 2,
     "legal": [
         {
-            "license": "Unknown",
+            "license": "LicenseRef-Khronos-Assumed",
             "licenseUrl": "",
             "artist": "Michael Feldstein",
             "year": "2017",
-            "owner": "Unknown",
+            "owner": "Michael Feldstein",
             "what": "Everything",
-            "text": "Unknown",
-            "spdx": "",
+            "text": "Assumed Khronos license, treat as TESTING only",
+            "spdx": "LicenseRef-Khronos-Assumed",
             "icon": ""
         }
     ],

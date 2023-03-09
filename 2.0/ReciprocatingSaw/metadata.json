@@ -13,15 +13,15 @@
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         },
         {
-            "license": "Khronos-Archive",
-            "licenseUrl": "",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
             "artist": "Okino",
             "year": "2017",
-            "owner": "Unknown",
-            "what": "Conversion to glTF",
-            "text": "Khronos-Archive",
-            "spdx": "",
-            "icon": ""
+            "owner": "Okino",
+            "what": "Conversion from JT to glTF",
+            "text": "Creative Commons Attribution 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -32,6 +32,6 @@
     "screenshot": "screenshot/screenshot.png",
     "name": "Reciprocating Saw",
     "path": "./2.0/ReciprocatingSaw",
-    "summary": "Small CAD data set, including hierarchy.",
+    "summary": "Small CAD data set, including hierarchy. Data conversion from original JT to COLLADA has been kindly performed by Okino Computer Graphics, using [Okino Polytrans Software](http://www.okino.com/conv/conv.htm).",
     "createReadme": true
 }

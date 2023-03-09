@@ -2,14 +2,14 @@
     "version": 2,
     "legal": [
         {
-            "license": "SCEA Shared Source License, Version 1.0",
-            "licenseUrl": "",
+            "license": "SCEA",
+            "licenseUrl": "https://spdx.org/licenses/SCEA.html",
             "artist": "Sony",
             "year": "2006",
             "owner": "Sony",
             "what": "Everything",
             "text": "SCEA Shared Source License, Version 1.0",
-            "spdx": "",
+            "spdx": "SCEA",
             "icon": ""
         }
     ],

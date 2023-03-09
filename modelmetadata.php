@@ -32,7 +32,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.18.12';
+	public $swVERSION = '0.19.16';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -107,8 +107,56 @@ class ModelMetadata
 			'CC-BY-4.0'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'Creative Commons zJAttribution 4.0 International',
+							'text'=>'Creative Commons Attribution 4.0 International',
 							'spdx'=>'CC-BY-4.0',
+							),
+			'SCEA'	=> array (
+							'icon'=>'', 
+							'link'=>'https://spdx.org/licenses/SCEA.html',
+							'text'=>'SCEA Shared Source License, Version 1.0',
+							'spdx'=>'SCEA',
+							),
+			'LicenseRef-Stanford-Graphics'	=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'Stanford Graphics Library',
+							'spdx'=>'LicenseRef-Stanford-Graphics',
+							),
+			'LicenseRef-CC-BY-TM'	=> array (
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'link'=>'',
+							'text'=>'Creative Commons Attribution 4.0 International with Trademark Limitations',
+							'spdx'=>'LicenseRef-CC-BY-TM',
+							),
+			'LicenseRef-Khronos-Assumed'	=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'Assumed Khronos license, treat as TESTING only',
+							'spdx'=>'LicenseRef-Khronos-Assumed',
+							),
+			'LicenseRef-3DRT-Testing'	=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'3DRT license with allowances for glTF Testing',
+							'spdx'=>'LicenseRef-3DRT-Testing',
+							),
+			'LicenseRef-Adobe-Stock'	=> array (
+							'icon'=>'', 
+							'link'=>'https://stock.adobe.com/license-terms?prev_url=detail&comparison-full#enhanced-license-terms',
+							'text'=>'Adobe Stock License',
+							'spdx'=>'LicenseRef-Adobe-Stock',
+							),
+			'LicenseRef-Poser-EULA'	=> array (
+							'icon'=>'', 
+							'link'=>'https://archive.org/stream/poser-pro-2014-reference-manual/Poser_Pro_2014_reference_manual_djvu.txt',
+							'text'=>'Poser EULA',
+							'spdx'=>'LicenseRef-Poser-EULA',
+							),
+			'LicenseRef-CRYENGINE-Agreement'	=> array (
+							'icon'=>'', 
+							'link'=>'https://www.cryengine.com/ce-terms',
+							'text'=>'Cryengine Limited License Agreement',
+							'spdx'=>'LicenseRef-CRYENGINE-Agreement',
 							),
 			);
 
@@ -589,7 +637,7 @@ function createDep5 ($allModels) {
 
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
-		fwrite ($F, sprintf ("Files: %s/*\n", $modelMeta['path']));
+		fwrite ($F, sprintf ("Files: %s/*\n", substr($modelMeta['path'], 2)));
 		$copyright = [];
 		$license = array();
 		$licenseLast = '';
@@ -603,6 +651,7 @@ function createDep5 ($allModels) {
 		fwrite ($F, sprintf ("Copyright: \n %s\n", join("\n ", $copyright)));
 		fwrite ($F, sprintf ("License: %s\n", join(' AND ', $license)));
 		fwrite ($F, "\n");
+		if (count($license) < 1) {print "Missing license for " . $modelMeta['name'] . "\n";}
 	}
 	fclose ($F);
 	return;
