@@ -14,7 +14,8 @@
         }
     ],
     "tags": [
-        "testing"
+        "testing",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Environment Test",

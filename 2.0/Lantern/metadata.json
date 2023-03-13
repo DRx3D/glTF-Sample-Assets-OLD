@@ -2,15 +2,26 @@
     "version": 2,
     "legal": [
         {
-            "license": "CC-BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
-            "artist": "Microsoft",
-            "year": "2021",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "sbtron",
+            "year": "2017",
             "owner": "Microsoft",
-            "what": "Everything",
-            "text": "CC-BY 4.0 International",
-            "spdx": "CC-BY-4.0",
-            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+            "what": "Initial version",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Frank Galligan",
+            "year": "2018",
+            "owner": "Frank Galligan",
+            "what": "Draco compression",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [

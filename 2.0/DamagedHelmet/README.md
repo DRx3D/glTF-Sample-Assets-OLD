@@ -6,9 +6,10 @@
 
 ## License Information
 
-Battle Damaged Sci-fi Helmet - PBR by [theblueturtle_](https://sketchfab.com/theblueturtle_), published under a Creative Commons Attribution-NonCommercial license
+[Damaged Helmet](https://sketchfab.com/3d-models/damaged-helmet-a1de6f1e738d446da3d50a3eebffe883) by [ctxwing](https://sketchfab.com/ctxwing), published under Creative Commons Attribution 4.0 International license. Downloaded from [SketchFab](https://sketchfab.com/) in 2018.
 
-https://sketchfab.com/models/b81008d513954189a063ff901f7abfe4
+May have been based on [Battle Damaged Sci-fi Helmet - PBR](https://sketchfab.com/3d-models/battle-damaged-sci-fi-helmet-pbr-b81008d513954189a063ff901f7abfe4) by [theblueturtle_](https://sketchfab.com/theblueturtle_), published under a Creative Commons Attribution-NonCommercial license
+
 
 ## Modifications
 

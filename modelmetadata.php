@@ -32,7 +32,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.19.20';
+	public $swVERSION = '0.20.25';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -95,19 +95,25 @@ class ModelMetadata
 			'CC-BY'		=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'CC-BY 4.0 International',
+							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
+							),
+			'CC-BY-NC'		=> array (
+							'icon'=>'https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png', 
+							'link'=>'https://creativecommons.org/licenses/by-nc/4.0/legalcode',
+							'text'=>'CC BY-NC 4.0 International',
+							'spdx'=>'CC-BY-NC-4.0',
 							),
 			'CC-BY 4.0'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'CC-BY 4.0 International',
+							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY-4.0'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
-							'text'=>'CC-BY 4.0 International',
+							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'SCEA'	=> array (
@@ -118,7 +124,7 @@ class ModelMetadata
 							),
 			'LicenseRef-Stanford-Graphics'	=> array (
 							'icon'=>'', 
-							'link'=>'',
+							'link'=>'https://graphics.stanford.edu/data/3Dscanrep/',
 							'text'=>'Stanford Graphics Library',
 							'spdx'=>'LicenseRef-Stanford-Graphics',
 							),
@@ -221,7 +227,7 @@ class ModelMetadata
 		unset ($tmp['AutoGenerateREADME']);
 		$string = json_encode($tmp, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
 		
-		print " .. writing METADATA to ".$this->metadata['fullPath']."\n";
+		//print " .. writing METADATA to ".$this->metadata['fullPath']."\n";
 		$FH = fopen ($this->metadata['fullPath'], "w");
 		fwrite ($FH, $string);
 		fclose ($FH);
@@ -575,13 +581,21 @@ $useUserModelData = false;		// Update model metadata
 $listings = array (
 					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array(), 'summary'=>'All models listed alphabetically/'),
 					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core'), 'summary'=>'Models that only use the core glTF V2.0 features and capabilities.'),
+					array('type'=>'List', 'file'=>'Models-extension.md', 'tags'=>array('extension'), 'summary'=>'Models that use one or more extensions.'),
 					array('type'=>'List', 'file'=>'Models-issues.md', 'tags'=>array('issues'), 'summary'=>'Models with one or more issues with respect to ownership or license.'),
 					array('type'=>'List', 'file'=>'Models-showcase.md', 'tags'=>array('showcase'), 'summary'=>'Models that are featured in some glTF/Khronos publicity.'),
 					array('type'=>'List', 'file'=>'Models-testing.md', 'tags'=>array('testing'), 'summary'=>'Models that are used for testing various features or capabilities of importers, viewers, or converters.'),
 					array('type'=>'List', 'file'=>'Models-video.md', 'tags'=>array('video'), 'summary'=>'Models used in any glTF video tutorial.'),
 					array('type'=>'List', 'file'=>'Models-written.md', 'tags'=>array('written'), 'summary'=>'Models used in any written glTF tutorial or guide.')
 					);
-					
+$tagList = [];
+for ($ii=0; $ii<count($listings); $ii++) {
+	for ($jj=0; $jj<count($listings[$ii]['tags']); $jj++) {
+		$tagList[] = $listings[$ii]['tags'][$jj];
+	}
+}
+$tagList = array_unique ($tagList);
+
 
 /*
  * TODOs
@@ -608,6 +622,9 @@ if ($useUserModelTags) {
 //	Update all model support files
 updateAllModels ($allModels, $listings);
 
+if (true) {
+	createTagCsv ('ModelTags.csv', $allModels, $tagList);
+}
 print "===============================\n";
 
 // Now create various Repo files
@@ -762,16 +779,22 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 }
 
 // Function for creating a list of tgags per model
-function createTagCsv ($fname, $metaAll) {
+function createTagCsv ($fname, $metaAll, $tagList) {
+	$tagMaster = array();
+	for ($ii=0; $ii<count($tagList); $ii++) {
+		$tagMaster[] = 'FALSE';
+	}
 	$F = fopen ($fname, 'w');
-	fwrite ($F, "\"Model Name\",Tags\n");
+	fwrite ($F, sprintf("\"%s\",\"%s\"\n", 'Model Name', join('","', $tagList)));
 	for ($ii=0; $ii<count($metaAll); $ii++) {
 		$modelMeta = $metaAll[$ii]->getMetadata();
+		$tags = $tagMaster;
 		if (is_array($modelMeta['tags'])) {
-			fwrite ($F, sprintf("\"%s\",\"%s\"\n", $modelMeta['name'], join('","', $modelMeta['tags'])));
-		} else {
-			fwrite ($F, sprintf("\"%s\"\n", $modelMeta['name']));
+			for ($jj=0; $jj<count($tagList); $jj++) {
+				$tags[$jj] = (preg_grep("/$tagList[$jj]/i",$modelMeta['tags'])) ? 'TRUE' : 'FALSE';
+			}
 		}
+		fwrite ($F, sprintf("\"%s\",%s\n", $modelMeta['name'], join(',', $tags)));
 	}
 	fclose ($F);
 	return;
@@ -834,8 +857,10 @@ function updateModelsTags ($allModels, $modelsTags, $tagListings) {
 
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelName = $allModels[$ii]->modelName;
-		print "\nTag processing $modelName\n";
-		$allModels[$ii] = $allModels[$ii]->setTags ($modelsTags[$modelName]);
+		if (isset($modelsTags[$modelName])) {
+			print "\nTag adding [$modelName]: ".join(',',$modelsTags[$modelName])."\n";
+			$allModels[$ii] = $allModels[$ii]->addTags ($modelsTags[$modelName]);
+		}
 	}
 	return $allModels;
 }
@@ -865,7 +890,7 @@ function getAllModels ($tagListings, $modelFolder='') {
 	while (false !== ($model = $folder->read())) {
 		$modelDir = $folder->path . '/' . $model;
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
-			print "\nProcessing $modelDir\n";
+			//print "\nProcessing $modelDir\n";
 			$mm = new ModelMetadata($modelDir, 'metadata');
 			$mm = $mm->setNotCurrent();
 			$allModels[] = $mm;

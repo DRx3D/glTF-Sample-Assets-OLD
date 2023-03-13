@@ -14,7 +14,8 @@
         }
     ],
     "tags": [
-        "testing"
+        "testing",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Texture Transform Test",

@@ -20,6 +20,6 @@
     "screenshot": "screenshot/screenshot.gif",
     "name": "Animated Cube",
     "path": "./2.0/AnimatedCube",
-    "summary": "Same as previous cube having a linear rotation animation.",
+    "summary": "Same as 'Cube', but having a linear rotation animation.",
     "createReadme": true
 }

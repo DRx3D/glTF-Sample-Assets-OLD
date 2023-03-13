@@ -21,6 +21,6 @@
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Water Bottle",
     "path": "./2.0/WaterBottle",
-    "summary": "_No Summary_",
+    "summary": "Basic metal/roughness water bottle.",
     "createReadme": false
 }

@@ -154,16 +154,16 @@ License: CC0-1.0
 
 Files: 2.0/DamagedHelmet/*
 Copyright: 
- 2019 ctxwing
- 2016 Stanford
-License: CC-BY-4.0 AND LicenseRef-Stanford-Graphics
+ 2018 ctxwing
+ 2016 theblueturtle_
+License: CC-BY-4.0 AND CC-BY-NC-4.0
 
 Files: 2.0/DragonAttenuation/*
 Copyright: 
- 1996 Stanford
+ 1996 Stanford University Computer Graphics Laboratory
  2017 Morgan McGuire
  2021 Public
-License: CC0-1.0
+License: LicenseRef-Stanford-Graphics AND CC0-1.0
 
 Files: 2.0/Duck/*
 Copyright: 
@@ -182,7 +182,7 @@ License: LicenseRef-Adobe-Stock
 
 Files: 2.0/FlightHelmet/*
 Copyright: 
- 2019 Public
+ 2018 Public
 License: CC0-1.0
 
 Files: 2.0/Fox/*
@@ -230,8 +230,9 @@ License: CC0-1.0
 
 Files: 2.0/IridescenceSuzanne/*
 Copyright: 
- 2021 
-License: CC-BY-4.0
+ 2022 UX3D
+ 2021 Pascal Schoen
+License: CC0-1.0
 
 Files: 2.0/IridescentDishWithOlives/*
 Copyright: 
@@ -240,8 +241,9 @@ License: CC-BY-4.0
 
 Files: 2.0/Lantern/*
 Copyright: 
- 2021 Microsoft
-License: CC-BY-4.0
+ 2017 Microsoft
+ 2018 Frank Galligan
+License: CC0-1.0
 
 Files: 2.0/LightsPunctualLamp/*
 Copyright: 
@@ -261,7 +263,8 @@ License: CC0-1.0
 
 Files: 2.0/MorphPrimitivesTest/*
 Copyright: 
- 2021 Analytical Graphics, Inc.
+ 2018 ft-lab
+ 2020 Frank Galligan
 License: CC-BY-4.0
 
 Files: 2.0/MorphStressTest/*

@@ -4,7 +4,7 @@
         {
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-            "artist": "Khronos",
+            "artist": "lexaknyazev",
             "year": "2017",
             "owner": "Public",
             "what": "Everything",
@@ -15,12 +15,11 @@
     ],
     "tags": [
         "core",
-        "issues",
         "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Texture Encoding Test",
     "path": "./2.0/TextureEncodingTest",
-    "summary": " ",
+    "summary": "This asset tests that textures are sampled with correct transfer functions.",
     "createReadme": false
 }

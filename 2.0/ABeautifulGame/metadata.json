@@ -8,7 +8,7 @@
             "year": "2020",
             "owner": "ASWF",
             "what": "Original model",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         },
@@ -19,14 +19,15 @@
             "year": "2022",
             "owner": "Ed Mackey",
             "what": "Conversion to glTF",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "showcase",
-        "video"
+        "video",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "A Beautiful Game",

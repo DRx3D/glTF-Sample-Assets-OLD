@@ -8,14 +8,15 @@
             "year": "2021",
             "owner": "Analytical Graphics, Inc.",
             "what": "Everything",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
         "core",
-        "testing"
+        "testing",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Attenuation Test",

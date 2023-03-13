@@ -8,7 +8,7 @@
             "year": "2018",
             "owner": "Sketchfab",
             "what": "Model",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         },
@@ -19,13 +19,14 @@
             "year": "2019",
             "owner": "Sketchfab",
             "what": "Real-time refraction",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
-        "showcase"
+        "showcase",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Mosquito In Amber",

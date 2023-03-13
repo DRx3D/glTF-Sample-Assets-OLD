@@ -2,25 +2,25 @@
     "version": 2,
     "legal": [
         {
-            "license": "Stanford Scan",
-            "licenseUrl": "",
-            "artist": "Stanford",
+            "license": "LicenseRef-Stanford-Graphics",
+            "licenseUrl": "https://graphics.stanford.edu/data/3Dscanrep/",
+            "artist": "Stanford University Computer Graphics Laboratory",
             "year": "1996",
-            "owner": "Stanford",
+            "owner": "Stanford University Computer Graphics Laboratory",
             "what": "Original dragon model",
-            "text": "Stanford Scan",
-            "spdx": "",
+            "text": "Stanford Graphics Library",
+            "spdx": "LicenseRef-Stanford-Graphics",
             "icon": ""
         },
         {
-            "license": "Stanford Scan",
-            "licenseUrl": "",
+            "license": "LicenseRef-Stanford-Graphics",
+            "licenseUrl": "https://graphics.stanford.edu/data/3Dscanrep/",
             "artist": "Morgan McGuire's Computer Graphics Archive",
             "year": "2017",
             "owner": "Morgan McGuire",
             "what": "Conversion and clean up",
-            "text": "Stanford Scan",
-            "spdx": "",
+            "text": "Stanford Graphics Library",
+            "spdx": "LicenseRef-Stanford-Graphics",
             "icon": ""
         },
         {
@@ -36,7 +36,8 @@
         }
     ],
     "tags": [
-        "showcase"
+        "showcase",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Dragon Attenuation",

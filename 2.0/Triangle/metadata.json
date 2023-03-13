@@ -4,7 +4,7 @@
         {
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-            "artist": "Khronos",
+            "artist": "javagl",
             "year": "2017",
             "owner": "Public",
             "what": "Everything",
@@ -21,6 +21,6 @@
     "screenshot": "screenshot/screenshot.png",
     "name": "Triangle",
     "path": "./2.0/Triangle",
-    "summary": "A very simple glTF asset: The basic structure is the same as in Triangle Without Indices, but here, the mesh.primitive describes an indexed geometry",
+    "summary": "A very simple glTF asset: The basic structure is the same as in 'Triangle Without Indices', but here, the mesh primitive describes an indexed geometry.",
     "createReadme": false
 }

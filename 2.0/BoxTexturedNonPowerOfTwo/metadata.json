@@ -19,7 +19,7 @@
         "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "Box Textured",
+    "name": "Box Textured not 2^N",
     "path": "./2.0/BoxTexturedNonPowerOfTwo",
     "summary": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures.",
     "createReadme": false

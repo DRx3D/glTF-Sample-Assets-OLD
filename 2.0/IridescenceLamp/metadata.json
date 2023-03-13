@@ -8,13 +8,14 @@
             "year": "2022",
             "owner": "Wayfair, LLC",
             "what": "Everything",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
-        "showcase"
+        "showcase",
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Lamp",

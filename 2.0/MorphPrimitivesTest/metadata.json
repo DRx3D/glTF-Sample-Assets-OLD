@@ -4,11 +4,22 @@
         {
             "license": "CC-BY 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
-            "artist": "Ed Mackey",
-            "year": "2021",
-            "owner": "Analytical Graphics, Inc.",
+            "artist": "ft-lab",
+            "year": "2018",
+            "owner": "ft-lab",
             "what": "Everything",
-            "text": "CC-BY 4.0 International",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Frank Galligan",
+            "year": "2020",
+            "owner": "Frank Galligan",
+            "what": "DRACO compression",
+            "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
