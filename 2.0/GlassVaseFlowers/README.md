@@ -4,7 +4,7 @@
 
 ![screenshot](screenshot/screenshot_large.jpg)
 
-Screenshot from the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) using the Dining Room environment and the ACES tone mapper with Exposure set to 2.
+Screenshot from the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) using the Cannon Exterior environment and the ACES tone mapper.
 
 ## Description
 
@@ -18,7 +18,7 @@ However, alpha blending is designed to represent the visibility of a material, n
 
 When alpha blending is used with partial values, the surface shows more of what is behind, but in turn specular reflections are reduced. Alpha blending does not simulate refraction, nor diffusion, nor attenuation. Because of these limitations it is not recommended to use alpha blending for refractive materials.
 
-Transmission and Volume are the recommended methods for reproducing refractive materials such as glass or water. These extensions allow light to transmit through a surface in a physically-plausible manner, reproducing effects like the bending of light through thick glass, colored transmission as in stained glass, color attenuation that can occurs where surfaces become thicker, and the dispersion or blurring that can occur with roughened surfaces. 
+Transmission and Volume are the recommended methods for reproducing refractive materials such as glass or water. These extensions allow light to transmit through a surface in a physically-plausible manner, reproducing effects like the bending of light through thick glass, colored transmission as in stained glass, color attenuation that can occur where surfaces become thicker, and the dispersion or blurring that can occur with roughened surfaces. 
 
 ## License Information
 
