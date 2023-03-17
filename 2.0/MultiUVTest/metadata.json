@@ -15,7 +15,8 @@
     ],
     "tags": [
         "core",
-        "testing"
+        "testing",
+        "issues"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "MultiUV Test",

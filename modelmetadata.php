@@ -4,6 +4,7 @@
  * PHP script for automatically processing metadata files in the glTF Sample Repo
  * And creating the necessary support files including README and LICENSE
  *
+ * Copyright: 2023, The Khronos Group.
  * Author: Leonard Daly, Daly Realism
  * Significant contributions from
  *	Marco Hutter (JSON design, tag structure, and overall design)
@@ -32,7 +33,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.20.25';
+	public $swVERSION = '0.21.28';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -579,7 +580,7 @@ $useUserModelData = false;		// Update model metadata
  *		need to be included here
 **/
 $listings = array (
-					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array(), 'summary'=>'All models listed alphabetically/'),
+					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array(), 'summary'=>'All models listed alphabetically.'),
 					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core'), 'summary'=>'Models that only use the core glTF V2.0 features and capabilities.'),
 					array('type'=>'List', 'file'=>'Models-extension.md', 'tags'=>array('extension'), 'summary'=>'Models that use one or more extensions.'),
 					array('type'=>'List', 'file'=>'Models-issues.md', 'tags'=>array('issues'), 'summary'=>'Models with one or more issues with respect to ownership or license.'),
@@ -702,7 +703,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 		} else {
 			$tagItem = '#all';
 		}
-		$otherTags[] = sprintf ("[%s](%s)", $tagItem, $listings[$ii]['file']);
+		$otherTags[] = sprintf ("[%s](%s) - %s", $tagItem, $listings[$ii]['file'], $listings[$ii]['summary']);
 	}
 	fwrite ($F, "## Other Tagged Listings\n\n");
 	fwrite ($F, "* " . join("\n* ", $otherTags) . "\n\n");

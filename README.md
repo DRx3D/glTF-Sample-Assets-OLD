@@ -6,8 +6,11 @@
 
 [![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
 
-## Preface
-This version of the User Interface was released in March 2023. See [Obsolete Interface]() for links to the previous version.
+
+|  |  |
+|-|-|
+| [![Glass Hurricane Candle Holder](./2.0/GlassHurricaneCandleHolder/screenshot/screenshot.jpg)](./2.0/GlassHurricaneCandleHolder/README.md)  | Glass holder using Materials Tranmission and Materials Volume extensions. [[Show]](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main/./2.0/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)<br>Credit:<br>&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for Everything
+
 
 ## Introduction
 
@@ -17,13 +20,13 @@ This Repository is a curated collection of glTF models that illustrate one or mo
 
 All models are tagged to allow easier access. These lists simplify your access and review of the models. All lists include the model name, screen shot, link to display the model in Sample Viewer, a short description, and the license/credits for the model. The following lists are available
 
-* [Showcase](./Models-showcase.md) for models that are showcased in Khronos publicity. These are usually complex models with high visual quality.
+* [Showcase](./Models-showcase.md) (#showcase) for models that are showcased in Khronos publicity. These are usually complex models with high visual quality.
 * [Complete](./Models.md) for a complete list of all models.
-* [Testing](./Models-testing.md) for models intended to be used for testing of viewers, converts, and other software systems.
-* [Core Only](./Models-core.md) for models that only use glTF Core V2.0 features and capabilities (no extensions).
-* [Video Tutorials](./Models-video.md) for models used in any glTF Tutorial video.
-* [Written Tutorials](./Models-written.md) for models used in a written glTF Tutorial.
-* [Issues](./Models-issues.md) for models with one or more issues that need to be resolved.
+* [Testing](./Models-testing.md) (#testing) for models intended to be used for testing of viewers, converts, and other software systems.
+* [Core Only](./Models-core.md) (#core) for models that only use glTF Core V2.0 features and capabilities (no extensions).
+* [Video Tutorials](./Models-video.md) (#video) for models used in any glTF Tutorial video.
+* [Written Tutorials](./Models-written.md) (#written) for models used in a written glTF Tutorial.
+* [Issues](./Models-issues.md) (#issues) for models with one or more issues that need to be resolved.
 
 A summary of the model license is shown in each display, but see the `README.md` in each model's directory for detailed license information.
 
@@ -49,7 +52,7 @@ Sample models help the glTF ecosystem, if you are able to contribute a model, se
 
 ## Other glTF Models
 
-For addition glTF models, see:
+For additional glTF models, see:
 
 * [Khronos glTF Asset Generator](https://github.com/KhronosGroup/glTF-Asset-Generator) offers an extensive suite of test models to exercise each part of the glTF specification.
 * Cesium's [demo models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Apps/SampleData/models) and [unit test models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Specs/Data/Models).
@@ -64,4 +67,5 @@ If you have any questions, submit an [issue](https://github.com/KhronosGroup/glT
 
 ## Obsolete Interface
 
-To make this repository cleaner, the previous _glTF-Sample-Models_ repository was archived to _fill-in_. All V1.0 models were removed from this repository. All non-model folder READMEs were also removed, but the functionality was preserved. Main branch URLs to all glTF V2.0 models did not change. READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
+To make this repository cleaner, the previous _glTF-Sample-Models_ repository was archived [in place](https://github.com/KhronosGroup/glTF-Sample-Models). All V1.0 and _sourceModels_ files were removed from this repository. All non-model folder READMEs were also removed, Main branch URLs to all glTF V2.0 models did not change with the exception of changing the branch name to _main_ (from _master_). READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
+
