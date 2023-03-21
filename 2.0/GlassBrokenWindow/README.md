@@ -4,7 +4,7 @@
 
 ![screenshot](screenshot/screenshot_large.jpg)
 
-Screenshot from the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) using the Field environment with an ACES tone mapper.
+Screenshot from the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) using the Cannon Exterior lighting environment.
 
 ## Description
 
@@ -14,7 +14,7 @@ This asset demonstrates the combination of two transparency methods in glTF: [KH
 
 `KHR_materials_transmission` is the recommended method for reproducing refractive materials such as glass or water. This extension allows light to transmit through a surface in a physically-plausible manner. 
 
-The material uses a Metallic texture to simulate the strong refractions usually seen along the edges of broken window glass. While this is not physically accurate it does help compensate for the lack of true geometry. Colored edges in the  baseColorTexture also help to colorize the broken edges.
+The material uses a Metallic texture to simulate the strong refractions usually seen along the edges of broken window glass. While this is not physically accurate it does help compensate for the lack of true geometry. Colored edges in the baseColorTexture also help to colorize the broken edges.
 
 ## License Information
 

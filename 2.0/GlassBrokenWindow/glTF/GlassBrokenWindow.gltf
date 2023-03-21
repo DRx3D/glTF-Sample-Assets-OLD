@@ -75,14 +75,14 @@
         {
             "bufferView": 0,
             "componentType": 5123,
-            "count": 1728,
+            "count": 2208,
             "type": "SCALAR",
             "name": "accessorIndices"
         },
         {
             "bufferView": 1,
             "componentType": 5126,
-            "count": 584,
+            "count": 776,
             "max": [
                 0.255940437,
                 0.506541431,
@@ -91,107 +91,107 @@
             "min": [
                 -0.25205946,
                 0.000151759145,
-                -0.0184137132
+                -0.0184137151
             ],
             "type": "VEC3",
             "name": "accessorPositions"
         },
         {
             "bufferView": 1,
-            "byteOffset": 7008,
+            "byteOffset": 9312,
             "componentType": 5126,
-            "count": 584,
+            "count": 776,
             "type": "VEC3",
             "name": "accessorNormals"
         },
         {
             "bufferView": 2,
             "componentType": 5126,
-            "count": 584,
+            "count": 776,
             "type": "VEC2",
             "name": "accessorUVs"
         },
         {
             "bufferView": 0,
-            "byteOffset": 3456,
+            "byteOffset": 4416,
             "componentType": 5123,
-            "count": 36,
+            "count": 6,
             "type": "SCALAR",
             "name": "accessorIndices"
         },
         {
             "bufferView": 1,
-            "byteOffset": 14016,
+            "byteOffset": 18624,
             "componentType": 5126,
-            "count": 24,
+            "count": 4,
             "max": [
                 0.2221247,
                 0.4732467,
-                0.00380530278
+                0.0006317319
             ],
             "min": [
                 -0.218243673,
                 0.0334649868,
-                -0.002544678
+                0.0006317319
             ],
             "type": "VEC3",
             "name": "accessorPositions"
         },
         {
             "bufferView": 1,
-            "byteOffset": 14304,
+            "byteOffset": 18672,
             "componentType": 5126,
-            "count": 24,
+            "count": 4,
             "type": "VEC3",
             "name": "accessorNormals"
         },
         {
             "bufferView": 2,
-            "byteOffset": 4672,
+            "byteOffset": 6208,
             "componentType": 5126,
-            "count": 24,
+            "count": 4,
             "type": "VEC2",
             "name": "accessorUVs"
         },
         {
             "bufferView": 0,
-            "byteOffset": 3528,
+            "byteOffset": 4428,
             "componentType": 5123,
-            "count": 675,
+            "count": 747,
             "type": "SCALAR",
             "name": "accessorIndices"
         },
         {
             "bufferView": 1,
-            "byteOffset": 14592,
+            "byteOffset": 18720,
             "componentType": 5126,
-            "count": 150,
+            "count": 204,
             "max": [
                 0.02858464,
                 0.5166226,
-                0.0144322058
+                0.0159997828
             ],
             "min": [
                 -0.0222872924,
                 0.5065515,
-                -0.00767836627
+                -0.0038979766
             ],
             "type": "VEC3",
             "name": "accessorPositions"
         },
         {
             "bufferView": 1,
-            "byteOffset": 16392,
+            "byteOffset": 21168,
             "componentType": 5126,
-            "count": 150,
+            "count": 204,
             "type": "VEC3",
             "name": "accessorNormals"
         },
         {
             "bufferView": 2,
-            "byteOffset": 4864,
+            "byteOffset": 6240,
             "componentType": 5126,
-            "count": 150,
+            "count": 204,
             "type": "VEC2",
             "name": "accessorUVs"
         }
@@ -199,22 +199,22 @@
     "bufferViews": [
         {
             "buffer": 0,
-            "byteLength": 4880,
+            "byteLength": 5924,
             "name": "bufferViewScalar",
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 4880,
-            "byteLength": 18192,
+            "byteOffset": 5924,
+            "byteLength": 23616,
             "byteStride": 12,
             "name": "bufferViewFloatVec3",
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 23072,
-            "byteLength": 6064,
+            "byteOffset": 29540,
+            "byteLength": 7872,
             "byteStride": 8,
             "name": "bufferViewFloatVec2",
             "target": 34962
@@ -223,7 +223,7 @@
     "buffers": [
         {
             "uri": "GlassBrokenWindow.bin",
-            "byteLength": 29136
+            "byteLength": 37412
         }
     ],
     "materials": [
@@ -231,18 +231,17 @@
             "name": "WindowFrame",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.8633094,
-                    0.8633094,
-                    0.8633094,
-                    1.0
+                    0.86,
+                    0.86,
+                    0.86,
+                    1
                 ],
-                "metallicFactor": 0.0,
-                "roughnessFactor": 0.2
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
             },
             "occlusionTexture": {
-                "index": 0
-            },
-            "doubleSided": false
+                "index": 3
+            }
         },
         {
             "name": "WindowGlass",
@@ -254,61 +253,61 @@
                     1
                 ],
                 "baseColorTexture": {
-                    "index": 2
+                    "index": 1
                 },
                 "metallicRoughnessTexture": {
-                    "index": 3
-                }
+                    "index": 2
+                },
+                "roughnessFactor": 0.05
             },
             "normalTexture": {
-                "index": 1
+                "index": 0
             },
             "extensions": {
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1
                 }
             },
-            "doubleSided": false,
-            "alphaMode": "MASK"
+            "alphaMode": "MASK",
+            "doubleSided": true
         },
         {
             "name": "WindowClasp",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.187050357,
-                    0.146302208,
-                    0.0941980258,
-                    1.0
+                    0.18,
+                    0.14,
+                    0.09,
+                    1
                 ],
                 "roughnessFactor": 0.5,
-                "metallicFactor": 1.0
+                "metallicFactor": 1
             },
             "occlusionTexture": {
                 "index": 4
-            },
-            "doubleSided": false
+            }
         }
     ],
     "textures": [
         {
             "sampler": 0,
             "source": 0,
-            "name": "WindowFrame_Occlusion.jpg"
-        },
-        {
-            "sampler": 0,
-            "source": 1,
             "name": "WindowGlass_Normal.png"
         },
         {
             "sampler": 0,
-            "source": 2,
+            "source": 1,
             "name": "WindowGlass_ColorAlpha.png"
         },
         {
             "sampler": 0,
-            "source": 3,
+            "source": 2,
             "name": "WindowGlass_OcclusionRoughMetal.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "WindowFrame_Occlusion.jpg"
         },
         {
             "sampler": 0,
@@ -318,9 +317,6 @@
     ],
     "images": [
         {
-            "uri": "WindowFrame_Occlusion.jpg"
-        },
-        {
             "uri": "WindowGlass_Normal.png"
         },
         {
@@ -328,6 +324,9 @@
         },
         {
             "uri": "WindowGlass_OcclusionRoughMetal.jpg"
+        },
+        {
+            "uri": "WindowFrame_Occlusion.jpg"
         },
         {
             "uri": "WindowClasp_Occlusion.jpg"
