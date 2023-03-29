@@ -1,10 +1,10 @@
-# LICENSE file for the model: Duck
+# LICENSE file for the model: Glass Broken Window
 
 All files in this directory tree are licensed as indicated below.
 
 * All files directly associated with the model including all text, image and binary files:
 
-  * [SCEA Shared Source License, Version 1.0]("https://spdx.org/licenses/SCEA.html") [SPDX license identifier: "SCEA"]
+  * [CC BY 4.0 International]("https://creativecommons.org/licenses/by/4.0/legalcode") [SPDX license identifier: "CC-BY-4.0"]
 
 * This file and all other metadocumentation files including "metadata.json":
 

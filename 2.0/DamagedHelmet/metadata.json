@@ -28,8 +28,7 @@
         "core",
         "showcase",
         "testing",
-        "video",
-        "issues"
+        "video"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Damaged Helmet",

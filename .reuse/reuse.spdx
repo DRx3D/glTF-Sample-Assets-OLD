@@ -2,15 +2,15 @@ SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: glTF-Sample-Models
-DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-52300573-3112-4407-bb07-f645a7fb50bc
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-6e6b4d19-d6c8-4052-bfb7-1ca1c860d4fb
 Creator: Person: Anonymous ()
 Creator: Organization: Anonymous ()
 Creator: Tool: reuse-1.1.2
-Created: 2023-03-16T23:28:53Z
+Created: 2023-03-29T04:16:51Z
 CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a2f99bc1fac7d5cf3e81ffcf839eab41
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ca91e7f6ef3ed71053049a46ff0578ed
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-29a9d05f1d9801e96a0c3d6e5ffe4835
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-92819bcca2bf240cc96ae0ccc220cfff
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-7161c74c0d1731c6970d5d02b5fca7a7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-30cc2be10c02cb11eeb778e7bbb43205
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-175171941f84e95ae30631cf1d95e95e
@@ -82,7 +82,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-c33776b37fd51645a0254e0daeb9ea6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-280bc9921bd725d4c22def90b6c4fe36
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f5fcea286f8e6af654c520ac95f256b6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-54628906aa3468a7af479cbf755276b2
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-988e88c2b6ba5d6965368f6bbc4992ad
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bea7a650219756a3555b0e4a32be9cdf
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d28500a721e0a14d198d182d3ce2691d
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-941d81cc53611bf00bc1ccb1c3bd940c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9e3e685be064734357241596d746389d
@@ -112,7 +112,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-f055559fe36c311c93be639a3b68f4a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-8650bc7e15b7252aca87906fd6fff122
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4be12b6463e9bea6b6ce5e6337e0802c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2213b985672dcf4c93a5149944e93a63
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-f58b5f62a64040bb3ff44898b32eaaac
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c47332fe1e0c818e096a8cc556d04188
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6dda674c037051a00af2adbd5f979767
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-48f43379928bf090f52fa355649508c5
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2318f4a108ec2e0907d3b501e193d7e6
@@ -122,7 +122,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-004e51588559409a1e5c52fd10777ee
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-b1b399d39f825fb4ecb10e59a1e1ea7a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f7f2db75321d8514e3b044f540a56fb9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-bd720a1bd8a5b59eb9255a0d1645ab50
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-1cc6d70b97ce6f171ecbb7bad919687c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-cd894e00abb6b40b572f1253260c8977
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-98a52aa20948b2841ac942a841dc29f9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-13770b83a36a354b69b05cbf5f18f332
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6a0918874ce96b60da6f46ddd21875d1
@@ -137,7 +137,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-82a6409fea744a322ca65680a5fb532
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-b0065afb637d44be4176ead4c69cf721
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f7109e4291e1d3b328f0f0b016235f7e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c29ee7f8594c1d477b660cffbceccde6
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-9b0fe54ab8be99fe6740e39eb4049d61
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-cabbd0f7fc83514ae630d20503768546
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9f3185b17857db3eb9bc4eb78ebd8219
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0104b5db5b9354c1814db26f3a430d44
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-88d76e9e89f5c5daf3088691a9db5e4e
@@ -158,7 +158,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-2ca301fc5cc80729eec15d32b69a870
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4d0b274255a8c741703449512b80d817
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5ab9ee4e253d1cc0cd44ac3aad14fb74
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-24a65bf686784f4fbfe4954e6e2ccfc5
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-736eee35a5a4fc85a8abc9f118658b17
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f9651924384db82cf13cff32e8d9a7db
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ab6c37c675947d4f5fac6472bff102e4
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-bc4919be2a6dc1d4358f8607e9c48d8a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c1013a2bbbde00e65ea3e5afaf1089c3
@@ -174,7 +174,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-b3a54df0e92facf44ff290e8ef783c9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-adc458ee7217df77b5eb6c11a1abc34e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6d465ad369878bf25982ce3c44e7897a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d8619f05929ad4a11b3b88b77d1726ca
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-2a859b50e408b5a6e55e551cce449237
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a0d73db450cbbc1692656f1a244b925f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1d9110cfd1ca2cb3e9c30ce363126b0f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-47e4a8715ad820b08ca8aa9d28307262
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d5f89382af40a446386718cb6588ecdd
@@ -186,7 +186,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-9a06b646aef73b8be82c42ab09d3a36
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3bd3cc3d4eb3ff267889fb3c82f60113
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-7cc1293e3e5b48e3f7de746fa1fedf15
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-738ce390d50208d0ec3e8305433fe15c
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-aebb84507a3f26fe84e0aea602fcd267
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c4e3b79cbad224376c8d215b425cd7da
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-e0dbb0777916078947a66bd4ff5f7a62
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3667691ecb08efaf363401143bfadfd7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-7caedd30327a3c9020a57b056bed8766
@@ -223,7 +223,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-22963b06edef92a9cebbf051e1c07de
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5357c7433a51bb4befb8843fc3cb2f16
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9ccdf9ddb5c26e390615d681ec1c5cb6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0a8151b2859546536ac8cc244efc4c7c
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-a19216a1adad82217b61212b5da33a87
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f899e2a98ee300628781acdd91bab914
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3e7f5a2d030e1fa280ab3451fab90d11
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d3efa522594e1abe7466a9ffdf459cf6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-60217dcb78c0ad2dde44878a7a8eb580
@@ -240,7 +240,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-9b91c772c5f976cc0452739df0ebd14
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f2dd4ba05f30be572a492b47b4407b24
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a75a143aa09692dbd128d6f3f8bb11e0
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c525620a8f190ac81318d949d4d22e66
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-5d42c28e3e8739315a5e3d735dcf08e2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f44fda614add24b926fd787fcf80bf46
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f99be7e27d8c4799152fceb06e82ad1c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4b01acb2d8f4ce90b715fed56ed7cce0
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5238de525765a840143273535c8cfb79
@@ -250,7 +250,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-6be9c0826efc643c25983c963698019
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fbc212d03ecf2e504ed49a4554b46997
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4ba2214f4e0af03a95d355acad86dcf2
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d881cb7f74d316784af5fa8e744560ea
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-b6ea3116135ab389247514f6a8e90cff
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-5b933d761c1bf0c85610832d00a99797
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-975aa2ac1d5ddf10b9dc72d6e9b84b34
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3769976dd2740cfdba7502be2846f584
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4eaeebba3d54319b7cf3e44b013dec24
@@ -259,7 +259,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-d266539f34df98a3eeb37f008038b13
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ee615bce862c1c56d0f36c278e8f204a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-78f4300c27e3c15d0372b197d4b07f70
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-291f8dcdaee1b2080e80064c6a0f0bf0
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-f55d57df280e910f82b84bfa1e584259
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-718bc7cc466ef511679434adf64ed65a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-386a52143428f84c538c412a68f83a14
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-343851bb19e9abc8c494c54dff40119d
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2779eb7bbe1b5aa258f2f3c5c1eba360
@@ -269,7 +269,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-82ca672e22502a6815f0878ac6608e1
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3b383c8d1c6e47a831ede34202f285f9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4fd089b1792517b9da08be43cb957d24
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0ef54e1ea2205689375cf6c2de40daa4
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-e5e8176531de575aa823e43eba4a33fb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-dbd6a25fd3477805700fc98211697e54
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-8531a82ed7f2d99490c98dbdd58537f1
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5f17fe9d545bae6e5849d227ad99a74f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2ad37b4bfec166ed9332657954af1ce6
@@ -278,7 +278,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-b01438b7b2667d98ffea64248e54872
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fb196e2ba420b5ed90de6db6fd818bfa
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-bc2267213dac24ca61f47718d85f38a2
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-54467c7f99f970100909eb94987c7031
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-58127f094cb38a14f771f568a4180545
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9d38bb8197199b4ea4f59eb82147a662
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-252a3398d5b25bd0665e7ba82e0cf130
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-8ad4c7696852aa0779718cc382f59a21
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c35dee5587b9a0c9908bb66c6f1a79f7
@@ -296,7 +296,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-242a27d2a6a959e0be4abc17f3f94ae
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2a67b98ce8a72c8e6c6180f4bf56ecac
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1747345f399e9d17842e72efd0a7d2ed
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5b5da16516f01a00045cde5cd13f7b0e
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-f7dcb54fd05a5497e651dd75aa399129
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c174d1b65df9c8b47c3700515c6ea1c3
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a35e7425a6e63c76a65c159efa8b3c97
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-cdd107a8483a5d748bd77cd1b78242a0
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c7fd4f75f1c6574767b7b7dcadfa6637
@@ -305,9 +305,9 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-c1bc992bd29617c39a9438fa98d4bda
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6cb17fde620b8cd8559ab72d05bf2cca
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1fe9cf1bfff2008a18b742386f29cff5
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f7c6ae679398ce43687e823638be1782
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-90250327fe96efaccaa2e0e0d9b36bba
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9fb9ec8504da556a5bc5b6b8701fb2c9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-8e7b3c003e2572e3790ef3ca8cf771e7
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-d6a25178bc32a33e2e65c415f314da72
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bac2a6d53cdb0b97b8510e126d8b6ec1
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-537fa49436e0ec39ca5fde6cd5cd25c3
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1fc19a1d21dda518e9a7749d9b1db0a8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-23c1c406332ab1c8816ee8da806cefae
@@ -316,7 +316,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-c8559e72444ee4e0b0ca373972f5fe8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-21b8150dbe0a1f6c234b207e4f5756af
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-87691ad14a5e9114ee6c2458b1e3bfe7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9fc8525e8873ab395bdb376132dabd12
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-e7a3cca06288cc4da8388e265b91cb1d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d3ca6122558fe33a91ff6f8adc7e1036
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9c34cd9d9b8111158ca57d5487b52350
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5caccae6454ddca41831e0ed077f8a2a
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-71d425bc3571cd458af8f454f6e4b32a
@@ -335,7 +335,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-f51a4120271862e5a18ae9b17f0e2ba
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-716767966dc91c38d8c6f7fbe7bdd0b0
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6e724bfd37d02d9cccc4facfc96d5a39
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-895d65a1d54725f3e0ccad009530f42a
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-1525cf9369cc2a0af4dc96a765bb3609
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-46c1ffe56e9483107415de3aaf9e705b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d11a185d4b6e83605fb84865f892e9ce
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3245999afc1d79d026796e716e8681b4
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-351787ceb74f8d7d60fb0beccd497040
@@ -351,7 +351,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-313df4720892262a28720065d70fd5b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-11943f53cbd38789d7f439e25b1926f6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-8296bd6fbca7a8f7fb5fd471b569d1e6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0eb17b7fe25bab2495e4c2eeb52c2c3d
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-dae0ffd62e163cb6ac49091e6f00e463
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-824cfef55d527f3e382789a3a2e97290
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-02b66ce15abba489888685ee867a9a1c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-12a7bb2b0fecbbac942deaac02a0e5b7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-958d86bc26c361971a56c4c69db64a0c
@@ -369,7 +369,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-6b4788710ad45a73f32d50be83609ba
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4dfde9a3f1c585a39f1be9c302ee757b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-41e098e9b783a4ed31124592fad00fd6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-77b2270828869c7b0d443c76f4df1abb
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-3fb5ec5cbb8d1d8fdd71db4e90e425f1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ce2e5129842d63f224a0ba4ca2af499d
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0a6c8489454da22b4dae97e9921720a0
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fba16538cfa13361b3cd608deca220e7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-bf10f7105776213ee96c2cf5f1231814
@@ -425,7 +425,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-76f641cb21666ed8ef0fd1af5e867ed
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c54eb8d520aa86c1d7c5601f12e05859
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c6d473797eaa80e7cee189515a539bad
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0966419e1943592443f7edc84f52721c
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-d8d3783058dc67fb2c140e6a445b9bf6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1062b2ca50117c8353008fb81c3bec94
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-70abc735b25ed68ea0e0c65a3fa9d570
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-33bfee6bc5e87e8941af2da7f38386eb
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-950305664e3cf61ec44ed3f85affd1cb
@@ -454,7 +454,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-5678009e4cd50cb1e28e2eb7b1bade1
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-cbbb3d631b43014d72b39b03869bc267
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5ba0d7b277ecd08cfe878bf21f0fb249
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-de4b84dad14400b275b1e09d71762fde
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-d48c12b05d7ea25151ccc8a5ef918cf2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9a9c4ce6861633f41265b72b20d7f699
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-568486ae553d4c156c0bd6a263091ba1
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-41d8df3d8892ff041d8ff0c30411dfa8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-dc24b69b72f2a2ea23e5b9415545b948
@@ -479,6 +479,18 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-3e0a2836f919816bfce43ae2f0c6057
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-72a487695e0a65997dce12b083d7b716
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-60affa9adad53dd57599e03d6309897d
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d29bf714af7d1e8c961b0bdce0aa9b0d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4c697c1ecccaaca63b07cedf20d3eb91
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1b39a5ba15001959f7b3789853e7f919
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-452e07bde552652807aa8a8290f62675
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6b3e1f15b7018f3700410823de7c1071
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-8f16d4c59e7185c0aa8f0f27dd32eb49
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-5c6cdac60838eca8d9440924971ea61d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-83bd87589e799591e8c728653e0770f0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-18c4d175c1164af439df9ecbd4cc573b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0a56986d44c2670ea2b8f0e4714e39a9
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d8a629b576a6856936fb30dd4dc44ec1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e9f9fe979ee9f363575bb444e6614a94
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0d7ab51c27d0cdedbc9e3094092f518f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-35221f9aad7458806b149af94c846046
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6eb4ccd1ec8edacafc2d1b3a7d6694ee
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-bfb6605ac6e6b59c2d54da13055f7bf6
@@ -490,8 +502,19 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-4920dccdd393eb6aac76d6f72b54720
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2ae1759c65d2972efda8a101f6875515
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f6e86115d4380ddc7953060d47addb47
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-7c99442749dd4f15e55afb1554c242b9
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-607aab7517f89feea5601f8b13da2e4d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b2aa9e31e9fdc5342912490e4f6ee47c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c79caa622bb8f5e3985de29b229aa25a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1d14ccca3368a83aa351824df579676e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2637f43557b88fbe0834558eae75dd1a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-598619c756e5266ecc91c4051c2e183e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6eb381f15bcad3fa3d646ac8b5e4bb3c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2e45f62b74d532d34cc92dd2b99a5f8e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c4cacea0b91e9d5634c106af0a0b01df
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2a27f7147932945a511bebb39f3590ee
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7227c9d5a9550840022ccae24f2cd409
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9d09800fba452679a1382cd2e3c8b182
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-2ca06082e7ca63f2dcf3a5b03b55bd4c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a96de67cd064c649c98ad9fbcb8e52d3
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a7cd1e565d103fab14cfad0f014be3c6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0ad11f4fac5e593e442207f5350fa91b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-eae9b04c47e9c5ca31e25b6db4456c89
@@ -561,7 +584,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-849aaf14f5f54224651f433c76046fc
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2ccd8ea35a4b22018fdf3ebc0c340f60
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-07a1fab61f01deaae384610a49fe639e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-bbbf209a3a8392e304688f205f78fdbe
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-c0fba4b6cffe8996787dc89e72adf325
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4a53e480bbb66cb004db0827dd3530f8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-000a26f8b45a3427439e426ac9d8bd44
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-4d5e7cbba0a703c10cc97a1163346632
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-753d1149b7f7de6be779c36e6519e3ad
@@ -601,7 +624,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-02cff9003ebcb84d78713800962fa24
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9b562fcd91001bb85ac0394e0cc1baca
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d93116d3cf16cd441ccc42a84023220f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-eee57ff35fa6a95881cb80d537a884ea
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-0f6c5490c747dd5a15a625581a1f0235
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-563f8b428233c62a0fb131f3ea953de9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9cfbb4bb581820a3c64e29b0adbfcc48
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ece7bcc62d8ef9dbf67b52e13d246f77
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0732fc6b1a035fa364c0b9ebf6e98d36
@@ -622,7 +645,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-7f9d00cb27f45d44c6fb964b1417ea8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-107fcebd36ea3ed405aa599e69b287f3
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ffe9c787c93aed26343bab70100712be
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-7948f45aac9de30f123352241e6d4fa6
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-2345050ccbf1985009a685c43520dbe7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-020cca91d56af54d815ad3f2e6863911
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-dbe0460a5c3f5b0de40c3449085b03bb
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-db6f89e82c9fb6f488b5c357044c9c39
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-2cd5c45541085466e68b9a99e2faacb9
@@ -670,7 +693,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-767ec2ef538d98e4080f037d1508ad5
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3c2401fd7e00de70fe88d743248ef408
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-e87dc8545bc2f3f3c4fe921633cffd93
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0f2d474784602474e897523398268763
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-1042fdb2b373125037621e9eed8aa5fd
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c7cb632dad75894ffb68d2504ae43758
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6a21de13f179812f6d0bab272853e89b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-eb7d8a6762abd2c50363f4109df5248c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c6e2bd144238026285431bcab4bf7790
@@ -721,7 +744,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-5c090303e023ff00a511469fe1b9ca5
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-12041d9f0345a7bca450f833d0bf69e8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c36c143274f3bfcc4478febb58875675
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-94f9104e746fc232261db770531ef8f1
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-c0eb31d0680e886f930761fae5eccc75
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-40df0dc25854fab2cfa04833db77678f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-cc235c5e8ae38d578998668f4b18c770
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-22ca4a690689c1dd1ff4c29b8ff60ad5
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-37d816d7dce7941d91a375c1eaf8d101
@@ -740,7 +763,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-dd6a00c0f7796c661d68d88b55cc5d8
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a4a8922659d615368602e3ccb4d268cb
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0d210dc1deb05a3bd6b24223578c067d
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-33d473b59b241d1583e9edd3152b4eff
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-43d7c3459e88f1551c31f674e41b2f7d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d095d89045528d077ed53eb6fa0c06e3
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a02ec4f60cf73a61dab88da8e854c0df
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0fc4ff503d53012068657a29792f161b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3e11310e5cd233c324f8fba99347f2f4
@@ -750,7 +773,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-3dff97d60708746e8eafec0702ebb19
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-45b119921315ea39ac2c2db79fdc667b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1b65c06febb4b05049fa7b6389b9e6b7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c497f88d222e4c88d93a509080d2588f
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-a7711ecfd655cd6f4c8445d0dc699cfb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6de82dd13056b64d603079a9aef2771f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-68e12427963f2ef1132c98edfb027e6e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ea23e9bd1ed4f40645b01fd5f5c9faa9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-38651223489ffd62288664fd1b0f023b
@@ -760,7 +783,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-b369825bd664f86503233f2ff845204
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-269986a41ffb9327738ddfcca370674b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fc3fe32df865d0889cda8e2dda077e18
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-0b29d6358ae6450f2838ef947a4a47c3
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-14da1819362df02795d5ece9849d144e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7af6d60a26c134e51483354b0bd3680e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-9622e74f817632d931b6b9b70d4800fe
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-5f951404606389a8837331dd7c75def5
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3b475a7e254d1cac5f3421438df94e94
@@ -1025,7 +1048,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-93167e7f5389a53eeb95a606683f00f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-f4e4f2090314eb307977101e04dcb5ee
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-6ac4706e8df5c1ea24b656d3482c965e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-e187d678c464ef8dc186f7d42080c1bf
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-bbf96f139580988a30ac85acbde5095e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-43defa069e0741df80b703c2057adbc3
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fc75eab67b1c4b7fd798ce7a4f17f1e4
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1b31f33bbe02d1dd89db12a7c35b4d7d
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-911c016475f46e527a8084cf4f448137
@@ -1172,7 +1195,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-3b957e018d3c2c1b8afcefcb086b4d9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-86348f245d419976db517b726a6eed3f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-1051623a38a0b76debad6fc34384535b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-34424292a7c6d3a2a1ae28443f36d14e
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-41dd39ddaecc8780e8dbdda76615519b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c80b0fd2702b7b056a664587a7eeef72
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-570c980dc130324e1b1a35ae264cb683
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-cd16a565397122f9aa612c3962399166
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fa513a6566a6846ed4e463e278cd20ed
@@ -1199,7 +1222,7 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-64339ab6371ab610df9970d7d6ab2da
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a4f73ac7c31887ac5f0115f26fbb9d3f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-39042ed4fe0e8de0d34382d4f7cba583
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-42a11882b26df07f3916938f8ae8df48
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-421a0bd8a60a6610681a6b2592d470eb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-24634135744a2791af6abd2894b7c70f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-e5cf2a23cffad280b621d563a2bad134
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-855aac5292a9b7cc3385b873cc0d15c6
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d43610628b67ad1522d772c9e129baf7
@@ -1279,17 +1302,18 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-1f385be454db417bf4dd84bb830a57c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a439e1b8827388bfe2d914b40fe08a65
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ffb6b1316e4bb7f4974a7f4a5b957a81
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-b60a30f2a474c7bc1f6bce081c8d296f
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-92e9b583e1538c3b33466cd55280e68d
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-07364e845b3b691f7d1d3594a85c7efb
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-d10df21e2db5b2ac2f1ca9d8be3ba5a6
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-239c6683af4ee58e803c380aa703e7dc
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-7be5b0f88bb59462915c95c94e6bbee8
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-c8a5555d0411b17db0eddbc89ea44681
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-ce510298f3b20137f423cf1151388be3
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-238ff244226c18f231e1012dc8068034
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4b3ec1830a8ed1edd831e46341935fcb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-965d1f7155ed7b96dbda5dfb49339fad
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-313cb549d742b2f930a9db00a55b8208
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-92aad8568d63f3f52bb43f3e81f6d47a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c19bb5a64c1c1aecec7c3f9d4fc405b7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4f1bd39162d4de3cf13f00793d5cd811
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c6e14e552acf77a73dc73b43d5c1125b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-58be9a0a1a69c1881d4638e048c877a1
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-7f019d75fbc3ce4c17c442498d8f658b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-a138205f5aa30df4731cb9aa132cf163
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-5186cd98c8ab1aa2dc59cb34adc212eb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-63713fdc2c41a19e70a176d518a4d80a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-590869124121ad8bff2a2710f0d68b84
 
 FileName: ./.github\workflows\ci.yml
 SPDXID: SPDXRef-a2f99bc1fac7d5cf3e81ffcf839eab41
@@ -1306,8 +1330,8 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./2.0\2CylinderEngine\README.md
-SPDXID: SPDXRef-29a9d05f1d9801e96a0c3d6e5ffe4835
-FileChecksum: SHA1: 2d59638744771f63d1470eae0ddafa900eb51f2a
+SPDXID: SPDXRef-92819bcca2bf240cc96ae0ccc220cfff
+FileChecksum: SHA1: 6a87580ad93f77df1454aaaec76abc718034d35b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-Khronos-Assumed
 FileCopyrightText: <text>
@@ -1934,8 +1958,8 @@ FileCopyrightText: <text>
 2017 UX3D</text>
 
 FileName: ./2.0\AnimatedCube\README.md
-SPDXID: SPDXRef-988e88c2b6ba5d6965368f6bbc4992ad
-FileChecksum: SHA1: f44961c70caa143d5071fb4a37d1eb0b369749ea
+SPDXID: SPDXRef-bea7a650219756a3555b0e4a32be9cdf
+FileChecksum: SHA1: b8da314e07c3f479c0d85586ed2331e0316862e3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -2174,8 +2198,8 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\AntiqueCamera\README.md
-SPDXID: SPDXRef-f58b5f62a64040bb3ff44898b32eaaac
-FileChecksum: SHA1: f5bdc41939458d9f9d768d725f1926586e267d42
+SPDXID: SPDXRef-c47332fe1e0c818e096a8cc556d04188
+FileChecksum: SHA1: d012b162e6b2c54b1db5f03afce440045520e2a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -2254,8 +2278,8 @@ FileCopyrightText: <text>
 2018 UX3D</text>
 
 FileName: ./2.0\AntiqueCamera\metadata.json
-SPDXID: SPDXRef-1cc6d70b97ce6f171ecbb7bad919687c
-FileChecksum: SHA1: 14331e8a84f50e8e136ab0a66963a8d68298ac75
+SPDXID: SPDXRef-cd894e00abb6b40b572f1253260c8977
+FileChecksum: SHA1: 2548c8c7148eb67a83166520a6254495ae5a9f1f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -2377,8 +2401,8 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\Avocado\README.md
-SPDXID: SPDXRef-9b0fe54ab8be99fe6740e39eb4049d61
-FileChecksum: SHA1: 0cbc1384b8185e716ba269a587df8e6b407425f4
+SPDXID: SPDXRef-cabbd0f7fc83514ae630d20503768546
+FileChecksum: SHA1: 14e7d063e97a438dd936d0215d1b0292d959b365
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -2545,8 +2569,8 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\BarramundiFish\README.md
-SPDXID: SPDXRef-736eee35a5a4fc85a8abc9f118658b17
-FileChecksum: SHA1: 02db11e911941a046054d703105ebcc7f62eb246
+SPDXID: SPDXRef-f9651924384db82cf13cff32e8d9a7db
+FileChecksum: SHA1: 7a1f23462c8800b54556cad879d6c269171da30f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -2673,8 +2697,8 @@ FileCopyrightText: <text>
 2018 Public</text>
 
 FileName: ./2.0\BoomBoxWithAxes\README.md
-SPDXID: SPDXRef-2a859b50e408b5a6e55e551cce449237
-FileChecksum: SHA1: 71866f54c803370dcfa258b7fc6321e9479aaddf
+SPDXID: SPDXRef-a0d73db450cbbc1692656f1a244b925f
+FileChecksum: SHA1: 5a285d43d84c3ee35927cc7ca13c739391514696
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -2769,8 +2793,8 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\BoomBox\README.md
-SPDXID: SPDXRef-aebb84507a3f26fe84e0aea602fcd267
-FileChecksum: SHA1: d225d481acc3b6c3500c0550381ae8beaf3edc9a
+SPDXID: SPDXRef-c4e3b79cbad224376c8d215b425cd7da
+FileChecksum: SHA1: 85a2d21f2e59a7eb5d0a4849c150a93f88140340
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -3055,8 +3079,8 @@ FileCopyrightText: <text>
 2017 Cesium</text>
 
 FileName: ./2.0\BoxInterleaved\README.md
-SPDXID: SPDXRef-a19216a1adad82217b61212b5da33a87
-FileChecksum: SHA1: b87d12b1b42ef460428051710b8fcd707e39246c
+SPDXID: SPDXRef-f899e2a98ee300628781acdd91bab914
+FileChecksum: SHA1: 9397300344ea010515609ceb6f068e5c2e5babb7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -3191,8 +3215,8 @@ FileCopyrightText: <text>
 2017 Cesium</text>
 
 FileName: ./2.0\BoxTextured\README.md
-SPDXID: SPDXRef-5d42c28e3e8739315a5e3d735dcf08e2
-FileChecksum: SHA1: 7b9262bf23ab66c5560a28b8dff133466379d53e
+SPDXID: SPDXRef-f44fda614add24b926fd787fcf80bf46
+FileChecksum: SHA1: bf447d8998e64904d8a9e225eff1eee2f0b4cd37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
@@ -3271,8 +3295,8 @@ FileCopyrightText: <text>
 2017 Michael Feldstein</text>
 
 FileName: ./2.0\BoxVertexColors\README.md
-SPDXID: SPDXRef-b6ea3116135ab389247514f6a8e90cff
-FileChecksum: SHA1: 6768833a00bf0f50a5c97ff0d9a394fe6bcc0c35
+SPDXID: SPDXRef-5b933d761c1bf0c85610832d00a99797
+FileChecksum: SHA1: 5bc87e29e1c7bb5d6caf4f345ee7e60300687f68
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-Khronos-Assumed
 FileCopyrightText: <text>
@@ -3343,8 +3367,8 @@ FileCopyrightText: <text>
 2017 Cesium</text>
 
 FileName: ./2.0\Box\README.md
-SPDXID: SPDXRef-f55d57df280e910f82b84bfa1e584259
-FileChecksum: SHA1: c4c0617b8c6ae99ac9c66acdf62bf13772023b3c
+SPDXID: SPDXRef-718bc7cc466ef511679434adf64ed65a
+FileChecksum: SHA1: 500877ccb73e00654aaa9de5bd490a0bac8469cf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -3423,8 +3447,8 @@ FileCopyrightText: <text>
 2017 Cesium</text>
 
 FileName: ./2.0\BrainStem\README.md
-SPDXID: SPDXRef-e5e8176531de575aa823e43eba4a33fb
-FileChecksum: SHA1: d01a8da3c0759ea88df820e685265d3a86782f02
+SPDXID: SPDXRef-dbd6a25fd3477805700fc98211697e54
+FileChecksum: SHA1: 4f3f4fecce9c90e56bab60a12f2e612c3ca775d1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-Poser-EULA
 FileCopyrightText: <text>
@@ -3495,8 +3519,8 @@ FileCopyrightText: <text>
 2017 Smith Micro Software, Inc.</text>
 
 FileName: ./2.0\Buggy\README.md
-SPDXID: SPDXRef-58127f094cb38a14f771f568a4180545
-FileChecksum: SHA1: eb7524712b0683d2461d50335566fca96b10292c
+SPDXID: SPDXRef-9d38bb8197199b4ea4f59eb82147a662
+FileChecksum: SHA1: 1d27659dae8df0189cdc1e9963c8a439e08e29b0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-Khronos-Assumed
 FileCopyrightText: <text>
@@ -3649,12 +3673,12 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\CesiumMan\README.md
-SPDXID: SPDXRef-f7dcb54fd05a5497e651dd75aa399129
-FileChecksum: SHA1: d17ce77c05a51f82b14ad36a0532295786422d82
+SPDXID: SPDXRef-c174d1b65df9c8b47c3700515c6ea1c3
+FileChecksum: SHA1: a9297b26c66462265ff81a46da674b2058f19515
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF-Binary\CesiumMan.glb
 SPDXID: SPDXRef-a35e7425a6e63c76a65c159efa8b3c97
@@ -3662,7 +3686,7 @@ FileChecksum: SHA1: 5708b3e6038a015ca2bf9f30e13865703d726f86
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF-Draco\CesiumMan.gltf
 SPDXID: SPDXRef-cdd107a8483a5d748bd77cd1b78242a0
@@ -3670,7 +3694,7 @@ FileChecksum: SHA1: c106d5f28151f09d50bbdb8fb3147916b14cd5c7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF-Draco\CesiumMan_data.bin
 SPDXID: SPDXRef-c7fd4f75f1c6574767b7b7dcadfa6637
@@ -3678,7 +3702,7 @@ FileChecksum: SHA1: e7e9d8a44f99dd47037818bad30f89c2a8d4fd97
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF-Draco\CesiumMan_img0.jpg
 SPDXID: SPDXRef-000c4627bb6312d4e1c1c51e00a988fd
@@ -3686,7 +3710,7 @@ FileChecksum: SHA1: 7486794be7d7ab8f458e2c1b0cd16e773cdad5d1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium
+2017 Cesium
 Copyright (c) 1998 Hewlett-Packard Company  desc       sRGB IEC61966-2.1           sRGB IEC61966-2.1                                                  XYZ       �Q    �XYZ                 XYZ       o�  8�  �XYZ       b�  ��  �XYZ       $�  �  ��desc       IEC http://www.iec.ch           IEC http://www.iec.ch                                              desc       .IEC 61966-2.1 Default RGB colour space - sRGB           .IEC 61966-2.1 Default RGB colour space - sRGB                      desc       ,Reference Viewing Condition in IEC61966-2.1           ,Reference Viewing Condition in IEC61966-2.1                          view     �� _. � �� </text>
 
 FileName: ./2.0\CesiumMan\glTF-Embedded\CesiumMan.gltf
@@ -3695,7 +3719,7 @@ FileChecksum: SHA1: 1accb0dbfe8f239a1c3201fcbf7a11df2cb2b6e6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF\CesiumMan.gltf
 SPDXID: SPDXRef-6cb17fde620b8cd8559ab72d05bf2cca
@@ -3703,7 +3727,7 @@ FileChecksum: SHA1: c1193a2fabd3e6ebefb5c5e0b5ce39c839ad7f6b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF\CesiumMan_data.bin
 SPDXID: SPDXRef-1fe9cf1bfff2008a18b742386f29cff5
@@ -3711,7 +3735,7 @@ FileChecksum: SHA1: 7b261d1ddd0481d5927b04fd821fe90bae02f9b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\glTF\CesiumMan_img0.jpg
 SPDXID: SPDXRef-f7c6ae679398ce43687e823638be1782
@@ -3719,16 +3743,16 @@ FileChecksum: SHA1: 7486794be7d7ab8f458e2c1b0cd16e773cdad5d1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium
+2017 Cesium
 Copyright (c) 1998 Hewlett-Packard Company  desc       sRGB IEC61966-2.1           sRGB IEC61966-2.1                                                  XYZ       �Q    �XYZ                 XYZ       o�  8�  �XYZ       b�  ��  �XYZ       $�  �  ��desc       IEC http://www.iec.ch           IEC http://www.iec.ch                                              desc       .IEC 61966-2.1 Default RGB colour space - sRGB           .IEC 61966-2.1 Default RGB colour space - sRGB                      desc       ,Reference Viewing Condition in IEC61966-2.1           ,Reference Viewing Condition in IEC61966-2.1                          view     �� _. � �� </text>
 
 FileName: ./2.0\CesiumMan\metadata.json
-SPDXID: SPDXRef-90250327fe96efaccaa2e0e0d9b36bba
-FileChecksum: SHA1: ae0930b20583be109a75456e0ebba9f6fc6e17cb
+SPDXID: SPDXRef-9fb9ec8504da556a5bc5b6b8701fb2c9
+FileChecksum: SHA1: 6112a9dc90713c285455ff2e687ed2f5e9592f54
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMan\screenshot\screenshot.gif
 SPDXID: SPDXRef-8e7b3c003e2572e3790ef3ca8cf771e7
@@ -3736,15 +3760,15 @@ FileChecksum: SHA1: 3acf62506bd8d48394f482e392ff47ed633d028d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\README.md
-SPDXID: SPDXRef-d6a25178bc32a33e2e65c415f314da72
-FileChecksum: SHA1: 2e4067cf4ff011449a5ea872c19af7731204c8ff
+SPDXID: SPDXRef-bac2a6d53cdb0b97b8510e126d8b6ec1
+FileChecksum: SHA1: bac5823218804b32b53835dd2c046e5e01bed019
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF-Binary\CesiumMilkTruck.glb
 SPDXID: SPDXRef-537fa49436e0ec39ca5fde6cd5cd25c3
@@ -3752,7 +3776,7 @@ FileChecksum: SHA1: 5a39d80ac60813a07ab7381b4fda4c0949736094
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF-Draco\CesiumMilkTruck.gltf
 SPDXID: SPDXRef-1fc19a1d21dda518e9a7749d9b1db0a8
@@ -3760,7 +3784,7 @@ FileChecksum: SHA1: 4a0a787ad179f466b366397d131531e9ad057df2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF-Draco\CesiumMilkTruck.jpg
 SPDXID: SPDXRef-23c1c406332ab1c8816ee8da806cefae
@@ -3768,7 +3792,7 @@ FileChecksum: SHA1: 9c56dde100cd293d313d8491452488405079f49b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF-Draco\CesiumMilkTruck_data.bin
 SPDXID: SPDXRef-58526d77c0fcf7c2a33d71844ea0dda2
@@ -3776,7 +3800,7 @@ FileChecksum: SHA1: ca7d87087b213c4064783a9e9c2f57b9e81dd1a5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF-Embedded\CesiumMilkTruck.gltf
 SPDXID: SPDXRef-c8559e72444ee4e0b0ca373972f5fe80
@@ -3784,7 +3808,7 @@ FileChecksum: SHA1: b10b933a6573a488f027adc5d57b0b8507229a2d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF\CesiumMilkTruck.gltf
 SPDXID: SPDXRef-21b8150dbe0a1f6c234b207e4f5756af
@@ -3792,7 +3816,7 @@ FileChecksum: SHA1: 8b444c1ae19c94224ef54bc7f3c5bfb5bcbc0e5c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF\CesiumMilkTruck.jpg
 SPDXID: SPDXRef-87691ad14a5e9114ee6c2458b1e3bfe7
@@ -3800,7 +3824,7 @@ FileChecksum: SHA1: 9c56dde100cd293d313d8491452488405079f49b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\glTF\CesiumMilkTruck_data.bin
 SPDXID: SPDXRef-9fc8525e8873ab395bdb376132dabd12
@@ -3808,15 +3832,15 @@ FileChecksum: SHA1: d0137623513ebe026b72eb5093f4d65e459b7d2c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\metadata.json
-SPDXID: SPDXRef-e7a3cca06288cc4da8388e265b91cb1d
-FileChecksum: SHA1: d20bd212989ba2cc8fc7b1d943bc2fe8f7ccbdda
+SPDXID: SPDXRef-d3ca6122558fe33a91ff6f8adc7e1036
+FileChecksum: SHA1: 688d74cb54bf41eaccde84fce3f1e16547fa44e6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\CesiumMilkTruck\screenshot\screenshot.gif
 SPDXID: SPDXRef-9c34cd9d9b8111158ca57d5487b52350
@@ -3824,7 +3848,7 @@ FileChecksum: SHA1: f6a03af767a4d0b1eaf206eb8a48a15f8f5cc935
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-CC-BY-TM
 FileCopyrightText: <text>
-0 Cesium</text>
+2017 Cesium</text>
 
 FileName: ./2.0\ClearCoatTest\README.md
 SPDXID: SPDXRef-5caccae6454ddca41831e0ed077f8a2a
@@ -3964,8 +3988,8 @@ FileCopyrightText: <text>
 2017 UX3D</text>
 
 FileName: ./2.0\Corset\README.md
-SPDXID: SPDXRef-1525cf9369cc2a0af4dc96a765bb3609
-FileChecksum: SHA1: 2bf2b71cd3acc6703aa05cb2bb53bd3919072040
+SPDXID: SPDXRef-46c1ffe56e9483107415de3aaf9e705b
+FileChecksum: SHA1: 50cbd41443fa8a02643049a11339c12644e2d71c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -4092,8 +4116,8 @@ FileCopyrightText: <text>
 2017 UX3D</text>
 
 FileName: ./2.0\Cube\README.md
-SPDXID: SPDXRef-dae0ffd62e163cb6ac49091e6f00e463
-FileChecksum: SHA1: 74206f429a6fe4cea3049a064b3b99a31cf2064b
+SPDXID: SPDXRef-824cfef55d527f3e382789a3a2e97290
+FileChecksum: SHA1: 5bc4c444888973a3c56dda38b8353b28e4cc615d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -4256,8 +4280,8 @@ FileCopyrightText: <text>
 2018 ctxwing</text>
 
 FileName: ./2.0\DamagedHelmet\metadata.json
-SPDXID: SPDXRef-3fb5ec5cbb8d1d8fdd71db4e90e425f1
-FileChecksum: SHA1: 08d4342860a23f9c4baa74b5c8c657132da5a427
+SPDXID: SPDXRef-ce2e5129842d63f224a0ba4ca2af499d
+FileChecksum: SHA1: ba66e7404e88b94d8d4452a772bfe30018268ac0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 LicenseInfoInFile: CC-BY-NC-4.0
@@ -4758,8 +4782,8 @@ FileCopyrightText: <text>
 2018 Public</text>
 
 FileName: ./2.0\FlightHelmet\README.md
-SPDXID: SPDXRef-d8d3783058dc67fb2c140e6a445b9bf6
-FileChecksum: SHA1: d4427eff1ebf2076c3ab5dd14167b1148b81f2c9
+SPDXID: SPDXRef-1062b2ca50117c8353008fb81c3bec94
+FileChecksum: SHA1: 4110c16a27f5b7332fa6d207e4625d79d384f8a9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -5014,8 +5038,8 @@ FileCopyrightText: <text>
 2017 @AsoboStudio and @scurest</text>
 
 FileName: ./2.0\GearboxAssy\README.md
-SPDXID: SPDXRef-d48c12b05d7ea25151ccc8a5ef918cf2
-FileChecksum: SHA1: 22c005c5c8618765b66ee13e0b2a5c4e4470b56b
+SPDXID: SPDXRef-9a9c4ce6861633f41265b72b20d7f699
+FileChecksum: SHA1: 32ba1d2208d7d66961ea1b82c6b32b982499a5bb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-Khronos-Assumed
 FileCopyrightText: <text>
@@ -5223,6 +5247,102 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
 2021 Wayfair, LLC</text>
 
+FileName: ./2.0\GlassBrokenWindow\README.md
+SPDXID: SPDXRef-4c697c1ecccaaca63b07cedf20d3eb91
+FileChecksum: SHA1: 3454903a41db670dc396b0e5dbb877eeaacaaa35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF-Binary\GlassBrokenWindow.glb
+SPDXID: SPDXRef-1b39a5ba15001959f7b3789853e7f919
+FileChecksum: SHA1: f83db69d201d46a42af0eb80c1fa869a1a374a35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\GlassBrokenWindow.bin
+SPDXID: SPDXRef-452e07bde552652807aa8a8290f62675
+FileChecksum: SHA1: 172ee44b9b28c5a279df3f4d85ecda75cd7f9488
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\GlassBrokenWindow.gltf
+SPDXID: SPDXRef-6b3e1f15b7018f3700410823de7c1071
+FileChecksum: SHA1: 05da3c48d8ec4eb5997f745b81ddb517d5d595e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\WindowClasp_Occlusion.jpg
+SPDXID: SPDXRef-8f16d4c59e7185c0aa8f0f27dd32eb49
+FileChecksum: SHA1: 4ac3cf03d43bc0642c2f591d4f02e357168feeae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\WindowFrame_Occlusion.jpg
+SPDXID: SPDXRef-5c6cdac60838eca8d9440924971ea61d
+FileChecksum: SHA1: a54137eb6d9c9475feac6531dbd429fd00f1a9d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\WindowGlass_ColorAlpha.png
+SPDXID: SPDXRef-83bd87589e799591e8c728653e0770f0
+FileChecksum: SHA1: b12d019191b62fa6138f119128c053a6e573aa14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\WindowGlass_Normal.png
+SPDXID: SPDXRef-18c4d175c1164af439df9ecbd4cc573b
+FileChecksum: SHA1: dfe1b5b7d56f0347a9b70877a75483b01e719678
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\glTF\WindowGlass_OcclusionRoughMetal.jpg
+SPDXID: SPDXRef-0a56986d44c2670ea2b8f0e4714e39a9
+FileChecksum: SHA1: 5d5d07a21f2711e29196effb4b5c7cdd06c04301
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\metadata.json
+SPDXID: SPDXRef-d8a629b576a6856936fb30dd4dc44ec1
+FileChecksum: SHA1: dc552c821a8f38d74908cf094fdf953effedabf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\screenshot\screenshot.jpg
+SPDXID: SPDXRef-e9f9fe979ee9f363575bb444e6614a94
+FileChecksum: SHA1: 9bbbe0a93f82d1e49676b71dcb08314a416faaa3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
+FileName: ./2.0\GlassBrokenWindow\screenshot\screenshot_large.jpg
+SPDXID: SPDXRef-0d7ab51c27d0cdedbc9e3094092f518f
+FileChecksum: SHA1: c37b5cd2e122e15a3403b81fb3e010a7882c0511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Wayfair</text>
+
 FileName: ./2.0\GlassHurricaneCandleHolder\README.md
 SPDXID: SPDXRef-35221f9aad7458806b149af94c846046
 FileChecksum: SHA1: 5136098b776473ffd8bcf155cfa16d9985a88f72
@@ -5311,6 +5431,94 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
 2021 Wayfair, LLC</text>
 
+FileName: ./2.0\GlassVaseFlowers\README.md
+SPDXID: SPDXRef-607aab7517f89feea5601f8b13da2e4d
+FileChecksum: SHA1: 2f397dddc732e2744b92b244ede853a6519c00d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF-Binary\GlassVaseFlowers.glb
+SPDXID: SPDXRef-b2aa9e31e9fdc5342912490e4f6ee47c
+FileChecksum: SHA1: 76b9348a24397bc1a5ed20012b6f3a98303a4711
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF\GlassVaseFlowers.bin
+SPDXID: SPDXRef-c79caa622bb8f5e3985de29b229aa25a
+FileChecksum: SHA1: cd87827ce8de74ae26901feaf7c9cd3afbacf4db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF\GlassVaseFlowers.gltf
+SPDXID: SPDXRef-1d14ccca3368a83aa351824df579676e
+FileChecksum: SHA1: 5c86d14e4a3b2685d2671b9eae2b450cec2879de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF\glass_vase_thickness_1k.jpg
+SPDXID: SPDXRef-2637f43557b88fbe0834558eae75dd1a
+FileChecksum: SHA1: 2ed391ccc939e1518e4a424aa2d2473af5d1f509
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF\shrub_sorrel_01_color_1k.png
+SPDXID: SPDXRef-598619c756e5266ecc91c4051c2e183e
+FileChecksum: SHA1: fd3bfaf25b3fa38ea22e03acc3034da50e97ff99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF\shrub_sorrel_01_normal_1k.jpg
+SPDXID: SPDXRef-6eb381f15bcad3fa3d646ac8b5e4bb3c
+FileChecksum: SHA1: d6ec9bbd4590270cbc5c4b4fa409e0bb0ef1c6d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\glTF\shrub_sorrel_01_rough_1k.jpg
+SPDXID: SPDXRef-2e45f62b74d532d34cc92dd2b99a5f8e
+FileChecksum: SHA1: 9c418cf90f6336af6e1a1548cee0535fff2e66d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\metadata.json
+SPDXID: SPDXRef-c4cacea0b91e9d5634c106af0a0b01df
+FileChecksum: SHA1: 16864cf822c02a7f46d42bceb2666695204bfcfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\screenshot\screenshot.jpg
+SPDXID: SPDXRef-2a27f7147932945a511bebb39f3590ee
+FileChecksum: SHA1: 2f91b4b3555a1702e6723cecf9d4ac4e161fe0d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./2.0\GlassVaseFlowers\screenshot\screenshot_large.jpg
+SPDXID: SPDXRef-7227c9d5a9550840022ccae24f2cd409
+FileChecksum: SHA1: bb09ea0d2b54cb896d5b28044e2fba9bd8732748
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
 FileName: ./2.0\InterpolationTest\README-ORIG.md
 SPDXID: SPDXRef-9d09800fba452679a1382cd2e3c8b182
 FileChecksum: SHA1: 9142820257964ce378dc4909c423eb5874118c05
@@ -5320,8 +5528,8 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\InterpolationTest\README.md
-SPDXID: SPDXRef-2ca06082e7ca63f2dcf3a5b03b55bd4c
-FileChecksum: SHA1: 945bf991563463790ba5dd8bfa410850bbe7beb4
+SPDXID: SPDXRef-a96de67cd064c649c98ad9fbcb8e52d3
+FileChecksum: SHA1: 8e4d549a003f629318c5d6732671d7f4c8ba2a93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -5895,8 +6103,8 @@ FileCopyrightText: <text>
 2018 Frank Galligan</text>
 
 FileName: ./2.0\Lantern\README.md
-SPDXID: SPDXRef-c0fba4b6cffe8996787dc89e72adf325
-FileChecksum: SHA1: 6f8851dadcafb87d47d3a03a42e722d1b0bc728a
+SPDXID: SPDXRef-4a53e480bbb66cb004db0827dd3530f8
+FileChecksum: SHA1: e2ba8988cce8652cd858c64d32f159ea2704a506
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -6239,8 +6447,8 @@ FileCopyrightText: <text>
 2021 DGG</text>
 
 FileName: ./2.0\MetalRoughSpheresNoTextures\README.md
-SPDXID: SPDXRef-0f6c5490c747dd5a15a625581a1f0235
-FileChecksum: SHA1: 425eaadcbd82e2aa37ccf8ddb59ed9082b656eb3
+SPDXID: SPDXRef-563f8b428233c62a0fb131f3ea953de9
+FileChecksum: SHA1: 774283d83b8b8fa9a09fe992e3c64fe9a4beb4c7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -6409,8 +6617,8 @@ FileCopyrightText: <text>
 Copyright 2017 Analytical Graphics, Inc.</text>
 
 FileName: ./2.0\MetalRoughSpheres\README.md
-SPDXID: SPDXRef-2345050ccbf1985009a685c43520dbe7
-FileChecksum: SHA1: 672af8a1171d53da2cdf943220196f897e2c410a
+SPDXID: SPDXRef-020cca91d56af54d815ad3f2e6863911
+FileChecksum: SHA1: b60c782a1b549706fa61e271559f9dded0b3498d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -6828,8 +7036,8 @@ FileCopyrightText: <text>
 Copyright Apple Inc., 2021  XYZ       ��    XYZ       p  9D  �XYZ       b  �c  	XYZ       $�  X  ��curv           </text>
 
 FileName: ./2.0\MultiUVTest\README.md
-SPDXID: SPDXRef-1042fdb2b373125037621e9eed8aa5fd
-FileChecksum: SHA1: 620f2e26d66c5eb78cd90bad1d2141794db4f30c
+SPDXID: SPDXRef-c7cb632dad75894ffb68d2504ae43758
+FileChecksum: SHA1: 54b8ee471100fe58253ec77791e73b9693433057
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -7244,8 +7452,8 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./2.0\ReciprocatingSaw\README.md
-SPDXID: SPDXRef-c0eb31d0680e886f930761fae5eccc75
-FileChecksum: SHA1: af69a1b960528fa9b0c7999f3351aa1ecc48c8ac
+SPDXID: SPDXRef-40df0dc25854fab2cfa04833db77678f
+FileChecksum: SHA1: 2ed2449b9a58d3e923db8d6caaa8e2fa17eb170f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -7408,8 +7616,8 @@ FileCopyrightText: <text>
 2017 Cesium</text>
 
 FileName: ./2.0\RiggedFigure\README.md
-SPDXID: SPDXRef-43d7c3459e88f1551c31f674e41b2f7d
-FileChecksum: SHA1: 35e2a15fde5f9c44ba0b55ed708bba77f3bb62c1
+SPDXID: SPDXRef-d095d89045528d077ed53eb6fa0c06e3
+FileChecksum: SHA1: 41a44b53545bc1a9d9ee8e64035099252fc8601d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -7488,8 +7696,8 @@ FileCopyrightText: <text>
 2017 Cesium</text>
 
 FileName: ./2.0\RiggedSimple\README.md
-SPDXID: SPDXRef-a7711ecfd655cd6f4c8445d0dc699cfb
-FileChecksum: SHA1: 81f19101ba51d298d76d6b4265a346aa29d4801c
+SPDXID: SPDXRef-6de82dd13056b64d603079a9aef2771f
+FileChecksum: SHA1: 3036f0e9d0b073837e9f88be9c6eab058f6c426b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>
@@ -7568,8 +7776,8 @@ FileCopyrightText: <text>
 2017 Public</text>
 
 FileName: ./2.0\SciFiHelmet\README.md
-SPDXID: SPDXRef-14da1819362df02795d5ece9849d144e
-FileChecksum: SHA1: c208cd0361d14e0822c629fce5f38ccba9e4d82d
+SPDXID: SPDXRef-7af6d60a26c134e51483354b0bd3680e
+FileChecksum: SHA1: 06f44bf1f3313dbc1d17655d7bdb057b3f542502
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -9693,8 +9901,8 @@ FileCopyrightText: <text>
 2021 Wayfair</text>
 
 FileName: ./2.0\Suzanne\README.md
-SPDXID: SPDXRef-bbf96f139580988a30ac85acbde5095e
-FileChecksum: SHA1: e80eeb3b7af0b65399138e620d0bb1d7ead26d94
+SPDXID: SPDXRef-43defa069e0741df80b703c2057adbc3
+FileChecksum: SHA1: 9620e2ff3ec982b22c8e59d7f881ccb198b14e79
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -10882,8 +11090,8 @@ FileCopyrightText: <text>
 2017 UX3D</text>
 
 FileName: ./2.0\TwoSidedPlane\README.md
-SPDXID: SPDXRef-41dd39ddaecc8780e8dbdda76615519b
-FileChecksum: SHA1: 37222a05f35448444b78130b964ef5dc8672c6c8
+SPDXID: SPDXRef-c80b0fd2702b7b056a664587a7eeef72
+FileChecksum: SHA1: d94fa7d9605c4e87395c9fddb6a082a13c8dcd68
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
@@ -11101,8 +11309,8 @@ FileCopyrightText: <text>
 2017 3DRT</text>
 
 FileName: ./2.0\VC\README.md
-SPDXID: SPDXRef-421a0bd8a60a6610681a6b2592d470eb
-FileChecksum: SHA1: a1c183a6de9f268adf5e639324cfb2222b91888e
+SPDXID: SPDXRef-24634135744a2791af6abd2894b7c70f
+FileChecksum: SHA1: bbe3863de311a6994f9ffa833af8d4e507d04eb8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-3DRT-Testing
 FileCopyrightText: <text>
@@ -11746,57 +11954,57 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-core.md
-SPDXID: SPDXRef-92e9b583e1538c3b33466cd55280e68d
-FileChecksum: SHA1: de123db6e162946f74c17eb18e9e5b99119bc9f4
+SPDXID: SPDXRef-4b3ec1830a8ed1edd831e46341935fcb
+FileChecksum: SHA1: 22e6c4404b894f66fcf2eea72c553857c4a65dcb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-extension.md
-SPDXID: SPDXRef-07364e845b3b691f7d1d3594a85c7efb
-FileChecksum: SHA1: 189041565a19932da705a31889d7071fb66acdbe
+SPDXID: SPDXRef-965d1f7155ed7b96dbda5dfb49339fad
+FileChecksum: SHA1: 15d1782dc95cf69f629cff313d114c84146e5412
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-issues.md
-SPDXID: SPDXRef-d10df21e2db5b2ac2f1ca9d8be3ba5a6
-FileChecksum: SHA1: 62647e802d6498e82eea06ce75a0dff1de2186c0
+SPDXID: SPDXRef-313cb549d742b2f930a9db00a55b8208
+FileChecksum: SHA1: 915541d12dda93275e77585f590c9074c93da57e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-showcase.md
-SPDXID: SPDXRef-239c6683af4ee58e803c380aa703e7dc
-FileChecksum: SHA1: 7b3865d15adfd40b14ed79fa770814593acdb521
+SPDXID: SPDXRef-92aad8568d63f3f52bb43f3e81f6d47a
+FileChecksum: SHA1: 84afbbccb0783c3add0347afc7d882e0c74d695b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-testing.md
-SPDXID: SPDXRef-7be5b0f88bb59462915c95c94e6bbee8
-FileChecksum: SHA1: 64a694f74e2fb110494436002724a516f63f0fda
+SPDXID: SPDXRef-c19bb5a64c1c1aecec7c3f9d4fc405b7
+FileChecksum: SHA1: c787363c4ad540c5473abe70ea5911a9283dfe6f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-video.md
-SPDXID: SPDXRef-c8a5555d0411b17db0eddbc89ea44681
-FileChecksum: SHA1: 36a3adbca59bb69cb404eba4fdcd29c965045323
+SPDXID: SPDXRef-4f1bd39162d4de3cf13f00793d5cd811
+FileChecksum: SHA1: 1b00ae7e151b223b1d1e944c66450c5e05acc3c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-written.md
-SPDXID: SPDXRef-ce510298f3b20137f423cf1151388be3
-FileChecksum: SHA1: 3240773ebb03d93a2e52dcdb2f95d49c2dd4f3de
+SPDXID: SPDXRef-c6e14e552acf77a73dc73b43d5c1125b
+FileChecksum: SHA1: 489678274d40403b3adaa92477cdfa2151004d49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models.md
-SPDXID: SPDXRef-238ff244226c18f231e1012dc8068034
-FileChecksum: SHA1: a3193585a083934b91d278f04f2ff5818970f464
+SPDXID: SPDXRef-58be9a0a1a69c1881d4638e048c877a1
+FileChecksum: SHA1: 7b226843516c4689e0ea3504cb4c02f09c66b631
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
@@ -11815,9 +12023,16 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
+FileName: ./issues.md
+SPDXID: SPDXRef-63713fdc2c41a19e70a176d518a4d80a
+FileChecksum: SHA1: 62647e802d6498e82eea06ce75a0dff1de2186c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>2017-2023 Khronos Group</text>
+
 FileName: ./modelmetadata.php
-SPDXID: SPDXRef-5186cd98c8ab1aa2dc59cb34adc212eb
-FileChecksum: SHA1: e575652b37d90fabea434a098534b6aea6a67379
+SPDXID: SPDXRef-590869124121ad8bff2a2710f0d68b84
+FileChecksum: SHA1: 7d8280b143ff1b5e19fd02352f9b9f78ea507844
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Apache-2.0
 LicenseInfoInFile: CC-BY-4.0

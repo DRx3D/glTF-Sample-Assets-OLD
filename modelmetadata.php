@@ -33,7 +33,7 @@ class ModelMetadata
 	
 // Public constants 
 	public $swNAME = 'modelmetadata';
-	public $swVERSION = '0.21.28';
+	public $swVERSION = '0.22.30';
 	public $jsonVERSION = 2;
 	
 // Public variables for internal states
@@ -192,16 +192,20 @@ class ModelMetadata
  * Additional data may be stored or changed with other methods
 **/
 	public function load ($path, $file='metadata') {
+		$this->hasError = false;
 		$fullFile = $path . '/' . $file . '.json';
 		if (!file_exists ($fullFile)) {
 			$this->hasError = true;
 			$this->errorMessage = "File not found: $fullFile";
-			return $this;
+			$this->metadata = $this->_createInitial ($path);
+			$this->hasError = false;
+		} else {
+			$this->metadata = $this->_readJson ($fullFile);
 		}
-		
-		$this->metadata = $this->_readJson ($fullFile);
+
 		$this->_addFileInfo ($path, $file, 'json');
 		//print "Checking for required update. Existing " . $this->metadata['version'] . "; target: " . $this->jsonVERSION. "\n";
+		//print "Loading $path with V".$this->metadata['version']."\n";
 		if ($this->metadata['version'] < $this->jsonVERSION) {
 			$this->_updateMetadata();
 			$this->isCurrent = false;
@@ -229,6 +233,10 @@ class ModelMetadata
 		$string = json_encode($tmp, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
 		
 		//print " .. writing METADATA to ".$this->metadata['fullPath']."\n";
+		if ($this->metadata['fullPath'] == '') {
+			print_r($this->metadata);
+			exit;
+		}
 		$FH = fopen ($this->metadata['fullPath'], "w");
 		fwrite ($FH, $string);
 		fclose ($FH);
@@ -545,6 +553,9 @@ class ModelMetadata
 // Reads the JSON model metadata file and returns the data structure
 	private function _readJson ($fullFile) {
 		$jsonString = file_get_contents ($fullFile);
+		if ($jsonString == '') {
+			$jsonString = $this->metaJson;
+		}
 		return json_decode ($jsonString, true);
 	}
 
@@ -562,6 +573,18 @@ class ModelMetadata
 		$this->modelName = $file;
 		$this->isCurrent = true;
 	}
+
+// Creates an initial data structure when the source metadata does not existing	
+	private function _createInitial ($path) {
+		print " -- fixing $path\n";
+		$pieces = explode ('/', $path);
+		$this->metadata['name'] = $pieces[count($pieces)-1];
+		$this->metadata['path'] = $path;
+		$this->addTags (['issues']);
+		$this->isCurrent = false;
+		return $this->metadata;
+	}
+
 
 }
 
@@ -686,8 +709,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 	if (count($tags) == 0 || $tags[0] == '') {
 		$section = 'All models';
 		$singleTag = '';
-	} else {
-		$section = 'Models tagged with **' . join(', ', $tags) . '**';
+	} else {		$section = 'Models tagged with **' . join(', ', $tags) . '**';
 		$singleTag = $tags[0];
 	}
 	$type = $tagStrcture['type'];
@@ -891,8 +913,12 @@ function getAllModels ($tagListings, $modelFolder='') {
 	while (false !== ($model = $folder->read())) {
 		$modelDir = $folder->path . '/' . $model;
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
-			//print "\nProcessing $modelDir\n";
+			print "Processing $modelDir\n";
 			$mm = new ModelMetadata($modelDir, 'metadata');
+			if ($mm->hasError) {
+				print $mm->errorMessage."\n";
+				exit;
+			}
 			$mm = $mm->setNotCurrent();
 			$allModels[] = $mm;
 		}

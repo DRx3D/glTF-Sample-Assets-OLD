@@ -129,12 +129,12 @@ License: CC0-1.0
 
 Files: 2.0/CesiumMan/*
 Copyright: 
-    0 Cesium
+ 2017 Cesium
 License: LicenseRef-CC-BY-TM
 
 Files: 2.0/CesiumMilkTruck/*
 Copyright: 
-    0 Cesium
+ 2017 Cesium
 License: LicenseRef-CC-BY-TM
 
 Files: 2.0/ClearCoatTest/*
@@ -203,10 +203,21 @@ Copyright:
  2021 Wayfair, LLC
 License: CC-BY-4.0
 
+Files: 2.0/GlassBrokenWindow/*
+Copyright: 
+ 2023 Wayfair
+License: CC-BY-4.0
+
 Files: 2.0/GlassHurricaneCandleHolder/*
 Copyright: 
  2021 Wayfair, LLC
 License: CC-BY-4.0
+
+Files: 2.0/GlassVaseFlowers/*
+Copyright: 
+ 2023 Public
+ 2023 Public
+License: CC0-1.0
 
 Files: 2.0/InterpolationTest/*
 Copyright: 

@@ -1,10 +1,10 @@
-# LICENSE file for the model: Duck
+# LICENSE file for the model: Glass Vase with Flowers
 
 All files in this directory tree are licensed as indicated below.
 
 * All files directly associated with the model including all text, image and binary files:
 
-  * [SCEA Shared Source License, Version 1.0]("https://spdx.org/licenses/SCEA.html") [SPDX license identifier: "SCEA"]
+  * [CC0 1.0 Universal]("https://creativecommons.org/publicdomain/zero/1.0/legalcode") [SPDX license identifier: "CC0-1.0"]
 
 * This file and all other metadocumentation files including "metadata.json":
 
