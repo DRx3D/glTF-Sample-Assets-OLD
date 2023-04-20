@@ -22,9 +22,6 @@ While the textures are powers-of-two they are not square; a resolution of 2048 b
 
 ![screenshot](screenshot/textures.jpg)
 
-<video width="1680" height="960" controls>
-  <source src="screenshot/screencapture.mp4" type="video/mp4">
-</video>)
 
 ## License Information
 
