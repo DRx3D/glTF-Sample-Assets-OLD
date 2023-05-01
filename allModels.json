@@ -190,6 +190,11 @@
 		"tags": ["core","testing"]
 	},
 	{
+		"name": "IridescenceAbalone",
+		"path": "./Assets/IridescenceAbalone",
+		"tags": ["extension"]
+	},
+	{
 		"name": "Iridescence Dielectric Spheres",
 		"path": "./Assets/IridescenceDielectricSpheres",
 		"tags": ["testing","extension"]
