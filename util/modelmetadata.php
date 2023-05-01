@@ -671,14 +671,6 @@ for ($ii=0; $ii<count($listings); $ii++) {
 $tagList = array_unique ($tagList);
 
 
-/*
- * TODOs
- *	Verify writeLicense
- *
- *	Generate repo LICENSE / SPDX stuff
- *
-**/
-
 // Load all model objects
 $allModels = getAllModels ($listings, $ModelDirectory);
 
