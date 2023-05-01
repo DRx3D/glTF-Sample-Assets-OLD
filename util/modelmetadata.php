@@ -34,7 +34,7 @@ class ModelMetadata
 // Public constants 
 	public $swNAME = 'modelmetadata';
 	//public $swVERSION = '0.23.32';
-	public $swVERSION = '1.0.0-alpha';
+	public $swVERSION = '1.0.2-alpha';
 	public $jsonVERSION = 2;
 /*
  * Debug output level
@@ -105,6 +105,24 @@ class ModelMetadata
 							'text'=>'CC0 1.0 Universal',
 							'spdx'=>'CC0-1.0',
 							),
+			'PD'		=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'Public Domain',
+							'spdx'=>'PublicDomain',
+							),
+			'Public Domain'		=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'Public Domain',
+							'spdx'=>'PublicDomain',
+							),
+			'Public Domain / CC0'		=> array (
+							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png', 
+							'link'=>'https://creativecommons.org/publicdomain/zero/1.0/legalcode',
+							'text'=>'CC0 1.0 Universal',
+							'spdx'=>'CC0-1.0',
+							),
 			'CC-BY'		=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
@@ -124,6 +142,12 @@ class ModelMetadata
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY-4.0'	=> array (
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
+							'text'=>'CC BY 4.0 International',
+							'spdx'=>'CC-BY-4.0',
+							),
+			'CC-BY International 4.0'	=> array (
 							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
 							'text'=>'CC BY 4.0 International',
@@ -769,7 +793,10 @@ function createDep5 ($allModels) {
 		fwrite ($F, sprintf ("Copyright: \n %s\n", join("\n ", $copyright)));
 		fwrite ($F, sprintf ("License: %s\n", join(' AND ', $license)));
 		fwrite ($F, "\n");
-		if (count($license) < 1) {print "Missing license for " . $modelMeta['name'] . "\n";}
+		if (count($license) < 1) {
+			print "Missing license for " . $modelMeta['name'] . "\n";
+			print_r ($modelMeta);
+		}
 	}
 	fclose ($F);
 	return;
