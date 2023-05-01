@@ -67,5 +67,27 @@ If you have any questions, submit an [issue](https://github.com/KhronosGroup/glT
 
 ## Obsolete Interface
 
-To make this repository cleaner, the previous _glTF-Sample-Models_ repository was archived [in place](https://github.com/KhronosGroup/glTF-Sample-Models). All V1.0 and _sourceModels_ files were removed from this repository. All non-model folder READMEs were also removed, Main branch URLs to all glTF V2.0 models did not change with the exception of changing the branch name to _main_ (from _master_). READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
+To make this repository cleaner, the previous _glTF-Sample-Models_ repository was archived [in place](https://github.com/KhronosGroup/glTF-Sample-Models). All V1.0 and _sourceModels_ files were removed from this repository. The major changes to the report are:
+
+* The primary branch name was changed to _main_ (from _master).
+* _2.0_ directory was renamed to _Assets_
+* All non-model folder READMEs were also removed
+* Assets without licenses or licenses that were not suitable for use in this collection were removed
+  * 2 Cylinder Engine
+  * Buggy
+  * Gearbox Assy
+  * Reciprocating Saw
+
+* The following models may be removed if a suitable use cannot be established
+  * Antique Camera
+  * Box Textured
+  * Box Textured not 2^N
+  * Box Vertex Colors
+  * Cesium Man
+  * Cesium Milk Truck
+  * Iridescence Lamp
+  * Irdescent Dish with Olives
+
+
+For the assets that remained, there were no changes to the Asset name. READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
 
