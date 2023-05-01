@@ -14,4 +14,4 @@ Animations. Skins. Start with this to test skinning.
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

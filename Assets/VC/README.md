@@ -14,4 +14,4 @@ The 'Virtual City' model was graciously contributed by the folks at 3DRT.
 
  - 3DRT for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

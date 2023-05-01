@@ -14,4 +14,4 @@ Box with vertex colors applied. [Issues: license]
 
  - Michael Feldstein for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

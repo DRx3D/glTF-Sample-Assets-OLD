@@ -14,4 +14,4 @@ This model has two uv texture coordinates and tests a second set of texture coor
 
  - Hilo 3D for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

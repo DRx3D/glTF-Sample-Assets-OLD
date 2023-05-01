@@ -18,4 +18,4 @@ Futuristic helmet
 
  - Norbert Nopper for Conversion to glTF
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

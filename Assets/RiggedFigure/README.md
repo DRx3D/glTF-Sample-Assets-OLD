@@ -14,4 +14,4 @@ Animations. Skins.
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

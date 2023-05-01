@@ -1,5 +1,13 @@
 # Negative Scale Test
 
+## Tags
+
+![core](../../Models-core.md), ![testing](../../Models-testing.md)
+
+## Summary
+
+This model tests what happens when a glTF node has negative scaling.
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot-large.jpg)
@@ -43,8 +51,12 @@ The lower portion of the model contains spheres.  The `-1.0` column shown on the
 
 This problem with normal vectors is likely also the cause the upper "check" and "X" blocks that appear to be lit differently from the samples.
 
-## License Information
 
-Copyright 2023 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2023, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everthing
+
+#### Assembled by modelmetadata 1.0.2-alpha

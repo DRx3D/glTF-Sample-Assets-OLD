@@ -14,4 +14,4 @@ A plane having the two sided material parameter enabled.
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

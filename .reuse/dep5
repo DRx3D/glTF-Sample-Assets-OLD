@@ -249,6 +249,11 @@ Copyright:
  2021 DGG
 License: CC-BY-4.0
 
+Files: Assets/MaterialsVariantsShoe/*
+Copyright: 
+ 2021 Shopify
+License: CC-BY-4.0
+
 Files: Assets/MetalRoughSpheres/*
 Copyright: 
  2017 Analytical Graphics, Inc.
@@ -277,9 +282,19 @@ Copyright:
  2019 Sketchfab
 License: CC-BY-4.0
 
+Files: Assets/MultipleScenes/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
 Files: Assets/MultiUVTest/*
 Copyright: 
  2017 Hilo 3D
+License: CC-BY-4.0
+
+Files: Assets/NegativeScaleTest/*
+Copyright: 
+ 2023 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
 Files: Assets/NormalTangentMirrorTest/*

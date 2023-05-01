@@ -14,4 +14,4 @@ Box with a power-of-2 texture. [Issues: non-Khronos mark]
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

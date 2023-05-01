@@ -18,4 +18,4 @@
 
  - Frank Galligan for Draco compression
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha

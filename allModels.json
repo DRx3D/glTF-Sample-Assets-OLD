@@ -230,6 +230,11 @@
 		"tags": ["testing","extension"]
 	},
 	{
+		"name": "Materials Variants Shoe",
+		"path": "./Assets/MaterialsVariantsShoe",
+		"tags": ["extension","showcase","written"]
+	},
+	{
 		"name": "Metal-Rough Spheres",
 		"path": "./Assets/MetalRoughSpheres",
 		"tags": ["core","testing"]
@@ -255,8 +260,18 @@
 		"tags": ["showcase","extension"]
 	},
 	{
+		"name": "Multiple Scenes",
+		"path": "./Assets/MultipleScenes",
+		"tags": ["core","testing"]
+	},
+	{
 		"name": "MultiUV Test",
 		"path": "./Assets/MultiUVTest",
+		"tags": ["core","testing"]
+	},
+	{
+		"name": "Negative Scale Test",
+		"path": "./Assets/NegativeScaleTest",
 		"tags": ["core","testing"]
 	},
 	{

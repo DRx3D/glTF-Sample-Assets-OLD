@@ -14,4 +14,4 @@ Static model of old camera on a tripod. [Issues: non-Khronos mark]
 
  - Maximillan Kamps for Everything
 
-#### Assembled by modelmetadata 1.0.0-alpha
+#### Assembled by modelmetadata 1.0.2-alpha
