@@ -1,452 +1,472 @@
 [
 	{
 		"name": "A Beautiful Game",
-		"path": "./Assets/ABeautifulGame",
+		"path": "./Models/ABeautifulGame",
 		"tags": ["showcase","video","extension"]
 	},
 	{
 		"name": "Alpha Blend Mode Test",
-		"path": "./Assets/AlphaBlendModeTest",
+		"path": "./Models/AlphaBlendModeTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Animated Cube",
-		"path": "./Assets/AnimatedCube",
+		"path": "./Models/AnimatedCube",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Animated Morph Cube",
-		"path": "./Assets/AnimatedMorphCube",
+		"path": "./Models/AnimatedMorphCube",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Animated Morph Sphere",
-		"path": "./Assets/AnimatedMorphSphere",
+		"path": "./Models/AnimatedMorphSphere",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "AnimatedTriangle",
-		"path": "./Assets/AnimatedTriangle",
+		"path": "./Models/AnimatedTriangle",
 		"tags": ["core","testing","written"]
 	},
 	{
 		"name": "Antique Camera",
-		"path": "./Assets/AntiqueCamera",
+		"path": "./Models/AntiqueCamera",
 		"tags": ["core","testing","issues"]
 	},
 	{
 		"name": "Attenuation Test",
-		"path": "./Assets/AttenuationTest",
+		"path": "./Models/AttenuationTest",
 		"tags": ["core","testing","extension"]
 	},
 	{
 		"name": "Avocado",
-		"path": "./Assets/Avocado",
+		"path": "./Models/Avocado",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Barramundi Fish",
-		"path": "./Assets/BarramundiFish",
+		"path": "./Models/BarramundiFish",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Boom Box",
-		"path": "./Assets/BoomBox",
+		"path": "./Models/BoomBox",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Boom Box with Axes",
-		"path": "./Assets/BoomBoxWithAxes",
+		"path": "./Models/BoomBoxWithAxes",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Box",
-		"path": "./Assets/Box",
+		"path": "./Models/Box",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Box With Spaces",
-		"path": "./Assets/Box%20With%20Spaces",
+		"path": "./Models/Box%20With%20Spaces",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Box Animated",
-		"path": "./Assets/BoxAnimated",
+		"path": "./Models/BoxAnimated",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Box with interleaved position and normal attributes",
-		"path": "./Assets/BoxInterleaved",
+		"path": "./Models/BoxInterleaved",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Box Textured",
-		"path": "./Assets/BoxTextured",
+		"path": "./Models/BoxTextured",
 		"tags": ["core","issues","testing"]
 	},
 	{
 		"name": "Box Textured not 2^N",
-		"path": "./Assets/BoxTexturedNonPowerOfTwo",
+		"path": "./Models/BoxTexturedNonPowerOfTwo",
 		"tags": ["core","issues","testing"]
 	},
 	{
 		"name": "Box Vertex Colors",
-		"path": "./Assets/BoxVertexColors",
+		"path": "./Models/BoxVertexColors",
 		"tags": ["core","issues","testing"]
 	},
 	{
 		"name": "BrainStem",
-		"path": "./Assets/BrainStem",
+		"path": "./Models/BrainStem",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Cameras",
-		"path": "./Assets/Cameras",
+		"path": "./Models/Cameras",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Cesium Man",
-		"path": "./Assets/CesiumMan",
+		"path": "./Models/CesiumMan",
 		"tags": ["core","issues","testing"]
 	},
 	{
 		"name": "Cesium Milk Truck",
-		"path": "./Assets/CesiumMilkTruck",
+		"path": "./Models/CesiumMilkTruck",
 		"tags": ["core","issues","testing"]
 	},
 	{
+		"name": "Clear Coat Car Paint",
+		"path": "./Models/ClearCoatCarPaint",
+		"tags": ["extension","testing"]
+	},
+	{
 		"name": "KHR_materials_clearcoat Test",
-		"path": "./Assets/ClearCoatTest",
+		"path": "./Models/ClearCoatTest",
 		"tags": ["testing","extension"]
 	},
 	{
+		"name": "Clearcoat Wicker",
+		"path": "./Models/ClearcoatWicker",
+		"tags": ["extension","testing"]
+	},
+	{
 		"name": "Corset",
-		"path": "./Assets/Corset",
+		"path": "./Models/Corset",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Cube",
-		"path": "./Assets/Cube",
+		"path": "./Models/Cube",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Damaged Helmet",
-		"path": "./Assets/DamagedHelmet",
+		"path": "./Models/DamagedHelmet",
 		"tags": ["core","showcase","testing","video"]
 	},
 	{
 		"name": "Dragon Attenuation",
-		"path": "./Assets/DragonAttenuation",
+		"path": "./Models/DragonAttenuation",
 		"tags": ["showcase","extension"]
 	},
 	{
 		"name": "Duck",
-		"path": "./Assets/Duck",
+		"path": "./Models/Duck",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Emissive Strength Test",
-		"path": "./Assets/EmissiveStrengthTest",
+		"path": "./Models/EmissiveStrengthTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Environment Test",
-		"path": "./Assets/EnvironmentTest",
+		"path": "./Models/EnvironmentTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Flight Helmet",
-		"path": "./Assets/FlightHelmet",
+		"path": "./Models/FlightHelmet",
 		"tags": ["core","showcase","testing"]
 	},
 	{
 		"name": "Fox",
-		"path": "./Assets/Fox",
+		"path": "./Models/Fox",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "GlamVelvetSofa",
-		"path": "./Assets/GlamVelvetSofa",
+		"path": "./Models/GlamVelvetSofa",
 		"tags": ["video","extension"]
 	},
 	{
 		"name": "Glass Broken Window",
-		"path": "./Assets/GlassBrokenWindow",
+		"path": "./Models/GlassBrokenWindow",
 		"tags": ["video","extension"]
 	},
 	{
 		"name": "Glass Hurricane Candle Holder",
-		"path": "./Assets/GlassHurricaneCandleHolder",
+		"path": "./Models/GlassHurricaneCandleHolder",
 		"tags": ["video","written","showcase","extension"]
 	},
 	{
 		"name": "Glass Vase with Flowers",
-		"path": "./Assets/GlassVaseFlowers",
+		"path": "./Models/GlassVaseFlowers",
 		"tags": ["video","extension"]
 	},
 	{
 		"name": "Interpolation Test",
-		"path": "./Assets/InterpolationTest",
+		"path": "./Models/InterpolationTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "IridescenceAbalone",
-		"path": "./Assets/IridescenceAbalone",
+		"path": "./Models/IridescenceAbalone",
 		"tags": ["extension"]
 	},
 	{
 		"name": "Iridescence Dielectric Spheres",
-		"path": "./Assets/IridescenceDielectricSpheres",
+		"path": "./Models/IridescenceDielectricSpheres",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Iridescence Lamp",
-		"path": "./Assets/IridescenceLamp",
+		"path": "./Models/IridescenceLamp",
 		"tags": ["showcase","extension","issues"]
 	},
 	{
 		"name": "Iridescence Metallic Spheres",
-		"path": "./Assets/IridescenceMetallicSpheres",
+		"path": "./Models/IridescenceMetallicSpheres",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Iridescence Suzanne",
-		"path": "./Assets/IridescenceSuzanne",
+		"path": "./Models/IridescenceSuzanne",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Iridescent Dish with Olives",
-		"path": "./Assets/IridescentDishWithOlives",
+		"path": "./Models/IridescentDishWithOlives",
 		"tags": ["showcase","video","extension","issues"]
 	},
 	{
 		"name": "Lantern",
-		"path": "./Assets/Lantern",
+		"path": "./Models/Lantern",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Lamp using KHR_lights_punctual Extension",
-		"path": "./Assets/LightsPunctualLamp",
+		"path": "./Models/LightsPunctualLamp",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Materials Variants Shoe",
-		"path": "./Assets/MaterialsVariantsShoe",
+		"path": "./Models/MaterialsVariantsShoe",
 		"tags": ["extension","showcase","written"]
 	},
 	{
+		"name": "Mesh Primitive Modes",
+		"path": "./Models/MeshPrimitiveModes",
+		"tags": ["testing"]
+	},
+	{
 		"name": "Metal-Rough Spheres",
-		"path": "./Assets/MetalRoughSpheres",
+		"path": "./Models/MetalRoughSpheres",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Metal-Rough Spheres (textureless)",
-		"path": "./Assets/MetalRoughSpheresNoTextures",
+		"path": "./Models/MetalRoughSpheresNoTextures",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Morph-Primitives Test",
-		"path": "./Assets/MorphPrimitivesTest",
+		"path": "./Models/MorphPrimitivesTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Morph Stress Test",
-		"path": "./Assets/MorphStressTest",
+		"path": "./Models/MorphStressTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Mosquito In Amber",
-		"path": "./Assets/MosquitoInAmber",
+		"path": "./Models/MosquitoInAmber",
 		"tags": ["showcase","extension"]
 	},
 	{
 		"name": "Multiple Scenes",
-		"path": "./Assets/MultipleScenes",
+		"path": "./Models/MultipleScenes",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "MultiUV Test",
-		"path": "./Assets/MultiUVTest",
+		"path": "./Models/MultiUVTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Negative Scale Test",
-		"path": "./Assets/NegativeScaleTest",
+		"path": "./Models/NegativeScaleTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Normal-Tangent Mirror Test",
-		"path": "./Assets/NormalTangentMirrorTest",
+		"path": "./Models/NormalTangentMirrorTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Normal-Tangent Test",
-		"path": "./Assets/NormalTangentTest",
+		"path": "./Models/NormalTangentTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Orientation Test",
-		"path": "./Assets/OrientationTest",
+		"path": "./Models/OrientationTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Recursive Skeletons",
-		"path": "./Assets/RecursiveSkeletons",
+		"path": "./Models/RecursiveSkeletons",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Rigged Figure",
-		"path": "./Assets/RiggedFigure",
+		"path": "./Models/RiggedFigure",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Rigged Simple",
-		"path": "./Assets/RiggedSimple",
+		"path": "./Models/RiggedSimple",
 		"tags": ["core","testing"]
 	},
 	{
-		"name": "Sci Fi Helmet",
-		"path": "./Assets/SciFiHelmet",
+		"name": "SciFi Helmet",
+		"path": "./Models/SciFiHelmet",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "SheenChair",
-		"path": "./Assets/SheenChair",
+		"path": "./Models/SheenChair",
 		"tags": ["showcase","video","extension"]
 	},
 	{
 		"name": "Sheen Cloth",
-		"path": "./Assets/SheenCloth",
+		"path": "./Models/SheenCloth",
 		"tags": ["showcase","video","extension"]
 	},
 	{
+		"name": "Simple Instancing",
+		"path": "./Models/SimpleInstancing",
+		"tags": ["extension","testing"]
+	},
+	{
 		"name": "SimpleMeshes",
-		"path": "./Assets/SimpleMeshes",
+		"path": "./Models/SimpleMeshes",
 		"tags": ["core","testing","written"]
 	},
 	{
 		"name": "SimpleMorph",
-		"path": "./Assets/SimpleMorph",
+		"path": "./Models/SimpleMorph",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "SimpleSkin",
-		"path": "./Assets/SimpleSkin",
+		"path": "./Models/SimpleSkin",
 		"tags": ["core","testing","written"]
 	},
 	{
 		"name": "SimpleSparseAccessor",
-		"path": "./Assets/SimpleSparseAccessor",
+		"path": "./Models/SimpleSparseAccessor",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "SpecGlossVsMetalRough",
-		"path": "./Assets/SpecGlossVsMetalRough",
+		"path": "./Models/SpecGlossVsMetalRough",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Specular Test",
-		"path": "./Assets/SpecularTest",
+		"path": "./Models/SpecularTest",
 		"tags": ["core","testing","extension"]
 	},
 	{
 		"name": "Sponza",
-		"path": "./Assets/Sponza",
+		"path": "./Models/Sponza",
 		"tags": ["core"]
 	},
 	{
 		"name": "StainedGlassLamp",
-		"path": "./Assets/StainedGlassLamp",
+		"path": "./Models/StainedGlassLamp",
 		"tags": ["showcase","extension"]
 	},
 	{
 		"name": "Suzanne",
-		"path": "./Assets/Suzanne",
+		"path": "./Models/Suzanne",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Texture Coordinate Test",
-		"path": "./Assets/TextureCoordinateTest",
+		"path": "./Models/TextureCoordinateTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Texture Encoding Test",
-		"path": "./Assets/TextureEncodingTest",
+		"path": "./Models/TextureEncodingTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Texture Linear Interpolation Test",
-		"path": "./Assets/TextureLinearInterpolationTest",
+		"path": "./Models/TextureLinearInterpolationTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Texture Settings Test",
-		"path": "./Assets/TextureSettingsTest",
+		"path": "./Models/TextureSettingsTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Texture Transform Multi Test",
-		"path": "./Assets/TextureTransformMultiTest",
+		"path": "./Models/TextureTransformMultiTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Texture Transform Test",
-		"path": "./Assets/TextureTransformTest",
+		"path": "./Models/TextureTransformTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Toy Car",
-		"path": "./Assets/ToyCar",
+		"path": "./Models/ToyCar",
 		"tags": ["showcase","video","extension"]
 	},
 	{
 		"name": "Transmission Roughness Test",
-		"path": "./Assets/TransmissionRoughnessTest",
+		"path": "./Models/TransmissionRoughnessTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Transmission Test",
-		"path": "./Assets/TransmissionTest",
+		"path": "./Models/TransmissionTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Triangle",
-		"path": "./Assets/Triangle",
+		"path": "./Models/Triangle",
 		"tags": ["core","testing","written"]
 	},
 	{
 		"name": "TriangleWithoutIndices",
-		"path": "./Assets/TriangleWithoutIndices",
+		"path": "./Models/TriangleWithoutIndices",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Two Sided Plane",
-		"path": "./Assets/TwoSidedPlane",
+		"path": "./Models/TwoSidedPlane",
 		"tags": ["core"]
 	},
 	{
 		"name": "Unicode❤♻Test",
-		"path": "./Assets/Unicode❤♻Test",
+		"path": "./Models/Unicode❤♻Test",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Unlit Test",
-		"path": "./Assets/UnlitTest",
+		"path": "./Models/UnlitTest",
 		"tags": ["testing","extension"]
 	},
 	{
 		"name": "Virtual City",
-		"path": "./Assets/VC",
+		"path": "./Models/VC",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Vertex Color Test",
-		"path": "./Assets/VertexColorTest",
+		"path": "./Models/VertexColorTest",
 		"tags": ["core","testing"]
 	},
 	{
 		"name": "Water Bottle",
-		"path": "./Assets/WaterBottle",
+		"path": "./Models/WaterBottle",
 		"tags": ["core","testing","written"]
 	}
 ]

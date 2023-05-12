@@ -34,7 +34,7 @@ class ModelMetadata
 // Public constants 
 	public $swNAME = 'modelmetadata';
 	//public $swVERSION = '0.23.32';
-	public $swVERSION = '1.0.2-alpha';
+	public $swVERSION = '1.0.3-alpha';
 	public $jsonVERSION = 2;
 /*
  * Debug output level
@@ -347,6 +347,11 @@ class ModelMetadata
 **/
 		if (file_exists($fileReadmeBody)) {
 			$readme[] = file_get_contents($fileReadmeBody);
+		} else {
+			$readme[] = '## Screenshot';
+			$readme[] = "![screenshot](".$this->metadata['screenshot'].")";
+			$readme[] = '## Description';
+			$readme[] = "_None provided._";
 		}
 		$readme[] = '## Legal';
 		for ($ii=0; $ii<count($this->metadata['credit']); $ii++) {
@@ -667,7 +672,7 @@ class ModelMetadata
  *	$useUserModelTags - reads the model tag update file (ModelRepoTagData.csv). See getModelTagData
  ^	$useUserModelData - reads the model metadata update file (). See getModelData
 **/
-$ModelDirectory = './Assets';	// Directory relative to root containing all models
+$ModelDirectory = './Models';	// Directory relative to root containing all models
 $useUserModelTags = false;		// Update model tags
 $useUserModelData = false;		// Update model metadata
 

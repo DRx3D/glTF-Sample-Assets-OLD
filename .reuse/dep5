@@ -9,467 +9,487 @@ Files: *
 Copyright: 2017-2023 Khronos Group
 License: CC-BY-4.0
 
-Files: Assets/ABeautifulGame/*
+Files: Models/ABeautifulGame/*
 Copyright: 
  2020 ASWF
  2022 Ed Mackey
 License: CC-BY-4.0
 
-Files: Assets/AlphaBlendModeTest/*
+Files: Models/AlphaBlendModeTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/AnimatedCube/*
+Files: Models/AnimatedCube/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: Assets/AnimatedMorphCube/*
+Files: Models/AnimatedMorphCube/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/AnimatedMorphSphere/*
+Files: Models/AnimatedMorphSphere/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/AnimatedTriangle/*
+Files: Models/AnimatedTriangle/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/AntiqueCamera/*
+Files: Models/AntiqueCamera/*
 Copyright: 
  2018 UX3D
 License: CC0-1.0
 
-Files: Assets/AttenuationTest/*
+Files: Models/AttenuationTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/Avocado/*
+Files: Models/Avocado/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/BarramundiFish/*
+Files: Models/BarramundiFish/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/BoomBox/*
+Files: Models/BoomBox/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/BoomBoxWithAxes/*
+Files: Models/BoomBoxWithAxes/*
 Copyright: 
  2018 Public
 License: CC0-1.0
 
-Files: Assets/Box/*
+Files: Models/Box/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Assets/Box%20With%20Spaces/*
+Files: Models/Box%20With%20Spaces/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC0-1.0
 
-Files: Assets/BoxAnimated/*
+Files: Models/BoxAnimated/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Assets/BoxInterleaved/*
+Files: Models/BoxInterleaved/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Assets/BoxTextured/*
+Files: Models/BoxTextured/*
 Copyright: 
  2017 Cesium
 License: LicenseRef-CC-BY-TM
 
-Files: Assets/BoxTexturedNonPowerOfTwo/*
+Files: Models/BoxTexturedNonPowerOfTwo/*
 Copyright: 
  2017 Cesium
 License: LicenseRef-CC-BY-TM
 
-Files: Assets/BoxVertexColors/*
+Files: Models/BoxVertexColors/*
 Copyright: 
  2017 Michael Feldstein
 License: LicenseRef-Khronos-Assumed
 
-Files: Assets/BrainStem/*
+Files: Models/BrainStem/*
 Copyright: 
  2017 Smith Micro Software, Inc.
 License: LicenseRef-Poser-EULA
 
-Files: Assets/Cameras/*
+Files: Models/Cameras/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/CesiumMan/*
+Files: Models/CesiumMan/*
 Copyright: 
  2017 Cesium
 License: LicenseRef-CC-BY-TM
 
-Files: Assets/CesiumMilkTruck/*
+Files: Models/CesiumMilkTruck/*
 Copyright: 
  2017 Cesium
 License: LicenseRef-CC-BY-TM
 
-Files: Assets/ClearCoatTest/*
+Files: Models/ClearCoatCarPaint/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/ClearCoatTest/*
 Copyright: 
  2020 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/Corset/*
+Files: Models/ClearcoatWicker/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/Corset/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: Assets/Cube/*
+Files: Models/Cube/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: Assets/DamagedHelmet/*
+Files: Models/DamagedHelmet/*
 Copyright: 
  2018 ctxwing
  2016 theblueturtle_
 License: CC-BY-4.0 AND CC-BY-NC-4.0
 
-Files: Assets/DragonAttenuation/*
+Files: Models/DragonAttenuation/*
 Copyright: 
  1996 Stanford University Computer Graphics Laboratory
  2017 Morgan McGuire
  2021 Public
 License: LicenseRef-Stanford-Graphics AND CC0-1.0
 
-Files: Assets/Duck/*
+Files: Models/Duck/*
 Copyright: 
  2006 Sony
 License: SCEA
 
-Files: Assets/EmissiveStrengthTest/*
+Files: Models/EmissiveStrengthTest/*
 Copyright: 
  2022 AGI
 License: CC-BY-4.0
 
-Files: Assets/EnvironmentTest/*
+Files: Models/EnvironmentTest/*
 Copyright: 
  2017 Adobe
 License: LicenseRef-Adobe-Stock
 
-Files: Assets/FlightHelmet/*
+Files: Models/FlightHelmet/*
 Copyright: 
  2018 Public
 License: CC0-1.0
 
-Files: Assets/Fox/*
+Files: Models/Fox/*
 Copyright: 
  2014 Public
  2014 tomkranis
  2017 @AsoboStudio and @scurest
 License: CC0-1.0 AND CC-BY-4.0
 
-Files: Assets/GlamVelvetSofa/*
+Files: Models/GlamVelvetSofa/*
 Copyright: 
  2021 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: Assets/GlassBrokenWindow/*
+Files: Models/GlassBrokenWindow/*
 Copyright: 
  2023 Wayfair
 License: CC-BY-4.0
 
-Files: Assets/GlassHurricaneCandleHolder/*
+Files: Models/GlassHurricaneCandleHolder/*
 Copyright: 
  2021 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: Assets/GlassVaseFlowers/*
+Files: Models/GlassVaseFlowers/*
 Copyright: 
  2023 Public
  2023 Public
 License: CC0-1.0
 
-Files: Assets/InterpolationTest/*
+Files: Models/InterpolationTest/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/IridescenceAbalone/*
+Files: Models/IridescenceAbalone/*
 Copyright: 
  2015 Abby Crawford
  2023 Eric Chadwick
 License: CC-BY-4.0
 
-Files: Assets/IridescenceDielectricSpheres/*
+Files: Models/IridescenceDielectricSpheres/*
 Copyright: 
  2019 Public
 License: CC0-1.0
 
-Files: Assets/IridescenceLamp/*
+Files: Models/IridescenceLamp/*
 Copyright: 
  2022 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: Assets/IridescenceMetallicSpheres/*
+Files: Models/IridescenceMetallicSpheres/*
 Copyright: 
  2022 UX3D
 License: CC0-1.0
 
-Files: Assets/IridescenceSuzanne/*
+Files: Models/IridescenceSuzanne/*
 Copyright: 
  2022 UX3D
  2021 Pascal Schoen
 License: CC0-1.0
 
-Files: Assets/IridescentDishWithOlives/*
+Files: Models/IridescentDishWithOlives/*
 Copyright: 
  2020 Wayfair, LLC
 License: CC-BY-4.0
 
-Files: Assets/Lantern/*
+Files: Models/Lantern/*
 Copyright: 
  2017 Microsoft
  2018 Frank Galligan
 License: CC0-1.0
 
-Files: Assets/LightsPunctualLamp/*
+Files: Models/LightsPunctualLamp/*
 Copyright: 
  2021 DGG
 License: CC-BY-4.0
 
-Files: Assets/MaterialsVariantsShoe/*
+Files: Models/MaterialsVariantsShoe/*
 Copyright: 
  2021 Shopify
 License: CC-BY-4.0
 
-Files: Assets/MetalRoughSpheres/*
+Files: Models/MeshPrimitiveModes/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/MetalRoughSpheres/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/MetalRoughSpheresNoTextures/*
+Files: Models/MetalRoughSpheresNoTextures/*
 Copyright: 
  2019 Public
  2019 Public
 License: CC0-1.0
 
-Files: Assets/MorphPrimitivesTest/*
+Files: Models/MorphPrimitivesTest/*
 Copyright: 
  2018 ft-lab
  2020 Frank Galligan
 License: CC-BY-4.0
 
-Files: Assets/MorphStressTest/*
+Files: Models/MorphStressTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/MosquitoInAmber/*
+Files: Models/MosquitoInAmber/*
 Copyright: 
  2018 Sketchfab
  2019 Sketchfab
 License: CC-BY-4.0
 
-Files: Assets/MultipleScenes/*
+Files: Models/MultipleScenes/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/MultiUVTest/*
+Files: Models/MultiUVTest/*
 Copyright: 
  2017 Hilo 3D
 License: CC-BY-4.0
 
-Files: Assets/NegativeScaleTest/*
+Files: Models/NegativeScaleTest/*
 Copyright: 
  2023 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/NormalTangentMirrorTest/*
+Files: Models/NormalTangentMirrorTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/NormalTangentTest/*
+Files: Models/NormalTangentTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC0-1.0
 
-Files: Assets/OrientationTest/*
+Files: Models/OrientationTest/*
 Copyright: 
  2017 Unknown
 License: CC-BY-4.0
 
-Files: Assets/RecursiveSkeletons/*
+Files: Models/RecursiveSkeletons/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Assets/RiggedFigure/*
+Files: Models/RiggedFigure/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Assets/RiggedSimple/*
+Files: Models/RiggedSimple/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Assets/SciFiHelmet/*
+Files: Models/SciFiHelmet/*
 Copyright: 
  2017 Public
  2017 Public
 License: CC0-1.0
 
-Files: Assets/SheenChair/*
+Files: Models/SheenChair/*
 Copyright: 
  2020 Wayfair, LLC
 License: CC0-1.0
 
-Files: Assets/SheenCloth/*
+Files: Models/SheenCloth/*
 Copyright: 
  2020 Microsoft
 License: CC0-1.0
 
-Files: Assets/SimpleMeshes/*
+Files: Models/SimpleInstancing/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/SimpleMeshes/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/SimpleMorph/*
+Files: Models/SimpleMorph/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/SimpleSkin/*
+Files: Models/SimpleSkin/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/SimpleSparseAccessor/*
+Files: Models/SimpleSparseAccessor/*
 Copyright: 
  2017 Public
 License: CC-BY-4.0
 
-Files: Assets/SpecGlossVsMetalRough/*
+Files: Models/SpecGlossVsMetalRough/*
 Copyright: 
  2017 Microsoft
 License: CC-BY-4.0
 
-Files: Assets/SpecularTest/*
+Files: Models/SpecularTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/Sponza/*
+Files: Models/Sponza/*
 Copyright: 
  2016 Crytek
 License: LicenseRef-CRYENGINE-Agreement
 
-Files: Assets/StainedGlassLamp/*
+Files: Models/StainedGlassLamp/*
 Copyright: 
  2021 Wayfair
 License: CC-BY-4.0
 
-Files: Assets/Suzanne/*
+Files: Models/Suzanne/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: Assets/TextureCoordinateTest/*
+Files: Models/TextureCoordinateTest/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC0-1.0
 
-Files: Assets/TextureEncodingTest/*
+Files: Models/TextureEncodingTest/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/TextureLinearInterpolationTest/*
+Files: Models/TextureLinearInterpolationTest/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/TextureSettingsTest/*
+Files: Models/TextureSettingsTest/*
 Copyright: 
  2017 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/TextureTransformMultiTest/*
+Files: Models/TextureTransformMultiTest/*
 Copyright: 
  2020 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/TextureTransformTest/*
+Files: Models/TextureTransformTest/*
 Copyright: 
  2018 Microsoft
 License: CC0-1.0
 
-Files: Assets/ToyCar/*
+Files: Models/ToyCar/*
 Copyright: 
  2020 Public
  2020 Public
 License: CC0-1.0
 
-Files: Assets/TransmissionRoughnessTest/*
+Files: Models/TransmissionRoughnessTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/TransmissionTest/*
+Files: Models/TransmissionTest/*
 Copyright: 
  2020 Public
 License: CC0-1.0
 
-Files: Assets/Triangle/*
+Files: Models/Triangle/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/TriangleWithoutIndices/*
+Files: Models/TriangleWithoutIndices/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/TwoSidedPlane/*
+Files: Models/TwoSidedPlane/*
 Copyright: 
  2017 UX3D
 License: CC0-1.0
 
-Files: Assets/Unicode❤♻Test/*
+Files: Models/Unicode❤♻Test/*
 Copyright: 
  2017 Public
 License: CC0-1.0
 
-Files: Assets/UnlitTest/*
+Files: Models/UnlitTest/*
 Copyright: 
  2019 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/VC/*
+Files: Models/VC/*
 Copyright: 
  2017 3DRT
 License: LicenseRef-3DRT-Testing
 
-Files: Assets/VertexColorTest/*
+Files: Models/VertexColorTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Assets/WaterBottle/*
+Files: Models/WaterBottle/*
 Copyright: 
  2017 Public
 License: CC0-1.0
