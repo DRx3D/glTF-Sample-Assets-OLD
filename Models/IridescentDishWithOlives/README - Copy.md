@@ -1,13 +1,5 @@
 # Iridescent Dish with Olives
 
-## Tags
-
-![showcase](../../Models-showcase.md), ![video](../../Models-video.md), ![extension](../../Models-extension.md)
-
-## Summary
-
-Dish using transmission, volume, IOR, and specular. [Issues: non-Khronos mark]
-
 ## Screenshots
 
 ![screenshot Babylon.js](screenshot/screenshot_Large.jpg)
@@ -78,10 +70,6 @@ The upper surfaces of the glassDish and goldLeaf use a texture for precomputed a
 The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max), exported to glTF using [Max2Babylon](https://github.com/BabylonJS/Exporters#babylonjs-exporters), and materials were edited in [Visual Studio Code](https://code.visualstudio.com/) with [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode#gltf-tools-extension-for-visual-studio-code).
 
 
-## Legal
+## License Information
 
-&copy; 2020, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
-
- - Eric Chadwick for Everything
-
-#### Assembled by modelmetadata 1.0.4-alpha
+Copyright 2021 Wayfair LLC. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/

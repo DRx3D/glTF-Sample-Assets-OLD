@@ -18,7 +18,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "Lamp using KHR_lights_punctual Extension",
+    "name": "Lamp with Punctual Lights",
     "path": "./Models/LightsPunctualLamp",
     "summary": "Lamp using punctual lights.",
     "createReadme": false

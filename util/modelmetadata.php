@@ -34,7 +34,7 @@ class ModelMetadata
 // Public constants 
 	public $swNAME = 'modelmetadata';
 	//public $swVERSION = '0.23.32';
-	public $swVERSION = '1.0.3-alpha';
+	public $swVERSION = '1.0.4-alpha';
 	public $jsonVERSION = 2;
 /*
  * Debug output level

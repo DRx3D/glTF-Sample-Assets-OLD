@@ -2,25 +2,24 @@
     "version": 2,
     "legal": [
         {
-            "license": "LicenseRef-Khronos-Assumed",
-            "licenseUrl": "",
-            "artist": "Michael Feldstein",
-            "year": "2017",
-            "owner": "Michael Feldstein",
+            "year": "2023",
+            "owner": "Public",
+            "license": "Public Domain / CC0",
+            "artist": "Marco Hutter",
             "what": "Everything",
-            "text": "Assumed Khronos license, treat as TESTING only",
-            "spdx": "LicenseRef-Khronos-Assumed",
-            "icon": ""
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
-        "core",
-        "issues",
+        "extension",
         "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box Vertex Colors",
     "path": "./Models/BoxVertexColors",
-    "summary": "Box with vertex colors applied. [Issues: license]",
+    "summary": "A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute. ",
     "createReadme": true
 }

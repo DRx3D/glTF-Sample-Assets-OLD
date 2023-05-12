@@ -16,12 +16,11 @@
     "tags": [
         "showcase",
         "video",
-        "extension",
-        "issues"
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescent Dish with Olives",
     "path": "./Models/IridescentDishWithOlives",
     "summary": "Dish using transmission, volume, IOR, and specular. [Issues: non-Khronos mark]",
-    "createReadme": false
+    "createReadme": true
 }

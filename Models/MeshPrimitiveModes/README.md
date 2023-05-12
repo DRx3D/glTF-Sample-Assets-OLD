@@ -40,4 +40,4 @@ Each mesh primitive has a different `mode`, corresponding to the glTF [mesh topo
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.3-alpha
+#### Assembled by modelmetadata 1.0.4-alpha

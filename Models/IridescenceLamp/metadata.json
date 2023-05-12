@@ -22,5 +22,5 @@
     "name": "Iridescence Lamp",
     "path": "./Models/IridescenceLamp",
     "summary": "Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence. [Issues: non-Khronos mark]",
-    "createReadme": false
+    "createReadme": true
 }

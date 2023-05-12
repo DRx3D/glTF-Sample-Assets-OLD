@@ -26,4 +26,4 @@ _None provided._
 
  - Norbert Nopper for Conversion to glTF
 
-#### Assembled by modelmetadata 1.0.3-alpha
+#### Assembled by modelmetadata 1.0.4-alpha

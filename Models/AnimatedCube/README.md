@@ -19,4 +19,4 @@ Same as 'Cube', but having a linear rotation animation.
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.3-alpha
+#### Assembled by modelmetadata 1.0.4-alpha

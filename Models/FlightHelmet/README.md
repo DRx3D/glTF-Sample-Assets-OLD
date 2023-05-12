@@ -22,4 +22,4 @@ _None provided._
 
  - Gary Hsu for Conversion from Maya
 
-#### Assembled by modelmetadata 1.0.3-alpha
+#### Assembled by modelmetadata 1.0.4-alpha

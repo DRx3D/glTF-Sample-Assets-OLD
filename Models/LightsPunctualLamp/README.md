@@ -1,5 +1,3 @@
-# Lamp using KHR_lights_punctual Extension
-
 
 ## Screenshots
 
@@ -23,8 +21,3 @@ The addition of lights into the scene through the KHR_lights_punctual extension 
 ## Creation Details
 
 Model created using [Blender](https://www.blender.org/) and [Gestaltor](https://gestaltor.io/) by [Teresa González Viegas](https://www.artstation.com/teresagviegas). Optimized with [RapidCompact](https://rapidcompact.com/).
-
-
-## License Information
-
-Copyright 2021 DGG. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/

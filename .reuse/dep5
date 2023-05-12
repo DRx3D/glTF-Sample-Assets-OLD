@@ -102,8 +102,8 @@ License: LicenseRef-CC-BY-TM
 
 Files: Models/BoxVertexColors/*
 Copyright: 
- 2017 Michael Feldstein
-License: LicenseRef-Khronos-Assumed
+ 2023 Public
+License: CC0-1.0
 
 Files: Models/BrainStem/*
 Copyright: 

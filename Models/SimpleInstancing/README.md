@@ -42,4 +42,4 @@ This means that the first instance that is rendered is the unmodified unit cube,
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.3-alpha
+#### Assembled by modelmetadata 1.0.4-alpha
