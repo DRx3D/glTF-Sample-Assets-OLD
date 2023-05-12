@@ -30,7 +30,7 @@
 // Define a script-wide constants
 
 	define ('AppName', 'modelmetadata');
-	define ('AppVersion', '1.0.5-alpha');
+	define ('AppVersion', '1.0.6-alpha');
 	define ('UrlSampleViewer', 'https://github.khronos.org/glTF-Sample-Viewer-Release/');
 	define ('UrlModelRepoRaw', 'https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main');
 	define ('DebugNone', 0);
@@ -335,16 +335,21 @@ class ModelMetadata
 		$readme[] = "## Tags";
 		$readme[] = $tagString;
 		$readme[] = "## Summary";
-//		$readme[] = $this->metadata['summary'];
+		$readme[] = $this->metadata['summary'];
 
-		$display = "%s [[Display](%s?model=%s/%s) in SampleViewer";
-		$fmtDownload = "; [Download GLB](%s/%s)";
+		$readme[] = "## Operations";
+		$sf1 = "* [Display](%s?model=%s/%s) in SampleViewer";
+		$sf2 = "* [Download GLB](%s/%s)";
+		$sf3 = "* [Model Directory](%s)";
+		
 		$pathModel = ($this->metadata['hasGLB']) ? $this->metadata['pathGLB'] : $this->metadata['pathModel'];
-		$additional = sprintf ($display, $this->metadata['summary'], UrlSampleViewer, UrlModelRepoRaw, $pathModel);
+		$operations = array (sprintf ($sf1, UrlSampleViewer, UrlModelRepoRaw, $pathModel));
 		if ($this->metadata['hasGLB']) {
-			$additional .= sprintf ($fmtDownload, UrlModelRepoRaw, $this->metadata['pathGLB']);
+			$operations[] = sprintf ($sf2, UrlModelRepoRaw, $this->metadata['pathGLB']);
 		}
-		$readme[] = $additional . ']';
+//		$operations[] = sprintf ($sf3, $this->metadata['basePath']);
+		$operations[] = sprintf ($sf3, './');
+		$readme[] = join("\n", $operations);
 
 
 /*

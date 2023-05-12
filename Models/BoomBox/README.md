@@ -6,7 +6,13 @@
 
 ## Summary
 
-A common object with glowing front panel created with Core glTF 2.0. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoomBox/glTF-Binary/BoomBox.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoomBox/glTF-Binary/BoomBox.glb)]
+A common object with glowing front panel created with Core glTF 2.0.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoomBox/glTF-Binary/BoomBox.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoomBox/glTF-Binary/BoomBox.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +28,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

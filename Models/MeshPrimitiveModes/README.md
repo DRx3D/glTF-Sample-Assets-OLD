@@ -6,7 +6,12 @@
 
 ## Summary
 
-An example that shows rendering modes that are supported for mesh primitives in glTF. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf) in SampleViewer]
+An example that shows rendering modes that are supported for mesh primitives in glTF.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf) in SampleViewer
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -40,4 +45,4 @@ Each mesh primitive has a different `mode`, corresponding to the glTF [mesh topo
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

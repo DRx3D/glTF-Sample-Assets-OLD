@@ -6,7 +6,12 @@
 
 ## Summary
 
-Same as 'Cube', but having a linear rotation animation. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnimatedCube/glTF/AnimatedCube.gltf) in SampleViewer]
+Same as 'Cube', but having a linear rotation animation.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnimatedCube/glTF/AnimatedCube.gltf) in SampleViewer
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -19,4 +24,4 @@ Same as 'Cube', but having a linear rotation animation. [[Display](https://githu
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

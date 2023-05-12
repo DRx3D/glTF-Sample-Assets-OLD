@@ -6,7 +6,13 @@
 
 ## Summary
 
-A simple example for the EXT_mesh_gpu_instancing extension. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb)]
+A simple example for the EXT_mesh_gpu_instancing extension.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -42,4 +48,4 @@ This means that the first instance that is rendered is the unmodified unit cube,
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

@@ -6,7 +6,13 @@
 
 ## Summary
 
-Box with a power-of-2 texture. [Issues: non-Khronos mark] [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoxTextured/glTF-Binary/BoxTextured.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoxTextured/glTF-Binary/BoxTextured.glb)]
+Box with a power-of-2 texture. [Issues: non-Khronos mark]
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoxTextured/glTF-Binary/BoxTextured.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoxTextured/glTF-Binary/BoxTextured.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +28,4 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

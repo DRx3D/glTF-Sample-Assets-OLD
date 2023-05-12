@@ -6,7 +6,13 @@
 
 ## Summary
 
-One mesh and one material. Start with this. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Box/glTF-Binary/Box.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Box/glTF-Binary/Box.glb)]
+One mesh and one material. Start with this.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Box/glTF-Binary/Box.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Box/glTF-Binary/Box.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +28,4 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

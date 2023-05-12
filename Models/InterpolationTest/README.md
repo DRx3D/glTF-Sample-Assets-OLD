@@ -6,7 +6,13 @@
 
 ## Summary
 
-A sample with three different animation interpolations [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb)]
+A sample with three different animation interpolations
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +28,4 @@ _None provided._
 
  - Khronos for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

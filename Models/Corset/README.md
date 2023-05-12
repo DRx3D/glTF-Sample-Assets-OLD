@@ -6,7 +6,13 @@
 
 ## Summary
 
-  [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Corset/glTF-Binary/Corset.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Corset/glTF-Binary/Corset.glb)]
+ 
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Corset/glTF-Binary/Corset.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Corset/glTF-Binary/Corset.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +28,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

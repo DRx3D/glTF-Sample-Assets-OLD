@@ -6,7 +6,13 @@
 
 ## Summary
 
-Dish using transmission, volume, IOR, and specular. [Issues: non-Khronos mark] [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb)]
+Dish using transmission, volume, IOR, and specular. [Issues: non-Khronos mark]
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb)
+* [Model Directory](./)
 
 ## Screenshots
 
@@ -84,4 +90,4 @@ The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max)
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

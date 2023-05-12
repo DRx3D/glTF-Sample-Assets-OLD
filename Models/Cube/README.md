@@ -6,7 +6,12 @@
 
 ## Summary
 
-A cube with non-smoothed faces. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Cube/glTF/Cube.gltf) in SampleViewer]
+A cube with non-smoothed faces.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Cube/glTF/Cube.gltf) in SampleViewer
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +27,4 @@ _None provided._
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha

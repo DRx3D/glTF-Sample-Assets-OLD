@@ -6,7 +6,13 @@
 
 ## Summary
 
-This model has two uv texture coordinates and tests a second set of texture coordinates. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb)]
+This model has two uv texture coordinates and tests a second set of texture coordinates.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,4 +28,4 @@ _None provided._
 
  - Hilo 3D for Everything
 
-#### Assembled by modelmetadata 1.0.5-alpha
+#### Assembled by modelmetadata 1.0.6-alpha
