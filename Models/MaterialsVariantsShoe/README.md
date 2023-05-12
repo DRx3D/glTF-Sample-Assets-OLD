@@ -6,7 +6,7 @@
 
 ## Summary
 
-A model of a shoe that illustrates use of the KHR_materials_variants extension with three materials included in the asset.
+A model of a shoe that illustrates use of the KHR_materials_variants extension with three materials included in the asset. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MaterialsVariantsShoe/glTF-Binary/MaterialsVariantsShoe.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MaterialsVariantsShoe/glTF-Binary/MaterialsVariantsShoe.glb)]
 
 ## Screenshot
 
@@ -26,4 +26,4 @@ If each variant was a separate model, they would be 5.4 MB each. Combined they m
 
  - Shopify for Everthing
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

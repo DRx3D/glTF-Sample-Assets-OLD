@@ -6,7 +6,7 @@
 
 ## Summary
 
-Blender's test model of the chimpanzee Suzanne.
+Blender's test model of the chimpanzee Suzanne. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Suzanne/glTF/Suzanne.gltf) in SampleViewer]
 
 ## Screenshot
 
@@ -22,4 +22,4 @@ _None provided._
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

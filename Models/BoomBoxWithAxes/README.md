@@ -6,7 +6,7 @@
 
 ## Summary
 
-Shows X, Y, and Z axis default orientations.
+Shows X, Y, and Z axis default orientations. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoomBoxWithAxes/glTF/BoomBoxWithAxes.gltf) in SampleViewer]
 
 ## Screenshot
 
@@ -22,4 +22,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

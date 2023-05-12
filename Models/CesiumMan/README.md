@@ -6,7 +6,7 @@
 
 ## Summary
 
-Textured. Animations. Skins. [Issues: non-Khronos mark]
+Textured. Animations. Skins. [Issues: non-Khronos mark] [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/CesiumMan/glTF-Binary/CesiumMan.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/CesiumMan/glTF-Binary/CesiumMan.glb)]
 
 ## Screenshot
 
@@ -22,4 +22,4 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

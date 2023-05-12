@@ -6,7 +6,7 @@
 
 ## Summary
 
-Same as 'Cube', but having a linear rotation animation.
+Same as 'Cube', but having a linear rotation animation. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnimatedCube/glTF/AnimatedCube.gltf) in SampleViewer]
 
 ## Screenshot
 
@@ -19,4 +19,4 @@ Same as 'Cube', but having a linear rotation animation.
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

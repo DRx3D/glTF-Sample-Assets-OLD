@@ -6,7 +6,7 @@
 
 ## Summary
 
-Animations. Skins. Start with this to test skinning.
+Animations. Skins. Start with this to test skinning. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/RiggedSimple/glTF-Binary/RiggedSimple.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/RiggedSimple/glTF-Binary/RiggedSimple.glb)]
 
 ## Screenshot
 
@@ -22,4 +22,4 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

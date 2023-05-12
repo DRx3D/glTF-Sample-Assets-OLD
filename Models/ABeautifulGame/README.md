@@ -6,7 +6,7 @@
 
 ## Summary
 
-Chess set using transmission and volume.
+Chess set using transmission and volume. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF/ABeautifulGame.gltf) in SampleViewer]
 
 ## Screenshots
 
@@ -67,4 +67,4 @@ inspiration for more automated conversion tooling in the future.
 
  - Ed Mackey for Conversion to glTF
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

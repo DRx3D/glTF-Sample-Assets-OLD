@@ -6,7 +6,7 @@
 
 ## Summary
 
-Displayed flight helmet on a wooden stand.
+Displayed flight helmet on a wooden stand. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/FlightHelmet/glTF/FlightHelmet.gltf) in SampleViewer]
 
 ## Screenshot
 
@@ -22,4 +22,4 @@ _None provided._
 
  - Gary Hsu for Conversion from Maya
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha

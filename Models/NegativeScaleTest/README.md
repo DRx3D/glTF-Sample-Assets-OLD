@@ -6,7 +6,7 @@
 
 ## Summary
 
-This model tests what happens when a glTF node has negative scaling.
+This model tests what happens when a glTF node has negative scaling. [[Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/NegativeScaleTest/glTF-Binary/NegativeScaleTest.glb) in SampleViewer; [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/NegativeScaleTest/glTF-Binary/NegativeScaleTest.glb)]
 
 ## Screenshot
 
@@ -59,4 +59,4 @@ This problem with normal vectors is likely also the cause the upper "check" and 
 
  - Ed Mackey for Everthing
 
-#### Assembled by modelmetadata 1.0.4-alpha
+#### Assembled by modelmetadata 1.0.5-alpha
