@@ -2,11 +2,11 @@
 
 ## Tags
 
-![showcase](../../Models-showcase.md), ![extension](../../Models-extension.md), ![issues](../../Models-issues.md)
+![showcase](../../Models-showcase.md), ![extension](../../Models-extension.md)
 
 ## Summary
 
-Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence. [Issues: non-Khronos mark]
+Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence.
 
 ## Screenshot
 

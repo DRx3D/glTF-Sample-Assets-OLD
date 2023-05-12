@@ -92,7 +92,7 @@
 	{
 		"name": "Box Vertex Colors",
 		"path": "./Models/BoxVertexColors",
-		"tags": ["extension","testing"]
+		"tags": ["core","testing"]
 	},
 	{
 		"name": "BrainStem",
@@ -212,7 +212,7 @@
 	{
 		"name": "Iridescence Lamp",
 		"path": "./Models/IridescenceLamp",
-		"tags": ["showcase","extension","issues"]
+		"tags": ["showcase","extension"]
 	},
 	{
 		"name": "Iridescence Metallic Spheres",

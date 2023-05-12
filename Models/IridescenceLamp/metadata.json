@@ -15,12 +15,11 @@
     ],
     "tags": [
         "showcase",
-        "extension",
-        "issues"
+        "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Iridescence Lamp",
     "path": "./Models/IridescenceLamp",
-    "summary": "Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence. [Issues: non-Khronos mark]",
+    "summary": "Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence.",
     "createReadme": true
 }

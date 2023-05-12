@@ -2,7 +2,7 @@
 
 ## Tags
 
-![extension](../../Models-extension.md), ![testing](../../Models-testing.md)
+![core](../../Models-core.md), ![testing](../../Models-testing.md)
 
 ## Summary
 
