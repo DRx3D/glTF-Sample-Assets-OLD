@@ -30,13 +30,19 @@ The metal parts have multi-layer surface reflections. The copper is covered with
 
 Anisotropy enabled (above left), compared with disabled (above right).
 
+
+## Anisotropy Texture
+
 The anisotropy rotation is varied across the model using an `anisotropyTexture`. The red channel and green channel control the rotation relative to the surface tangents, while the blue channel acts as a scalar or mask for the overall anisotropy. Radial gradient sweeps are used to create the radial anisotropy where the metal parts have been brushed in a circular pattern. 
 
 ![Closeups of the anisotropy texture, showing what is in each color channel.](screenshot/anisotropy_Channels.jpg)
 
 (above) A closeup of the `anisotropyTexture` for the metal material. From left: RGB combined, red channel, green channel, and blue channel.
 
-![screenshot](screenshot/anisotropy_Diagram.jpg)
+
+## Anisotropy Directions
+
+![A diagram to explain anisotropy colors.](screenshot/anisotropy_Diagram.jpg)
 
 (above) A diagram to show which colors to use in the `anisotropyTexture` to get specific results on different parts of the model.
 * Ellipses show the colors which will stretch reflections in various directions.
@@ -51,14 +57,22 @@ There is a close correlation between the texture coordinates and the `anisotropy
 
 The parts with vertical UV strips are assigned a pink color to stretch the anisotropy in a horizontal direction (perpendicular to the brushed pattern) while the horizontal UV strips use a cyan color to stretch the anisotropy in a vertical direction. 
 
-When a bump texture is in use with anisotropy, high frequency bump details may need to have anisotropy disabled to achieve better bump lighting results. In this asset, the raised text and knurled grips have been assigned a greenish-yellow color to disable anisotropy.
-
-
-![screenshot](screenshot/anisotropy_RemovingChannels.jpg)
+![Screenshots comparing the effects of removing each color channel, in turn.](screenshot/anisotropy_RemovingChannels.jpg)
 
 (above) The affect of each color channel in the `anisotropyTexture`. Left to right: the full anisotropy texture, filling the red channel with black, filling the green channel with black, filling the blue channel with black. 
 
-Both the red and green channels are needed for well-shaped anisotropic reflections. The blue channel can be used to disable anisotropy where micro-grooves are not prominent on the surface.
+Both the red and green channels are needed for well-shaped anisotropic reflections. The blue channel can be used to disable anisotropy where micro-grooves are not prominent on the surface. When a bump texture is in use with anisotropy, high frequency bump details may need to have anisotropy disabled to achieve better bump lighting results. In this asset, the raised text and knurled grips have been assigned a greenish-yellow color to disable anisotropy.
+
+
+## Normalizing Anisotropy 
+
+A well-formed `anisotropyTexture` needs to be normalized to ensure proper lighting. Each pixel creates a directional vector whose unit length must be one. Without this, anisotropy is likely to yield incorrect results. 
+
+When normalizing an `anisotropyTexture`, the blue channel should be omitted from normalization because it is used for `anisotropyStrength` not rotation. 
+
+![Screenshot of a normalization graph in Substance 3D Designer.](screenshot/anisotropy_Normalize.jpg)
+
+(above) Adobe Substance 3D Designer can be setup to ignore the blue channel `anisotropyStrength` during normalization, and add it back in afterwards. The first "Channels Shuffle" node removes the blue channel, the red and green channels are normalized, then the second "Channels Shuffle" node restores the original blue channel.
 
 
 ## KTX2 BasisU Textures
