@@ -30,6 +30,21 @@
 		"tags": ["core","testing","written"]
 	},
 	{
+		"name": "Anisotropy Barn Lamp",
+		"path": "./Models/AnisotropyBarnLamp",
+		"tags": ["showcase","extension"]
+	},
+	{
+		"name": "Anisotropy Rotation Test",
+		"path": "./Models/AnisotropyRotationTest",
+		"tags": ["extension","testing"]
+	},
+	{
+		"name": "Anisotropy Strength Test",
+		"path": "./Models/AnisotropyStrengthTest",
+		"tags": ["extension","testing"]
+	},
+	{
 		"name": "Antique Camera",
 		"path": "./Models/AntiqueCamera",
 		"tags": ["core","testing","issues"]

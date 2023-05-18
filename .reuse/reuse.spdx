@@ -2,23 +2,23 @@ SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: glTF-Sample-Assets
-DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-eec69baa-c705-41ce-8a03-823d475da09e
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-54ca28d6-1881-4c42-ada3-6eb4e0c1df14
 Creator: Person: Anonymous ()
 Creator: Organization: Anonymous ()
 Creator: Tool: reuse-1.1.2
-Created: 2023-05-12T17:28:33Z
+Created: 2023-05-18T14:52:52Z
 CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-a2f99bc1fac7d5cf3e81ffcf839eab41
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7b7d40e85bde6bf825f76f921aea4f9c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ca91e7f6ef3ed71053049a46ff0578ed
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-b60a30f2a474c7bc1f6bce081c8d296f
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c99b6c4f491d53dc82a47f4be3d3ba03
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-2d0d89b9adf058a3ec1869bbcd0f4759
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f6b2d4364687a46c0036315fe51bf2f9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-d6eefd5bbe93024a56966460126797f5
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-c4af98e8c932c4bed9c57e7e19410413
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-aa746c9d17247fdad1aff2687d5e1f91
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-98f80faadd814f22f68432d33aa1adc6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fefef603fd1edeb6c91ad5b1c0de7ac4
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-ee9d63a3e64fbf6b9c78b373e4835c5e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-232c23f5b069a315cb28d17d76576667
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-e126526b3e0070a177a1e93b84cfce61
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-849a6dc8bbb5cf31b73d631645fdfaac
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-c943cc4506268e78bb5252339b0c9b4b
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-26e264b52073ee2027b98fe991b7d1b2
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-e3e20b9a7da1ad274febe0a8a0e43b26
@@ -115,6 +115,56 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-b34c7949d4be1d56f18a63dbe5ebe77
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-8994e2295331c8d626254f0d9904f29c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-b3f1f2716cd251be855e80f3193af45c
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3be54daa67b1d4a2d210376792478df1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-76c9302a13bd406ee874cf019e585909
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6e8efc46f12f92459c0f30dcce6cbf4a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d2b4ef879e2383de42559c05b59858ec
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-10a7079c18fc4e622cb69a82f3c3c059
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c2d5e6bff60d74a8ddcdc93cc707776c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-829d8bba8086642a9ac3b05e0ee49580
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-31859bd6b43cd18942dda19e1d11e48a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-237e0fcc1752c129e36773611755af4a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4129ce5e7109089db2b521050163b836
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6e1729f3ea48ba9517c0b75063ce9977
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fad645da42fe07c7c9857b042a5cb0a6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f2eb498c473a97f00cba8ab79e38629a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-cb0140c59bc85797d32dec3fac7b8e71
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a8c18d4b72ed02202721e93ece0df046
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-645075710904bd99e90a312d6914eebf
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9e845260c89f8703759777bc7f7f4ab5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ebb30e37137c20f203abb60db666a0d3
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e18b0afc8f55e0ef50c5c150da31fbf2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d382dc0b18fbcff4a4c7ed7b945ad4c7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e9e9599fed459761a95e07e6980b99dd
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c4cc86d5023a63047e2d085376861047
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fe0d6f85862ede3d2fa133e3a1ca0b7c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-32416b6bbd0ebe1f00e8dc13ddb74471
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-29a90687354e1350f75126dc31410ca0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4273b568f0bdc2e332482dd3960017e7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-482820883fc2fa0a10a090dfe7278a73
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f95d9e7cc19c41abf3a86a9681db94c7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-99f5a7eaa129780b7b6032a7ff6857ea
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d385c961a600b1e3917163bbff83668d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bd9c3ff690b4f5aa08a2d1d2fdf344ab
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6496ba27afae72ba7d892c3f2e17fbd4
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4cc405768357e635b99548546d2b9d04
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ae18665a15f5ef31e0236fd80bc3b558
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0c9a05ef516d73da22e11769a40b51d7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4d7dc93684dd5d0303a8ed30ae255562
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fd2a72efb7700c0b7441718ab27c9882
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f4f34a087a8748679351f92305ae1019
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-34c4063668bb53daf89ddd7e5a1d9f18
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0fc7f4be4487f723c6bb5b42f034fd63
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-889cd1f9589a5550cafc6e38fd0a6278
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4977039bc45e13a13a4c93356a54a837
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bb8595858e42b426b449b27b8d67bac2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1b187b2407c8928346c6e746fea23384
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4dbd70e3e4251ee43c5ce3e7fb9cdd21
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e0071e9711bcaa99bf1f5d62a7cc2f65
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b9473a21bb2344c719a3b0e5cab710c3
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-68ac99980bb7e39b3216ba784f7c460e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-043e5a769fb5cbfa8df72808fcf53ec3
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-3d1571f28a9e0b842df24048d4911533
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e1f57e0b5ebe4e082547bb0f5a4b3f25
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-439daa8b9e8b30c38a58c224bf0b09d9
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-93ff6ebf0d13ee583735bd68aa5f0b74
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-fd40bfdbd81faa501e7947c0d6129332
@@ -1373,14 +1423,14 @@ Relationship: SPDXRef-DOCUMENT describes SPDXRef-a8bc492328e097f32f0c29a6a0f3977
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-49b1d15d0076d22745baa023a795f69e
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-047513ff7faf5ffe9508fce327a930e7
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-140b5016b6b0432b1ba7ff2adf3476f7
-Relationship: SPDXRef-DOCUMENT describes SPDXRef-89a01eb2fb5b5edc061041a24175a6e1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e9cf21fee6a82d528c8af5f524ee2bee
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-3e1381a40172ac0958d34cc26b15db61
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-53a5483bf5f83581160d0e0d59f29df4
 Relationship: SPDXRef-DOCUMENT describes SPDXRef-597f998e3890c728d0a2cc08631e72ad
 
 FileName: ./.github\workflows\ci.yml
-SPDXID: SPDXRef-a2f99bc1fac7d5cf3e81ffcf839eab41
-FileChecksum: SHA1: 4b948daf3965144b94fbea82dea6e2f4128dc6e9
+SPDXID: SPDXRef-7b7d40e85bde6bf825f76f921aea4f9c
+FileChecksum: SHA1: ce0c4d54ddc800029c8940c05291c7a3c1eebfe5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
@@ -1407,11 +1457,12 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-extension.md
-SPDXID: SPDXRef-2d0d89b9adf058a3ec1869bbcd0f4759
-FileChecksum: SHA1: a5be0a7c6b7951beb7fcf21f528843b329a28f16
+SPDXID: SPDXRef-f6b2d4364687a46c0036315fe51bf2f9
+FileChecksum: SHA1: 579810b0e52457be0d14524b907cd2c2976ab38b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
-FileCopyrightText: <text>2017-2023 Khronos Group</text>
+FileCopyrightText: <text>2017-2023 Khronos Group
+Copyright 2023 Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for Everything |</text>
 
 FileName: ./Models-issues.md
 SPDXID: SPDXRef-d6eefd5bbe93024a56966460126797f5
@@ -1421,15 +1472,16 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models-showcase.md
-SPDXID: SPDXRef-c4af98e8c932c4bed9c57e7e19410413
-FileChecksum: SHA1: daad7101583517b6bb4d286e3a05a031b3e19fa4
+SPDXID: SPDXRef-98f80faadd814f22f68432d33aa1adc6
+FileChecksum: SHA1: 7654c3475332a445c3f1b52196ae592c5793bfa9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
-FileCopyrightText: <text>2017-2023 Khronos Group</text>
+FileCopyrightText: <text>2017-2023 Khronos Group
+Copyright 2023 Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for Everything |</text>
 
 FileName: ./Models-testing.md
-SPDXID: SPDXRef-aa746c9d17247fdad1aff2687d5e1f91
-FileChecksum: SHA1: 94848afcea1ea7fba09eba7d32d02aad3c62db18
+SPDXID: SPDXRef-fefef603fd1edeb6c91ad5b1c0de7ac4
+FileChecksum: SHA1: c9da07d628b04e4869a1d6f4bee6fb6f7f60984c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
@@ -1449,8 +1501,8 @@ LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
 
 FileName: ./Models.md
-SPDXID: SPDXRef-e126526b3e0070a177a1e93b84cfce61
-FileChecksum: SHA1: a70d269737af569e4893378e89828b1c0b314f52
+SPDXID: SPDXRef-849a6dc8bbb5cf31b73d631645fdfaac
+FileChecksum: SHA1: 7cc14c82aed146ab2614b1fe8b58b2977a9b91ab
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>
@@ -2266,6 +2318,410 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>
 2017 Public</text>
+
+FileName: ./Models\AnisotropyBarnLamp\README.body.md
+SPDXID: SPDXRef-76c9302a13bd406ee874cf019e585909
+FileChecksum: SHA1: 530c52b28a6532060d22cf827e29e06946b872aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\README.md
+SPDXID: SPDXRef-6e8efc46f12f92459c0f30dcce6cbf4a
+FileChecksum: SHA1: 1ac1b2070ed79ee21618130458830e1fbd1048b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-Binary\AnisotropyBarnLamp.glb
+SPDXID: SPDXRef-d2b4ef879e2383de42559c05b59858ec
+FileChecksum: SHA1: 31489bf2b06df41db7d1139ed847c8d6a26c906d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-KTX2-Basisu\AnisotropyBarnLamp.bin
+SPDXID: SPDXRef-10a7079c18fc4e622cb69a82f3c3c059
+FileChecksum: SHA1: e8b9aa027d0ade34c4b53ad3ec8e079f6eeb32bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-KTX2-Basisu\AnisotropyBarnLamp.gltf
+SPDXID: SPDXRef-c2d5e6bff60d74a8ddcdc93cc707776c
+FileChecksum: SHA1: d55b79f3b0e7253499191b2feaec6a240805cd69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-KTX2-Basisu\AnisotropyBarnLamp_anisotropy.ktx2
+SPDXID: SPDXRef-829d8bba8086642a9ac3b05e0ee49580
+FileChecksum: SHA1: 043fd1ec7eb9b8ba185486b01bf0312ec283a7d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-KTX2-Basisu\AnisotropyBarnLamp_basecolor.ktx2
+SPDXID: SPDXRef-31859bd6b43cd18942dda19e1d11e48a
+FileChecksum: SHA1: a0ec8f46384aeb3bf4efafd2780184c7d18e0995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-KTX2-Basisu\AnisotropyBarnLamp_normalbump.ktx2
+SPDXID: SPDXRef-237e0fcc1752c129e36773611755af4a
+FileChecksum: SHA1: 00a52ebb993156b2ee67a6a90fb712a8991fbcea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF-KTX2-Basisu\AnisotropyBarnLamp_occlusionroughnessmetal.ktx2
+SPDXID: SPDXRef-4129ce5e7109089db2b521050163b836
+FileChecksum: SHA1: 612f92d183811156e8e880f5ec7b1869e6d6c019
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF\AnisotropyBarnLamp.bin
+SPDXID: SPDXRef-6e1729f3ea48ba9517c0b75063ce9977
+FileChecksum: SHA1: e8b9aa027d0ade34c4b53ad3ec8e079f6eeb32bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF\AnisotropyBarnLamp.gltf
+SPDXID: SPDXRef-fad645da42fe07c7c9857b042a5cb0a6
+FileChecksum: SHA1: 20250f4b60b56e43c610d86d8dd2d8efeaa1ca81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF\AnisotropyBarnLamp_anisotropy.png
+SPDXID: SPDXRef-f2eb498c473a97f00cba8ab79e38629a
+FileChecksum: SHA1: 55b46f26f2afa0053cd913e0f1414ca0cd9ab7ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF\AnisotropyBarnLamp_basecolor.png
+SPDXID: SPDXRef-cb0140c59bc85797d32dec3fac7b8e71
+FileChecksum: SHA1: 1292a1fdbb0d268c5f60d2100a81f1ca888e268f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF\AnisotropyBarnLamp_normalbump.png
+SPDXID: SPDXRef-a8c18d4b72ed02202721e93ece0df046
+FileChecksum: SHA1: 029ec9aa5ede5ad89632985620288a818868c56c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\glTF\AnisotropyBarnLamp_occlusionroughnessmetal.png
+SPDXID: SPDXRef-645075710904bd99e90a312d6914eebf
+FileChecksum: SHA1: 34ea97566da9b1322c29007fb20d8e783e9de273
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\metadata.json
+SPDXID: SPDXRef-9e845260c89f8703759777bc7f7f4ab5
+FileChecksum: SHA1: 95b416150a70ef58928e783c4ed92f416a912c2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC
+Copyright 2023 Wayfair, LLC",</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\anisotropy_Channels.jpg
+SPDXID: SPDXRef-ebb30e37137c20f203abb60db666a0d3
+FileChecksum: SHA1: 7fea6006dca8f1eb2105f61448f3f1354becd178
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\anisotropy_Diagram.jpg
+SPDXID: SPDXRef-e18b0afc8f55e0ef50c5c150da31fbf2
+FileChecksum: SHA1: 06881b19ce851522ceb93b95ca92ef1b86cfaa77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\anisotropy_Normalize.jpg
+SPDXID: SPDXRef-d382dc0b18fbcff4a4c7ed7b945ad4c7
+FileChecksum: SHA1: 2f23e3f93350604b335367138b8ff638325dcb78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\anisotropy_RemovingChannels.jpg
+SPDXID: SPDXRef-e9e9599fed459761a95e07e6980b99dd
+FileChecksum: SHA1: 527f503802def864596a5bac34f111ac2911b20b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\anisotropy_TextureCoordinates.jpg
+SPDXID: SPDXRef-c4cc86d5023a63047e2d085376861047
+FileChecksum: SHA1: 6e93ab6088ae90e983c4f1b894b9d2e6d1498b10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\anisotropy_WithWithout.jpg
+SPDXID: SPDXRef-fe0d6f85862ede3d2fa133e3a1ca0b7c
+FileChecksum: SHA1: a6a73921c97208a5e33b5bafd37447fed4f4255a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\reference_Photos.jpg
+SPDXID: SPDXRef-32416b6bbd0ebe1f00e8dc13ddb74471
+FileChecksum: SHA1: 3c8f41ff17576fb08198b6f06e55ee88b7c77828
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\screenshot.jpg
+SPDXID: SPDXRef-29a90687354e1350f75126dc31410ca0
+FileChecksum: SHA1: 38dfaaf6a43d710b2ed57f4d6f4ea49b6bdedf9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyBarnLamp\screenshot\screenshot_Large.jpg
+SPDXID: SPDXRef-4273b568f0bdc2e332482dd3960017e7
+FileChecksum: SHA1: f21af776e0a168c2dc1b88948d34e514d09f9cdd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Copyright 2023 Wayfair, LLC</text>
+
+FileName: ./Models\AnisotropyRotationTest\README - Copy.md
+SPDXID: SPDXRef-482820883fc2fa0a10a090dfe7278a73
+FileChecksum: SHA1: ef04163d054d027700bbddeaaf5f96134d86b13f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.
+Copyright 2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\README.body.md
+SPDXID: SPDXRef-f95d9e7cc19c41abf3a86a9681db94c7
+FileChecksum: SHA1: 842872da70eeb1e027f831dcc68c90088c19825c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\README.md
+SPDXID: SPDXRef-99f5a7eaa129780b7b6032a7ff6857ea
+FileChecksum: SHA1: 15fb0b9f33760ae5dc7b7e725cf4068e31fa79d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF-Binary\AnisotropyRotationTest.glb
+SPDXID: SPDXRef-d385c961a600b1e3917163bbff83668d
+FileChecksum: SHA1: e1ac29686d2790d59fbdf3366d86ddc033a55341
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.
+Copyright 2023 Analytical Graphics, Inc. Model and Textures by Ed Mackey.","generator":"Khronos glTF Blender I/O v3.3.32","version":"2.0"},"scene":0,"scenes":[{"name":"Scene","nodes":[0,1,2,3,4,5,6,7,8,9,10]}],"nodes":[{"mesh":0,"name":"Band 1L","translation":[-1.5,-2,0]},{"mesh":1,"name":"Band 2L","translation":[-1.5,-1,0]},{"mesh":2,"name":"Band 4L","translation":[-1.5,1,0]},{"mesh":0,"name":"Band 5L","translation":[-1.5,2,0]},{"mesh":0,"name":"Band 1R","translation":[1.5,-2,0]},{"mesh":3,"name":"Band 2R","translation":[1.5,-1,0]},{"mesh":4,"name":"Band 4R","translation":[1.5,1,0]},{"mesh":0,"name":"Band 5R","translation":[1.5,2,0]},{"mesh":0,"name":"Band 3L","translation":[-1.5,0,0]},{"mesh":0,"name":"Band 3R","translation":[1.5,0,0]},{"mesh":5,"name":"Labels"}],"materials":[{"doubleSided":true,"name":"Aniso Tangents","pbrMetallicRoughness":{"baseColorTexture":{"index":0},"roughnessFactor":0.10000000149011612},"extensions":{"KHR_materials_anisotropy":{"anisotropyStrength":0.5}}},{"doubleSided":true,"name":"Aniso Tan + Rotation","pbrMetallicRoughness":{"baseColorTexture":{"index":1},"roughnessFactor":0.10000000149011612},"extensions":{"KHR_materials_anisotropy":{"anisotropyStrength":0.5,"anisotropyRotation":0.523598775598}}},{"doubleSided":true,"name":"Aniso Tan + Texture","pbrMetallicRoughness":{"baseColorTexture":{"index":1},"roughnessFactor":0.10000000149011612},"extensions":{"KHR_materials_anisotropy":{"anisotropyStrength":0.5,"anisotropyTexture":{"index":2}}}},{"doubleSided":true,"name":"Aniso Tan + Rotation + Texture","pbrMetallicRoughness":{"baseColorTexture":{"index":1},"roughnessFactor":0.10000000149011612},"extensions":{"KHR_materials_anisotropy":{"anisotropyStrength":0.5,"anisotropyRotation":0.349065850398866,"anisotropyTexture":{"index":3}}}},{"doubleSided":true,"name":"Simulation via normal","normalTexture":{"index":4},"pbrMetallicRoughness":{"baseColorTexture":{"index":5},"roughnessFactor":0.10000000149011612}},{"name":"Label Mat","pbrMetallicRoughness":{"baseColorTexture":{"index":6},"metallicFactor":0,"roughnessFactor":0.8999999761581421}}],"meshes":[{"name":"Aniso Mesh Tangents Only","primitives":[{"attributes":{"POSITION":0,"NORMAL":1,"TANGENT":2,"TEXCOORD_0":3},"indices":4,"material":0}]},{"name":"Aniso Mesh Tan + Rotation","primitives":[{"attributes":{"POSITION":5,"NORMAL":6,"TANGENT":7,"TEXCOORD_0":8},"indices":9,"material":1}]},{"name":"Aniso Mesh Tan + Texture","primitives":[{"attributes":{"POSITION":10,"NORMAL":11,"TANGENT":12,"TEXCOORD_0":13},"indices":9,"material":2}]},{"name":"Aniso Mesh Tan + Rotation + Texture","primitives":[{"attributes":{"POSITION":14,"NORMAL":15,"TANGENT":16,"TEXCOORD_0":17},"indices":9,"material":3}]},{"name":"Non-aniso Mesh","primitives":[{"attributes":{"POSITION":18,"NORMAL":19,"TANGENT":20,"TEXCOORD_0":21},"indices":4,"material":4}]},{"name":"Label Mesh","primitives":[{"attributes":{"POSITION":22,"NORMAL":23,"TANGENT":24,"TEXCOORD_0":25},"indices":26,"material":5}]}],"textures":[{"sampler":0,"source":0},{"sampler":0,"source":1},{"sampler":0,"source":2},{"sampler":0,"source":3},{"sampler":0,"source":4},{"sampler":0,"source":0},{"sampler":0,"source":5}],"images":[{"mimeType":"image/png","name":"GridWithMarkers","bufferView":27},{"mimeType":"image/png","name":"GridWithMarkers_30deg","bufferView":28},{"mimeType":"image/png","name":"AnisoRotation30_Linear","bufferView":29},{"mimeType":"image/png","name":"AnisoRotation10_Linear","bufferView":30},{"mimeType":"image/png","name":"Heights_1d_Normals_v2","bufferView":31},{"mimeType":"image/png","name":"AnisoDonutLabels","bufferView":32}],"accessors":[{"bufferView":0,"componentType":5126,"count":715,"max":[0.9999999403953552,0.4713967442512512,0.9999998211860657],"min":[-0.9999998211860657,-0.4713967442512512,-0.9999998211860657],"type":"VEC3"},{"bufferView":1,"componentType":5126,"count":715,"type":"VEC3"},{"bufferView":2,"componentType":5126,"count":715,"type":"VEC4"},{"bufferView":3,"componentType":5126,"count":715,"type":"VEC2"},{"bufferView":4,"componentType":5123,"count"</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\AnisoDonutLabels.png
+SPDXID: SPDXRef-bd9c3ff690b4f5aa08a2d1d2fdf344ab
+FileChecksum: SHA1: 01f2f603e28744491fce322efafdeb50cc027516
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\AnisoDonuts.bin
+SPDXID: SPDXRef-6496ba27afae72ba7d892c3f2e17fbd4
+FileChecksum: SHA1: 98de1c83849e99d95b41f5bce20bdc36ee70a04f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\AnisoRotation10_Linear.png
+SPDXID: SPDXRef-4cc405768357e635b99548546d2b9d04
+FileChecksum: SHA1: 27fb8663fbf379f2ab8be5bae9fddf079ab2ec3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\AnisoRotation30_Linear.png
+SPDXID: SPDXRef-ae18665a15f5ef31e0236fd80bc3b558
+FileChecksum: SHA1: f8ac2aec8780b2fdb71f2dccc23628471f7b2527
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\AnisotropyRotationTest.gltf
+SPDXID: SPDXRef-0c9a05ef516d73da22e11769a40b51d7
+FileChecksum: SHA1: 5154a863c36b08bf598451c53ab805fe3a18b5df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.
+Copyright 2023 Analytical Graphics, Inc. Model and Textures by Ed Mackey.",</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\GridWithMarkers.png
+SPDXID: SPDXRef-4d7dc93684dd5d0303a8ed30ae255562
+FileChecksum: SHA1: bdd16c417b990dd85cab01a4bd36848f0674bf27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\GridWithMarkers_30deg.png
+SPDXID: SPDXRef-fd2a72efb7700c0b7441718ab27c9882
+FileChecksum: SHA1: d04f0c349417e2dcccbbca0dcb7e0957f7b08319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\glTF\Heights_1d_Normals_v2.png
+SPDXID: SPDXRef-f4f34a087a8748679351f92305ae1019
+FileChecksum: SHA1: 36a3b96bb21447d52620167a9a59ea6145de9b84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\metadata.json
+SPDXID: SPDXRef-34c4063668bb53daf89ddd7e5a1d9f18
+FileChecksum: SHA1: 23b1d7f8637bf4eaebc4e8743bfbaa5db2b19fcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\screenshot\screenshot-large.png
+SPDXID: SPDXRef-0fc7f4be4487f723c6bb5b42f034fd63
+FileChecksum: SHA1: b1c930f075fb8377a929dbf65ee7e21fe76b3379
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyRotationTest\screenshot\screenshot.png
+SPDXID: SPDXRef-889cd1f9589a5550cafc6e38fd0a6278
+FileChecksum: SHA1: 2505920a22630fd4c1e619d73f84c5dbdc43cb25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>
+2023 Analytical Graphics, Inc.</text>
+
+FileName: ./Models\AnisotropyStrengthTest\README - Copy.md
+SPDXID: SPDXRef-4977039bc45e13a13a4c93356a54a837
+FileChecksum: SHA1: 598c7b75bf31073feb86af11151dc114d62d1c4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\README.body.md
+SPDXID: SPDXRef-bb8595858e42b426b449b27b8d67bac2
+FileChecksum: SHA1: 8a1f3d1f94115c374057f90059fd02919651fcf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\README.md
+SPDXID: SPDXRef-1b187b2407c8928346c6e746fea23384
+FileChecksum: SHA1: 725813ad421d48e82e851e69a6e724ec41fcedbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\glTF-Binary\AnisotropyStrengthTest.glb
+SPDXID: SPDXRef-4dbd70e3e4251ee43c5ce3e7fb9cdd21
+FileChecksum: SHA1: 081a81d26b8c26570bd7a9437c1c82cb505cf1e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\glTF\AnisotropySpheresLabels.png
+SPDXID: SPDXRef-e0071e9711bcaa99bf1f5d62a7cc2f65
+FileChecksum: SHA1: 9212ef637b529c4311c5e9b3868a68b2fd12c1cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\glTF\AnisotropyStrengthTest.gltf
+SPDXID: SPDXRef-b9473a21bb2344c719a3b0e5cab710c3
+FileChecksum: SHA1: 50f190afb86e2e54ebc4f71b0a1ff68f92a8c048
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\glTF\AnisotropyStrengthTest_data.bin
+SPDXID: SPDXRef-68ac99980bb7e39b3216ba784f7c460e
+FileChecksum: SHA1: 1324e025b2c54aa2ca9779a96f25f00d0c94b80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\metadata.json
+SPDXID: SPDXRef-043e5a769fb5cbfa8df72808fcf53ec3
+FileChecksum: SHA1: 39a00ce28ee2b71e6d2c8c2ebbc2288369ba96dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\screenshot\screenshot-large.png
+SPDXID: SPDXRef-3d1571f28a9e0b842df24048d4911533
+FileChecksum: SHA1: a89b669528ba4f3eaf1adac08e98e117474f0b6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
+
+FileName: ./Models\AnisotropyStrengthTest\screenshot\screenshot.png
+SPDXID: SPDXRef-e1f57e0b5ebe4e082547bb0f5a4b3f25
+FileChecksum: SHA1: e915273dd8fdb91fdb8847eff59cfb0deedef498
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+2023 Public</text>
 
 FileName: ./Models\AntiqueCamera\README.ORIG.md
 SPDXID: SPDXRef-439daa8b9e8b30c38a58c224bf0b09d9
@@ -12552,8 +13008,8 @@ Copyright owner
 Copyright year</text>
 
 FileName: ./allModels.json
-SPDXID: SPDXRef-89a01eb2fb5b5edc061041a24175a6e1
-FileChecksum: SHA1: f00b0999735a7447f291fe55c427fc0f639e3980
+SPDXID: SPDXRef-e9cf21fee6a82d528c8af5f524ee2bee
+FileChecksum: SHA1: fd8c19f41d7fd79a2d3a8d50e79a4907d5ef0e43
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: CC-BY-4.0
 FileCopyrightText: <text>2017-2023 Khronos Group</text>

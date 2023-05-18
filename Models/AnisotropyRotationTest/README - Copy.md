@@ -1,19 +1,5 @@
 # Anisotropy Rotation Test
 
-## Tags
-
-![extension](../../Models-extension.md), ![testing](../../Models-testing.md)
-
-## Summary
-
-This model tests rotational offsets for KHR_materials_anisotropy.
-
-## Operations
-
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnisotropyRotationTest/glTF-Binary/AnisotropyRotationTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnisotropyRotationTest/glTF-Binary/AnisotropyRotationTest.glb)
-* [Model Directory](./)
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot-large.png)
@@ -32,12 +18,8 @@ This model tests rotational offsets for [`KHR_materials_anisotropy`](https://git
 
 - Finally, one mesh in the upper-right marked "Normal map of grooves" has no anisotropy applied at all.  It has a (somewhat grainy) normal texture applied with a series of vertical grooves, intended to approximate the look of very coarse horizontal anisotropy.  It will not look exactly the same as its neighbors, but a bright light source in the environment should still spread out horizontally like its neighbors.
 
+## License Information
 
-
-## Legal
-
-&copy; 2023, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
-
- - Ed Mackey for Everything
-
-#### Assembled by modelmetadata 1.0.6-alpha
+Copyright 2023 Analytical Graphics, Inc.
+CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Model and textures by Ed Mackey.

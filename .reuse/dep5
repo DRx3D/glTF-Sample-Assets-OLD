@@ -40,6 +40,21 @@ Copyright:
  2017 Public
 License: CC0-1.0
 
+Files: Models/AnisotropyBarnLamp/*
+Copyright: 
+ 2023 Copyright 2023 Wayfair, LLC
+License: CC-BY-4.0
+
+Files: Models/AnisotropyRotationTest/*
+Copyright: 
+ 2023 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/AnisotropyStrengthTest/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
 Files: Models/AntiqueCamera/*
 Copyright: 
  2018 UX3D
